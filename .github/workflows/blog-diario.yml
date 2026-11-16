@@ -1,0 +1,68 @@
+# Todo dia: o Claude escreve o post do blog de amanhã e grava no banco do Fio (tabela post_blog) para as 18h.
+# Quem mostra é o próprio site (agendafio.com.br/blog), que só exibe o post depois das 18h do dia dele.
+# Segredos: CLAUDE_CODE_OAUTH_TOKEN (claude setup-token) e FIO_SUPABASE_SERVICE_KEY (service_role da produção).
+name: Post do blog
+
+on:
+  schedule:
+    # 7h47 em Brasília (o GitHub costuma atrasar horas; o post é de amanhã, então sobra folga)
+    - cron: "47 10 * * *"
+  workflow_dispatch:
+    inputs:
+      dia:
+        description: "Dia do post (AAAA-MM-DD). Vazio = amanhã."
+        required: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: blog-diario
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Dependências
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Testes do conferidor
+        run: node --test scripts/blog/*.test.mjs
+
+      - name: Dia do post
+        run: |
+          DIA="${{ inputs.dia }}"
+          # se o GitHub atrasou e já passou da meia-noite, o "amanhã" de quando a rotina devia rodar é hoje
+          [ -z "$DIA" ] && [ "$(TZ=America/Sao_Paulo date +%-H)" -lt 6 ] && DIA=$(TZ=America/Sao_Paulo date +%F)
+          [ -z "$DIA" ] && DIA=$(TZ=America/Sao_Paulo date -d tomorrow +%F)
+          echo "DIA=$DIA" >> "$GITHUB_ENV"
+          echo "Post para $DIA"
+
+      - name: Escreve e grava o post
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          FIO_SUPABASE_SERVICE_KEY: ${{ secrets.FIO_SUPABASE_SERVICE_KEY }}
+        run: |
+          # a chave às vezes vem com quebra de linha ou espaço da cópia do terminal: limpa antes de usar
+          export CLAUDE_CODE_OAUTH_TOKEN=$(printf %s "$CLAUDE_CODE_OAUTH_TOKEN" | tr -d '[:space:]')
+          export FIO_SUPABASE_SERVICE_KEY=$(printf %s "$FIO_SUPABASE_SERVICE_KEY" | tr -d '[:space:]')
+          claude -p "Siga a rotina em blog/ROTINA.md. DIA=$DIA" \
+            --dangerously-skip-permissions \
+            --max-turns 120 \
+            --output-format text
+
+      - name: Registra a falha
+        if: failure()
+        env:
+          FIO_SUPABASE_SERVICE_KEY: ${{ secrets.FIO_SUPABASE_SERVICE_KEY }}
+        run: |
+          export FIO_SUPABASE_SERVICE_KEY=$(printf %s "$FIO_SUPABASE_SERVICE_KEY" | tr -d '[:space:]')
+          node scripts/blog/blog.mjs registrar "$DIA" falhou "o robô parou com erro (ver a execução no GitHub)" || true

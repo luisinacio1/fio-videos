@@ -6,7 +6,7 @@
 // Precisa de FIO_SUPABASE_SERVICE_KEY (chave service_role da produção); FIO_SUPABASE_URL é opcional (ex.: o banco local).
 import { readFileSync } from "node:fs";
 import { pathToFileURL } from "node:url";
-import { conferirPost, normalizar, PROIBIDAS } from "./conferir-post.mjs";
+import { conferirPost, lerPost, normalizar, PROIBIDAS } from "./conferir-post.mjs";
 import { publicarEm } from "./hora.mjs";
 
 /** As 4 páginas de busca do site (agendafio: src/lib/seo/guias.ts). Mudou lá, muda aqui. */
@@ -73,7 +73,7 @@ const registrarExecucao = (api, dia, resultado, motivo) =>
 async function gravar(api, dia, arquivo) {
   const ctx = await contexto(api, dia);
   if (ctx.jaTemPost) return console.log(`O dia ${dia} já tem post. Nada a fazer.`);
-  const post = JSON.parse(readFileSync(arquivo, "utf8"));
+  const post = lerPost(arquivo);
   const problemas = conferirPost(post, ctx);
   if (problemas.length) {
     console.log(`Reprovado pelo conferidor, nada gravado:\n- ${problemas.join("\n- ")}`);

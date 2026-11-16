@@ -1,7 +1,7 @@
 // Testes do conferidor do post do blog (as regras que o código consegue checar antes de gravar).
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { conferirPost } from "./conferir-post.mjs";
+import { conferirPost, lerPost } from "./conferir-post.mjs";
 
 const paragrafo = "O barbeiro que organiza a semana com antecedência consegue atender melhor, perde menos tempo no celular e sabe quanto vai entrar no caixa antes do sábado chegar.";
 /** Corpo com ~1.000 palavras, 3 h2 e 2 links internos. */
@@ -112,4 +112,16 @@ test("reprova 899 palavras e aceita 900", () => {
   // "## A" etc. contam como 1 palavra cada (A, B, C); os 2 links contam x e y
   temProblema(conferir({ corpo_md: palavras(897) }), "palavras");
   assert.deepEqual(conferir({ corpo_md: palavras(898) }), []);
+});
+
+test("lerPost junta o texto de corpo_arquivo ao post", async () => {
+  const { mkdtempSync, writeFileSync } = await import("node:fs");
+  const { join } = await import("node:path");
+  const { tmpdir } = await import("node:os");
+  const dir = mkdtempSync(join(tmpdir(), "post-"));
+  writeFileSync(join(dir, "corpo.md"), "## Título\n\nTexto com \"aspas\".");
+  writeFileSync(join(dir, "post.json"), JSON.stringify({ slug: "a-b", corpo_arquivo: "corpo.md" }));
+  const post = lerPost(join(dir, "post.json"));
+  assert.equal(post.corpo_md, '## Título\n\nTexto com "aspas".');
+  assert.equal("corpo_arquivo" in post, false);
 });

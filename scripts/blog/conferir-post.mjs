@@ -2,6 +2,7 @@
 //   node scripts/blog/conferir-post.mjs post.json contexto.json
 // Imprime os problemas e sai com 1 se houver algum. O blog.mjs usa a mesma função e se recusa a gravar post reprovado.
 import { readFileSync } from "node:fs";
+import { dirname, resolve } from "node:path";
 import { pathToFileURL } from "node:url";
 
 /** Palavras que nunca aparecem nos textos públicos do Fio (founder/estrategia.md). */
@@ -26,6 +27,16 @@ export const contarPalavras = (md) =>
     .replace(/[#*_>`]/g, " ")
     .split(/\s+/)
     .filter((p) => /[\p{L}\p{N}]/u.test(p)).length;
+
+/**
+ * Lê o post.json. O texto pode vir num arquivo .md separado (`corpo_arquivo`, relativo ao post.json), para não precisar
+ * escapar 1.500 palavras dentro do JSON.
+ */
+export function lerPost(arquivo) {
+  const { corpo_arquivo, ...post } = JSON.parse(readFileSync(arquivo, "utf8"));
+  if (corpo_arquivo) post.corpo_md = readFileSync(resolve(dirname(arquivo), corpo_arquivo), "utf8").replace(/\r\n/g, "\n").trim();
+  return post;
+}
 
 const temPalavra = (texto, palavra) => new RegExp(`(?<![\\p{L}])${palavra}(?![\\p{L}])`, "iu").test(texto);
 
@@ -77,7 +88,7 @@ export function conferirPost(post, contexto) {
 if (import.meta.url === pathToFileURL(process.argv[1] ?? "").href) {
   const [arquivoPost, arquivoContexto] = process.argv.slice(2);
   if (!arquivoPost || !arquivoContexto) throw new Error("uso: conferir-post.mjs post.json contexto.json");
-  const problemas = conferirPost(JSON.parse(readFileSync(arquivoPost, "utf8")), JSON.parse(readFileSync(arquivoContexto, "utf8")));
+  const problemas = conferirPost(lerPost(arquivoPost), JSON.parse(readFileSync(arquivoContexto, "utf8")));
   if (problemas.length) {
     console.log(`Reprovado:\n- ${problemas.join("\n- ")}`);
     process.exit(1);
