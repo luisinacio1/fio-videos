@@ -1,0 +1,24 @@
+{
+  "id": "2026-11-06-12h-atendimento-realizado",
+  "titulo": "Marcou realizado, entrou no financeiro",
+  "legenda": "Fim do corte, cliente pagando… e o caderninho esperando. 📒\n\nNo Fio, você marca o atendimento como realizado, escolhe a forma de pagamento e a receita já entra no financeiro. Fim do dia, é só olhar.\n\nTeste grátis por 7 dias: link na bio.",
+  "falas": [
+    { "texto": "Sexta, meio-dia. O Juninho acabou o corte do Matheus." },
+    { "texto": "O cliente paga, agradece e vai embora." },
+    { "texto": "E aquele valor? Ia pro caderninho. Se desse tempo." },
+    { "texto": "Agora o Juninho toca no cliente e marca como realizado." },
+    { "texto": "Escolhe a forma de pagamento e confirma." },
+    { "texto": "A receita já entrou no financeiro. Sem caderninho." },
+    { "pausa": 0.45, "texto": "Fio. Atendeu, marcou, já contou." }
+  ],
+  "chaves": ["meio-dia", "caderninho", "realizado", "pagamento", "financeiro"],
+  "virada": "4",
+  "cenas": [
+    { "tipo": "barbearia", "de": "1", "barbeiro": "juninho", "cliente": "matheus" },
+    { "tipo": "texto", "de": "3", "linhas": ["Caderninho.", "Se desse tempo."], "destaque": ["Caderninho."], "fundo": "escuro" },
+    { "tipo": "app", "de": "4", "tela": { "nome": "agenda", "realizar": { "nome": "Matheus Lima", "em": "4:realizado" }, "clientes": [{ "hora": "11:00", "nome": "Matheus Lima", "servico": "Corte masculino" }, { "hora": "12:30", "nome": "Carlos Pereira", "servico": "Corte + barba" }] } },
+    { "tipo": "texto", "de": "6", "linhas": ["Receita no", "financeiro."], "destaque": ["financeiro."], "fundo": "claro" },
+    { "tipo": "final", "de": "7" }
+  ],
+  "extras": [{ "tipo": "selo", "texto": "receita registrada", "em": "6:entrou", "cor": "ok" }]
+}

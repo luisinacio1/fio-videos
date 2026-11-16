@@ -1,0 +1,38 @@
+{
+  "id": "teste-peca-corte",
+  "titulo": "Peça corte: os 8 estilos",
+  "legenda": "Teste da peça corte: degradê baixo, médio e alto, social, navalhado, topete, risco e pezinho.",
+  "falas": [
+    { "texto": "Você sabe a diferença entre os cortes?" },
+    { "texto": "No degradê baixo, o cabelo some só perto da orelha." },
+    { "texto": "No médio, ele começa a sumir no meio da lateral." },
+    { "texto": "No alto, a lateral fica quase toda na pele." },
+    { "texto": "O social é curto e igual na cabeça toda." },
+    { "texto": "No navalhado, a lateral é raspada na navalha." },
+    { "texto": "O topete deixa o volume em cima." },
+    { "texto": "O risco é uma linha raspada do lado." },
+    { "texto": "E o pezinho é o acabamento da nuca." },
+    { "texto": "A Bia também vem, só pra acertar as pontas." },
+    { "texto": "Fio. A agenda pronta pra qualquer corte." }
+  ],
+  "chaves": ["baixo", "médio", "alto", "social", "navalhado", "topete", "risco", "pezinho"],
+  "cenas": [
+    {
+      "tipo": "corte",
+      "de": "1",
+      "personagem": "matheus",
+      "estilos": [
+        { "em": "2:baixo", "estilo": "degrade-baixo" },
+        { "em": "3:médio", "estilo": "degrade-medio" },
+        { "em": "4:alto", "estilo": "degrade-alto" },
+        { "em": "5:social", "estilo": "social" },
+        { "em": "6:navalhado", "estilo": "navalhado" },
+        { "em": "7:topete", "estilo": "topete" },
+        { "em": "8:risco", "estilo": "risco" },
+        { "em": "9:pezinho", "estilo": "pezinho" }
+      ]
+    },
+    { "tipo": "corte", "de": "10", "personagem": "bia", "estilos": [] },
+    { "tipo": "final", "de": "11" }
+  ]
+}

@@ -1,0 +1,400 @@
+{
+  "id": "piloto-curiosidade",
+  "tipo": "curiosidade",
+  "tema": "poste-de-barbeiro",
+  "titulo": "Por que o poste de barbeiro é vermelho e branco",
+  "legenda": "Esse poste listrado na porta da barbearia esconde uma história de sangue. 💈\n\nNa Idade Média, o barbeiro também fazia cirurgia, arrancava dente e fazia sangria. Durante a sangria, o paciente segurava um bastão para o sangue correr melhor: o poste representa esse bastão. O poste original ainda tinha uma bacia de latão em cima e outra embaixo, uma lembrando o pote das sanguessugas e a outra, a bacia que recebia o sangue. E na Inglaterra uma lei mandava o barbeiro usar o poste vermelho e branco, e o cirurgião, só o vermelho.\n\nFonte: verbete \"Barber's pole\" (Wikipédia em inglês).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nVocê sabia da história do poste?",
+  "falas": [
+    {
+      "texto": "Esse poste listrado esconde uma história de sangue."
+    },
+    {
+      "texto": "Ele gira na porta de muita barbearia. Mas de onde ele veio?"
+    },
+    {
+      "texto": "A resposta não é nada bonita."
+    },
+    {
+      "texto": "Volta pra Idade Média. Lá, o barbeiro não cortava só cabelo."
+    },
+    {
+      "texto": "Ele também fazia cirurgia. E arrancava dente."
+    },
+    {
+      "texto": "E fazia sangria: tirava sangue do paciente, de propósito."
+    },
+    {
+      "texto": "Durante a sangria, o paciente segurava um bastão bem firme."
+    },
+    {
+      "texto": "Apertar o bastão ajudava o sangue a correr melhor."
+    },
+    {
+      "texto": "Agora olha o poste de novo. Ele representa esse bastão."
+    },
+    {
+      "texto": "O poste original tinha mais: uma bacia de latão em cima e outra embaixo."
+    },
+    {
+      "texto": "Uma lembrava o pote das sanguessugas."
+    },
+    {
+      "texto": "A outra, a bacia que recebia o sangue."
+    },
+    {
+      "texto": "Depois veio a lei, lá na Inglaterra."
+    },
+    {
+      "texto": "O barbeiro tinha que usar o poste vermelho e branco."
+    },
+    {
+      "texto": "E o cirurgião, só o vermelho. Pela cor, se sabia quem era quem."
+    },
+    {
+      "texto": "Ou seja: vermelho e branco era, por lei, a marca do barbeiro."
+    },
+    {
+      "texto": "Quando vir o poste girando, lembra: ele já foi o bastão da sangria."
+    },
+    {
+      "texto": "O poste avisava de longe: aqui tem barbeiro."
+    },
+    {
+      "texto": "Hoje o cliente quer saber outra coisa: tem horário?"
+    },
+    {
+      "texto": "E quem responde isso por você é o Fio, com um link."
+    },
+    {
+      "texto": "O cliente abre, escolhe o serviço e vê só os horários livres."
+    },
+    {
+      "texto": "Coloca o nome, confirma, e o horário cai na sua agenda."
+    },
+    {
+      "texto": "Sem baixar aplicativo e sem criar conta."
+    },
+    {
+      "texto": "No seu celular, chega o aviso: novo agendamento. Você nem parou o corte."
+    },
+    {
+      "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você. Sem custo."
+    },
+    {
+      "pausa": 0.3,
+      "texto": "Fio. Seu link avisa que tem horário."
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "Você sabia da história do poste? Conta aqui."
+    }
+  ],
+  "chaves": [
+    "sangue",
+    "cirurgia",
+    "bastão",
+    "bacia",
+    "vermelho",
+    "horário"
+  ],
+  "ponte": "18",
+  "fio": "20",
+  "cenas": [
+    {
+      "tipo": "objeto",
+      "de": "1",
+      "objeto": "poste",
+      "fundo": "escuro",
+      "etiquetas": [
+        {
+          "em": "1:sangue",
+          "texto": "Uma história de sangue"
+        },
+        {
+          "em": "2:porta",
+          "texto": "Gira na porta"
+        }
+      ],
+      "variante": "vermelhoBranco"
+    },
+    {
+      "tipo": "texto",
+      "de": "3",
+      "linhas": [
+        "A resposta",
+        "não é bonita."
+      ],
+      "destaque": [
+        "bonita."
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "barbeariaAntiga",
+      "de": "4",
+      "barbeiro": "rafa",
+      "cliente": "ze",
+      "ano": "sempre",
+      "reacoes": [
+        {
+          "em": "4:cabelo",
+          "boca": "sorriso"
+        },
+        {
+          "em": "5:cirurgia",
+          "boca": "aberta",
+          "sacode": true
+        },
+        {
+          "em": "5:dente",
+          "boca": "torta",
+          "sacode": true
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "6",
+      "linhas": [
+        "Sangria:",
+        "tirar sangue",
+        "de propósito."
+      ],
+      "destaque": [
+        "sangue"
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "passos",
+      "de": "7",
+      "titulo": "A sangria",
+      "passos": [
+        {
+          "em": "7:segurava",
+          "texto": "O paciente segura um bastão"
+        },
+        {
+          "em": "8:apertar",
+          "texto": "Aperta o bastão bem firme"
+        },
+        {
+          "em": "8:correr",
+          "texto": "O sangue corre melhor"
+        }
+      ]
+    },
+    {
+      "tipo": "objeto",
+      "de": "9",
+      "objeto": "poste",
+      "etiquetas": [
+        {
+          "em": "9:ele",
+          "texto": "O bastão da sangria"
+        }
+      ],
+      "variante": "vermelhoBranco"
+    },
+    {
+      "tipo": "objeto",
+      "de": "10",
+      "objeto": "poste",
+      "fundo": "acento",
+      "etiquetas": [
+        {
+          "em": "10:bacia",
+          "texto": "Bacia de latão em cima"
+        },
+        {
+          "em": "10:outra",
+          "texto": "E outra embaixo"
+        }
+      ],
+      "variante": "vermelhoBranco"
+    },
+    {
+      "tipo": "texto",
+      "de": "11",
+      "linhas": [
+        "O pote das",
+        "sanguessugas."
+      ],
+      "destaque": [
+        "sanguessugas."
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "texto",
+      "de": "12",
+      "linhas": [
+        "A bacia",
+        "do sangue."
+      ],
+      "destaque": [
+        "sangue."
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "compara",
+      "de": "13",
+      "esquerda": {
+        "titulo": "Barbeiro",
+        "itens": [
+          "Vermelho e branco"
+        ]
+      },
+      "direita": {
+        "titulo": "Cirurgião",
+        "itens": [
+          "Só o vermelho"
+        ]
+      },
+      "revela": [
+        "14:vermelho",
+        "15:vermelho"
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "16",
+      "linhas": [
+        "Vermelho e branco:",
+        "a marca do barbeiro."
+      ],
+      "destaque": [
+        "barbeiro."
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "objeto",
+      "de": "17",
+      "objeto": "poste",
+      "fundo": "escuro",
+      "etiquetas": [
+        {
+          "em": "17:girando",
+          "texto": "Gira na porta"
+        },
+        {
+          "em": "17:bastão",
+          "texto": "Já foi o bastão da sangria"
+        }
+      ],
+      "variante": "vermelhoBranco"
+    },
+    {
+      "tipo": "barbearia",
+      "de": "18",
+      "barbeiro": "juninho",
+      "cliente": "davi",
+      "mensagens": [
+        {
+          "em": "19:outra",
+          "de": "Diego",
+          "texto": "Tem horário hoje?"
+        },
+        {
+          "em": "19:horário",
+          "de": "Lucas",
+          "texto": "Tem horário amanhã?"
+        }
+      ],
+      "olhaCelular": "19:horário",
+      "reacoes": [
+        {
+          "em": "18:barbeiro",
+          "boca": "sorriso"
+        }
+      ]
+    },
+    {
+      "tipo": "apresentaFio",
+      "de": "20",
+      "tela": {
+        "nome": "agendamento",
+        "cliente": "Davi Rocha",
+        "hora": "10:05",
+        "toques": {
+          "servico": "21:serviço",
+          "dia": "21:vê",
+          "horario": "21:livres",
+          "nome": "22:nome",
+          "confirmar": "22:confirma"
+        }
+      },
+      "frases": [
+        {
+          "em": "20:link",
+          "texto": "O link avisa: tem horário"
+        },
+        {
+          "em": "21:livres",
+          "texto": "Só os horários livres aparecem"
+        },
+        {
+          "em": "23:aplicativo",
+          "texto": "Sem aplicativo e sem conta"
+        }
+      ]
+    },
+    {
+      "tipo": "app",
+      "de": "24",
+      "tela": {
+        "nome": "bloqueio",
+        "hora": "10:06",
+        "data": "terça-feira, 10 de novembro",
+        "avisos": [
+          {
+            "em": "24:aviso",
+            "tipo": "novo",
+            "nome": "Davi Rocha",
+            "servico": "Corte masculino",
+            "quando": "qua 15:00"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "sala",
+      "de": "25",
+      "personagem": "juninho",
+      "reacoes": [
+        {
+          "em": "26:monta",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "de": "27"
+    }
+  ],
+  "extras": [
+    {
+      "tipo": "zap",
+      "em": "25:manda",
+      "ate": "26:fim",
+      "de": "Você",
+      "texto": "@agendafio, segue minha lista de clientes e serviços."
+    },
+    {
+      "tipo": "zap",
+      "em": "26:monta",
+      "ate": "26:fim",
+      "de": "@agendafio",
+      "texto": "Recebido! Em até 2 dias sua agenda fica pronta."
+    }
+  ]
+}

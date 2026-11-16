@@ -1,0 +1,102 @@
+# Todo dia: o Claude escreve os 5 roteiros de amanhã (8h, 11h, 13h, 18h 3D e 21h), o motor faz os vídeos e os stories
+# e tudo entra na fila do Instagram. Quem posta é a função instagram-postar do Supabase.
+# Segredos: CLAUDE_CODE_OAUTH_TOKEN (claude setup-token) e FIO_SUPABASE_SERVICE_KEY (service_role da produção).
+# Pull requests de cópias do repositório não rodam este workflow (só agenda e disparo manual).
+name: Vídeos do dia
+
+on:
+  schedule:
+    # 6h17 em Brasília: o GitHub tem atrasado ~6 horas, então na prática roda perto do meio-dia
+    - cron: "17 9 * * *"
+  workflow_dispatch:
+    inputs:
+      dia:
+        description: "Dia dos vídeos (AAAA-MM-DD). Vazio = amanhã."
+        required: false
+      teste_3d:
+        description: "Só testa o vídeo 3D do piloto (não escreve roteiro nem publica)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: videos-diarios
+  cancel-in-progress: false
+
+jobs:
+  videos:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Dependências
+        run: |
+          npm ci
+          pip install edge-tts==7.3.1
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libnss3 libdbus-1-3 libatk1.0-0 libgbm-dev libasound2t64 libxrandr2 libxkbcommon-dev libxfixes3 libxcomposite1 libxdamage1 libatk-bridge2.0-0 libpango-1.0-0 libcairo2 libcups2 fonts-noto-color-emoji
+          npx remotion browser ensure
+          npm install -g @anthropic-ai/claude-code
+          node scripts/motor/sfx.mjs
+
+      - name: Roteiros, vídeos e fila
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          FIO_SUPABASE_SERVICE_KEY: ${{ secrets.FIO_SUPABASE_SERVICE_KEY }}
+          PYTHON: python
+        run: |
+          # a chave às vezes vem com quebra de linha ou espaço da cópia do terminal: limpa antes de usar
+          export CLAUDE_CODE_OAUTH_TOKEN=$(printf %s "$CLAUDE_CODE_OAUTH_TOKEN" | tr -d '[:space:]')
+          export FIO_SUPABASE_SERVICE_KEY=$(printf %s "$FIO_SUPABASE_SERVICE_KEY" | tr -d '[:space:]')
+          echo "Chave do Claude: ${#CLAUDE_CODE_OAUTH_TOKEN} caracteres"
+          echo "Chave do Supabase: ${#FIO_SUPABASE_SERVICE_KEY} caracteres"
+          export DIA="${{ inputs.dia }}"
+          # se o GitHub atrasou e já passou da meia-noite, o "amanhã" de quando a rotina devia rodar é hoje
+          [ -z "$DIA" ] && [ "$(TZ=America/Sao_Paulo date +%-H)" -lt 6 ] && export DIA=$(TZ=America/Sao_Paulo date +%F)
+          [ -z "$DIA" ] && export DIA=$(TZ=America/Sao_Paulo date -d tomorrow +%F)
+          if [ "${{ inputs.teste_3d }}" = "true" ]; then
+            time node scripts/motor/fazer-3d.mjs diario/pilotos/atracao-3d.json --quadros
+            exit 0
+          fi
+          echo "Vídeos para $DIA"
+          claude -p "Siga a rotina em diario/ROTINA.md. DIA=$DIA" \
+            --dangerously-skip-permissions \
+            --max-turns 400 \
+            --output-format text
+
+      - name: Guarda roteiros e quadros (3 dias)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: videos-${{ github.run_id }}
+          retention-days: 3
+          path: |
+            diario/
+            out/motor/**/*.jpg
+          if-no-files-found: ignore
+
+      - name: Salva o dia no repositório
+        if: always() && inputs.teste_3d != true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add diario/
+          if git diff --cached --quiet; then
+            echo "Nada novo em diario/"
+            exit 0
+          fi
+          git commit -m "diario: roteiros de $(TZ=America/Sao_Paulo date +%F)"
+          git pull --rebase
+          git push

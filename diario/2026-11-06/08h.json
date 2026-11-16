@@ -1,0 +1,25 @@
+{
+  "id": "2026-11-06-08h-cliente-cancela-pelo-link",
+  "titulo": "Cliente cancela pelo link",
+  "legenda": "Sexta, sete da manhã. O cliente lembra que não vai poder… e avisa sem mandar mensagem. 📲\n\nNo Fio, ele abre o link, cancela ou remarca sozinho, e você recebe o aviso no celular. O horário volta a aparecer livre para outro cliente.\n\nTeste grátis por 7 dias: link na bio.",
+  "falas": [
+    { "texto": "Sexta, sete da manhã. O Carlos acorda e lembra: sábado ele não pode." },
+    { "texto": "Antes, era mensagem no WhatsApp e esperar o barbeiro ver." },
+    { "texto": "Agora, ele abre o link e cancela sozinho." },
+    { "texto": "O Rafa só recebe o aviso: cancelado pelo cliente." },
+    { "texto": "E o horário volta a aparecer livre no link." },
+    { "texto": "Sem mensagem perdida. Sem cadeira vazia de surpresa." },
+    { "pausa": 0.45, "texto": "Fio. Cancelou? O horário volta pra agenda." }
+  ],
+  "chaves": ["sete", "mensagem", "cancela", "cancelado", "livre", "surpresa"],
+  "virada": "3",
+  "cenas": [
+    { "tipo": "quarto", "de": "1", "personagem": "carlos", "hora": "07:00", "celularAcende": "1:acorda", "amanhece": "1" },
+    { "tipo": "texto", "de": "2", "linhas": ["Mensagem.", "Esperar.", "Torcer."], "destaque": ["Torcer."], "fundo": "escuro" },
+    { "tipo": "texto", "de": "3", "linhas": ["Abre o link.", "Cancela sozinho."], "destaque": ["Cancela"], "fundo": "acento" },
+    { "tipo": "app", "de": "4", "tela": { "nome": "bloqueio", "hora": "07:12", "data": "sexta-feira, 6 de novembro", "avisos": [{ "em": "4:aviso", "tipo": "cancelado", "nome": "Carlos Pereira", "quando": "sáb 10:00" }] } },
+    { "tipo": "app", "de": "5", "entrada": "subir", "tela": { "nome": "agenda", "clientes": [{ "hora": "09:00", "nome": "Bruno Almeida", "servico": "Corte masculino" }, { "hora": "11:00", "nome": "Diego Souza", "servico": "Barba" }] } },
+    { "tipo": "texto", "de": "6", "linhas": ["Sem mensagem perdida.", "Sem surpresa."], "destaque": ["surpresa."], "fundo": "claro" },
+    { "tipo": "final", "de": "7" }
+  ]
+}

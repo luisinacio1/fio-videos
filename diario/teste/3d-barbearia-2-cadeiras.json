@@ -1,0 +1,188 @@
+{
+  "id": "teste-3d-barbearia-2-cadeiras",
+  "titulo": "Quanto custa montar uma barbearia de 2 cadeiras?",
+  "legenda": "Quanto custa montar uma barbearia de 2 cadeiras? 💈\n\nReforma (piso, pintura, elétrica e hidráulica): R$ 11.500\n2 cadeiras hidráulicas reclináveis: R$ 5.000\nEspelhos e bancadas: R$ 3.000\nLavatório com cuba de porcelana: R$ 1.900\nMáquinas e ferramentas (2 barbeiros): R$ 4.000\nSofá e mesinha da espera: R$ 3.000\nProdutos da primeira compra: R$ 1.500\nLetreiro e poste: R$ 2.500\n\nTotal: cerca de R$ 32.400, sem contar o aluguel. Valores médios de 2026; mudam com a cidade e o padrão.\n\nE a sua, quanto custou? Conta aqui 👇",
+  "cadeiras": 2,
+  "contador": "CUSTO DA BARBEARIA",
+  "chaves": [
+    "reforma",
+    "cadeiras",
+    "lavatório",
+    "fachada",
+    "aparece",
+    "lembrete",
+    "faltas"
+  ],
+  "falas": [
+    {
+      "texto": "Quanto custa montar uma barbearia de duas cadeiras?"
+    },
+    {
+      "texto": "Primeiro, a reforma. Piso novo: quatro mil e quinhentos.",
+      "pausa": 0.5
+    },
+    {
+      "texto": "Pintura nas paredes: dois mil."
+    },
+    {
+      "texto": "E a parte elétrica, com luz boa em cima de cada cadeira. Três mil e quinhentos."
+    },
+    {
+      "texto": "E já deixa o cano pronto pro lavatório. Só a reforma: onze mil e quinhentos."
+    },
+    {
+      "texto": "Agora, as cadeiras. Duas hidráulicas e reclináveis, de dois mil e quinhentos cada. Cinco mil."
+    },
+    {
+      "texto": "Na frente de cada uma, espelho e bancada. Três mil."
+    },
+    {
+      "texto": "O lavatório com cuba de porcelana: mil e novecentos."
+    },
+    {
+      "texto": "Máquina sem fio, máquina de acabamento, shaver, tesoura e navalha. Dois mil por barbeiro: quatro mil."
+    },
+    {
+      "texto": "Um sofá e uma mesinha pra quem espera. Três mil."
+    },
+    {
+      "texto": "Os produtos da primeira compra: pomada, óleo, lâmina e toalha. Mil e quinhentos."
+    },
+    {
+      "texto": "E na fachada, o letreiro e o poste de barbeiro. Dois mil e quinhentos."
+    },
+    {
+      "texto": "Somando tudo, sua barbearia de duas cadeiras ficou em cerca de trinta e dois mil e quatrocentos reais. Sem contar o aluguel.",
+      "pausa": 0.5
+    },
+    {
+      "texto": "Aí você abre a porta. O cliente marca... e não aparece.",
+      "pausa": 0.6
+    },
+    {
+      "texto": "É uma cadeira de dois mil e quinhentos reais, parada."
+    },
+    {
+      "texto": "Por isso, o Fio manda o lembrete pro cliente na véspera. Num toque."
+    },
+    {
+      "texto": "Fio. A agenda que diminui as faltas. E a gente monta pra você.",
+      "pausa": 0.5
+    },
+    {
+      "texto": "E a sua, quanto custou? Conta aqui nos comentários."
+    }
+  ],
+  "etapas": [
+    {
+      "em": "2:Piso",
+      "rotulo": "Piso",
+      "valor": 4500,
+      "pecas": [
+        "piso"
+      ]
+    },
+    {
+      "em": "3:Pintura",
+      "rotulo": "Pintura",
+      "valor": 2000,
+      "pecas": [
+        "pintura"
+      ]
+    },
+    {
+      "em": "4:elétrica",
+      "rotulo": "Elétrica e luz",
+      "valor": 3500,
+      "pecas": [
+        "luz"
+      ]
+    },
+    {
+      "em": "5:cano",
+      "rotulo": "Hidráulica",
+      "valor": 1500,
+      "pecas": [
+        "cano"
+      ]
+    },
+    {
+      "em": "6:cadeiras",
+      "rotulo": "2 cadeiras",
+      "valor": 5000,
+      "pecas": [
+        "cadeiras"
+      ]
+    },
+    {
+      "em": "7:espelho",
+      "rotulo": "Espelhos e bancadas",
+      "valor": 3000,
+      "pecas": [
+        "espelhos"
+      ]
+    },
+    {
+      "em": "8:lavatório",
+      "rotulo": "Lavatório",
+      "valor": 1900,
+      "pecas": [
+        "lavatorio"
+      ]
+    },
+    {
+      "em": "9:Máquina",
+      "rotulo": "Máquinas e ferramentas",
+      "valor": 4000,
+      "pecas": [
+        "ferramentas"
+      ]
+    },
+    {
+      "em": "10:sofá",
+      "rotulo": "Sofá e mesinha",
+      "valor": 3000,
+      "pecas": [
+        "recepcao"
+      ]
+    },
+    {
+      "em": "11:produtos",
+      "rotulo": "Produtos",
+      "valor": 1500,
+      "pecas": [
+        "produtos"
+      ]
+    },
+    {
+      "em": "12:fachada",
+      "rotulo": "Letreiro e poste",
+      "valor": 2500,
+      "pecas": [
+        "fachada"
+      ]
+    }
+  ],
+  "total": "13:Somando",
+  "falta": {
+    "marca": "14:marca",
+    "some": "14:aparece",
+    "parada": "15"
+  },
+  "app": {
+    "de": "16",
+    "tela": {
+      "nome": "lembretes",
+      "toques": [
+        "16:lembrete"
+      ],
+      "todos": "16:toque"
+    }
+  },
+  "final": {
+    "de": "17",
+    "chamada": "Teste grátis por 7 dias",
+    "subchamada": "link na bio · a gente monta tudo pra você"
+  },
+  "rodape": "Valores médios · 2026 · sem aluguel"
+}

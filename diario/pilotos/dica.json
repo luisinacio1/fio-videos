@@ -1,0 +1,462 @@
+{
+  "id": "piloto-dica",
+  "tipo": "dica",
+  "tema": "como-pedir-o-corte",
+  "titulo": "Como pedir o corte que você quer sem dar errado",
+  "legenda": "Pediu um corte e saiu outro? Quase sempre o erro está no pedido. São 3 coisas pra falar antes de sentar na cadeira: ✂️\n\n1. Leve foto do corte de frente, de lado e de trás. Só a frente não mostra a nuca nem o degradê.\n2. Diga o número do pente, se souber, e diga também o que você não quer, como \"não sobe muito\".\n3. Conte do seu dia a dia: quem usa boné ou não penteia o cabelo todo dia precisa de um corte diferente.\n\nSalva pra usar no próximo corte.\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nQual corte já saiu diferente do que você pediu?",
+  "falas": [
+    {
+      "texto": "Pediu um corte e saiu outro? Faz isso."
+    },
+    {
+      "texto": "Quase sempre, o erro não está na mão do barbeiro. Está no pedido."
+    },
+    {
+      "texto": "São três coisas pra falar antes de sentar na cadeira."
+    },
+    {
+      "texto": "Salva esse vídeo, porque você vai usar no próximo corte."
+    },
+    {
+      "texto": "Primeira: leve foto. Mas não só de frente."
+    },
+    {
+      "texto": "Leve o corte de frente, de lado e de trás."
+    },
+    {
+      "texto": "Porque só a frente não mostra a nuca. Nem o degradê."
+    },
+    {
+      "texto": "Foto só de frente, o barbeiro tem que adivinhar o resto."
+    },
+    {
+      "texto": "Segunda: diga o número do pente, se você souber."
+    },
+    {
+      "texto": "E diga também o que você não quer."
+    },
+    {
+      "texto": "Tipo: não sobe muito. Uma frase dessas já evita surpresa."
+    },
+    {
+      "texto": "Terceira: conta como é o seu dia a dia."
+    },
+    {
+      "texto": "Quem usa boné todo dia precisa de um corte diferente."
+    },
+    {
+      "texto": "E quem não penteia o cabelo todo dia, também."
+    },
+    {
+      "texto": "O corte tem que funcionar na sua rotina, não só no espelho."
+    },
+    {
+      "texto": "Seu barbeiro só sabe disso se você contar."
+    },
+    {
+      "texto": "Recapitulando: foto de frente, de lado e de trás."
+    },
+    {
+      "texto": "Número do pente, o que não quer e o seu dia a dia."
+    },
+    {
+      "texto": "E pedir bem começa antes da cadeira."
+    },
+    {
+      "texto": "Começa marcando o serviço certo, num horário sem correria."
+    },
+    {
+      "texto": "É assim no link do Fio, a agenda do seu barbeiro."
+    },
+    {
+      "texto": "Você escolhe o serviço, o dia e um horário livre."
+    },
+    {
+      "texto": "Coloca o nome, confirma, e pronto. Sem mandar mensagem."
+    },
+    {
+      "texto": "Na véspera, o barbeiro te manda o lembrete no WhatsApp, em um toque."
+    },
+    {
+      "texto": "Não vai dar pra ir? Você mesmo cancela ou remarca pelo link."
+    },
+    {
+      "texto": "E, barbeiro, ainda anota no caderno? Manda sua lista no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você. Sem custo."
+    },
+    {
+      "pausa": 0.3,
+      "texto": "Fio. O corte certo começa no horário certo."
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "Qual corte já saiu diferente do que você pediu? Conta aqui."
+    }
+  ],
+  "chaves": [
+    "foto",
+    "nuca",
+    "pente",
+    "boné",
+    "serviço",
+    "monta"
+  ],
+  "ponte": "19",
+  "fio": "21",
+  "cenas": [
+    {
+      "tipo": "corte",
+      "de": "1",
+      "personagem": "matheus",
+      "estilos": [
+        {
+          "em": "1:corte",
+          "estilo": "topete",
+          "rotulo": "Você pediu isso"
+        },
+        {
+          "em": "1:outro",
+          "estilo": "degrade-alto",
+          "rotulo": "Saiu isso"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "2",
+      "barbeiro": "rafa",
+      "cliente": "matheus",
+      "reacoes": [
+        {
+          "em": "2:erro",
+          "boca": "torta",
+          "olhar": "frente"
+        },
+        {
+          "em": "2:pedido",
+          "boca": "aberta",
+          "sacode": true
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "3",
+      "linhas": [
+        "Coisas pra falar",
+        "antes da cadeira."
+      ],
+      "destaque": [
+        "antes"
+      ],
+      "fundo": "acento",
+      "numero": {
+        "de": 0,
+        "ate": 3,
+        "em": "3:três"
+      }
+    },
+    {
+      "tipo": "texto",
+      "de": "4",
+      "linhas": [
+        "Salva esse vídeo."
+      ],
+      "destaque": [
+        "Salva"
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "sala",
+      "de": "5",
+      "personagem": "matheus",
+      "pensamento": {
+        "em": "5:foto",
+        "rotulo": "Leve foto",
+        "titulo": "3 lados",
+        "texto": "frente, lado e trás"
+      },
+      "reacoes": [
+        {
+          "em": "6:trás",
+          "boca": "sorriso",
+          "olhar": "celular"
+        }
+      ]
+    },
+    {
+      "tipo": "corte",
+      "de": "7",
+      "personagem": "davi",
+      "estilos": [
+        {
+          "em": "7:frente",
+          "estilo": "degrade-medio",
+          "rotulo": "De frente"
+        },
+        {
+          "em": "7:nuca",
+          "estilo": "pezinho",
+          "rotulo": "A nuca fica atrás"
+        },
+        {
+          "em": "7:degradê",
+          "estilo": "degrade-medio",
+          "rotulo": "O degradê fica do lado"
+        },
+        {
+          "em": "8:adivinhar",
+          "estilo": "topete",
+          "rotulo": "Adivinhou errado"
+        }
+      ]
+    },
+    {
+      "tipo": "objeto",
+      "de": "9",
+      "objeto": "maquina",
+      "fundo": "acento",
+      "etiquetas": [
+        {
+          "em": "9:número",
+          "texto": "O número do pente"
+        },
+        {
+          "em": "10:não",
+          "texto": "O que você não quer"
+        }
+      ]
+    },
+    {
+      "tipo": "corte",
+      "de": "11",
+      "personagem": "ze",
+      "estilos": [
+        {
+          "em": "11:sobe",
+          "estilo": "degrade-baixo",
+          "rotulo": "\"Não sobe muito\""
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "12",
+      "linhas": [
+        "Conta o seu",
+        "dia a dia."
+      ],
+      "destaque": [
+        "dia"
+      ],
+      "fundo": "claro"
+    },
+    {
+      "tipo": "barbearia",
+      "de": "13",
+      "barbeiro": "rafa",
+      "cliente": "juninho",
+      "reacoes": [
+        {
+          "em": "13:diferente",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "sala",
+      "de": "14",
+      "personagem": "matheus",
+      "cabeloBagunca": "14:penteia",
+      "reacoes": [
+        {
+          "em": "14:também",
+          "boca": "torta",
+          "sacode": true
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "15",
+      "linhas": [
+        "Na sua rotina,",
+        "não só no espelho."
+      ],
+      "destaque": [
+        "rotina,"
+      ],
+      "fundo": "claro"
+    },
+    {
+      "tipo": "barbearia",
+      "de": "16",
+      "barbeiro": "rafa",
+      "cliente": "matheus",
+      "reacoes": [
+        {
+          "em": "16:barbeiro",
+          "boca": "aberta",
+          "olhar": "frente"
+        },
+        {
+          "em": "16:contar",
+          "boca": "sorriso"
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "de": "17",
+      "titulo": "Antes de sentar",
+      "passos": [
+        {
+          "em": "17:foto",
+          "texto": "Foto de frente, lado e trás"
+        },
+        {
+          "em": "18:número",
+          "texto": "O número do pente",
+          "objeto": "maquina"
+        },
+        {
+          "em": "18:não",
+          "texto": "O que você não quer",
+          "objeto": "pente"
+        },
+        {
+          "em": "18:dia",
+          "texto": "O seu dia a dia"
+        }
+      ]
+    },
+    {
+      "tipo": "objeto",
+      "de": "19",
+      "objeto": "cadeiraAntiga",
+      "fundo": "escuro",
+      "etiquetas": [
+        {
+          "em": "19:pedir",
+          "texto": "Pedir bem"
+        },
+        {
+          "em": "19:antes",
+          "texto": "Começa antes da cadeira"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "20",
+      "linhas": [
+        "Serviço certo.",
+        "Horário sem correria."
+      ],
+      "destaque": [
+        "certo.",
+        "sem"
+      ],
+      "fundo": "claro"
+    },
+    {
+      "tipo": "apresentaFio",
+      "de": "21",
+      "tela": {
+        "nome": "agendamento",
+        "cliente": "Matheus Lima",
+        "hora": "19:40",
+        "toques": {
+          "servico": "22:serviço",
+          "dia": "22:dia",
+          "horario": "22:livre",
+          "nome": "23:nome",
+          "confirmar": "23:confirma"
+        }
+      },
+      "frases": [
+        {
+          "em": "22:serviço",
+          "texto": "Escolhe o serviço certo"
+        },
+        {
+          "em": "22:livre",
+          "texto": "Só aparece horário livre"
+        },
+        {
+          "em": "23:mensagem",
+          "texto": "Marca sem mandar mensagem"
+        }
+      ]
+    },
+    {
+      "tipo": "app",
+      "de": "24",
+      "entrada": "subir",
+      "tela": {
+        "nome": "lembretes",
+        "toques": [
+          {
+            "toque": "24:lembrete",
+            "enviar": "24:toque"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "app",
+      "de": "25",
+      "tela": {
+        "nome": "bloqueio",
+        "hora": "09:12",
+        "data": "quarta-feira, 11 de novembro",
+        "avisos": [
+          {
+            "em": "25:cancela",
+            "tipo": "cancelado",
+            "nome": "Matheus Lima",
+            "quando": "qua 15:00"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "sala",
+      "de": "26",
+      "personagem": "rafa",
+      "reacoes": [
+        {
+          "em": "27:monta",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "de": "28"
+    }
+  ],
+  "extras": [
+    {
+      "tipo": "zap",
+      "em": "26:manda",
+      "ate": "27:fim",
+      "de": "Você",
+      "texto": "@agendafio, segue minha lista de clientes e serviços."
+    },
+    {
+      "tipo": "zap",
+      "em": "27:monta",
+      "ate": "27:fim",
+      "de": "@agendafio",
+      "texto": "Recebido! Em até 2 dias sua agenda fica pronta."
+    }
+  ]
+}

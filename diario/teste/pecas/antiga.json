@@ -1,0 +1,29 @@
+{
+  "id": "teste-peca-antiga",
+  "titulo": "Peça barbearia antiga: sépia, cadeira de ferro e placa com o ano",
+  "legenda": "Teste da peça barbearia antiga: barbeiro de colete e bigode, cliente na cadeira de ferro e a placa com o ano.",
+  "falas": [
+    { "texto": "Como era a barbearia há cem anos?" },
+    { "texto": "O barbeiro usava colete e bigode, e a cadeira era de ferro." },
+    { "texto": "O poste ficava preso na parede, na porta da rua." },
+    { "texto": "Fio. A agenda pronta pra sua barbearia." }
+  ],
+  "chaves": ["colete", "bigode", "ferro", "poste"],
+  "cenas": [
+    {
+      "tipo": "barbeariaAntiga",
+      "de": "1",
+      "barbeiro": "rafa",
+      "cliente": "ze",
+      "ano": "1920",
+      "reacoes": [{ "em": "2:colete", "boca": "sorriso" }]
+    },
+    {
+      "tipo": "barbeariaAntiga",
+      "de": "3",
+      "barbeiro": "juninho",
+      "ano": "1925"
+    },
+    { "tipo": "final", "de": "4" }
+  ]
+}

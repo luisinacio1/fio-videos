@@ -1,0 +1,29 @@
+node_modules/
+out/
+public/semanas/
+semanas/*/prontos/
+semanas/*/entrega/**/*.*
+# áudios, gravações e vídeos prontos ficam só no computador (pesados demais para o git)
+*.wav
+*.mp3
+*.mp4
+*.webm
+*.mov
+public/tour/
+# vídeos do motor: só os efeitos sonoros vão para o git; voz, música e tempos são gerados a cada vídeo
+public/motor/*
+!public/motor/sfx/
+!public/motor/sfx/*.wav
+# só no computador: nada disto vai ao repositório público
+/narracoes/
+/gravacao/
+/tour/
+/semanas/
+/vsl/
+public/stories/
+public/v13/
+public/v14/
+public/narracao/
+public/audio/
+public/vsl/
+.env*

@@ -1,0 +1,16 @@
+{
+  "sobre": "Piloto do estilo novo: o cliente marca de madrugada pelo link e o barbeiro acorda com o horário na agenda. pausa = segundos de silêncio antes da fala.",
+  "voz": "pt-BR-AntonioNeural",
+  "velocidade": "+8%",
+  "falas": [
+    { "pausa": 0.35, "texto": "Onze da noite. O Rafa fechou a barbearia e já tá dormindo." },
+    { "pausa": 0.35, "texto": "Do outro lado da cidade, o Matheus lembra: amanhã tem entrevista. E o cabelo tá um caos." },
+    { "pausa": 0.3, "texto": "Mandar mensagem a essa hora? Nem pensar." },
+    { "pausa": 0.3, "texto": "Ele abre o link da barbearia. Escolhe o corte, o dia, o horário." },
+    { "pausa": 0.25, "texto": "Coloca o nome e o telefone. Sem baixar aplicativo, sem criar conta." },
+    { "pausa": 0.25, "texto": "Confirmado." },
+    { "pausa": 0.35, "texto": "E no celular do Rafa, chega o aviso." },
+    { "pausa": 0.45, "texto": "De manhã, o Matheus já tá na agenda. E ninguém precisou responder mensagem nenhuma." },
+    { "pausa": 0.4, "texto": "Fio. Sua barbearia recebendo agendamento até enquanto você dorme." }
+  ]
+}

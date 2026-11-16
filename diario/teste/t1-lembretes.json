@@ -1,0 +1,104 @@
+{
+  "id": "teste-lembretes-um-toque",
+  "titulo": "Lembretes em um toque",
+  "legenda": "Sexta, 18h. Amanhã a agenda tá cheia… e ninguém quer cliente esquecendo horário. 📲\n\nNo Fio, às 18h chega o aviso com quem você precisa lembrar. Um toque e o WhatsApp abre com a mensagem pronta, do seu número.\n\nTeste grátis por 7 dias: link na bio.",
+  "falas": [
+    {
+      "texto": "Sexta, seis da tarde. O Juninho tá no último corte do dia."
+    },
+    {
+      "texto": "E amanhã, sábado, a agenda tá lotada."
+    },
+    {
+      "texto": "Aí o celular avisa: quatro clientes pra lembrar amanhã."
+    },
+    {
+      "texto": "Ele abre os lembretes e toca no primeiro cliente. O WhatsApp abre com a mensagem pronta."
+    },
+    {
+      "texto": "É só mandar. Volta, toca no próximo, e manda de novo."
+    },
+    {
+      "texto": "Em um minuto, a agenda inteira lembrada."
+    },
+    {
+      "pausa": 0.45,
+      "texto": "Fio. Seus lembretes prontos em um toque."
+    }
+  ],
+  "chaves": [
+    "seis",
+    "lotada",
+    "quatro",
+    "pronta",
+    "mandar",
+    "minuto"
+  ],
+  "cenas": [
+    {
+      "tipo": "barbearia",
+      "de": "1",
+      "barbeiro": "juninho",
+      "cliente": "carlos"
+    },
+    {
+      "tipo": "texto",
+      "de": "2",
+      "linhas": [
+        "Amanhã:",
+        "agenda lotada."
+      ],
+      "destaque": [
+        "lotada."
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "app",
+      "de": "3",
+      "tela": {
+        "nome": "bloqueio",
+        "hora": "18:00",
+        "data": "sexta-feira, 6 de novembro",
+        "avisos": [
+          {
+            "em": "3:avisa",
+            "tipo": "lembretes",
+            "quantidade": 4
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "app",
+      "de": "4",
+      "entrada": "subir",
+      "tela": {
+        "nome": "lembretes",
+        "toques": [
+          {
+            "toque": "4:toca",
+            "enviar": "5:mandar"
+          },
+          {
+            "toque": "5:próximo",
+            "enviar": "5:manda"
+          }
+        ],
+        "todos": "6:minuto"
+      }
+    },
+    {
+      "tipo": "final",
+      "de": "7"
+    }
+  ],
+  "extras": [
+    {
+      "tipo": "selo",
+      "texto": "todos avisados",
+      "em": "6:inteira",
+      "cor": "ok"
+    }
+  ]
+}

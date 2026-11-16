@@ -1,0 +1,28 @@
+{
+  "id": "teste-peca-linha",
+  "titulo": "Peça linha do tempo: a barbearia ao longo dos anos",
+  "legenda": "Teste da peça linha do tempo: navalha, máquina, degradê e agenda no celular.",
+  "falas": [
+    { "texto": "A barbearia mudou muito com o tempo." },
+    { "texto": "Em 1950, o barbeiro fazia tudo na navalha." },
+    { "texto": "Em 1980, a máquina elétrica chegou em toda esquina." },
+    { "texto": "Em 2010, o degradê virou moda nas redes." },
+    { "texto": "E hoje o cliente marca o horário pelo celular." },
+    { "texto": "Fio. A agenda pronta pra sua barbearia." }
+  ],
+  "chaves": ["navalha", "máquina", "degradê", "celular"],
+  "cenas": [
+    { "tipo": "texto", "de": "1", "linhas": ["A barbearia", "mudou muito"], "destaque": ["mudou"] },
+    {
+      "tipo": "linhaDoTempo",
+      "de": "2",
+      "marcos": [
+        { "em": "2", "ano": "1950", "texto": "Tudo na navalha", "objeto": "navalha" },
+        { "em": "3", "ano": "1980", "texto": "Máquina elétrica em toda esquina", "objeto": "maquina" },
+        { "em": "4", "ano": "2010", "texto": "O degradê vira moda nas redes", "objeto": "tesoura" },
+        { "em": "5", "ano": "Hoje", "texto": "O cliente marca pelo celular" }
+      ]
+    },
+    { "tipo": "final", "de": "6" }
+  ]
+}

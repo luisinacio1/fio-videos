@@ -1,0 +1,25 @@
+{
+  "id": "teste-comissao-somada",
+  "titulo": "Comissão da equipe já somada",
+  "legenda": "Fim do mês, três barbeiros e uma pergunta: quanto é de cada um? 🧮\n\nNo Fio, cada atendimento marcado como realizado já entra com a comissão. No fim do mês, a de cada barbeiro aparece somada. Conheça o plano Equipe: link na bio.",
+  "falas": [
+    { "texto": "Fim do mês. O Rafa tem três barbeiros e uma pergunta: quanto é de cada um?" },
+    { "texto": "Antes era caderno, calculadora e meia-noite fazendo conta." },
+    { "texto": "Agora, terminou o corte, o barbeiro marca como realizado." },
+    { "texto": "E o Fio já calcula a comissão daquele atendimento." },
+    { "texto": "No fim do mês, a comissão de cada um aparece somada." },
+    { "texto": "Sem caderno. Sem conta de cabeça. Sem meia-noite." },
+    { "pausa": 0.45, "texto": "Fio. A comissão da equipe, já somada." }
+  ],
+  "chaves": ["pergunta", "meia-noite", "realizado", "calcula", "somada"],
+  "virada": "3",
+  "cenas": [
+    { "tipo": "sala", "de": "1", "personagem": "rafa", "pensamento": { "em": "1:pergunta", "rotulo": "comissão", "titulo": "R$ ???", "texto": "Léo? Caio?" } },
+    { "tipo": "texto", "de": "2", "linhas": ["Caderno.", "Calculadora.", "Meia-noite."], "destaque": ["Meia-noite."], "fundo": "escuro" },
+    { "tipo": "app", "de": "3", "tela": { "nome": "agenda", "realizar": { "nome": "Bruno Almeida", "em": "3:realizado" } } },
+    { "tipo": "app", "de": "5", "tela": { "nome": "equipe", "contar": "5:comissão" } },
+    { "tipo": "texto", "de": "6", "linhas": ["Sem caderno.", "Sem conta de cabeça.", "Sem meia-noite."], "destaque": ["meia-noite."], "fundo": "claro" },
+    { "tipo": "final", "de": "7", "chamada": "Conheça o plano Equipe" }
+  ],
+  "extras": [{ "tipo": "selo", "texto": "comissão calculada", "em": "4:calcula", "cor": "escuro" }]
+}

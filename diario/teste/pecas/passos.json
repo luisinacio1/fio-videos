@@ -1,0 +1,40 @@
+{
+  "id": "teste-peca-passos",
+  "titulo": "Peça passos: barba em 4 passos e agenda cheia em 5",
+  "legenda": "Teste da peça passos: números grandes entrando no tempo da fala.",
+  "falas": [
+    { "texto": "A barba perfeita tem quatro passos." },
+    { "texto": "Primeiro, a toalha quente abre os poros." },
+    { "texto": "Depois, o pincel faz a espuma." },
+    { "texto": "Então, a navalha passa a favor do pelo." },
+    { "texto": "Por último, a pomada finaliza." },
+    { "texto": "E pra encher a agenda: poste o corte, marque o retorno, peça avaliação, responda rápido e mande lembrete." },
+    { "texto": "Fio. A agenda pronta pra sua barbearia." }
+  ],
+  "chaves": ["toalha", "pincel", "navalha", "pomada", "agenda"],
+  "cenas": [
+    {
+      "tipo": "passos",
+      "de": "1",
+      "passos": [
+        { "em": "2:toalha", "texto": "Toalha quente abre os poros", "objeto": "toalha" },
+        { "em": "3:pincel", "texto": "O pincel faz a espuma", "objeto": "pincel" },
+        { "em": "4:navalha", "texto": "Navalha a favor do pelo", "objeto": "navalha" },
+        { "em": "5:pomada", "texto": "A pomada finaliza", "objeto": "pomada" }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "de": "6",
+      "titulo": "Agenda cheia em 5 passos",
+      "passos": [
+        { "em": "6:poste", "texto": "Poste o corte" },
+        { "em": "6:marque", "texto": "Marque o retorno" },
+        { "em": "6:peça", "texto": "Peça avaliação" },
+        { "em": "6:responda", "texto": "Responda rápido" },
+        { "em": "6:mande", "texto": "Mande lembrete" }
+      ]
+    },
+    { "tipo": "final", "de": "7" }
+  ]
+}

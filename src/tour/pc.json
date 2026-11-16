@@ -1,0 +1,4781 @@
+{
+ "formato": "pc",
+ "largura": 1920,
+ "passos": [
+  {
+   "img": "0000.jpg",
+   "ms": 1600,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0001.jpg",
+   "ms": 650,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br",
+   "cursor": {
+    "x": 1507,
+    "y": 43,
+    "w": 212,
+    "h": 58
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0002.jpg",
+   "ms": 700,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0003.jpg",
+   "ms": 550,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67
+   },
+   "clique": true,
+   "zoom": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0004.jpg",
+   "ms": 85,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0005.jpg",
+   "ms": 85,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0006.jpg",
+   "ms": 85,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0007.jpg",
+   "ms": 85,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0008.jpg",
+   "ms": 85,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0009.jpg",
+   "ms": 85,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0010.jpg",
+   "ms": 85,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0011.jpg",
+   "ms": 85,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0012.jpg",
+   "ms": 85,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0013.jpg",
+   "ms": 85,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0014.jpg",
+   "ms": 85,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0015.jpg",
+   "ms": 85,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0016.jpg",
+   "ms": 85,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0017.jpg",
+   "ms": 250,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 450,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0018.jpg",
+   "ms": 550,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 576,
+    "w": 410,
+    "h": 67
+   },
+   "clique": true,
+   "zoom": {
+    "x": 960,
+    "y": 576,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0019.jpg",
+   "ms": 85,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 576,
+    "w": 410,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 576,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0020.jpg",
+   "ms": 85,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 576,
+    "w": 410,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 576,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0021.jpg",
+   "ms": 85,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 576,
+    "w": 410,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 576,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0022.jpg",
+   "ms": 85,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 576,
+    "w": 410,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 576,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0023.jpg",
+   "ms": 85,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 576,
+    "w": 410,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 576,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0024.jpg",
+   "ms": 85,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 576,
+    "w": 410,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 576,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0025.jpg",
+   "ms": 250,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 576,
+    "w": 410,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 576,
+    "w": 410,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0026.jpg",
+   "ms": 650,
+   "capitulo": "Criar a conta",
+   "tela": "principal",
+   "url": "agendafio.com.br/criar-conta",
+   "cursor": {
+    "x": 960,
+    "y": 658,
+    "w": 410,
+    "h": 58
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0027.jpg",
+   "ms": 900,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0028.jpg",
+   "ms": 550,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 960,
+    "y": 414,
+    "w": 487,
+    "h": 67
+   },
+   "clique": true,
+   "zoom": {
+    "x": 960,
+    "y": 414,
+    "w": 487,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0029.jpg",
+   "ms": 85,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 960,
+    "y": 414,
+    "w": 487,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 414,
+    "w": 487,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0030.jpg",
+   "ms": 85,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 960,
+    "y": 414,
+    "w": 487,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 414,
+    "w": 487,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0031.jpg",
+   "ms": 85,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 960,
+    "y": 414,
+    "w": 487,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 414,
+    "w": 487,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0032.jpg",
+   "ms": 85,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 960,
+    "y": 414,
+    "w": 487,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 414,
+    "w": 487,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0033.jpg",
+   "ms": 85,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 960,
+    "y": 414,
+    "w": 487,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 414,
+    "w": 487,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0034.jpg",
+   "ms": 85,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 960,
+    "y": 414,
+    "w": 487,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 414,
+    "w": 487,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0035.jpg",
+   "ms": 250,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 960,
+    "y": 414,
+    "w": 487,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 414,
+    "w": 487,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0036.jpg",
+   "ms": 1100,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 1051,
+    "y": 659,
+    "w": 302,
+    "h": 53
+   },
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0037.jpg",
+   "ms": 550,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 960,
+    "y": 545,
+    "w": 487,
+    "h": 67
+   },
+   "clique": true,
+   "zoom": {
+    "x": 960,
+    "y": 545,
+    "w": 487,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0038.jpg",
+   "ms": 85,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 960,
+    "y": 545,
+    "w": 487,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 545,
+    "w": 487,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0039.jpg",
+   "ms": 85,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 960,
+    "y": 545,
+    "w": 487,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 545,
+    "w": 487,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0040.jpg",
+   "ms": 85,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 960,
+    "y": 545,
+    "w": 487,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 545,
+    "w": 487,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0041.jpg",
+   "ms": 85,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 960,
+    "y": 545,
+    "w": 487,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 545,
+    "w": 487,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0042.jpg",
+   "ms": 85,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 960,
+    "y": 545,
+    "w": 487,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 545,
+    "w": 487,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0043.jpg",
+   "ms": 85,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 960,
+    "y": 545,
+    "w": 487,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 545,
+    "w": 487,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0044.jpg",
+   "ms": 250,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 960,
+    "y": 545,
+    "w": 487,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 960,
+    "y": 545,
+    "w": 487,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0045.jpg",
+   "ms": 45,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0046.jpg",
+   "ms": 550,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 895,
+    "y": 807,
+    "w": 358,
+    "h": 67
+   },
+   "clique": true,
+   "zoom": {
+    "x": 895,
+    "y": 807,
+    "w": 358,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0047.jpg",
+   "ms": 85,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 895,
+    "y": 807,
+    "w": 358,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 895,
+    "y": 807,
+    "w": 358,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0048.jpg",
+   "ms": 85,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 895,
+    "y": 807,
+    "w": 358,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 895,
+    "y": 807,
+    "w": 358,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0049.jpg",
+   "ms": 85,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 895,
+    "y": 807,
+    "w": 358,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 895,
+    "y": 807,
+    "w": 358,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0050.jpg",
+   "ms": 85,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 895,
+    "y": 807,
+    "w": 358,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 895,
+    "y": 807,
+    "w": 358,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0051.jpg",
+   "ms": 85,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 895,
+    "y": 807,
+    "w": 358,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 895,
+    "y": 807,
+    "w": 358,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0052.jpg",
+   "ms": 250,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 895,
+    "y": 807,
+    "w": 358,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 895,
+    "y": 807,
+    "w": 358,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0053.jpg",
+   "ms": 550,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 1146,
+    "y": 789,
+    "w": 115,
+    "h": 53
+   },
+   "clique": true,
+   "zoom": {
+    "x": 1146,
+    "y": 789,
+    "w": 115,
+    "h": 53,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0054.jpg",
+   "ms": 500,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 1146,
+    "y": 789,
+    "w": 115,
+    "h": 53
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1146,
+    "y": 789,
+    "w": 115,
+    "h": 53,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0055.jpg",
+   "ms": 650,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/boas-vindas",
+   "cursor": {
+    "x": 960,
+    "y": 903,
+    "w": 487,
+    "h": 58
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0056.jpg",
+   "ms": 1800,
+   "capitulo": "Sua barbearia",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0057.jpg",
+   "ms": 650,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel",
+   "cursor": {
+    "x": 1144,
+    "y": 568,
+    "w": 1334,
+    "h": 29
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0058.jpg",
+   "ms": 900,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0059.jpg",
+   "ms": 650,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos",
+   "cursor": {
+    "x": 1723,
+    "y": 326,
+    "w": 280,
+    "h": 72
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0060.jpg",
+   "ms": 550,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67
+   },
+   "clique": true,
+   "zoom": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0061.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0062.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0063.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0064.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0065.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0066.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0067.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0068.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0069.jpg",
+   "ms": 250,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0070.jpg",
+   "ms": 45,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0071.jpg",
+   "ms": 550,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67
+   },
+   "clique": true,
+   "zoom": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0072.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0073.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0074.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0075.jpg",
+   "ms": 250,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0076.jpg",
+   "ms": 45,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0077.jpg",
+   "ms": 45,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0078.jpg",
+   "ms": 550,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67
+   },
+   "clique": true,
+   "zoom": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0079.jpg",
+   "ms": 500,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0080.jpg",
+   "ms": 45,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0081.jpg",
+   "ms": 45,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0082.jpg",
+   "ms": 45,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0083.jpg",
+   "ms": 45,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0084.jpg",
+   "ms": 650,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1338,
+    "y": 868,
+    "w": 396,
+    "h": 72
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0085.jpg",
+   "ms": 1100,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0086.jpg",
+   "ms": 650,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos",
+   "cursor": {
+    "x": 1723,
+    "y": 326,
+    "w": 280,
+    "h": 72
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0087.jpg",
+   "ms": 550,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67
+   },
+   "clique": true,
+   "zoom": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0088.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0089.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0090.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0091.jpg",
+   "ms": 250,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 623,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0092.jpg",
+   "ms": 45,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0093.jpg",
+   "ms": 550,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67
+   },
+   "clique": true,
+   "zoom": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0094.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0095.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0096.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0097.jpg",
+   "ms": 250,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0098.jpg",
+   "ms": 45,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0099.jpg",
+   "ms": 45,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0100.jpg",
+   "ms": 550,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67
+   },
+   "clique": true,
+   "zoom": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0101.jpg",
+   "ms": 500,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0102.jpg",
+   "ms": 45,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0103.jpg",
+   "ms": 45,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0104.jpg",
+   "ms": 45,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0105.jpg",
+   "ms": 45,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0106.jpg",
+   "ms": 650,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1338,
+    "y": 868,
+    "w": 396,
+    "h": 72
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0107.jpg",
+   "ms": 1100,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0108.jpg",
+   "ms": 650,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos",
+   "cursor": {
+    "x": 1723,
+    "y": 299,
+    "w": 280,
+    "h": 72
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0109.jpg",
+   "ms": 550,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 595,
+    "w": 806,
+    "h": 67
+   },
+   "clique": true,
+   "zoom": {
+    "x": 1133,
+    "y": 595,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0110.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 595,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 595,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0111.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 595,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 595,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0112.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 595,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 595,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0113.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 595,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 595,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0114.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 595,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 595,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0115.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 595,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 595,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0116.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 595,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 595,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0117.jpg",
+   "ms": 250,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 595,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 595,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0118.jpg",
+   "ms": 45,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0119.jpg",
+   "ms": 550,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67
+   },
+   "clique": true,
+   "zoom": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0120.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0121.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0122.jpg",
+   "ms": 85,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0123.jpg",
+   "ms": 250,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0124.jpg",
+   "ms": 45,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0125.jpg",
+   "ms": 45,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0126.jpg",
+   "ms": 550,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67
+   },
+   "clique": true,
+   "zoom": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0127.jpg",
+   "ms": 500,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1133,
+    "y": 762,
+    "w": 806,
+    "h": 67,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0128.jpg",
+   "ms": 45,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0129.jpg",
+   "ms": 45,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0130.jpg",
+   "ms": 45,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0131.jpg",
+   "ms": 45,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0132.jpg",
+   "ms": 650,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos/novo",
+   "cursor": {
+    "x": 1338,
+    "y": 868,
+    "w": 396,
+    "h": 72
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0133.jpg",
+   "ms": 1100,
+   "capitulo": "Serviços",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/servicos",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0134.jpg",
+   "ms": 1000,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0135.jpg",
+   "ms": 650,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel",
+   "cursor": {
+    "x": 1144,
+    "y": 633,
+    "w": 1334,
+    "h": 29
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0136.jpg",
+   "ms": 900,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0137.jpg",
+   "ms": 500,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "cursor": {
+    "x": 700,
+    "y": 574,
+    "w": 72,
+    "h": 38
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0138.jpg",
+   "ms": 350,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "cursor": {
+    "x": 700,
+    "y": 574,
+    "w": 72,
+    "h": 38
+   },
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0139.jpg",
+   "ms": 550,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "cursor": {
+    "x": 894,
+    "y": 574,
+    "w": 211,
+    "h": 62
+   },
+   "clique": true,
+   "zoom": {
+    "x": 894,
+    "y": 574,
+    "w": 211,
+    "h": 62,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0140.jpg",
+   "ms": 85,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "cursor": {
+    "x": 894,
+    "y": 574,
+    "w": 211,
+    "h": 62
+   },
+   "clique": false,
+   "zoom": {
+    "x": 894,
+    "y": 574,
+    "w": 211,
+    "h": 62,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0141.jpg",
+   "ms": 85,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "cursor": {
+    "x": 894,
+    "y": 574,
+    "w": 211,
+    "h": 62
+   },
+   "clique": false,
+   "zoom": {
+    "x": 894,
+    "y": 574,
+    "w": 211,
+    "h": 62,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0142.jpg",
+   "ms": 250,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "cursor": {
+    "x": 894,
+    "y": 574,
+    "w": 211,
+    "h": 62
+   },
+   "clique": false,
+   "zoom": {
+    "x": 894,
+    "y": 574,
+    "w": 211,
+    "h": 62,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0143.jpg",
+   "ms": 550,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "cursor": {
+    "x": 1162,
+    "y": 574,
+    "w": 211,
+    "h": 62
+   },
+   "clique": true,
+   "zoom": {
+    "x": 1162,
+    "y": 574,
+    "w": 211,
+    "h": 62,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0144.jpg",
+   "ms": 85,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "cursor": {
+    "x": 1162,
+    "y": 574,
+    "w": 211,
+    "h": 62
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1162,
+    "y": 574,
+    "w": 211,
+    "h": 62,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0145.jpg",
+   "ms": 85,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "cursor": {
+    "x": 1162,
+    "y": 574,
+    "w": 211,
+    "h": 62
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1162,
+    "y": 574,
+    "w": 211,
+    "h": 62,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0146.jpg",
+   "ms": 250,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "cursor": {
+    "x": 1162,
+    "y": 574,
+    "w": 211,
+    "h": 62
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1162,
+    "y": 574,
+    "w": 211,
+    "h": 62,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0147.jpg",
+   "ms": 45,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0148.jpg",
+   "ms": 45,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0149.jpg",
+   "ms": 45,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0150.jpg",
+   "ms": 45,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0151.jpg",
+   "ms": 45,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0152.jpg",
+   "ms": 45,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0153.jpg",
+   "ms": 650,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "cursor": {
+    "x": 1373,
+    "y": 759,
+    "w": 335,
+    "h": 72
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0154.jpg",
+   "ms": 500,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "cursor": {
+    "x": 700,
+    "y": 525,
+    "w": 72,
+    "h": 38
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0155.jpg",
+   "ms": 350,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "cursor": {
+    "x": 700,
+    "y": 525,
+    "w": 72,
+    "h": 38
+   },
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0156.jpg",
+   "ms": 550,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "cursor": {
+    "x": 894,
+    "y": 525,
+    "w": 211,
+    "h": 62
+   },
+   "clique": true,
+   "zoom": {
+    "x": 894,
+    "y": 525,
+    "w": 211,
+    "h": 62,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0157.jpg",
+   "ms": 85,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "cursor": {
+    "x": 894,
+    "y": 525,
+    "w": 211,
+    "h": 62
+   },
+   "clique": false,
+   "zoom": {
+    "x": 894,
+    "y": 525,
+    "w": 211,
+    "h": 62,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0158.jpg",
+   "ms": 85,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "cursor": {
+    "x": 894,
+    "y": 525,
+    "w": 211,
+    "h": 62
+   },
+   "clique": false,
+   "zoom": {
+    "x": 894,
+    "y": 525,
+    "w": 211,
+    "h": 62,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0159.jpg",
+   "ms": 250,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "cursor": {
+    "x": 894,
+    "y": 525,
+    "w": 211,
+    "h": 62
+   },
+   "clique": false,
+   "zoom": {
+    "x": 894,
+    "y": 525,
+    "w": 211,
+    "h": 62,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0160.jpg",
+   "ms": 550,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "cursor": {
+    "x": 1162,
+    "y": 525,
+    "w": 211,
+    "h": 62
+   },
+   "clique": true,
+   "zoom": {
+    "x": 1162,
+    "y": 525,
+    "w": 211,
+    "h": 62,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0161.jpg",
+   "ms": 85,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "cursor": {
+    "x": 1162,
+    "y": 525,
+    "w": 211,
+    "h": 62
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1162,
+    "y": 525,
+    "w": 211,
+    "h": 62,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0162.jpg",
+   "ms": 85,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "cursor": {
+    "x": 1162,
+    "y": 525,
+    "w": 211,
+    "h": 62
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1162,
+    "y": 525,
+    "w": 211,
+    "h": 62,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0163.jpg",
+   "ms": 250,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "cursor": {
+    "x": 1162,
+    "y": 525,
+    "w": 211,
+    "h": 62
+   },
+   "clique": false,
+   "zoom": {
+    "x": 1162,
+    "y": 525,
+    "w": 211,
+    "h": 62,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0164.jpg",
+   "ms": 650,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "cursor": {
+    "x": 1709,
+    "y": 759,
+    "w": 307,
+    "h": 72
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0165.jpg",
+   "ms": 1100,
+   "capitulo": "Horários",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/horarios",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0166.jpg",
+   "ms": 1000,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0167.jpg",
+   "ms": 650,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel",
+   "cursor": {
+    "x": 1144,
+    "y": 692,
+    "w": 1334,
+    "h": 29
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0168.jpg",
+   "ms": 900,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0169.jpg",
+   "ms": 550,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": true,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0170.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0171.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0172.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0173.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0174.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0175.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0176.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0177.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0178.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0179.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0180.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0181.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0182.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0183.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0184.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0185.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0186.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0187.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0188.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0189.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0190.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0191.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0192.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0193.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0194.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0195.jpg",
+   "ms": 85,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": true
+  },
+  {
+   "img": "0196.jpg",
+   "ms": 250,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118
+   },
+   "clique": false,
+   "zoom": {
+    "x": 998,
+    "y": 720,
+    "w": 631,
+    "h": 118,
+    "escala": 1.32
+   },
+   "digitando": false
+  },
+  {
+   "img": "0197.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0198.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0199.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0200.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0201.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0202.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0203.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0204.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0205.jpg",
+   "ms": 700,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 442,
+    "y": 795,
+    "w": 1,
+    "h": 1
+   },
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0206.jpg",
+   "ms": 1000,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0207.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0208.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0209.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0210.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0211.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0212.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0213.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0214.jpg",
+   "ms": 700,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 442,
+    "y": 796,
+    "w": 1,
+    "h": 1
+   },
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0215.jpg",
+   "ms": 1200,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0216.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0217.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0218.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0219.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0220.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0221.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0222.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0223.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0224.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0225.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0226.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0227.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0228.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0229.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0230.jpg",
+   "ms": 650,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 1750,
+    "y": 163,
+    "w": 226,
+    "h": 58
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0231.jpg",
+   "ms": 900,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0232.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0233.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0234.jpg",
+   "ms": 45,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0235.jpg",
+   "ms": 650,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "cursor": {
+    "x": 774,
+    "y": 767,
+    "w": 182,
+    "h": 58
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0236.jpg",
+   "ms": 1300,
+   "capitulo": "Sua página",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/minha-pagina",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0237.jpg",
+   "ms": 1500,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0238.jpg",
+   "ms": 650,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha",
+   "cursor": {
+    "x": 540,
+    "y": 941,
+    "w": 969,
+    "h": 166
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0239.jpg",
+   "ms": 700,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0240.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0241.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0242.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0243.jpg",
+   "ms": 650,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 540,
+    "y": 1137,
+    "w": 969,
+    "h": 532
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0244.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0245.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0246.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0247.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0248.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0249.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0250.jpg",
+   "ms": 650,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 540,
+    "y": 1320,
+    "w": 969,
+    "h": 166
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0251.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0252.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0253.jpg",
+   "ms": 650,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 375,
+    "y": 1250,
+    "w": 195,
+    "h": 310
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0254.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0255.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0256.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0257.jpg",
+   "ms": 650,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 166,
+    "y": 1328,
+    "w": 222,
+    "h": 155
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0258.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0259.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0260.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0261.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0262.jpg",
+   "ms": 650,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 793,
+    "y": 1322,
+    "w": 462,
+    "h": 166
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0263.jpg",
+   "ms": 550,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 540,
+    "y": 1283,
+    "w": 969,
+    "h": 155
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0264.jpg",
+   "ms": 85,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 540,
+    "y": 1283,
+    "w": 969,
+    "h": 155
+   },
+   "clique": false,
+   "digitando": true
+  },
+  {
+   "img": "0265.jpg",
+   "ms": 85,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 540,
+    "y": 1283,
+    "w": 969,
+    "h": 155
+   },
+   "clique": false,
+   "digitando": true
+  },
+  {
+   "img": "0266.jpg",
+   "ms": 85,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 540,
+    "y": 1283,
+    "w": 969,
+    "h": 155
+   },
+   "clique": false,
+   "digitando": true
+  },
+  {
+   "img": "0267.jpg",
+   "ms": 85,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 540,
+    "y": 1283,
+    "w": 969,
+    "h": 155
+   },
+   "clique": false,
+   "digitando": true
+  },
+  {
+   "img": "0268.jpg",
+   "ms": 85,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 540,
+    "y": 1283,
+    "w": 969,
+    "h": 155
+   },
+   "clique": false,
+   "digitando": true
+  },
+  {
+   "img": "0269.jpg",
+   "ms": 85,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 540,
+    "y": 1283,
+    "w": 969,
+    "h": 155
+   },
+   "clique": false,
+   "digitando": true
+  },
+  {
+   "img": "0270.jpg",
+   "ms": 250,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 540,
+    "y": 1283,
+    "w": 969,
+    "h": 155
+   },
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0271.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0272.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0273.jpg",
+   "ms": 550,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 540,
+    "y": 1325,
+    "w": 969,
+    "h": 155
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0274.jpg",
+   "ms": 85,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 540,
+    "y": 1325,
+    "w": 969,
+    "h": 155
+   },
+   "clique": false,
+   "digitando": true
+  },
+  {
+   "img": "0275.jpg",
+   "ms": 85,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 540,
+    "y": 1325,
+    "w": 969,
+    "h": 155
+   },
+   "clique": false,
+   "digitando": true
+  },
+  {
+   "img": "0276.jpg",
+   "ms": 85,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 540,
+    "y": 1325,
+    "w": 969,
+    "h": 155
+   },
+   "clique": false,
+   "digitando": true
+  },
+  {
+   "img": "0277.jpg",
+   "ms": 85,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 540,
+    "y": 1325,
+    "w": 969,
+    "h": 155
+   },
+   "clique": false,
+   "digitando": true
+  },
+  {
+   "img": "0278.jpg",
+   "ms": 85,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 540,
+    "y": 1325,
+    "w": 969,
+    "h": 155
+   },
+   "clique": false,
+   "digitando": true
+  },
+  {
+   "img": "0279.jpg",
+   "ms": 85,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 540,
+    "y": 1325,
+    "w": 969,
+    "h": 155
+   },
+   "clique": false,
+   "digitando": true
+  },
+  {
+   "img": "0280.jpg",
+   "ms": 250,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 540,
+    "y": 1325,
+    "w": 969,
+    "h": 155
+   },
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0281.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0282.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0283.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0284.jpg",
+   "ms": 650,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 540,
+    "y": 1321,
+    "w": 969,
+    "h": 166
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0285.jpg",
+   "ms": 1000,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0286.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0287.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0288.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0289.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0290.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0291.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0292.jpg",
+   "ms": 45,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0293.jpg",
+   "ms": 650,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "cursor": {
+    "x": 540,
+    "y": 1325,
+    "w": 969,
+    "h": 166
+   },
+   "clique": true,
+   "digitando": false
+  },
+  {
+   "img": "0294.jpg",
+   "ms": 1800,
+   "capitulo": "O cliente marca",
+   "tela": "celular",
+   "url": "agendafio.com.br/casa-navalha/agendar",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0295.jpg",
+   "ms": 1600,
+   "capitulo": "Na sua agenda",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/agenda",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0296.jpg",
+   "ms": 1300,
+   "capitulo": "Na sua agenda",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/agenda",
+   "cursor": {
+    "x": 1186,
+    "y": 748,
+    "w": 1322,
+    "h": 101
+   },
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0297.jpg",
+   "ms": 1000,
+   "capitulo": "Na sua agenda",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/lembretes",
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0298.jpg",
+   "ms": 1600,
+   "capitulo": "Na sua agenda",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel/lembretes",
+   "cursor": {
+    "x": 1149,
+    "y": 565,
+    "w": 292,
+    "h": 58
+   },
+   "clique": false,
+   "digitando": false
+  },
+  {
+   "img": "0299.jpg",
+   "ms": 2200,
+   "capitulo": "Tudo pronto",
+   "tela": "principal",
+   "url": "agendafio.com.br/painel",
+   "clique": false,
+   "digitando": false
+  }
+ ]
+}

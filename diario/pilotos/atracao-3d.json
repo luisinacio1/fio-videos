@@ -1,0 +1,112 @@
+{
+  "id": "piloto-atracao-3d",
+  "tipo": "atracao-3d",
+  "tema": "poste-por-dentro",
+  "titulo": "Por dentro do poste de barbeiro: por que as listras parecem subir",
+  "legenda": "As listras do poste de barbeiro não sobem. Parece, mas não. 💈\n\nQuase sempre o poste tem um motor elétrico, e ele só faz o cilindro listrado girar: cada listra dá a volta no mesmo lugar. O resto é ilusão. O formato comprido faz o cérebro enxergar o movimento no sentido do comprimento, e a listra parece subir ou descer em vez de dar a volta. É a ilusão do poste de barbeiro, e o principal estudo sobre ela foi publicado pelo psicólogo Hans Wallach em 1935.\n\nFontes: verbetes \"Barber's pole\" e \"Barberpole illusion\" (Wikipédia em inglês).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nE você, sempre achou que as listras subiam?",
+  "chaves": ["motor", "ilusão", "cérebro", "Wallach", "lembretes", "WhatsApp", "link", "monta"],
+  "falas": [
+    { "texto": "As listras do poste não sobem. Parece, mas não." },
+    { "texto": "Olha esse poste de barbeiro girando." },
+    { "texto": "As listras parecem subir sem parar, né? Uma atrás da outra." },
+    { "texto": "Agora fica de olho numa listra só, e vem comigo." },
+    { "texto": "Para entender, a gente abre o poste." },
+    { "texto": "Em cima, a tampa. No meio, um cilindro com as listras pintadas." },
+    { "texto": "E aqui embaixo, na base, o motor." },
+    { "texto": "O poste pode ficar parado. Mas quase sempre tem um motor elétrico pra girar." },
+    { "texto": "E o que esse motor faz? Só gira o cilindro." },
+    { "texto": "Cada listra só dá a volta, no mesmo lugar." },
+    { "texto": "Nenhuma listra sobe um centímetro." },
+    { "texto": "Então por que o seu olho vê subir?" },
+    { "texto": "Porque é uma ilusão. E ela tem nome: a ilusão do poste de barbeiro." },
+    { "texto": "O poste é comprido e fino." },
+    { "texto": "E esse formato faz o cérebro enxergar o movimento no sentido do comprimento." },
+    { "texto": "Ou seja: em vez de ver a listra dar a volta, você vê ela subindo. Ou descendo." },
+    { "texto": "Quem estudou isso a fundo foi o psicólogo Hans Wallach." },
+    { "texto": "O principal estudo sobre essa ilusão saiu em 1935." },
+    { "texto": "Quase cem anos depois, o poste continua enganando o olho de todo mundo." },
+    { "texto": "O poste engana o olho: parece que sobe, mas só gira." },
+    { "texto": "Agenda de caderno também engana. Parece certa, até o cliente não aparecer." },
+    { "texto": "Pra isso existe o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena." },
+    { "texto": "Todo dia, às seis da tarde, chega o aviso: lembretes de amanhã." },
+    { "texto": "A mensagem já vem pronta. Você aperta enviar no WhatsApp. Um toque por cliente." },
+    { "texto": "Não vai dar pra ir? O cliente desmarca ou remarca pelo link, e você recebe o aviso." },
+    { "texto": "Ainda anota no caderno? Manda sua lista no direct." },
+    { "texto": "E a gente monta pra você: sua agenda pronta em até dois dias, sem custo." },
+    { "texto": "Fio. A agenda que diminui as faltas." },
+    { "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro." },
+    { "texto": "E você, sempre achou que as listras subiam? Conta aqui." }
+  ],
+  "planos": [
+    {
+      "modo": "vitrine",
+      "de": "1",
+      "objeto": "poste",
+      "etiquetas": [
+        { "em": "2:poste", "texto": "Poste de barbeiro" },
+        { "em": "3:subir", "texto": "Parece que sobe" },
+        { "em": "4:listra", "texto": "Olho numa listra só" }
+      ]
+    },
+    {
+      "modo": "porDentro",
+      "de": "5",
+      "objeto": "poste",
+      "abre": "5:abre",
+      "partes": [
+        { "em": "6:tampa", "texto": "tampa" },
+        { "em": "6:cilindro", "texto": "cilindro listrado" },
+        { "em": "7:base", "texto": "base" },
+        { "em": "7:motor", "texto": "motor" }
+      ]
+    },
+    {
+      "modo": "vitrine",
+      "de": "9",
+      "objeto": "poste",
+      "etiquetas": [
+        { "em": "9:gira", "texto": "Só gira" },
+        { "em": "10:volta", "texto": "Dá a volta" },
+        { "em": "11:centímetro", "texto": "Não sobe nada" }
+      ]
+    },
+    {
+      "modo": "vitrine",
+      "de": "12",
+      "objeto": "poste",
+      "etiquetas": [
+        { "em": "13:ilusão", "texto": "Ilusão do poste" },
+        { "em": "14:comprido", "texto": "Comprido e fino" },
+        { "em": "15:cérebro", "texto": "O cérebro vê subir" },
+        { "em": "16:volta", "texto": "Gira, mas parece subir" }
+      ]
+    },
+    {
+      "modo": "vitrine",
+      "de": "17",
+      "objeto": "poste",
+      "etiquetas": [
+        { "em": "17:Wallach", "texto": "Hans Wallach" },
+        { "em": "18:saiu", "texto": "Estudo de 1935" },
+        { "em": "19:enganando", "texto": "Engana até hoje" }
+      ]
+    }
+  ],
+  "ponte": "20",
+  "fio": {
+    "de": "22",
+    "telas": [
+      { "em": "22", "tela": { "nome": "agenda" } },
+      { "em": "23", "tela": { "nome": "aviso", "aviso": { "tipo": "lembretes", "quantidade": 4 }, "hora": "18:00" } },
+      { "em": "24:mensagem", "tela": { "nome": "whats" } },
+      { "em": "25:desmarca", "tela": { "nome": "aviso", "aviso": { "tipo": "cancelado", "nome": "Diego Souza", "quando": "sex 06/11 às 11:00" }, "hora": "18:24" } },
+      { "em": "27:agenda", "tela": { "nome": "agenda" } }
+    ],
+    "frases": [
+      { "em": "23:lembretes", "texto": "Lembretes de amanhã, todo dia às 18h" },
+      { "em": "24:enviar", "texto": "Mensagem pronta, você só envia" },
+      { "em": "25:aviso", "texto": "Desmarcou pelo link? Você é avisado" }
+    ]
+  },
+  "final": { "de": "28" }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "2026-11-05-21h-conta-das-faltas",
+  "titulo": "A conta das faltas (variação: a conta)",
+  "legenda": "Faz a conta: 3 faltas por semana, corte a R$ 40… quase R$ 500 por mês de cadeira vazia. 💸\n\nQuase sempre o cliente só esqueceu. No Fio, às 18h você vê quem lembrar amanhã e manda a mensagem pronta pelo seu WhatsApp, em um toque.\n\nTeste grátis por 7 dias: link na bio.",
+  "falas": [
+    { "texto": "Três faltas por semana. Parece pouco, né?" },
+    { "texto": "Com o corte a quarenta reais, são cento e vinte reais por semana." },
+    { "texto": "No mês, quase quinhentos reais de cadeira vazia." },
+    { "texto": "E quase sempre o cliente nem sumiu. Ele só esqueceu." },
+    { "texto": "Às seis da tarde, o Fio mostra quem você precisa lembrar amanhã." },
+    { "texto": "Um toque, e a mensagem pronta vai pelo seu WhatsApp." },
+    { "texto": "Lembrou, apareceu. Simples assim." },
+    { "pausa": 0.45, "texto": "Fio. Menos cadeira vazia, mais corte." }
+  ],
+  "chaves": ["pouco", "quinhentos", "esqueceu.", "toque,", "apareceu."],
+  "virada": "5",
+  "cenas": [
+    { "tipo": "texto", "de": "1", "linhas": ["3 faltas", "por semana."], "destaque": ["3"], "fundo": "escuro" },
+    { "tipo": "texto", "de": "2", "linhas": ["Corte a R$ 40", "× 3 faltas"], "destaque": ["40"], "fundo": "acento", "numero": { "de": 0, "ate": 120, "prefixo": "R$ ", "em": "2:cento" } },
+    { "tipo": "texto", "de": "3", "linhas": ["No mês:"], "fundo": "escuro", "numero": { "de": 120, "ate": 480, "prefixo": "R$ ", "em": "3:quinhentos" } },
+    { "tipo": "sala", "de": "4", "personagem": "matheus", "reacoes": [{ "em": "4:esqueceu", "boca": "aberta", "olhar": "cima", "sacode": true }] },
+    { "tipo": "app", "de": "5", "tela": { "nome": "bloqueio", "hora": "18:00", "data": "quinta-feira, 5 de novembro", "avisos": [{ "em": "5:mostra", "tipo": "lembretes", "quantidade": 5 }] } },
+    { "tipo": "app", "de": "6", "entrada": "subir", "tela": { "nome": "lembretes", "toques": [{ "toque": "6:toque", "enviar": "6:vai" }] } },
+    { "tipo": "texto", "de": "7", "linhas": ["Lembrou,", "apareceu."], "destaque": ["apareceu."], "fundo": "claro" },
+    { "tipo": "final", "de": "8" }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "id": "piloto-conceito",
+  "tipo": "conceito",
+  "tema": "degrade-baixo-medio-alto",
+  "titulo": "Degradê baixo, médio e alto: qual a diferença",
+  "legenda": "Baixo, médio ou alto: qual é o seu degradê? 💈\n\nDegradê é o corte com o cabelo mais curto nas laterais e na nuca e mais comprido em cima, diminuindo aos poucos. Esse \"aos poucos\" é a transição, e o que muda entre os três é onde ela começa:\n\n• Baixo: perto da orelha.\n• Médio: no meio da lateral.\n• Alto: acima da linha das têmporas, indo até quase a pele.\n\nSalva pra pedir certo no próximo corte.\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nE o seu, é baixo, médio ou alto?",
+  "falas": [
+    {
+      "texto": "Baixo, médio ou alto: qual é o seu degradê?"
+    },
+    {
+      "texto": "Parece tudo igual. Mas a diferença está num detalhe só."
+    },
+    {
+      "texto": "Pedir o nome errado pode te dar o corte errado."
+    },
+    {
+      "texto": "Primeiro: o que é degradê?"
+    },
+    {
+      "texto": "É o corte com o cabelo mais curto nas laterais e na nuca."
+    },
+    {
+      "texto": "E mais comprido em cima, diminuindo aos poucos."
+    },
+    {
+      "texto": "Esse aos poucos tem nome: transição."
+    },
+    {
+      "texto": "E o que muda entre baixo, médio e alto é onde ela começa."
+    },
+    {
+      "texto": "No baixo, a transição começa perto da orelha."
+    },
+    {
+      "texto": "No médio, ela começa no meio da lateral."
+    },
+    {
+      "texto": "E no alto, começa acima da linha das têmporas."
+    },
+    {
+      "texto": "Lá em cima. E desce até quase a pele."
+    },
+    {
+      "texto": "Lado a lado: o baixo começa perto da orelha."
+    },
+    {
+      "texto": "O alto começa nas têmporas e vai quase até a pele."
+    },
+    {
+      "texto": "Agora testa você. Esse aqui é qual?"
+    },
+    {
+      "texto": "Começou lá em cima, acima das têmporas. É o alto."
+    },
+    {
+      "texto": "E esse? Começa no meio da lateral. É o médio."
+    },
+    {
+      "texto": "E esse último? Começa perto da orelha. É o baixo."
+    },
+    {
+      "texto": "Pronto: agora você pede seu degradê pelo nome."
+    },
+    {
+      "texto": "Salva esse vídeo pra mostrar no próximo corte."
+    },
+    {
+      "texto": "Só que degradê bem marcado não fica assim pra sempre. O cliente volta."
+    },
+    {
+      "texto": "E quem volta sempre merece marcar sem precisar mandar mensagem."
+    },
+    {
+      "texto": "Pra isso existe o Fio, a agenda do barbeiro."
+    },
+    {
+      "texto": "O cliente marca o próximo degradê pelo link, na hora que lembrar."
+    },
+    {
+      "texto": "Na véspera, o lembrete sai no seu WhatsApp em um toque."
+    },
+    {
+      "texto": "Não vai dar? Ele mesmo remarca pelo link, e você recebe o aviso."
+    },
+    {
+      "texto": "E cada horário novo aparece na sua agenda do dia."
+    },
+    {
+      "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você. Sem custo."
+    },
+    {
+      "pausa": 0.3,
+      "texto": "Fio. A agenda que diminui as faltas."
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "E o seu, é baixo, médio ou alto? Conta aqui."
+    }
+  ],
+  "chaves": [
+    "transição",
+    "orelha",
+    "têmporas",
+    "pele",
+    "mensagem"
+  ],
+  "ponte": "21",
+  "fio": "23",
+  "cenas": [
+    {
+      "tipo": "corte",
+      "de": "1",
+      "personagem": "davi",
+      "estilos": [
+        {
+          "em": "1:baixo",
+          "estilo": "degrade-baixo",
+          "rotulo": "Baixo"
+        },
+        {
+          "em": "1:médio",
+          "estilo": "degrade-medio",
+          "rotulo": "Médio"
+        },
+        {
+          "em": "1:alto",
+          "estilo": "degrade-alto",
+          "rotulo": "Alto"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "2",
+      "linhas": [
+        "Parece igual.",
+        "Não é."
+      ],
+      "destaque": [
+        "Não"
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "corte",
+      "de": "3",
+      "personagem": "rafa",
+      "estilos": [
+        {
+          "em": "3:nome",
+          "estilo": "degrade-baixo",
+          "rotulo": "Nome errado"
+        },
+        {
+          "em": "3:corte",
+          "estilo": "degrade-alto",
+          "rotulo": "Corte errado"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "4",
+      "linhas": [
+        "O que é",
+        "degradê?"
+      ],
+      "destaque": [
+        "degradê?"
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "corte",
+      "de": "5",
+      "personagem": "matheus",
+      "estilos": [
+        {
+          "em": "5:curto",
+          "estilo": "degrade-medio",
+          "rotulo": "Curto nas laterais"
+        },
+        {
+          "em": "5:nuca",
+          "estilo": "pezinho",
+          "rotulo": "E na nuca"
+        },
+        {
+          "em": "6:comprido",
+          "estilo": "degrade-medio",
+          "rotulo": "Mais comprido em cima"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "7",
+      "linhas": [
+        "Aos poucos =",
+        "transição."
+      ],
+      "destaque": [
+        "transição."
+      ],
+      "fundo": "claro"
+    },
+    {
+      "tipo": "passos",
+      "de": "8",
+      "titulo": "Onde a transição começa",
+      "passos": [
+        {
+          "em": "8:baixo",
+          "texto": "Degradê baixo"
+        },
+        {
+          "em": "8:médio",
+          "texto": "Degradê médio"
+        },
+        {
+          "em": "8:alto",
+          "texto": "Degradê alto"
+        }
+      ]
+    },
+    {
+      "tipo": "corte",
+      "de": "9",
+      "personagem": "davi",
+      "estilos": [
+        {
+          "em": "9:baixo",
+          "estilo": "degrade-baixo",
+          "rotulo": "Baixo: perto da orelha"
+        },
+        {
+          "em": "10:médio",
+          "estilo": "degrade-medio",
+          "rotulo": "Médio: meio da lateral"
+        },
+        {
+          "em": "11:alto",
+          "estilo": "degrade-alto",
+          "rotulo": "Alto: acima das têmporas"
+        },
+        {
+          "em": "12:pele",
+          "estilo": "degrade-alto",
+          "rotulo": "Até quase a pele"
+        }
+      ]
+    },
+    {
+      "tipo": "compara",
+      "de": "13",
+      "esquerda": {
+        "titulo": "Baixo",
+        "itens": [
+          "Começa na orelha",
+          "Mais cabelo do lado"
+        ],
+        "objeto": "maquina"
+      },
+      "direita": {
+        "titulo": "Alto",
+        "itens": [
+          "Começa nas têmporas",
+          "Quase até a pele"
+        ],
+        "objeto": "navalha"
+      },
+      "revela": [
+        "13:baixo",
+        "13:orelha",
+        "14:têmporas",
+        "14:pele"
+      ]
+    },
+    {
+      "tipo": "corte",
+      "de": "15",
+      "personagem": "matheus",
+      "estilos": [
+        {
+          "em": "15:esse",
+          "estilo": "degrade-alto",
+          "rotulo": "Baixo, médio ou alto?"
+        },
+        {
+          "em": "16:alto",
+          "estilo": "degrade-alto",
+          "rotulo": "Alto!"
+        }
+      ]
+    },
+    {
+      "tipo": "corte",
+      "de": "17",
+      "personagem": "ze",
+      "estilos": [
+        {
+          "em": "17:esse",
+          "estilo": "degrade-medio",
+          "rotulo": "E esse?"
+        },
+        {
+          "em": "17:médio",
+          "estilo": "degrade-medio",
+          "rotulo": "Médio!"
+        }
+      ]
+    },
+    {
+      "tipo": "corte",
+      "de": "18",
+      "personagem": "davi",
+      "estilos": [
+        {
+          "em": "18:último",
+          "estilo": "degrade-baixo",
+          "rotulo": "E esse último?"
+        },
+        {
+          "em": "18:baixo",
+          "estilo": "degrade-baixo",
+          "rotulo": "Baixo!"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "19",
+      "linhas": [
+        "Agora você pede",
+        "pelo nome."
+      ],
+      "destaque": [
+        "nome."
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "barbearia",
+      "de": "21",
+      "barbeiro": "rafa",
+      "cliente": "davi",
+      "reacoes": [
+        {
+          "em": "21:volta",
+          "boca": "sorriso",
+          "olhar": "frente"
+        },
+        {
+          "em": "22:mensagem",
+          "boca": "aberta"
+        }
+      ]
+    },
+    {
+      "tipo": "apresentaFio",
+      "de": "23",
+      "tela": {
+        "nome": "agendamento",
+        "cliente": "Davi Rocha",
+        "hora": "21:40",
+        "toques": {
+          "servico": "24:marca",
+          "dia": "24:próximo",
+          "horario": "24:degradê",
+          "confirmar": "25:véspera"
+        }
+      },
+      "frases": [
+        {
+          "em": "24:marca",
+          "texto": "Marca o próximo pelo link"
+        },
+        {
+          "em": "25:lembrete",
+          "texto": "Lembrete na véspera, em um toque"
+        },
+        {
+          "em": "26:remarca",
+          "texto": "Não deu? Remarca pelo link"
+        }
+      ]
+    },
+    {
+      "tipo": "app",
+      "de": "27",
+      "entrada": "subir",
+      "tela": {
+        "nome": "agenda",
+        "clientes": [
+          {
+            "hora": "09:00",
+            "nome": "Davi Rocha",
+            "servico": "Corte masculino"
+          },
+          {
+            "hora": "10:00",
+            "nome": "Matheus Lima",
+            "servico": "Corte + barba"
+          },
+          {
+            "hora": "11:00",
+            "nome": "José Prado",
+            "servico": "Corte masculino"
+          }
+        ],
+        "destaque": {
+          "nome": "Davi Rocha",
+          "em": "27:novo"
+        }
+      }
+    },
+    {
+      "tipo": "sala",
+      "de": "28",
+      "personagem": "rafa",
+      "reacoes": [
+        {
+          "em": "29:monta",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "de": "30"
+    }
+  ],
+  "extras": [
+    {
+      "tipo": "zap",
+      "em": "28:manda",
+      "ate": "29:fim",
+      "de": "Você",
+      "texto": "@agendafio, segue minha lista de clientes e serviços."
+    },
+    {
+      "tipo": "zap",
+      "em": "29:monta",
+      "ate": "29:fim",
+      "de": "@agendafio",
+      "texto": "Recebido! Em até 2 dias sua agenda fica pronta."
+    }
+  ]
+}

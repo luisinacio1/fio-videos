@@ -1,0 +1,22 @@
+{
+  "id": "2026-11-06-21h-pov-marcando-sabado",
+  "titulo": "POV: você marcando o corte (variação: POV do cliente)",
+  "legenda": "POV: você quer cortar o cabelo sábado e não quer esperar resposta. 📱\n\nCom o Fio, o cliente abre o link da barbearia, vê só os horários livres e marca em poucos toques. Sem baixar aplicativo e sem criar conta.\n\nTeste grátis por 7 dias: link na bio.",
+  "falas": [
+    { "texto": "Você precisa cortar o cabelo antes de sábado." },
+    { "texto": "Abre o link da barbearia. Sem baixar aplicativo, sem criar conta." },
+    { "texto": "Escolhe o serviço, o dia, e só aparecem os horários livres." },
+    { "texto": "Coloca o nome e o telefone. Confirmado." },
+    { "texto": "E ainda dá pra ativar o aviso, pra não esquecer." },
+    { "texto": "Sábado, às dez, o celular te lembra." },
+    { "pausa": 0.45, "texto": "Fio. Marcar corte é coisa de um minuto." }
+  ],
+  "chaves": ["cabelo", "link", "livres", "Confirmado", "aviso"],
+  "virada": "2",
+  "cenas": [
+    { "tipo": "sala", "de": "1", "personagem": "matheus", "cabeloBagunca": "1:cabelo" },
+    { "tipo": "app", "de": "2", "entrada": "mergulho", "tela": { "nome": "agendamento", "cliente": "Matheus Lima", "hora": "21:40", "toques": { "servico": "3:serviço", "dia": "3:dia", "horario": "3:livres", "nome": "4:nome", "confirmar": "4:Confirmado" } } },
+    { "tipo": "app", "de": "6", "entrada": "subir", "tela": { "nome": "bloqueio", "hora": "10:00", "data": "sábado, 7 de novembro", "avisos": [{ "em": "6:celular", "tipo": "cliente", "hora": "10:30", "quando": "hoje" }] } },
+    { "tipo": "final", "de": "7" }
+  ]
+}

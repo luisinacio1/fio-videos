@@ -1,0 +1,27 @@
+{
+  "name": "fio-videos",
+  "private": true,
+  "scripts": {
+    "studio": "remotion studio",
+    "audio": "node scripts/audio.mjs && node scripts/audio-06.mjs",
+    "render": "npm run audio && node render.mjs"
+  },
+  "dependencies": {
+    "@react-three/fiber": "9.8.2",
+    "@remotion/cli": "4.0.536",
+    "@remotion/google-fonts": "4.0.536",
+    "@remotion/three": "4.0.536",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "remotion": "4.0.536",
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19",
+    "@types/three": "0.187.0",
+    "typescript": "^5"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
+  }
+}

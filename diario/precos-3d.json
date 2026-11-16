@@ -1,0 +1,18 @@
+{
+  "sobre": "Valores médios aproximados (2026) para barbearia pequena em cidade média, a partir do piloto pesquisado. Use só estes valores nos vídeos 3D, sempre com o rodapé \"Valores médios · 2026\". Por cadeira = multiplique pelo número de cadeiras; por tamanho = escolha a coluna de 1, 2 ou 3 cadeiras.",
+  "por_cadeira": {
+    "cadeiras": { "valor": 2500, "o_que": "cadeira hidráulica e reclinável" },
+    "espelhos": { "valor": 1500, "o_que": "espelho e bancada na frente de cada cadeira" },
+    "ferramentas": { "valor": 2000, "o_que": "máquina sem fio, máquina de acabamento, shaver, tesoura e navalha, por barbeiro" }
+  },
+  "por_tamanho": {
+    "piso": { "1": 3000, "2": 4500, "3": 6000, "o_que": "piso novo" },
+    "pintura": { "1": 1500, "2": 2000, "3": 2800, "o_que": "pintura das paredes" },
+    "luz": { "1": 2500, "2": 3500, "3": 4500, "o_que": "parte elétrica e luz em cima de cada cadeira" },
+    "cano": { "1": 1500, "2": 1500, "3": 1500, "o_que": "hidráulica para o lavatório" },
+    "lavatorio": { "1": 1900, "2": 1900, "3": 1900, "o_que": "lavatório com cuba de porcelana" },
+    "recepcao": { "1": 1800, "2": 3000, "3": 3500, "o_que": "sofá e mesinha para quem espera" },
+    "produtos": { "1": 1000, "2": 1500, "3": 2000, "o_que": "primeira compra: pomada, óleo, lâmina e toalha" },
+    "fachada": { "1": 2000, "2": 2500, "3": 2500, "o_que": "letreiro e poste de barbeiro" }
+  }
+}

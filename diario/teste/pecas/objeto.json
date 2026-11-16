@@ -1,0 +1,106 @@
+{
+  "id": "teste-peca-objeto",
+  "titulo": "Peça objeto: os 9 objetos de barbearia",
+  "legenda": "Teste da peça objeto: poste, toalha quente, navalha, máquina, tesoura, pente, cadeira antiga, pincel e pomada.",
+  "falas": [
+    { "texto": "O poste gira na porta com as cores vermelha, branca e azul." },
+    { "texto": "A toalha quente abre os poros antes da barba." },
+    { "texto": "A navalha faz o acabamento rente na pele." },
+    { "texto": "A máquina tira o volume e faz o degradê." },
+    { "texto": "A tesoura acerta as pontas do cabelo comprido." },
+    { "texto": "O pente separa e alinha os fios." },
+    { "texto": "A cadeira antiga reclina e sobe no pedal." },
+    { "texto": "O pincel faz a espuma que prepara a barba." },
+    { "texto": "E a pomada fixa o penteado o dia todo." },
+    { "texto": "Fio. A agenda pronta pra sua barbearia." }
+  ],
+  "chaves": ["poste", "toalha", "navalha", "máquina", "tesoura", "pente", "cadeira", "pincel", "pomada"],
+  "cenas": [
+    {
+      "tipo": "objeto",
+      "de": "1",
+      "objeto": "poste",
+      "etiquetas": [
+        { "em": "1:porta", "texto": "Fica na porta" },
+        { "em": "1:vermelha", "texto": "Vermelho, branco e azul" }
+      ]
+    },
+    {
+      "tipo": "objeto",
+      "de": "2",
+      "objeto": "toalha",
+      "fundo": "escuro",
+      "etiquetas": [
+        { "em": "2:quente", "texto": "Toalha quente" },
+        { "em": "2:poros", "texto": "Abre os poros" }
+      ]
+    },
+    {
+      "tipo": "objeto",
+      "de": "3",
+      "objeto": "navalha",
+      "etiquetas": [
+        { "em": "3:acabamento", "texto": "Acabamento" },
+        { "em": "3:rente", "texto": "Rente na pele" }
+      ]
+    },
+    {
+      "tipo": "objeto",
+      "de": "4",
+      "objeto": "maquina",
+      "fundo": "acento",
+      "etiquetas": [
+        { "em": "4:volume", "texto": "Tira o volume" },
+        { "em": "4:degradê", "texto": "Faz o degradê" }
+      ]
+    },
+    {
+      "tipo": "objeto",
+      "de": "5",
+      "objeto": "tesoura",
+      "etiquetas": [
+        { "em": "5:pontas", "texto": "Acerta as pontas" },
+        { "em": "5:comprido", "texto": "Cabelo comprido" }
+      ]
+    },
+    {
+      "tipo": "objeto",
+      "de": "6",
+      "objeto": "pente",
+      "fundo": "escuro",
+      "etiquetas": [
+        { "em": "6:separa", "texto": "Separa" },
+        { "em": "6:alinha", "texto": "Alinha os fios" }
+      ]
+    },
+    {
+      "tipo": "objeto",
+      "de": "7",
+      "objeto": "cadeiraAntiga",
+      "etiquetas": [
+        { "em": "7:reclina", "texto": "Reclina" },
+        { "em": "7:pedal", "texto": "Sobe no pedal" }
+      ]
+    },
+    {
+      "tipo": "objeto",
+      "de": "8",
+      "objeto": "pincel",
+      "fundo": "acento",
+      "etiquetas": [
+        { "em": "8:espuma", "texto": "Faz a espuma" },
+        { "em": "8:prepara", "texto": "Prepara a barba" }
+      ]
+    },
+    {
+      "tipo": "objeto",
+      "de": "9",
+      "objeto": "pomada",
+      "etiquetas": [
+        { "em": "9:fixa", "texto": "Fixa o penteado" },
+        { "em": "9:dia", "texto": "Dura o dia todo" }
+      ]
+    },
+    { "tipo": "final", "de": "10" }
+  ]
+}

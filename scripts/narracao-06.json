@@ -1,0 +1,20 @@
+{
+  "voz": "pt-BR-AntonioNeural",
+  "velocidade": "+5%",
+  "falas": [
+    { "de": 6, "ate": 72, "texto": "Sábado, dez horas." },
+    { "de": 80, "ate": 148, "texto": "E o cliente… não veio." },
+    { "de": 156, "ate": 236, "texto": "Aí você pensa: falta de respeito." },
+    { "de": 248, "ate": 350, "texto": "Quase sempre, não é. Ele esqueceu." },
+    { "de": 362, "ate": 468, "texto": "Faz a conta comigo: três faltas na semana." },
+    { "de": 478, "ate": 588, "texto": "Três vezes trinta e cinco reais: cento e cinco por semana." },
+    { "de": 600, "ate": 698, "texto": "No mês, uns quatrocentos e cinquenta reais." },
+    { "de": 712, "ate": 788, "texto": "E se você lembrasse antes?" },
+    { "de": 792, "ate": 896, "texto": "Às seis da tarde, o Fio mostra quem corta amanhã." },
+    { "de": 896, "ate": 1022, "texto": "Mensagem pronta. Um toque, e vai pelo seu WhatsApp." },
+    { "de": 1026, "ate": 1104, "texto": "Um toque por cliente. Pronto." },
+    { "de": 1120, "ate": 1228, "texto": "E três horas antes, o celular do cliente avisa de novo." },
+    { "de": 1244, "ate": 1376, "texto": "Até no médico é assim: quem é lembrado aparece mais." },
+    { "de": 1392, "ate": 1494, "texto": "Lembretes em um toque. Teste grátis." }
+  ]
+}

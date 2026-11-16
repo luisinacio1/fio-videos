@@ -1,0 +1,117 @@
+{
+  "id": "teste-tem-horario-hoje",
+  "titulo": "Tem horário hoje?",
+  "legenda": "Sábado, meio-dia, no meio de um degradê… e o celular: \"tem horário hoje?\" 📱✂️\n\nCom o Fio, o cliente vê os horários livres no seu link e marca sozinho. Você continua cortando e o horário aparece na sua agenda.\n\nTeste grátis por 7 dias: link na bio.",
+  "falas": [
+    {
+      "texto": "Sábado, meio-dia. O Rafa tá no meio de um degradê."
+    },
+    {
+      "texto": "E o celular não para: tem horário hoje? E amanhã? Quanto é a barba?"
+    },
+    {
+      "texto": "Ou ele responde, ou ele corta."
+    },
+    {
+      "texto": "Com o Fio, o cliente abre o link e vê só os horários livres."
+    },
+    {
+      "texto": "Escolhe o serviço, o dia e o horário, coloca o nome e o telefone. Confirmado."
+    },
+    {
+      "texto": "E o Rafa? Continua cortando. O horário já tá na agenda dele."
+    },
+    {
+      "pausa": 0.45,
+      "texto": "Fio. Seu link marca horário enquanto você corta."
+    }
+  ],
+  "chaves": [
+    "degradê",
+    "livres",
+    "Confirmado",
+    "agenda",
+    "corta."
+  ],
+  "virada": "4",
+  "cenas": [
+    {
+      "tipo": "barbearia",
+      "de": "1",
+      "barbeiro": "rafa",
+      "cliente": "matheus",
+      "mensagens": [
+        {
+          "em": "2:horário",
+          "de": "Diego",
+          "texto": "Tem horário hoje?"
+        },
+        {
+          "em": "2:amanhã",
+          "de": "Lucas",
+          "texto": "E amanhã?"
+        },
+        {
+          "em": "2:barba",
+          "de": "Pedro",
+          "texto": "Quanto é a barba?"
+        }
+      ],
+      "olhaCelular": "3:responde"
+    },
+    {
+      "tipo": "app",
+      "de": "4",
+      "tela": {
+        "nome": "agendamento",
+        "cliente": "Diego Souza",
+        "toques": {
+          "servico": "5:serviço",
+          "dia": "5:dia",
+          "horario": "5:horário",
+          "nome": "5:nome",
+          "confirmar": "5:Confirmado"
+        },
+        "hora": "12:04"
+      }
+    },
+    {
+      "tipo": "barbearia",
+      "de": "6",
+      "barbeiro": "rafa",
+      "cliente": "carlos"
+    },
+    {
+      "tipo": "app",
+      "de": "6:horário",
+      "tela": {
+        "nome": "agenda",
+        "destaque": {
+          "nome": "Diego Souza",
+          "em": "6:agenda"
+        },
+        "clientes": [
+          {
+            "hora": "11:00",
+            "nome": "Bruno Almeida",
+            "servico": "Corte masculino"
+          },
+          {
+            "hora": "13:00",
+            "nome": "Diego Souza",
+            "servico": "Corte masculino"
+          },
+          {
+            "hora": "14:30",
+            "nome": "Carlos Pereira",
+            "servico": "Corte + barba"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "final",
+      "de": "7"
+    }
+  ]
+}

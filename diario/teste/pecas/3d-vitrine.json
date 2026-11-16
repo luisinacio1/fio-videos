@@ -1,0 +1,55 @@
+{
+  "id": "teste-3d-vitrine",
+  "titulo": "Teste 3D: a máquina por fora, por dentro e a barbearia de 1920 virando a de hoje",
+  "legenda": "Teste curto do vídeo 3D de atração (sem marcos): vitrine, por dentro, viagem no tempo, o Fio em 3D e o fecho.",
+  "chaves": ["máquina", "motor", "1920", "link"],
+  "falas": [
+    { "texto": "Já viu uma máquina de cortar por dentro?" },
+    { "texto": "Por fora, é corpo, botão e lâmina." },
+    { "texto": "Agora abre. Dentro tem o motor, a bateria e as lâminas." },
+    { "texto": "Em 1920, a barbearia era assim: madeira, navalha e cadeira de porcelana." },
+    { "texto": "Hoje, tudo mudou: cadeira moderna, luz boa, máquina na bancada." },
+    { "texto": "E a agenda da barbearia também pode mudar." },
+    { "texto": "Com o Fio, o cliente marca sozinho pelo link. O lembrete sai no WhatsApp. E você vê o dia inteiro num lugar só." },
+    { "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro." }
+  ],
+  "planos": [
+    {
+      "modo": "vitrine",
+      "de": "1",
+      "objeto": "maquina",
+      "etiquetas": [
+        { "em": "2:corpo", "texto": "Corpo de plástico" },
+        { "em": "2:botão", "texto": "Botão de ligar" },
+        { "em": "2:lâmina", "texto": "Lâmina de aço" }
+      ]
+    },
+    {
+      "modo": "porDentro",
+      "de": "3",
+      "objeto": "maquina",
+      "abre": "3:abre",
+      "partes": [
+        { "em": "3:motor", "texto": "motor" },
+        { "em": "3:bateria", "texto": "bateria" },
+        { "em": "3:lâminas", "texto": "lâminas" }
+      ]
+    },
+    { "modo": "viagemNoTempo", "de": "4", "anos": ["1920", "hoje"], "vira": "5:hoje" }
+  ],
+  "ponte": "6",
+  "fio": {
+    "de": "7",
+    "telas": [
+      { "em": "7", "tela": { "nome": "link" } },
+      { "em": "7:lembrete", "tela": { "nome": "whats" } },
+      { "em": "7:dia", "tela": { "nome": "agenda" } }
+    ],
+    "frases": [
+      { "em": "7:marca", "texto": "Cliente marca sozinho pelo link" },
+      { "em": "7:lembrete", "texto": "Lembrete no WhatsApp" },
+      { "em": "7:dia", "texto": "O dia inteiro num lugar só" }
+    ]
+  },
+  "final": { "de": "8" }
+}

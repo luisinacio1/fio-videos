@@ -1,0 +1,23 @@
+{
+  "id": "2026-11-06-18h-cliente-fiel-esqueceu",
+  "titulo": "O cliente fiel que esqueceu",
+  "legenda": "O Carlos nunca falhou… até hoje. 😅\n\nNo Fio, o cliente pode ativar o aviso na confirmação e recebe um lembrete horas antes: \"Seu horário é hoje\". Você não precisa correr atrás.\n\nTeste grátis por 7 dias: link na bio.",
+  "falas": [
+    { "texto": "Sábado, nove da manhã. O Carlos nunca faltou um corte." },
+    { "texto": "Mas hoje a cabeça tá no churrasco, e o horário é às dez." },
+    { "texto": "Quando marcou pelo link, ele ativou o aviso." },
+    { "texto": "Horas antes, o celular dele avisa: seu horário é hoje." },
+    { "texto": "Ele lembra, pega a carteira e sai." },
+    { "texto": "E o Rafa nem precisou mandar mensagem." },
+    { "pausa": 0.45, "texto": "Fio. Até o cliente fiel lembra." }
+  ],
+  "chaves": ["nove", "nunca", "churrasco", "aviso", "hoje"],
+  "virada": "3",
+  "cenas": [
+    { "tipo": "sala", "de": "1", "personagem": "carlos", "pensamento": { "em": "2:churrasco", "rotulo": "cabeça", "titulo": "Churrasco!", "texto": "hoje tem" } },
+    { "tipo": "app", "de": "3", "tela": { "nome": "bloqueio", "hora": "09:00", "data": "sábado, 7 de novembro", "avisos": [{ "em": "4:celular", "tipo": "cliente", "hora": "10:00", "quando": "hoje" }] } },
+    { "tipo": "sala", "de": "5", "personagem": "carlos", "reacoes": [{ "em": "5:lembra", "boca": "sorriso", "olhar": "celular" }] },
+    { "tipo": "texto", "de": "6", "linhas": ["Nenhuma mensagem", "para mandar."], "destaque": ["Nenhuma"], "fundo": "claro" },
+    { "tipo": "final", "de": "7" }
+  ]
+}

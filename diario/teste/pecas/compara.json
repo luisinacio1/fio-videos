@@ -1,0 +1,34 @@
+{
+  "id": "teste-peca-compara",
+  "titulo": "Peça comparação: navalha ou máquina, celular ou caderno",
+  "legenda": "Teste da peça comparação: duas colunas, itens em ordem e o vencedor em destaque.",
+  "falas": [
+    { "texto": "Navalha ou máquina: qual acaba mais rápido?" },
+    { "texto": "A navalha deixa o acabamento rente, mas exige técnica e leva mais tempo." },
+    { "texto": "A máquina tira o volume rápido, faz o degradê uniforme e é fácil de aprender." },
+    { "texto": "No dia corrido, a máquina vence." },
+    { "texto": "E pra anotar os horários? Celular ou caderno?" },
+    { "texto": "O celular avisa o cliente e mostra o horário vago. O caderno não faz nada disso." },
+    { "texto": "Fio. A agenda pronta pra sua barbearia." }
+  ],
+  "chaves": ["navalha", "máquina", "caderno", "celular"],
+  "cenas": [
+    {
+      "tipo": "compara",
+      "de": "1",
+      "esquerda": { "titulo": "Navalha", "itens": ["Acabamento rente", "Exige técnica", "Leva mais tempo"], "objeto": "navalha" },
+      "direita": { "titulo": "Máquina", "itens": ["Tira o volume rápido", "Degradê uniforme", "Fácil de aprender"], "objeto": "maquina" },
+      "vencedor": "direita",
+      "revela": ["2:acabamento", "2:técnica", "2:tempo", "3:volume", "3:degradê", "3:fácil"]
+    },
+    {
+      "tipo": "compara",
+      "de": "5",
+      "esquerda": { "titulo": "Celular", "itens": ["Avisa o cliente", "Mostra o vago"] },
+      "direita": { "titulo": "Caderno", "itens": ["Não avisa ninguém", "Vago escondido"] },
+      "vencedor": "esquerda",
+      "revela": ["6:avisa", "6:mostra"]
+    },
+    { "tipo": "final", "de": "7" }
+  ]
+}

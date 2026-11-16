@@ -1,0 +1,425 @@
+{
+  "id": "piloto-atracao-2d",
+  "tipo": "atracao-2d",
+  "tema": "por-que-o-barbeiro-conversa",
+  "titulo": "Por que o barbeiro conversa tanto",
+  "legenda": "Você senta pra cortar e, quando vê, já contou a semana inteira. Não é só o seu barbeiro: conversa de barbearia tem mais de dois mil anos. 💈\n\nNa Grécia antiga, barba, cabelo e unhas se aparavam na ágora, a praça que também era ponto de encontro. Pelos registros, a barbearia chegou a Roma em 296 a.C. e virou centro de notícias e de fofoca. Por volta de 1900, nos Estados Unidos, tinha jogo, conversa e até debate público. E no Brasil a conversa continua, até nas barbearias mais modernas.\n\nFontes: verbetes \"Barber\" (Wikipédia em inglês) e \"Barbearia\" (Wikipédia em português).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nE o seu barbeiro, fala do quê na cadeira?",
+  "falas": [
+    {
+      "texto": "Conversa de barbearia tem mais de dois mil anos."
+    },
+    {
+      "texto": "Você senta pra cortar e, quando vê, já contou a semana inteira."
+    },
+    {
+      "texto": "Não é coisa só do seu barbeiro. É tradição, e das antigas."
+    },
+    {
+      "texto": "Bora ver como isso começou."
+    },
+    {
+      "texto": "Na Grécia antiga, os homens aparavam a barba, o cabelo e até as unhas."
+    },
+    {
+      "texto": "E faziam isso na ágora, a praça da cidade."
+    },
+    {
+      "texto": "Que também era o ponto de encontro. Ou seja: corte e conversa, juntos."
+    },
+    {
+      "texto": "Pelos registros, a barbearia chegou a Roma em 296 antes de Cristo."
+    },
+    {
+      "texto": "Quem levou foram os gregos das colônias da Sicília."
+    },
+    {
+      "texto": "E em Roma a barbearia virou centro de notícias. E de fofoca."
+    },
+    {
+      "texto": "Quer saber da novidade? Passa no barbeiro."
+    },
+    {
+      "texto": "A cadeira do barbeiro era o jornal da cidade."
+    },
+    {
+      "texto": "Agora pula pra 1900, nos Estados Unidos."
+    },
+    {
+      "texto": "A barbearia tinha jogo, tinha conversa e tinha até debate público."
+    },
+    {
+      "texto": "E no Brasil? A conversa continua, até nas barbearias mais modernas."
+    },
+    {
+      "texto": "Mais de dois mil anos depois, a cadeira ainda é lugar de conversa."
+    },
+    {
+      "texto": "Só que hoje essa conversa tem um inimigo: o celular apitando."
+    },
+    {
+      "texto": "E barbeiro bom conversa com quem está na cadeira, não com o celular."
+    },
+    {
+      "texto": "Por isso existe o Fio. O cliente marca sozinho, pelo seu link."
+    },
+    {
+      "texto": "Escolhe o serviço, vê só os horários livres e confirma."
+    },
+    {
+      "texto": "Ninguém te chama no meio do corte. A conversa segue."
+    },
+    {
+      "texto": "Na véspera, às seis da tarde, chega a lista de quem lembrar."
+    },
+    {
+      "texto": "A mensagem vem pronta. Você aperta enviar no WhatsApp. Um toque."
+    },
+    {
+      "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você. Sem custo."
+    },
+    {
+      "pausa": 0.3,
+      "texto": "Fio. A agenda que diminui as faltas."
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "E o seu barbeiro, fala do quê na cadeira? Conta aqui."
+    }
+  ],
+  "chaves": [
+    "conversa",
+    "ágora",
+    "fofoca",
+    "debate",
+    "celular",
+    "monta"
+  ],
+  "ponte": "17",
+  "fio": "19",
+  "cenas": [
+    {
+      "tipo": "barbearia",
+      "de": "1",
+      "barbeiro": "rafa",
+      "cliente": "matheus",
+      "reacoes": [
+        {
+          "em": "1:conversa",
+          "boca": "aberta",
+          "olhar": "lado"
+        },
+        {
+          "em": "2:senta",
+          "boca": "sorriso",
+          "olhar": "frente"
+        },
+        {
+          "em": "2:contou",
+          "boca": "aberta",
+          "sacode": true
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "3",
+      "linhas": [
+        "Não é só",
+        "o seu barbeiro."
+      ],
+      "destaque": [
+        "seu"
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "texto",
+      "de": "3:tradição",
+      "linhas": [
+        "É tradição.",
+        "Das antigas."
+      ],
+      "destaque": [
+        "tradição."
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "objeto",
+      "de": "5",
+      "objeto": "navalha",
+      "etiquetas": [
+        {
+          "em": "5:barba",
+          "texto": "A barba"
+        },
+        {
+          "em": "5:cabelo",
+          "texto": "O cabelo"
+        },
+        {
+          "em": "5:unhas",
+          "texto": "Até as unhas"
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "de": "6",
+      "titulo": "Na ágora",
+      "passos": [
+        {
+          "em": "6",
+          "texto": "A praça da cidade"
+        },
+        {
+          "em": "7:encontro",
+          "texto": "O ponto de encontro"
+        },
+        {
+          "em": "7:conversa",
+          "texto": "Corte e conversa, juntos",
+          "objeto": "tesoura"
+        }
+      ]
+    },
+    {
+      "tipo": "linhaDoTempo",
+      "de": "8",
+      "marcos": [
+        {
+          "em": "8",
+          "ano": "Grécia",
+          "texto": "Corte e conversa na praça",
+          "objeto": "navalha"
+        },
+        {
+          "em": "8:roma",
+          "ano": "296 a.C.",
+          "texto": "A barbearia chega a Roma",
+          "objeto": "tesoura"
+        },
+        {
+          "em": "10",
+          "ano": "Roma",
+          "texto": "Centro de notícias e de fofoca",
+          "objeto": "pente"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "11",
+      "linhas": [
+        "Quer novidade?",
+        "Passa no barbeiro."
+      ],
+      "destaque": [
+        "novidade?"
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "objeto",
+      "de": "12",
+      "objeto": "cadeiraAntiga",
+      "fundo": "escuro",
+      "etiquetas": [
+        {
+          "em": "12:cadeira",
+          "texto": "A cadeira do barbeiro"
+        },
+        {
+          "em": "12:jornal",
+          "texto": "O jornal da cidade"
+        }
+      ]
+    },
+    {
+      "tipo": "barbeariaAntiga",
+      "de": "13",
+      "barbeiro": "rafa",
+      "cliente": "ze",
+      "ano": "1900",
+      "reacoes": [
+        {
+          "em": "14:jogo",
+          "boca": "sorriso"
+        },
+        {
+          "em": "14:debate",
+          "boca": "aberta",
+          "sacode": true
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "15",
+      "barbeiro": "juninho",
+      "cliente": "davi",
+      "reacoes": [
+        {
+          "em": "15:conversa",
+          "boca": "aberta",
+          "olhar": "lado"
+        },
+        {
+          "em": "15:modernas",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "16",
+      "linhas": [
+        "Anos de conversa",
+        "na cadeira."
+      ],
+      "destaque": [
+        "conversa"
+      ],
+      "fundo": "escuro",
+      "numero": {
+        "de": 0,
+        "ate": 2000,
+        "prefixo": "+",
+        "em": "16:dois"
+      }
+    },
+    {
+      "tipo": "barbearia",
+      "de": "17",
+      "barbeiro": "rafa",
+      "cliente": "matheus",
+      "mensagens": [
+        {
+          "em": "17:inimigo",
+          "de": "Diego",
+          "texto": "Tem horário hoje?"
+        },
+        {
+          "em": "17:celular",
+          "de": "Lucas",
+          "texto": "E amanhã?"
+        },
+        {
+          "em": "18:bom",
+          "de": "Pedro",
+          "texto": "Quanto é a barba?"
+        }
+      ],
+      "olhaCelular": "17:apitando",
+      "reacoes": [
+        {
+          "em": "17:inimigo",
+          "boca": "torta"
+        },
+        {
+          "em": "18:cadeira",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "apresentaFio",
+      "de": "19",
+      "tela": {
+        "nome": "agendamento",
+        "cliente": "Matheus Lima",
+        "hora": "14:20",
+        "toques": {
+          "servico": "19:marca",
+          "dia": "20:escolhe",
+          "horario": "20:livres",
+          "confirmar": "20:confirma"
+        }
+      },
+      "frases": [
+        {
+          "em": "19:marca",
+          "texto": "Cliente marca sozinho pelo link"
+        },
+        {
+          "em": "20:livres",
+          "texto": "Só os horários livres aparecem"
+        },
+        {
+          "em": "21:chama",
+          "texto": "Ninguém te chama no meio do corte"
+        }
+      ]
+    },
+    {
+      "tipo": "app",
+      "de": "22",
+      "tela": {
+        "nome": "bloqueio",
+        "hora": "18:00",
+        "data": "sexta-feira, 13 de novembro",
+        "avisos": [
+          {
+            "em": "22:seis",
+            "tipo": "lembretes",
+            "quantidade": 4
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "app",
+      "de": "23",
+      "entrada": "subir",
+      "tela": {
+        "nome": "lembretes",
+        "toques": [
+          {
+            "toque": "23:pronta",
+            "enviar": "23:enviar"
+          }
+        ],
+        "todos": "23:toque"
+      }
+    },
+    {
+      "tipo": "sala",
+      "de": "24",
+      "personagem": "rafa",
+      "reacoes": [
+        {
+          "em": "25:monta",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "de": "26"
+    }
+  ],
+  "extras": [
+    {
+      "tipo": "zap",
+      "em": "24:manda",
+      "ate": "25:fim",
+      "de": "Você",
+      "texto": "@agendafio, segue minha lista de clientes e serviços."
+    },
+    {
+      "tipo": "zap",
+      "em": "25:monta",
+      "ate": "25:fim",
+      "de": "@agendafio",
+      "texto": "Recebido! Em até 2 dias sua agenda fica pronta."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "teste-peca-apresenta",
+  "titulo": "Peça apresentaFio: o Fio com calma e a chamada dupla",
+  "legenda": "Teste da peça apresentaFio: o celular à esquerda com a agenda, três frases entrando à direita com um check e o final com a chamada dupla.",
+  "falas": [
+    { "texto": "Cansou de anotar horário no caderno?" },
+    { "texto": "O Fio é a agenda pronta pra sua barbearia." },
+    { "texto": "O cliente marca sozinho, pelo link, a qualquer hora." },
+    { "texto": "Na véspera, o lembrete sai no WhatsApp em um toque." },
+    { "texto": "E a comissão de cada barbeiro já vem somada no fim do mês." },
+    { "pausa": 0.45, "texto": "Fio. A agenda pronta pra sua barbearia." }
+  ],
+  "chaves": ["caderno", "link", "lembrete", "comissão"],
+  "cenas": [
+    { "tipo": "texto", "de": "1", "linhas": ["Ainda no", "caderno?"], "destaque": ["caderno?"], "fundo": "escuro" },
+    {
+      "tipo": "apresentaFio",
+      "de": "2",
+      "tela": { "nome": "agenda", "destaque": { "nome": "Matheus Lima", "em": "3:marca" } },
+      "frases": [
+        { "em": "3:marca", "texto": "Cliente marca sozinho pelo link" },
+        { "em": "4:lembrete", "texto": "Lembrete no WhatsApp em um toque" },
+        { "em": "5:comissão", "texto": "Comissão de cada um já somada" }
+      ]
+    },
+    { "tipo": "final", "de": "6", "dupla": true }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "blocos": [
+    {
+      "hora": "9h",
+      "tema": "Faltas",
+      "quadros": [
+        { "tipo": "dor", "titulo": "Cliente que não aparece é cadeira vazia e dinheiro perdido.", "destaque": "dinheiro perdido", "personagem": "rafa", "boca": "torta" },
+        { "tipo": "prova", "titulo": "Às 18h, o Fio te mostra quem lembrar amanhã.", "destaque": "quem lembrar", "tela": { "nome": "aviso", "aviso": { "tipo": "lembretes", "quantidade": 4 }, "hora": "18:00", "data": "sábado, 7 de novembro" } },
+        { "tipo": "objecao", "objecao": "Mandar lembrete pra cada um dá trabalho.", "resposta": "A mensagem já vem pronta. É um toque por cliente.", "destaque": "um toque", "personagem": "juninho" },
+        { "tipo": "beneficios" },
+        { "tipo": "chamada", "titulo": "Comece hoje e lembre os clientes de amanhã.", "destaque": "hoje" }
+      ]
+    },
+    {
+      "hora": "19h",
+      "tema": "Agenda 24h",
+      "quadros": [
+        { "tipo": "dor", "titulo": "23h, cliente no Zap pedindo horário. E você querendo dormir.", "destaque": "23h", "personagem": "rafa", "boca": "aberta" },
+        { "tipo": "prova", "titulo": "Com o Fio, ele abre o link e marca sozinho.", "destaque": "sozinho", "tela": { "nome": "horarios" } },
+        { "tipo": "objecao", "objecao": "Meu cliente não vai baixar aplicativo.", "resposta": "Nem precisa. É um link, sem baixar e sem criar conta.", "destaque": "É um link", "personagem": "rafa" },
+        { "tipo": "beneficios" },
+        { "tipo": "chamada", "titulo": "Amanhã sua agenda já pode estar no link.", "destaque": "no link" }
+      ]
+    }
+  ]
+}
