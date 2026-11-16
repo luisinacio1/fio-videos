@@ -25,13 +25,14 @@ const textoOk = (onde, t, max) => {
   if (typeof t !== "string" || !t.trim()) erros.push(`${onde}: falta o texto`);
   else if (t.length > max) erros.push(`${onde}: texto com ${t.length} letras (máximo ${max})`);
 };
-if (!Array.isArray(blocos) || !blocos.length) erros.push("nenhum bloco");
+// o dono pediu menos stories (15/11): 1 bloco por dia, às 9h, com 4 quadros
+if (!Array.isArray(blocos) || blocos.length !== 1) erros.push("é 1 bloco só por dia");
 for (const [i, b] of (blocos ?? []).entries()) {
   const onde = `bloco ${i + 1} (${b.hora})`;
-  if (!/^\d{1,2}h$/.test(b.hora ?? "")) erros.push(`${onde}: hora no formato "9h"`);
+  if (b.hora !== "9h") erros.push(`${onde}: o bloco sai às "9h"`);
   textoOk(`${onde} tema`, b.tema, 14);
   const q = b.quadros ?? [];
-  if (q.length < 3 || q.length > 6) erros.push(`${onde}: de 3 a 6 quadros`);
+  if (q.length !== 4) erros.push(`${onde}: são 4 quadros (dor, prova, benefícios e chamada)`);
   if (q.at(-1)?.tipo !== "chamada") erros.push(`${onde}: o último quadro é a chamada`);
   if (!q.some((x) => x.tipo === "beneficios")) erros.push(`${onde}: falta o quadro de benefícios`);
   for (const [k, x] of q.entries()) {

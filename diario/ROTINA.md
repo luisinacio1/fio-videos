@@ -1,6 +1,6 @@
 # Rotina diária: os 5 vídeos e os stories do DIA
 
-Você está rodando sozinho (GitHub Actions), sem ninguém para perguntar. Faça os 5 vídeos e os 2 blocos de stories do
+Você está rodando sozinho (GitHub Actions), sem ninguém para perguntar. Faça os 5 vídeos e o bloco de stories do
 dia `DIA` e ponha tudo na fila do Instagram. Quem posta é a função do Supabase, na hora marcada.
 
 **Onde trabalhar.** Rode todos os comandos de dentro da pasta dos vídeos, a que tem `diario/`, `scripts/` e `src/`. No
@@ -223,7 +223,7 @@ node scripts/motor/publicar.mjs $DIA 21h:diario/$DIA/21h.json
 
 Igual a antes (veja "Stories do dia" no GUIA):
 
-1. Se `diario/$DIA/stories.json` ainda não existir, escreva os 2 blocos (9h e 19h).
+1. Se `diario/$DIA/stories.json` ainda não existir, escreva o bloco único das 9h, com 4 quadros.
 2. Faça as imagens: `node scripts/motor/stories.mjs $DIA`. Se aparecer `✗`, corrija e rode de novo.
 3. Abra as imagens em `out/motor/stories/$DIA/` (em lotes) e confira texto cortado ou sobreposto.
 4. Publique: `node scripts/motor/stories.mjs $DIA --publicar`.
@@ -234,7 +234,7 @@ Os stories são rápidos: se o 3D ou os 2D ainda estiverem renderizando, faça o
 
 Termine com um resumo curto:
 - os 5 horários, com o tema, o gancho escolhido e os tempos (conteúdo, ponte, Fio e total) de cada um;
-- os temas dos 2 blocos de stories;
+- o tema do bloco de stories;
 - o que foi agendado;
 - o que falhou e por quê (com a linha de erro do log), e o que ficou de fora (horário sem tema, horário que já
   tinha passado, vídeo cortado pelo tempo).

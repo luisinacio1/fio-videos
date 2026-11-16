@@ -25,7 +25,7 @@ Todos os caminhos deste guia são a partir da pasta dos vídeos (a que tem `diar
 
 - Os 3 informativos do dia são **um de cada tipo**: uma `curiosidade`, uma `dica` e um `conceito`. A ordem gira de um
   dia para o outro (a conta está na ROTINA).
-- Os stories continuam com 2 blocos, às 9h e às 19h (veja "Stories do dia", no fim).
+- Os stories são 1 bloco por dia, às 9h, com 4 quadros (veja "Stories do dia", no fim).
 
 O que é cada tipo:
 
@@ -565,26 +565,27 @@ Antes de escrever, pense como quem rola o feed: por que essa pessoa pararia aqui
 
 ## Stories do dia (blocos de fim de funil)
 
-Todo dia saem **2 blocos**, às **9h** e às **19h**. Cada bloco é uma história curta sobre **um tema só** e sai inteiro
+Todo dia sai **1 bloco só**, às **9h**, com **4 quadros** (o dono pediu menos: com mais, a maioria não via até o fim).
+O bloco é uma história curta sobre **um tema só** e sai inteiro
 de uma vez, em sequência (um quadro por minuto). O objetivo é um só: a pessoa começar o teste grátis pelo link na bio.
-Formato do arquivo e das telas: `src/motor/StoryBloco.tsx`. Exemplo: `diario/2026-11-07/stories.json`.
+Formato do arquivo e das telas: `src/motor/StoryBloco.tsx`. Exemplo: `diario/2026-11-07/stories.json` (formato antigo, com 2 blocos de 5 quadros: copie só o jeito de escrever;
+o arquivo agora tem 1 bloco, `"hora": "9h"`, com os 4 quadros abaixo, e o `stories.mjs` recusa o resto).
 
-Os 5 quadros de cada bloco, nesta ordem:
+Os 4 quadros do bloco, nesta ordem (sem quadro de objeção):
 
 1. **dor**: a situação ruim, concreta, com número ou hora quando der ("23h, cliente no Zap pedindo horário."). Até 70
    letras.
 2. **prova**: o Fio resolvendo, com a tela real (`aviso`, `agenda`, `lembretes`, `whats`, `link`, `horarios`,
    `confirmado`, `equipe`). A frase descreve o que a tela mostra. Até 80 letras.
-3. **objecao**: o que o barbeiro pensa para não testar e a resposta curta e verdadeira. Até 60 e 70 letras.
-4. **beneficios**: a lista é fixa no código (não escreva itens). Só `{ "tipo": "beneficios" }`.
-5. **chamada**: uma frase que fecha o tema e manda agir ("Amanhã sua agenda já pode estar no link."). O quadro já
+3. **beneficios**: a lista é fixa no código (não escreva itens). Só `{ "tipo": "beneficios" }`.
+4. **chamada**: uma frase que fecha o tema e manda agir ("Amanhã sua agenda já pode estar no link."). O quadro já
    mostra "7 dias grátis · sem cartão" e "Toque no perfil → link na bio". Até 70 letras.
 
 `tema` aparece no topo de todos os quadros (até 14 letras, ex.: "Faltas", "Agenda 24h", "Lembretes").
-`destaque` é um trecho que está no texto e fica colorido. Os dois blocos do dia têm temas e objeções diferentes,
-e diferentes dos blocos dos últimos 3 dias (veja `diario/<dia>/stories.json` dos dias anteriores, quando existirem).
+`destaque` é um trecho que está no texto e fica colorido. O tema do bloco é diferente
+dos blocos dos últimos 3 dias (veja `diario/<dia>/stories.json` dos dias anteriores, quando existirem).
 
-Objeções para rodar (resposta sempre dentro do que o Fio faz):
+Objeções comuns, para usar como ideia de tema ou de frase na `dor` e na `chamada` (resposta sempre dentro do que o Fio faz):
 - "Meu cliente não vai baixar aplicativo." → nem precisa: é um link, sem baixar e sem criar conta.
 - "Não tenho tempo pra configurar." → a gente monta tudo pra você em até 2 dias, sem custo.
 - "Já uso outro app." → manda seus clientes e serviços no direct; a gente passa tudo pro Fio.
