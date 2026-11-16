@@ -1,0 +1,14 @@
+{
+  "blocos": [
+    {
+      "hora": "9h",
+      "tema": "Caderno",
+      "quadros": [
+        { "tipo": "dor", "titulo": "23h, cliente marcou no Zap. O caderno nem ficou sabendo.", "destaque": "caderno", "personagem": "juninho", "boca": "torta" },
+        { "tipo": "prova", "titulo": "No Fio, o aviso de novo agendamento chega no seu celular.", "destaque": "novo agendamento", "tela": { "nome": "aviso", "aviso": { "tipo": "novo", "nome": "Diego Souza", "servico": "Corte masculino", "quando": "ter 03/11 às 11:00" }, "hora": "23:04", "data": "segunda-feira, 2 de novembro" } },
+        { "tipo": "beneficios" },
+        { "tipo": "chamada", "titulo": "Troque o caderno por um link. A gente monta pra você.", "destaque": "A gente monta" }
+      ]
+    }
+  ]
+}

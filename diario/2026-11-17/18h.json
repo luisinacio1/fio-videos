@@ -1,0 +1,101 @@
+{
+  "id": "2026-11-17-18h-tesoura-por-dentro",
+  "tipo": "atracao-3d",
+  "tema": "tesoura-por-dentro",
+  "titulo": "Por dentro da tesoura de barbeiro: ela corta de dois jeitos ao mesmo tempo",
+  "legenda": "A tesoura corta de dois jeitos ao mesmo tempo. ✂️\n\nA tesoura é um par de lâminas que giram num pivô: quando os cabos são apertados, os fios deslizam firmes um contra o outro. O que fica entre as lâminas é dividido por corte e por cisalhamento ao mesmo tempo. Tesouras com pivô ficaram comuns no noroeste da Europa por volta dos séculos XIII e XIV, e em 1761, em Sheffield, Robert Hinchliffe fez a primeira tesoura de aço fundido para vender em grande quantidade. Na barbearia, o Sebrae lista vários tipos: de corte, desbastadora e fio de navalha.\n\nFontes: verbete \"Scissors\" (Wikipédia em inglês) e \"Ideia de negócio: barbearia\" (Sebrae).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nVocê sabia que a tesoura corta de dois jeitos? Conta aqui.",
+  "chaves": ["pivô", "cisalhamento", "Hinchliffe", "Sebrae", "link", "monta"],
+  "falas": [
+    { "texto": "A tesoura corta de dois jeitos ao mesmo tempo." },
+    { "texto": "Olha essa tesoura de barbeiro girando." },
+    { "texto": "Parece só duas lâminas juntas, né?" },
+    { "texto": "Mas tem mais coisa acontecendo aí." },
+    { "texto": "Para entender, a gente abre a tesoura." },
+    { "texto": "São duas lâminas e um pivô, o pino no meio." },
+    { "texto": "Aperta os cabos, e as lâminas giram nesse pivô." },
+    { "texto": "Os fios deslizam firmes um contra o outro." },
+    { "texto": "Agora vem o truque: o que fica entre as lâminas é dividido de dois jeitos." },
+    { "texto": "Por corte e por cisalhamento, ao mesmo tempo." },
+    { "texto": "Cisalhamento é quando uma lâmina desliza rente à outra." },
+    { "texto": "Ou seja: corte e deslize, num movimento só." },
+    { "texto": "Essa tesoura com pivô ficou comum no noroeste da Europa." },
+    { "texto": "Por volta dos séculos treze e quatorze." },
+    { "texto": "Em 1761, em Sheffield, Robert Hinchliffe fez a primeira tesoura de aço fundido." },
+    { "texto": "Pra vender em grande quantidade." },
+    { "texto": "Na barbearia, o Sebrae lista vários tipos de tesoura." },
+    { "texto": "De corte, desbastadora e fio de navalha." },
+    { "texto": "Uma peça simples, que corta de dois jeitos ao mesmo tempo." },
+    { "texto": "Duas lâminas, um pino, e tudo tem que bater certinho." },
+    { "texto": "Barbearia é igual: barbeiro e cliente, cada um na sua hora." },
+    { "texto": "Pra isso existe o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena." },
+    { "texto": "O cliente abre o link, escolhe o serviço e vê só os horários livres." },
+    { "texto": "Coloca o nome, confirma, e o horário cai na sua agenda." },
+    { "texto": "Sem baixar aplicativo e sem criar conta." },
+    { "texto": "Na véspera, a mensagem do lembrete vem pronta. Você aperta enviar no WhatsApp." },
+    { "texto": "Ainda anota tudo no caderno? Manda sua lista no direct." },
+    { "texto": "E a gente monta a sua agenda pra você, em até dois dias. Sem custo." },
+    { "pausa": 0.3, "texto": "Fio. Seu link avisa que tem horário." },
+    { "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro." },
+    { "texto": "Você sabia que a tesoura corta de dois jeitos? Conta aqui." }
+  ],
+  "planos": [
+    {
+      "modo": "vitrine", "de": "1", "objeto": "tesoura",
+      "etiquetas": [
+        { "em": "2:tesoura", "texto": "Tesoura de barbeiro" },
+        { "em": "3:lâminas", "texto": "Duas lâminas" },
+        { "em": "4:mais", "texto": "Tem mais coisa" }
+      ]
+    },
+    {
+      "modo": "porDentro", "de": "5", "objeto": "tesoura", "abre": "5:abre",
+      "partes": [
+        { "em": "6:duas", "texto": "lâmina de cima" },
+        { "em": "6:lâminas", "texto": "lâmina de baixo" },
+        { "em": "6:pivô", "texto": "pivô" }
+      ]
+    },
+    {
+      "modo": "vitrine", "de": "9", "objeto": "tesoura",
+      "etiquetas": [
+        { "em": "9:dois", "texto": "Dois jeitos de cortar" },
+        { "em": "10:cisalhamento", "texto": "Corte + cisalhamento" },
+        { "em": "12:movimento", "texto": "Num movimento só" }
+      ]
+    },
+    {
+      "modo": "vitrine", "de": "13", "objeto": "tesoura",
+      "etiquetas": [
+        { "em": "13:pivô", "texto": "Tesoura com pivô" },
+        { "em": "14:séculos", "texto": "Séculos XIII e XIV" },
+        { "em": "15:Sheffield", "texto": "Sheffield, 1761" },
+        { "em": "16:grande", "texto": "Aço fundido em série" }
+      ]
+    },
+    {
+      "modo": "vitrine", "de": "17", "objeto": "tesoura",
+      "etiquetas": [
+        { "em": "17:Sebrae", "texto": "Lista do Sebrae" },
+        { "em": "18:corte", "texto": "De corte" },
+        { "em": "18:desbastadora", "texto": "Desbastadora" },
+        { "em": "19:jeitos", "texto": "Dois jeitos juntos" }
+      ]
+    }
+  ],
+  "ponte": "20",
+  "fio": {
+    "de": "22",
+    "telas": [
+      { "em": "22", "tela": { "nome": "link" } },
+      { "em": "23:livres", "tela": { "nome": "horarios" } },
+      { "em": "24:confirma", "tela": { "nome": "confirmado" } },
+      { "em": "26:enviar", "tela": { "nome": "whats" } }
+    ],
+    "frases": [
+      { "em": "23:livres", "texto": "Só os horários livres aparecem" },
+      { "em": "24:agenda", "texto": "Confirmou, caiu na sua agenda" },
+      { "em": "26:enviar", "texto": "Mensagem pronta, você só envia" }
+    ]
+  },
+  "final": { "de": "29" }
+}
