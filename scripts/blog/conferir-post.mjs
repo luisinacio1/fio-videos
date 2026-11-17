@@ -65,12 +65,19 @@ export function conferirPost(post, contexto) {
   const h2 = corpo.split("\n").filter((l) => /^##\s+\S/.test(l)).length;
   if (h2 < 3) problemas.push(`só ${h2} h2 (mínimo 3)`);
   if (perguntas.length < 3 || perguntas.length > 5) problemas.push(`${perguntas.length} perguntas (de 3 a 5)`);
+  perguntas.forEach((p, i) => {
+    const ok = Array.isArray(p) && p.length === 2 && p.every((t) => typeof t === "string" && t.trim());
+    if (!ok) problemas.push(`pergunta ${i + 1} fora do formato ["pergunta?", "resposta."]`);
+  });
 
   const internos = [...corpo.matchAll(/\]\((\/[^)\s]*)\)/g)].map((m) => m[1]);
   for (const link of internos) if (!contexto.linksValidos.includes(link)) problemas.push(`link interno que não existe: ${link}`);
   if (internos.length < 2) problemas.push(`${internos.length} links internos (mínimo 2)`);
 
-  for (const f of fontes) if (!/^https?:\/\//.test(String(f?.url ?? ""))) problemas.push(`fonte sem endereço http: ${f?.titulo ?? "?"}`);
+  for (const f of fontes) {
+    if (!/^https?:\/\//.test(String(f?.url ?? ""))) problemas.push(`fonte sem endereço http: ${f?.titulo ?? "?"}`);
+    if (!String(f?.titulo ?? "").trim()) problemas.push(`fonte sem título: ${f?.url ?? "?"}`);
+  }
   if (!fontes.length)
     for (const linha of corpo.split("\n"))
       if (NUMERO.test(linha) && !CONTA_PROPRIA.test(linha)) problemas.push(`número sem fonte: "${linha.trim().slice(0, 80)}"`);

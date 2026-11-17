@@ -125,3 +125,15 @@ test("lerPost junta o texto de corpo_arquivo ao post", async () => {
   assert.equal(post.corpo_md, '## Título\n\nTexto com "aspas".');
   assert.equal("corpo_arquivo" in post, false);
 });
+
+test("reprova pergunta em formato de objeto em vez de [pergunta, resposta]", () => {
+  temProblema(conferir({ perguntas: [{ pergunta: "a?", resposta: "b" }, ["c?", "d"], ["e?", "f"]] }), "pergunta 1");
+});
+
+test("reprova pergunta com resposta vazia", () => {
+  temProblema(conferir({ perguntas: [["a?", ""], ["c?", "d"], ["e?", "f"]] }), "pergunta 1");
+});
+
+test("reprova fonte sem título", () => {
+  temProblema(conferir({ fontes: [{ titulo: "", url: "https://exemplo.com" }] }), "fonte");
+});

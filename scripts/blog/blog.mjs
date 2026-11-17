@@ -1,10 +1,13 @@
-// Ponte do robô do blog com o banco (tabelas post_blog, tema_blog e blog_execucao da produção), pela API do Supabase.
+// Ponte do robô do blog com o banco (tabelas post_blog, tema_blog e blog_execucao), pela API do Supabase.
+// O Claude nunca roda com a chave: ele lê out/blog/contexto.json e escreve arquivos; quem fala com o banco é este script,
+// num job separado do workflow.
 //   node scripts/blog/blog.mjs contexto AAAA-MM-DD            → JSON com o tema do dia e o que o post precisa saber
-//   node scripts/blog/blog.mjs gravar AAAA-MM-DD post.json     → confere e grava o post para as 18h do dia
+//   node scripts/blog/blog.mjs finalizar AAAA-MM-DD out/blog  → grava o post (ou registra o dia sem post) e os temas novos
 //   node scripts/blog/blog.mjs registrar AAAA-MM-DD reprovado|falhou "motivo" [--descartar <tema_id>]
 //   node scripts/blog/blog.mjs temas temas.json                → acrescenta temas novos (pula os repetidos)
-// Precisa de FIO_SUPABASE_SERVICE_KEY (chave service_role da produção); FIO_SUPABASE_URL é opcional (ex.: o banco local).
-import { readFileSync } from "node:fs";
+// Precisa de FIO_SUPABASE_URL e FIO_SUPABASE_SERVICE_KEY, os dois sempre (sem endereço não há produção "por padrão").
+import { existsSync, readFileSync } from "node:fs";
+import { join } from "node:path";
 import { pathToFileURL } from "node:url";
 import { conferirPost, lerPost, normalizar, PROIBIDAS } from "./conferir-post.mjs";
 import { publicarEm } from "./hora.mjs";
@@ -31,9 +34,9 @@ export function montarLinhaPost(post, dia, temaId) {
 }
 
 function cliente() {
-  const url = process.env.FIO_SUPABASE_URL ?? "https://jtcymmkstzmjednnrvxb.supabase.co";
+  const url = process.env.FIO_SUPABASE_URL;
   const chave = process.env.FIO_SUPABASE_SERVICE_KEY;
-  if (!chave) throw new Error("falta FIO_SUPABASE_SERVICE_KEY");
+  if (!url || !chave) throw new Error("faltam FIO_SUPABASE_URL e FIO_SUPABASE_SERVICE_KEY");
   const cabecalho = { apikey: chave, Authorization: `Bearer ${chave}` };
   return async function api(caminho, opcoes = {}) {
     const r = await fetch(`${url}${caminho}`, { ...opcoes, headers: { "Content-Type": "application/json", ...cabecalho, ...opcoes.headers } });
@@ -70,27 +73,52 @@ async function contexto(api, dia) {
 const registrarExecucao = (api, dia, resultado, motivo) =>
   api("/rest/v1/blog_execucao", { method: "POST", body: JSON.stringify({ dia, resultado, motivo: motivo ?? null }) });
 
-async function gravar(api, dia, arquivo) {
-  const ctx = await contexto(api, dia);
-  if (ctx.jaTemPost) return console.log(`O dia ${dia} já tem post. Nada a fazer.`);
-  const post = lerPost(arquivo);
-  const problemas = conferirPost(post, ctx);
-  if (problemas.length) {
-    console.log(`Reprovado pelo conferidor, nada gravado:\n- ${problemas.join("\n- ")}`);
-    process.exit(1);
-  }
-  await api("/rest/v1/post_blog", { method: "POST", body: JSON.stringify(montarLinhaPost(post, dia, post.tema_id)) });
-  if (post.tema_id) await api(`/rest/v1/tema_blog?id=eq.${post.tema_id}`, { method: "PATCH", body: JSON.stringify({ situacao: "usado" }) });
-  await registrarExecucao(api, dia, "publicado", null);
-  console.log(`Gravado: /blog/${post.slug}, aparece em ${dia} às 18h.`);
-}
-
 async function registrar(api, dia, resultado, motivo, temaDescartado) {
   if (!["reprovado", "falhou"].includes(resultado)) throw new Error("resultado: reprovado ou falhou");
   await registrarExecucao(api, dia, resultado, motivo);
   if (temaDescartado)
     await api(`/rest/v1/tema_blog?id=eq.${temaDescartado}`, { method: "PATCH", body: JSON.stringify({ situacao: "descartado", motivo: motivo ?? null }) });
   console.log(`Registrado: ${dia} ${resultado}${motivo ? ` (${motivo})` : ""}`);
+}
+
+/**
+ * Depois do Claude: lê o que ele deixou em `pasta` e grava. O tema do post é o do contexto salvo antes do Claude rodar
+ * (não o que ele escreveu). Sempre deixa o dia registrado: post gravado, reprovado ou falhou. Dia que já tinha post fica
+ * como está.
+ */
+export async function finalizar(api, dia, pasta) {
+  const arquivo = (nome) => (existsSync(join(pasta, nome)) ? join(pasta, nome) : null);
+  const lerJson = (nome) => (arquivo(nome) ? JSON.parse(readFileSync(arquivo(nome), "utf8")) : null);
+  const temaId = lerJson("contexto.json")?.tema?.id ?? null;
+  const ctx = await contexto(api, dia);
+
+  if (ctx.jaTemPost) console.log(`O dia ${dia} já tem post. Nada a gravar.`);
+  else if (arquivo("post.json")) {
+    const post = lerPost(arquivo("post.json"));
+    const problemas = conferirPost(post, ctx);
+    if (problemas.length) {
+      console.log(`Reprovado pelo conferidor, nada gravado:\n- ${problemas.join("\n- ")}`);
+      await registrar(api, dia, "reprovado", `conferidor: ${problemas.slice(0, 3).join("; ")}`, null);
+    } else {
+      await api("/rest/v1/post_blog", { method: "POST", body: JSON.stringify(montarLinhaPost(post, dia, temaId)) });
+      if (temaId) await api(`/rest/v1/tema_blog?id=eq.${temaId}`, { method: "PATCH", body: JSON.stringify({ situacao: "usado" }) });
+      await registrarExecucao(api, dia, "publicado", null);
+      console.log(`Gravado: /blog/${post.slug}, aparece em ${dia} às 18h.`);
+    }
+  } else {
+    const r = lerJson("resultado.json");
+    const resultado = r?.resultado === "reprovado" ? "reprovado" : "falhou";
+    const motivo = String(r?.motivo ?? "o robô terminou sem post e sem motivo (pode ter passado do tempo)").slice(0, 300);
+    await registrar(api, dia, resultado, motivo, r?.descartar ? temaId : null);
+  }
+
+  if (arquivo("temas.json")) {
+    try {
+      await temas(api, arquivo("temas.json"));
+    } catch (e) {
+      console.log(`Temas novos não entraram: ${e.message}`);
+    }
+  }
 }
 
 async function temas(api, arquivo) {
@@ -119,12 +147,12 @@ if (import.meta.url === pathToFileURL(process.argv[1] ?? "").href) {
   const [comando, ...resto] = process.argv.slice(2);
   const api = cliente();
   if (comando === "contexto") console.log(JSON.stringify(await contexto(api, exigirDia(resto[0])), null, 2));
-  else if (comando === "gravar") await gravar(api, exigirDia(resto[0]), resto[1]);
+  else if (comando === "finalizar") await finalizar(api, exigirDia(resto[0]), resto[1]);
   else if (comando === "registrar") {
     const i = resto.indexOf("--descartar");
     const tema = i >= 0 ? resto[i + 1] : null;
     const [dia, resultado, motivo] = i >= 0 ? resto.slice(0, i) : resto;
     await registrar(api, exigirDia(dia), resultado, motivo, tema);
   } else if (comando === "temas") await temas(api, resto[0]);
-  else throw new Error("comandos: contexto, gravar, registrar, temas");
+  else throw new Error("comandos: contexto, finalizar, registrar, temas");
 }
