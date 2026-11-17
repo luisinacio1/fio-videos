@@ -1,0 +1,149 @@
+# Todo dia: o Claude escreve o post do blog de amanhã e ele é gravado no banco do Fio (tabela post_blog) para as 18h.
+# Quem mostra é o próprio site (agendafio.com.br/blog), que só exibe o post depois das 18h do dia dele.
+#
+# Três jobs, cada um numa máquina nova, para a chave do banco nunca estar onde o Claude lê páginas da internet:
+#   1. contexto (com a chave): lê o tema do dia e o que o post precisa saber → artefato contexto.json
+#   2. escrever (sem a chave): o Claude pesquisa e escreve out/blog/ (post, texto, resultado, temas novos) → artefato
+#   3. gravar   (com a chave, roda sempre): confere de novo e grava; sem post, registra o dia sem post e o motivo
+# Segredos: CLAUDE_CODE_OAUTH_TOKEN (claude setup-token) e FIO_SUPABASE_SERVICE_KEY (service_role da produção).
+name: Post do blog
+
+on:
+  schedule:
+    # 7h47 em Brasília (o GitHub costuma atrasar horas; o post é de amanhã, então sobra folga)
+    - cron: "47 10 * * *"
+  workflow_dispatch:
+    inputs:
+      dia:
+        description: "Dia do post (AAAA-MM-DD). Vazio = amanhã."
+        required: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: blog-diario
+  cancel-in-progress: false
+
+env:
+  FIO_SUPABASE_URL: https://jtcymmkstzmjednnrvxb.supabase.co
+
+jobs:
+  contexto:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    outputs:
+      dia: ${{ steps.dia.outputs.dia }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Testes do conferidor
+        run: node --test scripts/blog/*.test.mjs
+
+      - name: Dia do post
+        id: dia
+        env:
+          DIA_PEDIDO: ${{ inputs.dia }}
+        run: |
+          DIA="$DIA_PEDIDO"
+          # se o GitHub atrasou e já passou da meia-noite, o "amanhã" de quando a rotina devia rodar é hoje
+          [ -z "$DIA" ] && [ "$(TZ=America/Sao_Paulo date +%-H)" -lt 6 ] && DIA=$(TZ=America/Sao_Paulo date +%F)
+          [ -z "$DIA" ] && DIA=$(TZ=America/Sao_Paulo date -d tomorrow +%F)
+          if ! [[ "$DIA" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then echo "dia inválido"; exit 1; fi
+          echo "dia=$DIA" >> "$GITHUB_OUTPUT"
+          echo "Post para $DIA"
+
+      - name: Contexto
+        env:
+          FIO_SUPABASE_SERVICE_KEY: ${{ secrets.FIO_SUPABASE_SERVICE_KEY }}
+        run: |
+          export FIO_SUPABASE_SERVICE_KEY=$(printf %s "$FIO_SUPABASE_SERVICE_KEY" | tr -d '[:space:]')
+          mkdir -p out/blog
+          # a lista inicial de temas (blog/temas.json): entra na primeira vez; depois os repetidos são pulados
+          node scripts/blog/blog.mjs temas blog/temas.json
+          node scripts/blog/blog.mjs contexto "${{ steps.dia.outputs.dia }}" > out/blog/contexto.json
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: blog-contexto
+          path: out/blog/contexto.json
+          retention-days: 3
+
+  escrever:
+    needs: contexto
+    runs-on: ubuntu-24.04
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: blog-contexto
+          path: out/blog
+
+      - name: Dependências
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: Escreve o post
+        timeout-minutes: 30
+        env:
+          CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          DIA: ${{ needs.contexto.outputs.dia }}
+        run: |
+          # a chave às vezes vem com quebra de linha ou espaço da cópia do terminal: limpa antes de usar
+          export CLAUDE_CODE_OAUTH_TOKEN=$(printf %s "$CLAUDE_CODE_OAUTH_TOKEN" | tr -d '[:space:]')
+          claude -p "Siga a rotina em blog/ROTINA.md. DIA=$DIA" \
+            --dangerously-skip-permissions \
+            --max-turns 120 \
+            --output-format text
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: blog-escrito
+          path: |
+            out/blog/post.json
+            out/blog/corpo.md
+            out/blog/resultado.json
+            out/blog/temas.json
+          if-no-files-found: ignore
+          retention-days: 3
+
+  gravar:
+    needs: [contexto, escrever]
+    if: always() && needs.contexto.result == 'success'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      # o código vem do repositório, não da máquina do Claude: só os arquivos de texto atravessam
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: blog-contexto
+          path: out/blog
+
+      - uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: blog-escrito
+          path: out/blog
+
+      - name: Grava o post ou registra o dia sem post
+        env:
+          FIO_SUPABASE_SERVICE_KEY: ${{ secrets.FIO_SUPABASE_SERVICE_KEY }}
+        run: |
+          export FIO_SUPABASE_SERVICE_KEY=$(printf %s "$FIO_SUPABASE_SERVICE_KEY" | tr -d '[:space:]')
+          node scripts/blog/blog.mjs finalizar "${{ needs.contexto.outputs.dia }}" out/blog
