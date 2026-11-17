@@ -63,6 +63,8 @@ jobs:
         run: |
           export FIO_SUPABASE_SERVICE_KEY=$(printf %s "$FIO_SUPABASE_SERVICE_KEY" | tr -d '[:space:]')
           mkdir -p out/blog
+          # a lista inicial de temas (blog/temas.json): entra na primeira vez; depois os repetidos são pulados
+          node scripts/blog/blog.mjs temas blog/temas.json
           node scripts/blog/blog.mjs contexto "${{ steps.dia.outputs.dia }}" > out/blog/contexto.json
 
       - uses: actions/upload-artifact@v4
