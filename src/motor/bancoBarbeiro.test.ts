@@ -1,8 +1,8 @@
 // Testes do banco do barbeiro (rodar com: node --test src/motor/bancoBarbeiro.test.ts)
 import test from "node:test";
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
-import { conferirBancoBarbeiro, livresBarbeiro } from "./bancoBarbeiro.ts";
+import { readFileSync, readdirSync } from "node:fs";
+import { USOS_DOS_PILOTOS_CARROSSEL, conferirBancoBarbeiro, livresBarbeiro } from "./bancoBarbeiro.ts";
 import type { TemaBarbeiro } from "./bancoBarbeiro.ts";
 
 const BANCO: TemaBarbeiro[] = JSON.parse(readFileSync(new URL("../../diario/banco/barbeiro.json", import.meta.url), "utf8"));
@@ -50,6 +50,15 @@ test("recusa menos de 3 fatos e quadro fora de 3 a 5", () => {
 test("recusa tela desconhecida e palavra proibida", () => {
   assert.ok(conferirBancoBarbeiro([tema({ tela: "xyz" as never })]).some((e) => /tela/.test(e)));
   assert.ok(conferirBancoBarbeiro([tema({ ponte: "Um sistema resolve." })]).some((e) => /sistema/.test(e)));
+});
+
+test("os temas dos pilotos do carrossel contam como usados", () => {
+  const pasta = new URL("../../diario/pilotos/carrossel/", import.meta.url);
+  const dosArquivos = readdirSync(pasta)
+    .filter((n) => n.endsWith(".json"))
+    .map((n) => JSON.parse(readFileSync(new URL(n, pasta), "utf8")).tema)
+    .sort();
+  assert.deepEqual(USOS_DOS_PILOTOS_CARROSSEL.map((u) => u.tema).sort(), dosArquivos);
 });
 
 test("tema usado há 59 dias fica preso e volta aos 60", () => {

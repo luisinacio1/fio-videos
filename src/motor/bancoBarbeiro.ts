@@ -19,6 +19,12 @@ export type TemaBarbeiro = {
   ponte: string;
 };
 
+/**
+ * Os temas dos carrosséis piloto (diario/pilotos/carrossel/) contam como usados em 2026-11-17: se o dono postar um
+ * deles, a rotina não repete o tema logo em seguida. Voltam em 2027-01-16.
+ */
+export const USOS_DOS_PILOTOS_CARROSSEL: { tema: string; dia: string }[] = ["cliente-que-volta-vale-mais", "hora-marcada-vs-ordem-de-chegada"].map((tema) => ({ tema, dia: "2026-11-17" }));
+
 const TELAS: TelaStory["nome"][] = ["aviso", "agenda", "lembretes", "whats", "link", "horarios", "confirmado", "equipe"];
 const texto = (v: unknown): v is string => typeof v === "string" && v.trim() !== "";
 

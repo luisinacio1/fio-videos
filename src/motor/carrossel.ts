@@ -6,6 +6,8 @@
 import { palavrasProibidas } from "./banco.ts";
 import type { TemaBarbeiro } from "./bancoBarbeiro.ts";
 import type { TelaStory } from "./StoryBloco.tsx";
+import type { Objeto2D } from "../motion/Objetos.tsx";
+import type { NomeElenco } from "../motion/Personagens.tsx";
 
 export type Slide =
   | { tipo: "capa"; titulo: string; curiosidade: string; ilustracao?: { personagem?: string; objeto?: string; tela?: TelaStory } }
@@ -36,8 +38,18 @@ export const LIMITES_CARROSSEL = {
 
 export const TELAS_CARROSSEL: TelaStory["nome"][] = ["aviso", "agenda", "lembretes", "whats", "link", "horarios", "confirmado", "equipe"];
 
+/** o que pode ilustrar a capa (o desenho quebra com nome que não existe) */
+const ELENCO_CAPA: NomeElenco[] = ["rafa", "matheus", "juninho", "carlos", "bia", "ze", "davi"];
+const OBJETOS_CAPA: Objeto2D[] = ["poste", "toalha", "navalha", "maquina", "tesoura", "pente", "cadeiraAntiga", "pincel", "pomada"];
+
+/** números da oferta e do Fio que podem aparecer na tela, no fecho e na legenda: 7 dias grátis, montagem em 2 dias, lembretes às 18h, link 24 horas */
+const NUMEROS_DO_FIO = ["7", "2", "18", "24"];
+const LEGENDA_MAX = 2200; // limite do Instagram
+const HASHTAGS_MAX = 30; // limite do Instagram
+
 const L = LIMITES_CARROSSEL;
 const NUMERO = /\d+(?:[.,]\d+)?/g;
+const numeros = (t: string) => t.match(NUMERO) ?? [];
 
 /** os textos de um slide: `todos` (para palavras e "Fio") e `comNumero` (os que precisam de fato com o número) */
 function textos(s: Slide): { todos: string[]; comNumero: string[] } {
@@ -76,7 +88,8 @@ export function conferirCarrossel(r: RoteiroCarrossel, temas: TemaBarbeiro[]): s
   if (slides[0]?.tipo !== "capa") erros.push("o primeiro slide é a capa");
   if (slides[slides.length - 1]?.tipo !== "fecho") erros.push("o último slide é o fecho");
 
-  const fatos = (tema?.fatos ?? []).map((f) => f.texto).join(" ");
+  const dosFatos = new Set(numeros((tema?.fatos ?? []).map((f) => f.texto).join(" ")));
+  const doFinal = new Set([...dosFatos, ...numeros(tema?.ponte ?? ""), ...NUMEROS_DO_FIO]);
   slides.forEach((s, i) => {
     const o = `slide ${i + 1}`;
     const max = (t: string | undefined, n: number, campo: string) => {
@@ -92,6 +105,9 @@ export function conferirCarrossel(r: RoteiroCarrossel, temas: TemaBarbeiro[]): s
       case "capa":
         max(s.titulo, L.capaTitulo, "título");
         max(s.curiosidade, L.curiosidade, "curiosidade");
+        if (s.ilustracao?.tela) erros.push(`${o}: a capa não leva tela (o celular cobre o título); use personagem ou objeto`);
+        if (s.ilustracao?.personagem && !ELENCO_CAPA.includes(s.ilustracao.personagem as NomeElenco)) erros.push(`${o}: personagem "${s.ilustracao.personagem}" não existe`);
+        if (s.ilustracao?.objeto && !OBJETOS_CAPA.includes(s.ilustracao.objeto as Objeto2D)) erros.push(`${o}: objeto "${s.ilustracao.objeto}" não existe`);
         break;
       case "texto":
         max(s.titulo, L.titulo, "título");
@@ -130,13 +146,21 @@ export function conferirCarrossel(r: RoteiroCarrossel, temas: TemaBarbeiro[]): s
     for (const p of palavrasProibidas(junto)) erros.push(`${o}: palavra proibida "${p}"`);
     if (s.tipo !== "tela" && s.tipo !== "fecho" && /\bFio\b/.test(junto)) erros.push(`${o}: o Fio só aparece na tela e no fecho`);
     if (tema) {
-      for (const n of comNumero.join(" ").match(NUMERO) ?? []) {
-        if (!fatos.includes(n)) erros.push(`${o}: o número "${n}" não está nos fatos do tema (todo número precisa de fonte)`);
+      const aceitos = s.tipo === "tela" || s.tipo === "fecho" ? doFinal : dosFatos;
+      const conferir = s.tipo === "tela" || s.tipo === "fecho" ? [s.frase] : comNumero;
+      for (const n of numeros(conferir.join(" "))) {
+        if (!aceitos.has(n)) erros.push(`${o}: o número "${n}" não está nos fatos do tema (todo número precisa de fonte)`);
       }
+      // o título da lista só pode contar os itens ("4 jeitos de…")
+      if (s.tipo === "lista") for (const n of numeros(s.titulo)) if (n !== String(s.itens?.length)) erros.push(`${o}: o número "${n}" do título não é a contagem dos itens`);
     }
   });
 
-  for (const p of palavrasProibidas(r.legenda ?? "")) erros.push(`legenda: palavra proibida "${p}"`);
+  const legenda = r.legenda ?? "";
+  for (const p of palavrasProibidas(legenda)) erros.push(`legenda: palavra proibida "${p}"`);
+  if (legenda.length > LEGENDA_MAX) erros.push(`legenda: ${legenda.length} letras (máximo ${LEGENDA_MAX}, limite do Instagram)`);
+  if ((legenda.match(/#/g) ?? []).length > HASHTAGS_MAX) erros.push(`legenda: mais de ${HASHTAGS_MAX} hashtags (limite do Instagram)`);
+  if (tema) for (const n of numeros(legenda)) if (!doFinal.has(n)) erros.push(`legenda: o número "${n}" não está nos fatos do tema`);
   if (!/link na bio/i.test(r.legenda ?? "") || !(r.legenda ?? "").includes("?")) erros.push('legenda: termina com "Link na bio…" e uma pergunta');
   return [...new Set(erros)];
 }

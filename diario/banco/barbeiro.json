@@ -2,7 +2,7 @@
   {
     "id": "faltas-uma-em-cinco",
     "titulo": "Barbearia é onde mais se falta",
-    "capa": "Na barbearia, quase 1 em cada 5 clientes falta",
+    "capa": "Barbearia é onde mais se falta",
     "formato": "lista",
     "fatos": [
       {
@@ -94,5 +94,870 @@
     ],
     "tela": "horarios",
     "ponte": "Hora marcada só funciona se marcar for fácil: no link do Fio o cliente vê só os horários livres e escolhe o dele."
+  },
+  {
+    "id": "faltas-barbearia-vs-salao",
+    "titulo": "Na barbearia se falta muito mais que no salão",
+    "capa": "Faltas: 21,16% na barbearia, 3,16% no salão",
+    "formato": "lista",
+    "fatos": [
+      {
+        "texto": "Num levantamento da Fresha publicado no Reino Unido, com mais de três milhões de horários, as barbearias tiveram em média 21,16% de faltas.",
+        "fonte": "https://professionalbeauty.co.uk/beauty-pros-lost-26m-to-no-shows-this-summer"
+      },
+      {
+        "texto": "No mesmo levantamento, os salões de cabelo tiveram em média 3,16% de faltas.",
+        "fonte": "https://professionalbeauty.co.uk/beauty-pros-lost-26m-to-no-shows-this-summer"
+      },
+      {
+        "texto": "Horário marcado com muita antecedência é o que mais se esquece.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Cada falta é uma cadeira parada: aquele tempo não dá pra vender de novo.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Conte as faltas do último mês",
+      "Some quanto deixou de entrar",
+      "Lembre quem marcou com muita antecedência",
+      "Peça pra avisar se não puder vir"
+    ],
+    "tela": "lembretes",
+    "ponte": "Pra lembrar todo mundo sem perder a tarde: no Fio, às 18h aparece a lista de amanhã com a mensagem pronta, e você envia num toque."
+  },
+  {
+    "id": "faltas-desmarcar-sem-vergonha",
+    "titulo": "Cliente que pode desmarcar avisa antes",
+    "capa": "Quem tem vergonha de desmarcar simplesmente some",
+    "formato": "lista",
+    "fatos": [
+      {
+        "texto": "Num levantamento norte-americano da Zenoti, empresa de agendamento, as barbearias tiveram 4% de cancelamentos e 4% de faltas em 2025.",
+        "fonte": "https://www.zenoti.com/thecheckin/barbershop-trends-2026"
+      },
+      {
+        "texto": "Somando os dois, essas barbearias perdem cerca de 8% dos horários marcados antes de eles acontecerem.",
+        "fonte": "https://www.zenoti.com/thecheckin/barbershop-trends-2026"
+      },
+      {
+        "texto": "Desmarcar por ligação ou mensagem dá vergonha em muita gente, e quem tem vergonha não avisa.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Horário desmarcado com antecedência ainda dá tempo de encaixar outro cliente; falta sem aviso, não.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Deixe claro que pode desmarcar",
+      "Peça pra avisar o quanto antes",
+      "Não dê bronca em quem desmarca",
+      "Ofereça logo um novo horário"
+    ],
+    "tela": "aviso",
+    "ponte": "No Fio, o cliente desmarca ou troca o horário pelo próprio link, sem constrangimento, e você recebe o aviso."
+  },
+  {
+    "id": "preco-reajuste-com-aviso",
+    "titulo": "Como reajustar o preço sem perder cliente",
+    "capa": "Vai aumentar o preço? Avise 30 dias antes",
+    "formato": "lista",
+    "fatos": [
+      {
+        "texto": "O Sebrae Paraná recomenda comunicar o reajuste com antecedência, por exemplo 30 dias antes do aumento.",
+        "fonte": "https://sebraepr.com.br/?p=328532"
+      },
+      {
+        "texto": "O mesmo material orienta a nunca justificar com \"o custo subiu\", e sim mostrar o que melhorou no serviço.",
+        "fonte": "https://sebraepr.com.br/?p=328532"
+      },
+      {
+        "texto": "Pro cliente fiel que sente o aumento, o Sebrae sugere ter uma versão mais simples, com preço mais baixo.",
+        "fonte": "https://sebraepr.com.br/?p=328532"
+      },
+      {
+        "texto": "Preço novo anunciado só na hora de cobrar soa como surpresa e pega mal.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Avise com um mês de antecedência",
+      "Mostre o que melhorou no serviço",
+      "Tenha uma opção mais simples",
+      "Nunca anuncie só na hora de cobrar",
+      "Não peça desculpa pelo preço novo"
+    ],
+    "tela": "link",
+    "ponte": "Avise o preço novo e mande junto o link do Fio: o cliente já vê os horários livres e marca sozinho."
+  },
+  {
+    "id": "preco-baixo-vs-preco-justo",
+    "titulo": "Preço baixo ou preço justo?",
+    "capa": "Preço baixo lota a cadeira, mas não paga as contas",
+    "formato": "compara",
+    "fatos": [
+      {
+        "texto": "Numa pesquisa da Square com clientes dos Estados Unidos e do Canadá, 53% dos que foram a outro profissional citaram o serviço ter ficado caro demais.",
+        "fonte": "https://www.silicon.co.uk/press-release/new-square-survey-finds-1-in-3-consumers-are-in-an-open-relationship-with-their-hair-stylist"
+      },
+      {
+        "texto": "Pro Sebrae Paraná, reajustar o preço de forma inteligente é sinal de maturidade: não tenha medo de cobrar pelo seu real valor.",
+        "fonte": "https://sebraepr.com.br/?p=328532"
+      },
+      {
+        "texto": "Agenda lotada por semanas a fio costuma ser sinal de que o preço ficou para trás.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Quem cobra pouco precisa atender mais gente pra fechar o mês, e a correria cobra no atendimento.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Preço baixo: agenda lotada e conta apertada",
+      "Preço justo: menos correria, mais sobra",
+      "Preço baixo: cliente que só vem pelo preço",
+      "Preço justo: cliente que vem pelo serviço"
+    ],
+    "tela": "agenda",
+    "ponte": "Pra saber se dá pra cobrar mais, acompanhe como a agenda enche: no Fio, o dia inteiro fica num lugar só."
+  },
+  {
+    "id": "cliente-sumido-60-a-90-dias",
+    "titulo": "O cliente que sumiu ainda dá pra trazer de volta",
+    "capa": "Sumiu há 60 dias? Chame antes de perder de vez",
+    "formato": "lista",
+    "fatos": [
+      {
+        "texto": "A Zenoti, empresa de agendamento, recomenda falar direto com quem não aparece há 60 a 90 dias, antes que vire uma perda de vez.",
+        "fonte": "https://www.zenoti.com/thecheckin/barbershop-trends-2026"
+      },
+      {
+        "texto": "No levantamento norte-americano da Zenoti, as visitas de clientes novos às barbearias caíram 17% em 2025, e as de quem já era cliente subiram 2%.",
+        "fonte": "https://www.zenoti.com/thecheckin/barbershop-trends-2026"
+      },
+      {
+        "texto": "Mesmo com menos gente nova, o faturamento dessas barbearias cresceu 2%, puxado por quem já era cliente.",
+        "fonte": "https://www.zenoti.com/thecheckin/barbershop-trends-2026"
+      },
+      {
+        "texto": "Quem demora a voltar muitas vezes só esqueceu ou ficou sem tempo de marcar.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Veja quem não vem há dois meses",
+      "Mande uma mensagem pessoal, com o nome",
+      "Mande junto o link pra marcar",
+      "Não ofereça desconto logo de cara"
+    ],
+    "tela": "link",
+    "ponte": "Quando chamar quem sumiu, mande o link do Fio: ele vê os horários livres e marca sozinho, sem baixar nada."
+  },
+  {
+    "id": "cliente-troca-por-dificuldade-de-marcar",
+    "titulo": "Por que o cliente troca de barbeiro",
+    "capa": "Marcar difícil: o motivo que mais faz o cliente trocar",
+    "formato": "lista",
+    "fatos": [
+      {
+        "texto": "Numa pesquisa da Square nos Estados Unidos e no Canadá, 57% dos clientes que foram a outro profissional citaram a dificuldade de marcar horário.",
+        "fonte": "https://www.silicon.co.uk/press-release/new-square-survey-finds-1-in-3-consumers-are-in-an-open-relationship-with-their-hair-stylist"
+      },
+      {
+        "texto": "Na mesma pesquisa, 53% citaram o preço alto e 41% disseram que o profissional não ouviu o que eles pediram.",
+        "fonte": "https://www.silicon.co.uk/press-release/new-square-survey-finds-1-in-3-consumers-are-in-an-open-relationship-with-their-hair-stylist"
+      },
+      {
+        "texto": "Cliente que não consegue resposta na hora marca com quem responde primeiro.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Ouvir o pedido antes de pegar a máquina evita o corte errado e a troca de barbeiro.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Responda rápido quem pede horário",
+      "Deixe os horários livres à vista",
+      "Ouça o pedido antes de começar",
+      "Repita o que entendeu do corte"
+    ],
+    "tela": "horarios",
+    "ponte": "No link do Fio o cliente vê só os horários livres e marca sozinho, a qualquer hora, mesmo enquanto você corta."
+  },
+  {
+    "id": "encaixe-horario-que-vagou",
+    "titulo": "O horário desmarcado pode virar encaixe",
+    "capa": "Horário que vagou não precisa ficar vazio",
+    "formato": "lista",
+    "fatos": [
+      {
+        "texto": "No levantamento norte-americano da Zenoti, os cancelamentos nas barbearias dobraram de um ano pro outro: de 2% em 2024 pra 4% em 2025.",
+        "fonte": "https://www.zenoti.com/thecheckin/barbershop-trends-2026"
+      },
+      {
+        "texto": "Quem pede encaixe costuma aceitar o horário que aparecer no mesmo dia.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Horário vago só vira encaixe se alguém ficar sabendo a tempo.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Uma lista curta de quem quer adiantar o corte resolve boa parte dos buracos do dia.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Anote quem pediu encaixe no dia",
+      "Avise assim que um horário vagar",
+      "Comece por quem mora ou trabalha perto",
+      "Deixe o horário vago à vista no link"
+    ],
+    "tela": "aviso",
+    "ponte": "No Fio, quando um cliente desmarca pelo link você recebe o aviso, e o horário volta a aparecer livre pra outro marcar."
+  },
+  {
+    "id": "encaixe-no-grito-vs-organizado",
+    "titulo": "Encaixe no grito ou encaixe organizado?",
+    "capa": "Encaixe no grito atrasa quem marcou certinho",
+    "formato": "compara",
+    "fatos": [
+      {
+        "texto": "No estudo clássico de David Maister sobre filas, espera injusta parece mais longa do que espera justa.",
+        "fonte": "https://davidmaister.com/articles/the-psychology-of-waiting-lines/"
+      },
+      {
+        "texto": "No mesmo estudo, espera sem explicação parece mais longa do que espera explicada.",
+        "fonte": "https://davidmaister.com/articles/the-psychology-of-waiting-lines/"
+      },
+      {
+        "texto": "Quando o encaixe passa na frente, quem marcou hora sente que foi passado pra trás.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Encaixe bom é o que cabe num horário livre, sem empurrar ninguém.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Encaixe no grito: quem marcou fica esperando",
+      "Encaixe organizado: entra no horário livre",
+      "Encaixe no grito: o dia inteiro atrasa",
+      "Encaixe organizado: cada um senta na sua hora"
+    ],
+    "tela": "horarios",
+    "ponte": "No link do Fio o cliente de encaixe só vê os horários livres de verdade, sem passar na frente de quem marcou."
+  },
+  {
+    "id": "horario-morto-quanto-fica-vazio",
+    "titulo": "Quanto da sua agenda fica vazio?",
+    "capa": "A barbearia típica ocupa só 56% dos horários",
+    "formato": "lista",
+    "fatos": [
+      {
+        "texto": "No levantamento norte-americano da Zenoti, a barbearia típica (a mediana) teve 56% de ocupação do tempo disponível.",
+        "fonte": "https://www.zenoti.com/thecheckin/barbershop-trends-2026"
+      },
+      {
+        "texto": "No mesmo levantamento, as 10% melhores barbearias chegaram a 75% de ocupação.",
+        "fonte": "https://www.zenoti.com/thecheckin/barbershop-trends-2026"
+      },
+      {
+        "texto": "Horário morto costuma se repetir: o mesmo dia, a mesma faixa de hora, toda semana.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Saber onde estão os buracos é o primeiro passo pra oferecer esse horário a quem pode vir.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Anote os horários que sempre sobram",
+      "Veja se eles se repetem toda semana",
+      "Ofereça esses horários a quem é flexível",
+      "Divulgue os horários vagos no status"
+    ],
+    "tela": "agenda",
+    "ponte": "Pra achar seus horários mortos, olhe a agenda: no Fio, o dia inteiro fica num lugar só, com os vazios à vista."
+  },
+  {
+    "id": "agendamento-com-a-porta-fechada",
+    "titulo": "O cliente quer marcar quando você está fechado",
+    "capa": "46% dos agendamentos são feitos com o salão fechado",
+    "formato": "lista",
+    "fatos": [
+      {
+        "texto": "Numa análise feita fora do Brasil pela Phorest, empresa de agendamento, com mais de 5 mil salões e spas, 46% dos agendamentos foram feitos com o estabelecimento fechado.",
+        "fonte": "https://hji.co.uk/nearly-half-of-salon-appointments-booked-outside-of-salon-hours"
+      },
+      {
+        "texto": "Numa pesquisa norte-americana da Zenoti, 81% dos clientes frequentes disseram precisar marcar ou mexer no horário fora do horário comercial.",
+        "fonte": "https://www.zenoti.com/thecheckin/salon-spa-booking-communication-trends"
+      },
+      {
+        "texto": "Quem só consegue marcar ligando no horário comercial muitas vezes deixa pra depois e esquece.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Responder pedido de horário de madrugada cansa e vira hábito ruim.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Deixe o cliente marcar a qualquer hora",
+      "Não responda pedido de madrugada",
+      "Coloque o link na bio e no status",
+      "De manhã, confira o que entrou"
+    ],
+    "tela": "aviso",
+    "ponte": "No Fio o cliente marca sozinho pelo link, até de madrugada, e você recebe o aviso de novo agendamento."
+  },
+  {
+    "id": "sabado-lotado-vs-semana-vazia",
+    "titulo": "Sábado lotado, semana vazia",
+    "capa": "Sábado lotado e terça vazia: dá pra equilibrar?",
+    "formato": "compara",
+    "fatos": [
+      {
+        "texto": "Nos dados de agendamento da Square, empresa americana, a terça passou a ser mais procurada que o sábado, e a segunda também ganhou movimento.",
+        "fonte": "https://www.silicon.co.uk/press-release/new-square-survey-finds-1-in-3-consumers-are-in-an-open-relationship-with-their-hair-stylist"
+      },
+      {
+        "texto": "O dia cheio não estica: quem não acha horário no sábado vai pra outro lugar ou desiste.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Cliente de horário flexível existe, mas só muda de dia se souber que tem vaga.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Quem trabalha por conta, aposentado e estudante costumam ter horário livre durante a semana.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Só no sábado: cliente sem vaga vai embora",
+      "Na semana toda: sempre tem vaga pra alguém",
+      "Só no sábado: correria e atraso",
+      "Na semana toda: tempo pra caprichar"
+    ],
+    "tela": "horarios",
+    "ponte": "No link do Fio o cliente vê só os horários livres e pode escolher outro dia quando o sábado lotou."
+  },
+  {
+    "id": "comissao-quanto-pagar",
+    "titulo": "Quanto pagar de comissão pro barbeiro",
+    "capa": "Comissão no salão: geralmente entre 30% e 50%",
+    "formato": "lista",
+    "fatos": [
+      {
+        "texto": "Segundo o Sebrae Paraná, a comissão de profissionais no salão geralmente varia entre 30% e 50%.",
+        "fonte": "https://sebraepr.com.br/comunidade/artigo/como-calcular-a-comissao-correta-no-salao-de-beleza"
+      },
+      {
+        "texto": "O percentual depende do tipo de serviço, da experiência do profissional e do posicionamento do salão.",
+        "fonte": "https://sebraepr.com.br/comunidade/artigo/como-calcular-a-comissao-correta-no-salao-de-beleza"
+      },
+      {
+        "texto": "No Brasil, a Lei 13.352, de 2016, permite que o salão faça contrato de parceria por escrito com o barbeiro, com a parte do salão fixada no contrato.",
+        "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13352.htm"
+      },
+      {
+        "texto": "Comissão combinada só de boca vira briga no fim do mês.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Some todos os gastos fixos do mês",
+      "Defina a comissão por tipo de serviço",
+      "Combine tudo por escrito",
+      "Revise os valores de tempos em tempos"
+    ],
+    "tela": "equipe",
+    "ponte": "No Fio, a comissão de cada barbeiro sai separada na tela da equipe, sem conta no caderno."
+  },
+  {
+    "id": "comissao-caderno-vs-por-barbeiro",
+    "titulo": "Comissão no caderno ou separada por barbeiro?",
+    "capa": "Comissão no caderno vira briga no fim do mês",
+    "formato": "compara",
+    "fatos": [
+      {
+        "texto": "O Sebrae Paraná recomenda registrar todos os gastos do mês antes de definir a comissão.",
+        "fonte": "https://sebraepr.com.br/comunidade/artigo/como-calcular-a-comissao-correta-no-salao-de-beleza"
+      },
+      {
+        "texto": "O mesmo artigo orienta revisar os valores de tempos em tempos, conforme o mercado muda.",
+        "fonte": "https://sebraepr.com.br/comunidade/artigo/como-calcular-a-comissao-correta-no-salao-de-beleza"
+      },
+      {
+        "texto": "Pela Lei 13.352, de 2016, no contrato de parceria é o salão que centraliza os pagamentos e recebimentos.",
+        "fonte": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/lei/l13352.htm"
+      },
+      {
+        "texto": "Quando cada barbeiro vê o que fez, a conversa sobre comissão fica mais tranquila.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "No caderno: cada um lembra de um jeito",
+      "Por barbeiro: o número já está separado",
+      "No caderno: conta feita no fim do mês",
+      "Por barbeiro: cada um vê o que fez"
+    ],
+    "tela": "equipe",
+    "ponte": "No Fio, a comissão de cada barbeiro aparece separada, pronta pra conferir junto com ele."
+  },
+  {
+    "id": "fidelizacao-cliente-que-corta-com-outro",
+    "titulo": "Seu cliente também corta com outro",
+    "capa": "1 em cada 3 clientes também vai em outro profissional",
+    "formato": "lista",
+    "fatos": [
+      {
+        "texto": "Numa pesquisa da Square com adultos dos Estados Unidos e do Canadá, 1 em cada 3 clientes estava num \"relacionamento aberto\" com quem cuida do cabelo.",
+        "fonte": "https://www.silicon.co.uk/press-release/new-square-survey-finds-1-in-3-consumers-are-in-an-open-relationship-with-their-hair-stylist"
+      },
+      {
+        "texto": "Dos que experimentaram outro profissional, 61% se arrependeram e 57% voltaram pro de antes.",
+        "fonte": "https://www.silicon.co.uk/press-release/new-square-survey-finds-1-in-3-consumers-are-in-an-open-relationship-with-their-hair-stylist"
+      },
+      {
+        "texto": "Entre os clientes fiéis da mesma pesquisa, 68% frequentavam o mesmo profissional havia 3 anos ou mais.",
+        "fonte": "https://www.silicon.co.uk/press-release/new-square-survey-finds-1-in-3-consumers-are-in-an-open-relationship-with-their-hair-stylist"
+      },
+      {
+        "texto": "Cliente que experimentou outro e voltou merece ser bem recebido, sem cobrança.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Receba bem quem voltou, sem cobrança",
+      "Lembre como cada um gosta do corte",
+      "Facilite marcar o próximo corte",
+      "Cumpra o horário marcado"
+    ],
+    "tela": "link",
+    "ponte": "Pra ele não ir no outro por falta de horário: no link do Fio ele marca sozinho, a qualquer hora."
+  },
+  {
+    "id": "fidelizacao-erros-que-afastam",
+    "titulo": "Os erros que afastam o cliente fiel",
+    "capa": "Os erros que fazem o cliente não voltar",
+    "formato": "lista",
+    "fatos": [
+      {
+        "texto": "O Sebrae Paraná aponta como erro de fidelização no ramo da beleza não ter uma base com os dados dos seus clientes.",
+        "fonte": "https://sebraepr.com.br/comunidade/artigo/o-que-nao-fazer-quando-o-foco-e-fidelizacao-de-clientes-voltada-para-o-segmento-da-beleza-e-bem-estar"
+      },
+      {
+        "texto": "Outro erro da lista: não chamar o cliente pelo nome.",
+        "fonte": "https://sebraepr.com.br/comunidade/artigo/o-que-nao-fazer-quando-o-foco-e-fidelizacao-de-clientes-voltada-para-o-segmento-da-beleza-e-bem-estar"
+      },
+      {
+        "texto": "O Sebrae também cita não entregar nenhuma experiência e não perguntar se o cliente ficou satisfeito.",
+        "fonte": "https://sebraepr.com.br/comunidade/artigo/o-que-nao-fazer-quando-o-foco-e-fidelizacao-de-clientes-voltada-para-o-segmento-da-beleza-e-bem-estar"
+      },
+      {
+        "texto": "Numa barbearia, oferecer um bom atendimento é essencial, não um luxo.",
+        "fonte": "https://blog.cielo.com.br/?p=11208"
+      }
+    ],
+    "quadro": [
+      "Anote nome e telefone de cada cliente",
+      "Chame sempre pelo nome",
+      "Pergunte se ficou do jeito que queria",
+      "Fale com o cliente fora da cadeira também"
+    ],
+    "tela": "lembretes",
+    "ponte": "Falar com o cliente fora da cadeira fica fácil: no Fio, às 18h a lista de amanhã vem com a mensagem pronta, e você envia num toque."
+  },
+  {
+    "id": "ticket-medio-quanto-cada-cliente-deixa",
+    "titulo": "Ticket médio: quanto cada cliente deixa",
+    "capa": "Barbearias do topo: US$ 48 por visita; a típica, US$ 34",
+    "formato": "lista",
+    "fatos": [
+      {
+        "texto": "Ticket médio é o gasto médio por atendimento: o total vendido dividido pelo número de vendas, explica o Sebrae Paraná.",
+        "fonte": "https://sebraepr.com.br/comunidade/artigo/ticket-medio-como-aumentar-o-meu-faturamento-sem-aumentar-o-numero-de-clientes"
+      },
+      {
+        "texto": "No levantamento norte-americano da Zenoti, o ticket médio da barbearia típica foi de US$ 34 por visita, e o das 10% melhores, US$ 48.",
+        "fonte": "https://www.zenoti.com/thecheckin/barbershop-trends-2026"
+      },
+      {
+        "texto": "Nas 10% melhores, o ticket subiu 30% em um ano, de US$ 37 pra US$ 48.",
+        "fonte": "https://www.zenoti.com/thecheckin/barbershop-trends-2026"
+      },
+      {
+        "texto": "Vender produtos em consignação é uma forma de aumentar o ticket médio das visitas, segundo o blog da Cielo.",
+        "fonte": "https://blog.cielo.com.br/?p=11208"
+      }
+    ],
+    "quadro": [
+      "Some o que entrou no mês",
+      "Divida pelo número de atendimentos",
+      "Ofereça a barba junto com o corte",
+      "Tenha produto à venda no balcão"
+    ],
+    "tela": "agenda",
+    "ponte": "Pra oferecer a barba na hora certa, saiba quem vem: no Fio, o dia inteiro fica num lugar só."
+  },
+  {
+    "id": "ticket-mais-clientes-vs-mais-por-cliente",
+    "titulo": "Mais clientes ou mais por cliente?",
+    "capa": "Faturar mais: mais clientes ou mais por cliente?",
+    "formato": "compara",
+    "fatos": [
+      {
+        "texto": "O Sebrae Paraná lembra que dá pra aumentar o faturamento sem aumentar o número de clientes, subindo o ticket médio.",
+        "fonte": "https://sebraepr.com.br/comunidade/artigo/ticket-medio-como-aumentar-o-meu-faturamento-sem-aumentar-o-numero-de-clientes"
+      },
+      {
+        "texto": "Entre as dicas do Sebrae estão oferecer combos e indicar itens ligados ao que o cliente já escolheu.",
+        "fonte": "https://sebraepr.com.br/comunidade/artigo/ticket-medio-como-aumentar-o-meu-faturamento-sem-aumentar-o-numero-de-clientes"
+      },
+      {
+        "texto": "Conquistar um cliente novo custa de 5 a 25 vezes mais do que manter um que você já tem, dependendo do estudo e do setor.",
+        "fonte": "https://hbr.org/2014/10/the-value-of-keeping-the-right-customers"
+      },
+      {
+        "texto": "Oferecer sobrancelha ou hidratação a quem já está na cadeira é mais fácil que trazer cliente novo.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Mais clientes: precisa de mais divulgação",
+      "Mais por cliente: oferta na própria cadeira",
+      "Mais clientes: mais horários ocupados",
+      "Mais por cliente: combo de corte e barba"
+    ],
+    "tela": "agenda",
+    "ponte": "Com o dia inteiro num lugar só no Fio, você sabe quem vem e já pensa no que oferecer a cada um."
+  },
+  {
+    "id": "agenda-cheia-sem-espera",
+    "titulo": "Agenda cheia sem deixar ninguém esperando",
+    "capa": "Espera é a maior irritação de 45% dos clientes",
+    "formato": "lista",
+    "fatos": [
+      {
+        "texto": "Numa pesquisa norte-americana da Zenoti, 45% dos clientes de beleza e bem-estar apontaram a espera antes do atendimento como a maior irritação.",
+        "fonte": "https://www.zenoti.com/thecheckin/salon-spa-booking-communication-trends"
+      },
+      {
+        "texto": "Segundo David Maister, estudioso de filas, espera incerta parece mais longa do que espera com fim conhecido.",
+        "fonte": "https://davidmaister.com/articles/the-psychology-of-waiting-lines/"
+      },
+      {
+        "texto": "Muitos clientes odeiam esperar e preferem só cortar o cabelo ou aparar a barba e ir embora.",
+        "fonte": "https://blog.cielo.com.br/?p=11208"
+      },
+      {
+        "texto": "Um respiro curto entre um horário e outro segura o atraso antes de virar efeito dominó.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Deixe um respiro entre os horários",
+      "Saiba quanto dura cada serviço",
+      "Não aceite encaixe que estoura o dia",
+      "Se atrasar, avise quem vem depois"
+    ],
+    "tela": "horarios",
+    "ponte": "No link do Fio o cliente só vê horário livre de verdade, então ninguém marca em cima de outro."
+  },
+  {
+    "id": "lembrete-que-segura-o-cliente",
+    "titulo": "O lembrete que mais segura o cliente",
+    "capa": "Lembrete certo: faltas caíram de 11,1% pra 8,4%",
+    "formato": "lista",
+    "fatos": [
+      {
+        "texto": "Num teste no serviço público de saúde do Reino Unido, com 10.111 pacientes, o lembrete que dizia o custo de uma falta deixou as faltas em 8,4%.",
+        "fonte": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0137306"
+      },
+      {
+        "texto": "No mesmo teste, com o lembrete de sempre, as faltas ficaram em 11,1%.",
+        "fonte": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0137306"
+      },
+      {
+        "texto": "Lembrete curto, com dia e hora, é lido; textão é ignorado.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Lembrar que o horário está guardado só pra ele mostra que a falta pesa.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Mande na véspera, não em cima da hora",
+      "Diga dia e hora com clareza",
+      "Lembre que o horário é só dele",
+      "Peça pra avisar se não puder vir"
+    ],
+    "tela": "lembretes",
+    "ponte": "No Fio, às 18h a lista de amanhã aparece com a mensagem pronta pra cada cliente, e você envia num toque."
+  },
+  {
+    "id": "confirmar-ligando-vs-mensagem",
+    "titulo": "Confirmar ligando ou por mensagem?",
+    "capa": "Ligar um por um ou mandar mensagem na véspera?",
+    "formato": "compara",
+    "fatos": [
+      {
+        "texto": "Numa pesquisa Mobile Time/Opinion Box, 93% dos brasileiros com WhatsApp disseram abrir o app todo dia.",
+        "fonte": "https://www.mobiletime.com.br/noticias/27/02/2020/whatsapp-alcanca-presenca-recorde-em-99-dos-smartphones-no-brasil/"
+      },
+      {
+        "texto": "Na mesma pesquisa, o WhatsApp estava instalado em 99% dos celulares brasileiros.",
+        "fonte": "https://www.mobiletime.com.br/noticias/27/02/2020/whatsapp-alcanca-presenca-recorde-em-99-dos-smartphones-no-brasil/"
+      },
+      {
+        "texto": "A revista britânica Professional Beauty recomenda lembretes por mensagem pra reduzir a chance de o cliente esquecer o horário.",
+        "fonte": "https://professionalbeauty.co.uk/beauty-pros-lost-26m-to-no-shows-this-summer"
+      },
+      {
+        "texto": "Ligação cai na hora errada; mensagem o cliente lê quando pode.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Ligando: uma tarde inteira no telefone",
+      "Mensagem: o cliente lê quando pode",
+      "Ligando: muita gente não atende",
+      "Mensagem: fica escrito dia e hora"
+    ],
+    "tela": "lembretes",
+    "ponte": "No Fio, às 18h a lista de amanhã já vem com a mensagem de WhatsApp pronta pra cada cliente, e você envia num toque."
+  },
+  {
+    "id": "primeira-impressao-antes-da-cadeira",
+    "titulo": "A primeira impressão começa antes da cadeira",
+    "capa": "A primeira impressão começa antes da cadeira",
+    "formato": "lista",
+    "fatos": [
+      {
+        "texto": "David Maister, estudioso de filas e atendimento, diz que as pessoas querem sentir que o atendimento já começou.",
+        "fonte": "https://davidmaister.com/articles/the-psychology-of-waiting-lines/"
+      },
+      {
+        "texto": "Segundo ele, os primeiros momentos do atendimento são os que mais marcam a impressão do cliente.",
+        "fonte": "https://davidmaister.com/articles/the-psychology-of-waiting-lines/"
+      },
+      {
+        "texto": "Numa pesquisa norte-americana da Zenoti, 73% dos clientes frequentes disseram ter mais chance de marcar de novo quando dá pra agendar 24 horas por dia.",
+        "fonte": "https://www.zenoti.com/thecheckin/salon-spa-booking-communication-trends"
+      },
+      {
+        "texto": "Cliente novo que espera horas por resposta no WhatsApp já chega com má impressão.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Responda rápido quem pede horário",
+      "Receba na porta, pelo nome",
+      "Ofereça água ou café",
+      "Pergunte como ele quer o corte"
+    ],
+    "tela": "link",
+    "ponte": "A primeira impressão começa na marcação: no link do Fio o cliente marca sozinho, sem baixar nada e sem criar conta."
+  },
+  {
+    "id": "whats-cortar-ou-responder",
+    "titulo": "Cortar e responder WhatsApp ao mesmo tempo",
+    "capa": "Você corta cabelo ou responde WhatsApp?",
+    "formato": "lista",
+    "fatos": [
+      {
+        "texto": "Numa pesquisa Mobile Time/Opinion Box, 76% dos brasileiros com WhatsApp disseram se comunicar com marcas pelo app.",
+        "fonte": "https://www.mobiletime.com.br/noticias/27/02/2020/whatsapp-alcanca-presenca-recorde-em-99-dos-smartphones-no-brasil/"
+      },
+      {
+        "texto": "A pesquisa ouviu 2.072 brasileiros com mais de 16 anos, em janeiro de 2020.",
+        "fonte": "https://www.mobiletime.com.br/noticias/27/02/2020/whatsapp-alcanca-presenca-recorde-em-99-dos-smartphones-no-brasil/"
+      },
+      {
+        "texto": "Parar o corte pra responder mensagem atrasa o cliente da cadeira e o próximo.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Pedido de horário que fica sem resposta vira cliente marcando em outro lugar.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Não responda no meio do corte",
+      "Separe uns minutos entre clientes",
+      "Coloque o link de marcar no status",
+      "Tenha uma resposta pronta com o link"
+    ],
+    "tela": "whats",
+    "ponte": "Quem pede horário no Zap pode receber o link do Fio: ele vê os horários livres e marca sozinho, sem você parar o corte."
+  },
+  {
+    "id": "whats-robo-vs-link",
+    "titulo": "Robô no WhatsApp ou link de agenda?",
+    "capa": "Robô no Zap: só 42% saem satisfeitos",
+    "formato": "compara",
+    "fatos": [
+      {
+        "texto": "Numa pesquisa Mobile Time/Opinion Box de 2022, 89% dos brasileiros com WhatsApp disseram já ter sido atendidos por robô no app.",
+        "fonte": "https://www.mobiletime.com.br/?p=731796"
+      },
+      {
+        "texto": "Dos que já conversaram com robô no WhatsApp, 42% se disseram satisfeitos e 37%, insatisfeitos.",
+        "fonte": "https://www.mobiletime.com.br/?p=731796"
+      },
+      {
+        "texto": "Robô que pergunta demais cansa: o cliente só quer ver o horário livre e escolher.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Link de agenda mostra tudo de uma vez, sem conversa de ida e volta.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Robô: pergunta, espera, pergunta de novo",
+      "Link: o cliente vê os horários e escolhe",
+      "Robô: menu de opções que confunde",
+      "Link: abre, escolhe e pronto"
+    ],
+    "tela": "link",
+    "ponte": "No link do Fio não tem robô: o cliente vê só os horários livres e marca sozinho, sem baixar nada nem criar conta."
+  },
+  {
+    "id": "avaliacao-estrela-vale-dinheiro",
+    "titulo": "Uma estrela a mais vale dinheiro",
+    "capa": "Uma estrela a mais: de 5% a 9% mais faturamento",
+    "formato": "lista",
+    "fatos": [
+      {
+        "texto": "Num estudo de Harvard com restaurantes de Seattle, nos Estados Unidos, uma estrela a mais no Yelp, site de avaliações, trouxe de 5% a 9% mais faturamento.",
+        "fonte": "https://www.harvardmagazine.com/2011/10/hbs-study-finds-positive-yelp-reviews-lead-to-increased-business"
+      },
+      {
+        "texto": "O efeito apareceu nos restaurantes independentes; nos de rede, a nota não fez diferença.",
+        "fonte": "https://www.harvardmagazine.com/2011/10/hbs-study-finds-positive-yelp-reviews-lead-to-increased-business"
+      },
+      {
+        "texto": "Num levantamento americano da BrightLocal, só 4% dos consumidores disseram nunca ler avaliações de negócios na internet.",
+        "fonte": "https://www.brightlocal.com/research/local-consumer-review-survey-2025/"
+      },
+      {
+        "texto": "Barbearia de bairro é como o restaurante independente: vive da fama que tem na rua.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Peça avaliação a quem saiu satisfeito",
+      "Responda todas, boas e ruins",
+      "Agradeça pelo nome",
+      "Corrija o que a crítica apontar"
+    ],
+    "tela": "horarios",
+    "ponte": "Avaliação boa nasce de horário cumprido: no link do Fio o cliente só vê horário livre e não marca em cima de outro."
+  },
+  {
+    "id": "avaliacao-pedir-na-hora-do-espelho",
+    "titulo": "Quase todo cliente topa avaliar, se você pedir",
+    "capa": "96% topam deixar avaliação. Você está pedindo?",
+    "formato": "lista",
+    "fatos": [
+      {
+        "texto": "Num levantamento americano da BrightLocal, 96% dos consumidores disseram estar abertos a escrever uma avaliação.",
+        "fonte": "https://www.brightlocal.com/research/local-consumer-review-survey-2025/"
+      },
+      {
+        "texto": "Pedir pessoalmente foi apontado por 27% como o jeito que mais os faria avaliar, atrás do e-mail, com 40%.",
+        "fonte": "https://www.brightlocal.com/research/local-consumer-review-survey-2025/"
+      },
+      {
+        "texto": "Na mesma pesquisa, 63% disseram que perderiam a confiança num negócio com avaliações quase todas negativas.",
+        "fonte": "https://www.brightlocal.com/research/local-consumer-review-survey-2025/"
+      },
+      {
+        "texto": "O melhor momento de pedir é quando o cliente está se olhando no espelho, satisfeito.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Peça na hora do espelho",
+      "Mande o link da avaliação no Zap",
+      "Responda cada avaliação",
+      "Não ofereça brinde em troca de nota"
+    ],
+    "tela": "link",
+    "ponte": "Quem lê suas avaliações quer marcar: deixe o link do Fio junto, e o cliente novo escolhe o horário sozinho."
+  },
+  {
+    "id": "boca-a-boca-indicacao",
+    "titulo": "Indicação ainda é a propaganda que mais convence",
+    "capa": "83% confiam na indicação de amigos e família",
+    "formato": "lista",
+    "fatos": [
+      {
+        "texto": "Numa pesquisa global da Nielsen, 83% das pessoas disseram confiar total ou parcialmente na indicação de amigos e família.",
+        "fonte": "https://www.nielsen.com/insights/2015/global-trust-in-advertising-2015/"
+      },
+      {
+        "texto": "Na mesma pesquisa, 66% disseram confiar em opiniões de consumidores publicadas na internet.",
+        "fonte": "https://www.nielsen.com/insights/2015/global-trust-in-advertising-2015/"
+      },
+      {
+        "texto": "Cliente satisfeito indica quando alguém pergunta onde ele corta, mas só se for fácil passar o contato.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Indicação que vira mensagem com link chega mais rápido que a que vira \"depois te passo o número\".",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Pergunte como o cliente novo chegou",
+      "Agradeça quem indicou",
+      "Facilite passar seu contato",
+      "Cumpra o que o amigo prometeu"
+    ],
+    "tela": "link",
+    "ponte": "Quando um cliente te indicar, ele só precisa mandar o link do Fio: o amigo vê os horários livres e marca sozinho."
+  },
+  {
+    "id": "concorrencia-27-negocios-por-hora",
+    "titulo": "Abre negócio de beleza novo toda hora",
+    "capa": "27 negócios de beleza abrem por hora no Brasil",
+    "formato": "lista",
+    "fatos": [
+      {
+        "texto": "Segundo o Sebrae, a cada hora, 27 negócios de beleza são abertos no Brasil.",
+        "fonte": "https://agenciasebrae.com.br/cultura-empreendedora/a-cada-hora-27-negocios-de-beleza-sao-abertos-no-pais-crescimento-foi-de-185-em-2025/"
+      },
+      {
+        "texto": "No total, cerca de 236 mil pequenos negócios de beleza abriram no último ano, um crescimento de mais de 18% sobre o ano anterior.",
+        "fonte": "https://agenciasebrae.com.br/cultura-empreendedora/a-cada-hora-27-negocios-de-beleza-sao-abertos-no-pais-crescimento-foi-de-185-em-2025/"
+      },
+      {
+        "texto": "Barbearia tem bastante concorrência, por isso não basta esperar que os clientes voltem sozinhos.",
+        "fonte": "https://blog.cielo.com.br/?p=11208"
+      },
+      {
+        "texto": "Com concorrência na esquina, o cliente fica com quem atende bem e é fácil de marcar.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Cumpra o horário marcado",
+      "Chame cada cliente pelo nome",
+      "Facilite marcar o próximo corte",
+      "Cuide do que o cliente vê e sente"
+    ],
+    "tela": "link",
+    "ponte": "Num mercado cheio, marcar fácil faz diferença: no Fio o cliente marca pelo link, a qualquer hora, sem baixar nada."
   }
 ]

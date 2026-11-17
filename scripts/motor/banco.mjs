@@ -9,7 +9,7 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const { USOS_DOS_PILOTOS, conferirBanco, livres, temaDoVideo } = await import("../../src/motor/banco.ts");
-const { conferirBancoBarbeiro, livresBarbeiro } = await import("../../src/motor/bancoBarbeiro.ts");
+const { USOS_DOS_PILOTOS_CARROSSEL, conferirBancoBarbeiro, livresBarbeiro } = await import("../../src/motor/bancoBarbeiro.ts");
 
 const RAIZ = resolve(dirname(fileURLToPath(import.meta.url)), "../.."); // a pasta videos/
 const ARQUIVO_BANCO = join(RAIZ, "diario", "banco", "temas.json");
@@ -85,7 +85,7 @@ async function main() {
 
   if (comando === "livres" && resto[0] === "carrossel") {
     const dia = resto[1] ?? diaDeBrasilia(Date.now());
-    for (const t of livresBarbeiro(lerBanco(ARQUIVO_BARBEIRO), usadosDasPastas(true), dia)) console.log(`${t.id} — ${t.titulo}`);
+    for (const t of livresBarbeiro(lerBanco(ARQUIVO_BARBEIRO), [...USOS_DOS_PILOTOS_CARROSSEL, ...usadosDasPastas(true)], dia)) console.log(`${t.id} — ${t.titulo}`);
     return;
   }
 

@@ -96,6 +96,38 @@ test("recusa número sem fato", () => {
   assert.deepEqual(conferirCarrossel(com(2, { tipo: "texto", titulo: "Na sua barbearia", paragrafos: ["São R$ 120 parados.", "Ok."] }), [TEMA]), []);
 });
 
+test("número precisa ser igual a um número dos fatos, não um pedaço dele", () => {
+  // "2" e "9" aparecem dentro de "120"/"40"/"3"? não: o número inteiro tem que estar nos fatos
+  assert.ok(conferirCarrossel(com(2, { tipo: "texto", titulo: "Na sua barbearia", paragrafos: ["Só 2 em cada 9 barbeiros fazem isso.", "Ok."] }), [TEMA]).some((e) => /"9"/.test(e)));
+  assert.ok(conferirCarrossel(com(2, { tipo: "texto", titulo: "Na sua barbearia", paragrafos: ["Sobe 12% com isso.", "Ok."] }), [TEMA]).some((e) => /"12"/.test(e)));
+});
+
+test("título da lista só pode ter a contagem dos itens", () => {
+  const itens = [{ termo: "A", texto: "b." }, { termo: "C", texto: "d." }, { termo: "E", texto: "f." }];
+  assert.deepEqual(conferirCarrossel(com(3, { tipo: "lista", titulo: "3 jeitos de ter menos faltas", itens }), [TEMA]), []);
+  assert.ok(conferirCarrossel(com(3, { tipo: "lista", titulo: "70% esquecem disso", itens }), [TEMA]).some((e) => /70/.test(e)));
+});
+
+test("tela, fecho e legenda também não inventam número", () => {
+  assert.ok(conferirCarrossel(com(6, { tipo: "fecho", frase: "Com o Fio, 90% menos faltas." }), [TEMA]).some((e) => /90/.test(e)));
+  assert.ok(conferirCarrossel(roteiro({ legenda: "Corte 50% mais rápido. Link na bio pra testar 7 dias grátis. Topa?" }), [TEMA]).some((e) => /legenda/.test(e) && /50/.test(e)));
+  // 7 dias grátis e 2 dias da montagem são a oferta; 18h vem da ponte do tema
+  assert.deepEqual(conferirCarrossel(com(5, { tipo: "tela", tela: { nome: "lembretes" }, frase: "Às 18h a lista de amanhã aparece pronta." }), [TEMA]), []);
+});
+
+test("legenda com mais de 2200 letras ou 30 hashtags é recusada", () => {
+  assert.ok(conferirCarrossel(roteiro({ legenda: "a".repeat(2200) + " Link na bio. Topa?" }), [TEMA]).some((e) => /2200/.test(e)));
+  assert.ok(conferirCarrossel(roteiro({ legenda: "#a ".repeat(31) + "Link na bio. Topa?" }), [TEMA]).some((e) => /hashtag/.test(e)));
+});
+
+test("capa não leva tela e só aceita personagem e objeto que existem", () => {
+  const capa = (ilustracao: object) => com(0, { tipo: "capa", titulo: "Cada falta é uma cadeira vazia que você paga", curiosidade: "Quanto isso dá no mês?", ilustracao } as Slide);
+  assert.ok(conferirCarrossel(capa({ tela: { nome: "agenda" } }), [TEMA]).some((e) => /capa/.test(e) && /tela/.test(e)));
+  assert.ok(conferirCarrossel(capa({ objeto: "xyz" }), [TEMA]).some((e) => /xyz/.test(e)));
+  assert.ok(conferirCarrossel(capa({ personagem: "fulano" }), [TEMA]).some((e) => /fulano/.test(e)));
+  assert.deepEqual(conferirCarrossel(capa({ objeto: "tesoura" }), [TEMA]), []);
+});
+
 test("recusa tela inexistente", () => {
   assert.ok(conferirCarrossel(com(5, { tipo: "tela", tela: { nome: "xyz" } as never, frase: "No Fio é assim." }), [TEMA]).some((e) => /xyz/.test(e)));
 });

@@ -611,8 +611,8 @@ Formato do roteiro: `src/motor/carrossel.ts`. Desenho: `src/motor/CarrosselSlide
 
 ### A ordem dos 7 slides (6 a 8)
 
-1. **capa:** manchete que prende (até 60 letras) e uma linha de curiosidade (até 50). Pode ter um personagem, um
-   objeto ou uma tela de ilustração.
+1. **capa:** manchete que prende (até 60 letras) e uma linha de curiosidade (até 50). Pode ter um personagem do
+   elenco ou um objeto 2D de ilustração (nunca tela: o celular cobre o título).
 2. **texto:** o problema com o número e a fonte.
 3. **texto:** a virada "na sua barbearia": o que isso significa no dia a dia do barbeiro.
 4. **lista:** o quadro prático numerado (3 a 5 itens), o slide que se salva. Termine com "Salve pra lembrar." ou
@@ -649,7 +649,7 @@ para o barbeiro comentar ("Quantas faltas você teve essa semana?"). Sem a chama
 O arquivo `diario/teste/carrossel.json` é um carrossel completo que passa na conferência (tema
 `faltas-uma-em-cinco`): copie a estrutura, não o texto.
 
-Tipos de slide e campos: `capa` (titulo, curiosidade, ilustracao? com personagem do elenco, objeto 2D ou tela),
+Tipos de slide e campos: `capa` (titulo, curiosidade, ilustracao? com personagem do elenco ou objeto 2D),
 `texto` (titulo, paragrafos, puxada?, fonte?), `lista` (titulo, itens [{termo, texto}], puxada?), `compara`
 (titulo, a/b {rotulo, linhas}, puxada?), `tela` (tela {nome}, frase), `fecho` (frase). Telas: aviso, agenda,
 lembretes, whats, link, horarios, confirmado, equipe.
