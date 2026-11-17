@@ -1,0 +1,110 @@
+{
+  "id": "2026-11-18-18h-maquina-por-dentro",
+  "tipo": "atracao-3d",
+  "tema": "maquina-por-dentro",
+  "titulo": "Por dentro da máquina de cortar cabelo: a lâmina que dança de lado",
+  "legenda": "Dentro da máquina, uma lâmina dança de lado. 💈\n\nA máquina tem duas lâminas em forma de pente, uma sobre a outra. Uma desliza de lado contra a outra, e é assim que corta. Na máquina elétrica, é um motor que faz a lâmina ir e vir de um lado para o outro. Existem três tipos de motor: magnético, rotativo e de pivô. E a patente de 1919 de Leo J. Wahl, para uma máquina de cabelo eletromagnética, levou à criação da empresa Wahl.\n\nFontes: verbetes \"Hair clipper\" e \"Wahl Clipper Corporation\" (Wikipédia em inglês).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nE você, já tinha visto uma máquina por dentro?",
+  "chaves": ["lâminas", "motor", "pivô", "Wahl", "lembretes", "WhatsApp", "link", "monta"],
+  "falas": [
+    { "texto": "Dentro da máquina, uma lâmina dança de lado." },
+    { "texto": "Olha essa máquina de cortar cabelo." },
+    { "texto": "Ela zumbe, passa no cabelo e pronto. Parece mágica, né?" },
+    { "texto": "Mas tem um segredo dentro dela. Vem comigo." },
+    { "texto": "Para entender, a gente abre a máquina." },
+    { "texto": "Por fora, a carcaça. Dentro, o motor e a bateria." },
+    { "texto": "E na frente, duas lâminas em forma de pente, uma sobre a outra." },
+    { "texto": "Uma desliza de lado contra a outra. E é isso que corta." },
+    { "texto": "Mas quem faz a lâmina deslizar? O motor." },
+    { "texto": "Na máquina elétrica, ele faz a lâmina ir e vir, de um lado pro outro." },
+    { "texto": "Pra lá, pra cá, pra lá, pra cá. Sem parar." },
+    { "texto": "Ou seja: são dois pentes trabalhando juntos, um contra o outro." },
+    { "texto": "E nem todo motor é igual." },
+    { "texto": "Existem três tipos nas máquinas: magnético, rotativo e de pivô." },
+    { "texto": "Três jeitos diferentes de fazer a lâmina ir e vir." },
+    { "texto": "Agora volta no tempo, até a patente de 1919." },
+    { "texto": "Foi o Leo J. Wahl que patenteou uma máquina de cabelo eletromagnética." },
+    { "texto": "Essa patente levou à criação da empresa Wahl." },
+    { "texto": "Mais de cem anos depois, a lâmina continua dançando de lado." },
+    { "texto": "A máquina trabalha no ritmo do motor. O barbeiro trabalha no ritmo da agenda." },
+    { "texto": "E agenda sem furo é a que deixa o dia andar." },
+    { "texto": "Pra isso existe o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena." },
+    { "texto": "Todo dia, às seis da tarde, chega o aviso: lembretes de amanhã." },
+    { "texto": "A mensagem já vem pronta. Você aperta enviar no WhatsApp. Um toque por cliente." },
+    { "texto": "Não vai dar pra ir? O cliente desmarca ou remarca pelo link, e você recebe o aviso." },
+    { "texto": "Ainda anota no caderno? Manda sua lista no direct." },
+    { "texto": "E a gente monta pra você: sua agenda pronta em até dois dias, sem custo." },
+    { "pausa": 0.3, "texto": "Fio. O dia do barbeiro no ritmo certo." },
+    { "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro." },
+    { "texto": "E você, já tinha visto uma máquina por dentro? Conta aqui." }
+  ],
+  "planos": [
+    {
+      "modo": "vitrine", "de": "1", "objeto": "maquina",
+      "etiquetas": [
+        { "em": "2:máquina", "texto": "Máquina de cortar cabelo" },
+        { "em": "3:mágica", "texto": "Parece mágica" },
+        { "em": "4:segredo", "texto": "O segredo está dentro" }
+      ]
+    },
+    {
+      "modo": "porDentro", "de": "5", "objeto": "maquina", "abre": "5:abre",
+      "partes": [
+        { "em": "6:carcaça", "texto": "carcaça" },
+        { "em": "6:motor", "texto": "motor" },
+        { "em": "6:bateria", "texto": "bateria" },
+        { "em": "7:lâminas", "texto": "lâminas" }
+      ]
+    },
+    {
+      "modo": "vitrine", "de": "8", "objeto": "maquina",
+      "etiquetas": [
+        { "em": "8:desliza", "texto": "Uma lâmina desliza" },
+        { "em": "8:outra", "texto": "Contra a outra" },
+        { "em": "8:corta", "texto": "É assim que corta" }
+      ]
+    },
+    {
+      "modo": "vitrine", "de": "9", "objeto": "maquina",
+      "etiquetas": [
+        { "em": "9:motor", "texto": "O motor" },
+        { "em": "10:vir", "texto": "Vai e vem de lado" },
+        { "em": "11:parar", "texto": "Sem parar" },
+        { "em": "12:pentes", "texto": "Dois pentes juntos" }
+      ]
+    },
+    {
+      "modo": "vitrine", "de": "13", "objeto": "maquina",
+      "etiquetas": [
+        { "em": "14:magnético", "texto": "Motor magnético" },
+        { "em": "14:rotativo", "texto": "Motor rotativo" },
+        { "em": "14:pivô", "texto": "Motor de pivô" }
+      ]
+    },
+    {
+      "modo": "vitrine", "de": "16", "objeto": "maquina",
+      "etiquetas": [
+        { "em": "16:patente", "texto": "Patente de 1919" },
+        { "em": "17:Wahl", "texto": "Leo J. Wahl" },
+        { "em": "18:empresa", "texto": "Nasce a empresa Wahl" },
+        { "em": "19:dançando", "texto": "Lâmina dançando de lado" }
+      ]
+    }
+  ],
+  "ponte": "20",
+  "fio": {
+    "de": "22",
+    "telas": [
+      { "em": "22", "tela": { "nome": "agenda" } },
+      { "em": "23", "tela": { "nome": "aviso", "aviso": { "tipo": "lembretes", "quantidade": 4 }, "hora": "18:00", "data": "segunda-feira, 2 de novembro" } },
+      { "em": "24:mensagem", "tela": { "nome": "whats" } },
+      { "em": "25:desmarca", "tela": { "nome": "aviso", "aviso": { "tipo": "cancelado", "nome": "Diego Souza", "quando": "ter 03/11 às 11:00" }, "hora": "18:24", "data": "segunda-feira, 2 de novembro" } },
+      { "em": "27:agenda", "tela": { "nome": "agenda" } }
+    ],
+    "frases": [
+      { "em": "23:lembretes", "texto": "Lembretes de amanhã, todo dia às 18h" },
+      { "em": "24:enviar", "texto": "Mensagem pronta, você só envia" },
+      { "em": "25:aviso", "texto": "Desmarcou pelo link? Você é avisado" }
+    ]
+  },
+  "final": { "de": "28" }
+}
