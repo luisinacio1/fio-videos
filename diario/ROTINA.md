@@ -1,6 +1,6 @@
-# Rotina diária: os 5 vídeos e os stories do DIA
+# Rotina diária: os 5 vídeos, os stories e o carrossel do DIA
 
-Você está rodando sozinho (GitHub Actions), sem ninguém para perguntar. Faça os 5 vídeos e o bloco de stories do
+Você está rodando sozinho (GitHub Actions), sem ninguém para perguntar. Faça os 5 vídeos, o bloco de stories e o carrossel do
 dia `DIA` e ponha tudo na fila do Instagram. Quem posta é a função do Supabase, na hora marcada.
 
 **Onde trabalhar.** Rode todos os comandos de dentro da pasta dos vídeos, a que tem `diario/`, `scripts/` e `src/`. No
@@ -230,11 +230,27 @@ Igual a antes (veja "Stories do dia" no GUIA):
 
 Os stories são rápidos: se o 3D ou os 2D ainda estiverem renderizando, faça os stories enquanto espera.
 
-### 9. Resumo
+### 9. Carrossel (15h)
+
+Um carrossel por dia, às 15h, que **ensina o barbeiro** a cuidar do negócio (veja "Carrossel do dia" no GUIA). Também
+é rápido: faça enquanto os vídeos renderizam.
+
+1. Escolha o tema (troque `$DIA` pela data): `node scripts/motor/banco.mjs livres carrossel $DIA`. Prefira um assunto
+   diferente dos carrosséis dos últimos 7 dias (veja `diario/*/carrossel.json`). Se a lista vier vazia, não faça
+   carrossel e conte no resumo.
+2. Escreva `diario/$DIA/carrossel.json` seguindo o GUIA. Use só os fatos do tema; todo número tem que estar num fato.
+3. Confira: `node scripts/motor/carrossel.mjs $DIA --so-conferir`. Se aparecer `✗`, corrija e rode de novo.
+4. Faça as imagens: `node scripts/motor/carrossel.mjs $DIA`.
+5. Abra os slides em `out/motor/carrossel/$DIA/` (em lotes) e confira texto cortado, sobreposto ou difícil de ler.
+6. Publique: `node scripts/motor/carrossel.mjs $DIA --publicar`. Se precisar trocar as imagens de um carrossel que
+   ainda não saiu, rode de novo com `--publicar --trocar`.
+
+### 10. Resumo
 
 Termine com um resumo curto:
 - os 5 horários, com o tema, o gancho escolhido e os tempos (conteúdo, ponte, Fio e total) de cada um;
 - o tema do bloco de stories;
+- o tema do carrossel e a capa;
 - o que foi agendado;
 - o que falhou e por quê (com a linha de erro do log), e o que ficou de fora (horário sem tema, horário que já
   tinha passado, vídeo cortado pelo tempo).
@@ -257,7 +273,7 @@ Termine com um resumo curto:
 
 ## Regras
 
-- Mude só os roteiros e os stories do dia (`diario/$DIA/`). Não mexa no banco de temas (`diario/banco/temas.json`), nos
+- Mude só os roteiros, os stories e o carrossel do dia (`diario/$DIA/`). Não mexa nos bancos de temas (`diario/banco/`), nos
   pilotos, no GUIA, nesta rotina nem no código do motor ou do app.
 - **Não faça commit nem push.** Um passo do próprio workflow salva `diario/` no repositório depois que você termina.
 - Nunca mostre nem escreva chaves ou senhas (nem em log, nem no resumo, nem nos arquivos).

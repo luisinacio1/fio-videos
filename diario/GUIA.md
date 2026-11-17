@@ -598,3 +598,58 @@ Objeções comuns, para usar como ideia de tema ou de frase na `dor` e na `chama
 
 Não pode: enquete, "vídeo novo" com botão de play, promessa de resultado ("acaba com as faltas"), preço diferente
 de "7 dias grátis, sem cartão", lembrete automático (quem envia é o barbeiro, em um toque).
+
+## Carrossel do dia (educação para o barbeiro)
+
+Todo dia sai **1 carrossel às 15h**. Ele fala **com o barbeiro dono da barbearia** e ensina a cuidar do negócio
+(faltas, preço, cliente que some, encaixe, horário de pico, comissão, fidelização), no modelo dos carrosséis do G4:
+um caso ou número real, a lição, um quadro prático para salvar e, no fim, o Fio como parte disso. O objetivo é o
+barbeiro **salvar e mandar pra outro barbeiro**. Não é venda do começo ao fim.
+
+Formato do roteiro: `src/motor/carrossel.ts`. Desenho: `src/motor/CarrosselSlide.tsx` (1080×1350). Temas:
+`diario/banco/barbeiro.json` (só eles, e só os fatos de cada tema).
+
+### A ordem dos 7 slides (6 a 8)
+
+1. **capa:** manchete que prende (até 60 letras) e uma linha de curiosidade (até 50). Pode ter um personagem, um
+   objeto ou uma tela de ilustração.
+2. **texto:** o problema com o número e a fonte.
+3. **texto:** a virada "na sua barbearia": o que isso significa no dia a dia do barbeiro.
+4. **lista:** o quadro prático numerado (3 a 5 itens), o slide que se salva. Termine com "Salve pra lembrar." ou
+   parecido.
+5. **texto** ou **compara:** o exemplo ou o detalhe.
+6. **tela:** o Fio fazendo parte disso, com a tela do app que combina com o tema.
+7. **fecho:** a frase que fecha a lição e liga ao Fio. O slide já mostra "7 dias grátis, sem cartão", "A gente monta
+   pra você" e "Link na bio".
+
+**Formato "A vs B"** (`formato: "compara"` no tema): os slides 2 a 5 viram `compara`, cada um comparando um aspecto
+(espera, dia do barbeiro, cliente que falta…). O lado B é sempre o melhor.
+
+### Regras do carrossel
+
+- **O Fio só aparece nos 2 slides finais** (`tela` e `fecho`) e na legenda. Antes disso, é educação pura.
+- **Todo número dos slides de conteúdo está num fato do tema.** A conferência recusa número sem fato. Não arredonde
+  nem faça conta nova ("1 em cada 5") se ela não está escrita num fato.
+- No slide do número, ponha a fonte curta em `fonte` ("Professional Beauty, levantamento Fresha").
+- Limites de letras: título 70, parágrafo 140 (2 ou 3 por slide), puxada 90, item da lista 90 (termo + texto),
+  linha do compara 40, frase da tela e do fecho 90, rótulo do topo 14. Frases curtas, de conversa.
+- A `puxada` (a última linha em destaque) leva para o próximo slide: "E o pior: …", "O que fazer, então?".
+- O que o Fio faz é só a lista de "O que o Fio faz" deste GUIA. O lembrete **não é automático**: a mensagem vem
+  pronta e o barbeiro envia em um toque.
+- Palavras proibidas valem aqui também. Nada de promessa ("acaba com as faltas") nem de frase de coach.
+
+### Legenda do carrossel
+
+3 ou 4 parágrafos curtos com a lição, a fonte dos números, "Link na bio pra testar 7 dias grátis." e uma pergunta
+para o barbeiro comentar ("Quantas faltas você teve essa semana?"). Sem a chamada dupla dos reels: aqui o leitor já
+é o barbeiro.
+
+### Exemplo completo
+
+O arquivo `diario/teste/carrossel.json` é um carrossel completo que passa na conferência (tema
+`faltas-uma-em-cinco`): copie a estrutura, não o texto.
+
+Tipos de slide e campos: `capa` (titulo, curiosidade, ilustracao? com personagem do elenco, objeto 2D ou tela),
+`texto` (titulo, paragrafos, puxada?, fonte?), `lista` (titulo, itens [{termo, texto}], puxada?), `compara`
+(titulo, a/b {rotulo, linhas}, puxada?), `tela` (tela {nome}, frase), `fecho` (frase). Telas: aviso, agenda,
+lembretes, whats, link, horarios, confirmado, equipe.

@@ -126,6 +126,21 @@ Antes de terminar, releia cada tema novo e confirme:
 - a ponte é honesta e só fala do que o Fio faz;
 - `tela` e `pecas` ajudam a equilibrar o banco.
 
+## 5b. Banco do barbeiro (carrossel)
+
+O carrossel do dia usa outro banco: `diario/banco/barbeiro.json` (formato em `src/motor/bancoBarbeiro.ts`; leia
+também "Carrossel do dia" no GUIA). Ele fala **com o barbeiro** sobre o negócio dele (faltas, preço, cliente que some,
+encaixe, horário, comissão, fidelização, atendimento).
+
+1. Conte os livres: `node scripts/motor/banco.mjs livres carrossel | grep -c " — "`. A meta é **20 livres**.
+2. Escreva os temas que faltam, com as mesmas regras de fonte deste arquivo: **todo número tem link https da página
+   aberta e lida**, com o número escrito lá; `fonte: "oficio"` só para prática sem número. Dado de outro país diz
+   o país. Pelo menos 3 fatos por tema, quadro de 3 a 5 itens, cerca de 1 em cada 4 temas com `formato: "compara"`.
+3. A `ponte` liga a lição a algo que o Fio faz de verdade; sem ponte honesta, o tema fica de fora.
+4. Confira com `node scripts/motor/banco.mjs conferir` (precisa dizer `barbeiro ok: N temas`).
+
+O limite de 2 horas vale para os dois bancos juntos: comece pelo banco dos vídeos e use o tempo que sobrar aqui.
+
 ## 6. Resumo
 
 Termine com um resumo curto: quantos temas livres cada tipo tinha e tem agora, os ids novos (com o título), os sites
@@ -133,7 +148,8 @@ usados como fonte e os temas que você pensou e deixou de fora (e por quê: sem 
 
 ## Regras
 
-- Mude só `diario/banco/temas.json`. Não apague nem renomeie temas que já existem: o histórico dos vídeos usa os ids.
+- Mude só `diario/banco/temas.json` e `diario/banco/barbeiro.json`. Não apague nem renomeie temas que já existem: o
+  histórico dos vídeos e dos carrosséis usa os ids.
   Se achar um fato errado num tema antigo, corrija o texto pela fonte e conte no resumo.
 - **Não faça commit nem push.** O workflow confere o banco de novo e salva o arquivo se a conferência passar.
 - Nunca mostre nem escreva chaves ou senhas.
