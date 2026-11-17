@@ -1,6 +1,7 @@
 // Confere o banco de temas dos vídeos e lista os temas livres (src/motor/banco.ts explica o formato).
 //   node scripts/motor/banco.mjs conferir                       → "banco ok: N temas", ou os erros (e sai com código 1)
 //   node scripts/motor/banco.mjs livres <tipo> [AAAA-MM-DD]     → "id — titulo" dos temas que podem sair naquele dia (padrão: hoje, no horário de Brasília)
+//   node scripts/motor/banco.mjs livres carrossel [AAAA-MM-DD]  → o mesmo, do banco do barbeiro (diario/banco/barbeiro.json, src/motor/bancoBarbeiro.ts)
 // Os temas já usados vêm dos roteiros salvos em diario/AAAA-MM-DD/*.json (campo "tema") e, se existir
 // FIO_SUPABASE_SERVICE_KEY, também da fila do Instagram (tabela instagram_post; FIO_SUPABASE_URL é opcional).
 import { existsSync, readdirSync, readFileSync } from "node:fs";
@@ -8,31 +9,36 @@ import { dirname, join, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const { USOS_DOS_PILOTOS, conferirBanco, livres, temaDoVideo } = await import("../../src/motor/banco.ts");
+const { conferirBancoBarbeiro, livresBarbeiro } = await import("../../src/motor/bancoBarbeiro.ts");
 
 const RAIZ = resolve(dirname(fileURLToPath(import.meta.url)), "../.."); // a pasta videos/
 const ARQUIVO_BANCO = join(RAIZ, "diario", "banco", "temas.json");
+const ARQUIVO_BARBEIRO = join(RAIZ, "diario", "banco", "barbeiro.json");
 const TIPOS = ["curiosidade", "dica", "conceito", "atracao-2d", "atracao-3d"];
 const FUSO = "America/Sao_Paulo";
 
 /** o dia (AAAA-MM-DD) de um instante, no horário de Brasília */
 const diaDeBrasilia = (instante) => new Date(instante).toLocaleDateString("sv-SE", { timeZone: FUSO });
 
-function lerBanco() {
-  if (!existsSync(ARQUIVO_BANCO)) throw new Error(`não achei ${ARQUIVO_BANCO}`);
-  const temas = JSON.parse(readFileSync(ARQUIVO_BANCO, "utf8"));
-  if (!Array.isArray(temas)) throw new Error("temas.json precisa ser uma lista de temas");
+function lerBanco(arquivo = ARQUIVO_BANCO) {
+  if (!existsSync(arquivo)) throw new Error(`não achei ${arquivo}`);
+  const temas = JSON.parse(readFileSync(arquivo, "utf8"));
+  if (!Array.isArray(temas)) throw new Error(`${arquivo} precisa ser uma lista de temas`);
   return temas;
 }
 
-/** os temas dos roteiros salvos: cada pasta diario/AAAA-MM-DD/ é o dia, o campo "tema" de cada .json é o tema */
-function usadosDasPastas() {
+/**
+ * os temas dos roteiros salvos: cada pasta diario/AAAA-MM-DD/ é o dia, o campo "tema" de cada .json é o tema.
+ * `carrossel`: só os carrossel.json (banco do barbeiro); sem ele, todos os outros .json (banco dos vídeos).
+ */
+function usadosDasPastas(carrossel = false) {
   const usados = [];
   const base = join(RAIZ, "diario");
   if (!existsSync(base)) return usados;
   for (const pasta of readdirSync(base, { withFileTypes: true })) {
     if (!pasta.isDirectory() || !/^\d{4}-\d{2}-\d{2}$/.test(pasta.name)) continue;
     for (const nome of readdirSync(join(base, pasta.name))) {
-      if (!nome.endsWith(".json")) continue;
+      if (!nome.endsWith(".json") || (nome === "carrossel.json") !== carrossel) continue;
       let roteiro;
       try {
         roteiro = JSON.parse(readFileSync(join(base, pasta.name, nome), "utf8"));
@@ -67,9 +73,19 @@ async function main() {
     if (erros.length) {
       console.error(`✗ banco com ${erros.length} erro(s):\n  - ${erros.join("\n  - ")}`);
       process.exitCode = 1;
-      return;
-    }
-    console.log(`banco ok: ${temas.length} temas`);
+    } else console.log(`banco ok: ${temas.length} temas`);
+    const barbeiro = lerBanco(ARQUIVO_BARBEIRO);
+    const errosB = conferirBancoBarbeiro(barbeiro);
+    if (errosB.length) {
+      console.error(`✗ banco do barbeiro com ${errosB.length} erro(s):\n  - ${errosB.join("\n  - ")}`);
+      process.exitCode = 1;
+    } else console.log(`barbeiro ok: ${barbeiro.length} temas`);
+    return;
+  }
+
+  if (comando === "livres" && resto[0] === "carrossel") {
+    const dia = resto[1] ?? diaDeBrasilia(Date.now());
+    for (const t of livresBarbeiro(lerBanco(ARQUIVO_BARBEIRO), usadosDasPastas(true), dia)) console.log(`${t.id} — ${t.titulo}`);
     return;
   }
 

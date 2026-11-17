@@ -141,7 +141,7 @@ export function temaDoVideo(idVideo: string): string {
 }
 
 /** "AAAA-MM-DD" em dias desde 1970 (dia de calendário, em UTC, sem horário de verão) */
-function diaNumero(dia: string): number {
+export function diaNumero(dia: string): number {
   const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(dia);
   const ms = m ? Date.UTC(+m[1], +m[2] - 1, +m[3]) : NaN;
   if (Number.isNaN(ms)) throw new Error(`dia inválido: "${dia}" (use AAAA-MM-DD)`);

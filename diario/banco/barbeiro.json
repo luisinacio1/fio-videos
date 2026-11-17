@@ -1,0 +1,98 @@
+[
+  {
+    "id": "faltas-uma-em-cinco",
+    "titulo": "Barbearia é onde mais se falta",
+    "capa": "Na barbearia, quase 1 em cada 5 clientes falta",
+    "formato": "lista",
+    "fatos": [
+      {
+        "texto": "Num levantamento da empresa de agendamento Fresha, com horários marcados de maio a agosto, as barbearias tiveram em média 21,16% de faltas.",
+        "fonte": "https://professionalbeauty.co.uk/beauty-pros-lost-26m-to-no-shows-this-summer"
+      },
+      {
+        "texto": "No mesmo levantamento, a taxa das barbearias foi a mais alta entre os negócios de beleza pesquisados, que juntos perderam cerca de 2,6 milhões de libras com faltas.",
+        "fonte": "https://professionalbeauty.co.uk/beauty-pros-lost-26m-to-no-shows-this-summer"
+      },
+      {
+        "texto": "O cliente que esquece o horário quase nunca avisa: o horário fica vazio e não dá tempo de encaixar outro.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Lembrar o cliente na véspera é a forma mais simples de evitar o esquecimento.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Lembre cada cliente na véspera",
+      "Deixe o cliente desmarcar sem constrangimento",
+      "Anote quem costuma faltar",
+      "Tenha uma lista de quem quer encaixe"
+    ],
+    "tela": "lembretes",
+    "ponte": "Lembrar um por um na véspera cansa: no Fio, às 18h a lista de amanhã aparece com a mensagem pronta, e você envia num toque."
+  },
+  {
+    "id": "cliente-que-volta-vale-mais",
+    "titulo": "Manter cliente custa menos que buscar cliente novo",
+    "capa": "Buscar cliente novo custa até 25 vezes mais",
+    "formato": "lista",
+    "fatos": [
+      {
+        "texto": "Conquistar um cliente novo custa de 5 a 25 vezes mais do que manter um que você já tem, dependendo do estudo e do setor.",
+        "fonte": "https://hbr.org/2014/10/the-value-of-keeping-the-right-customers"
+      },
+      {
+        "texto": "Segundo pesquisa de Frederick Reichheld, da Bain & Company, aumentar em 5% a retenção de clientes aumenta o lucro de 25% a 95%.",
+        "fonte": "https://hbr.org/2014/10/the-value-of-keeping-the-right-customers"
+      },
+      {
+        "texto": "Chamar o cliente pelo nome e lembrar como ele gosta do corte faz ele se sentir em casa.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Cliente que demora a voltar costuma ter só esquecido: um recado na hora certa traz ele de volta.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Saiba o nome e o corte de cada cliente",
+      "Repare em quem está demorando a voltar",
+      "Facilite marcar o próximo corte",
+      "Cumpra o horário marcado"
+    ],
+    "tela": "link",
+    "ponte": "Quanto mais fácil marcar, mais o cliente volta: no Fio, ele marca sozinho pelo link, a qualquer hora, sem te chamar no Zap."
+  },
+  {
+    "id": "hora-marcada-vs-ordem-de-chegada",
+    "titulo": "Hora marcada ou ordem de chegada?",
+    "capa": "Hora marcada ou ordem de chegada: qual segura o cliente?",
+    "formato": "compara",
+    "fatos": [
+      {
+        "texto": "Muitos clientes odeiam esperar e preferem só cortar o cabelo ou aparar a barba e ir embora.",
+        "fonte": "https://blog.cielo.com.br/?p=11208"
+      },
+      {
+        "texto": "Quando percebe que a marcação de horário funciona bem, o cliente tende a preferir cortar com você pela certeza de que não haverá espera.",
+        "fonte": "https://blog.cielo.com.br/?p=11208"
+      },
+      {
+        "texto": "Na ordem de chegada, o movimento pode aparecer de uma vez e sobrar horário vazio depois.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Com hora marcada, o barbeiro sabe o dia que tem pela frente e consegue encaixar quem pede.",
+        "fonte": "oficio"
+      }
+    ],
+    "quadro": [
+      "Ordem de chegada: espera e fila na porta",
+      "Hora marcada: o cliente chega e senta",
+      "Ordem de chegada: dia imprevisível",
+      "Hora marcada: você sabe o dia que tem"
+    ],
+    "tela": "horarios",
+    "ponte": "Hora marcada só funciona se marcar for fácil: no link do Fio o cliente vê só os horários livres e escolhe o dele."
+  }
+]

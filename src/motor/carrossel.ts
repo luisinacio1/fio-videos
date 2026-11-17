@@ -73,7 +73,7 @@ export function conferirCarrossel(r: RoteiroCarrossel, temas: TemaBarbeiro[]): s
   const slides = Array.isArray(r.slides) ? r.slides : [];
   if (slides.length < L.slides[0] || slides.length > L.slides[1]) erros.push(`são de ${L.slides[0]} a ${L.slides[1]} slides (veio ${slides.length})`);
   if (slides[0]?.tipo !== "capa") erros.push("o primeiro slide é a capa");
-  if (slides.at(-1)?.tipo !== "fecho") erros.push("o último slide é o fecho");
+  if (slides[slides.length - 1]?.tipo !== "fecho") erros.push("o último slide é o fecho");
 
   const fatos = (tema?.fatos ?? []).map((f) => f.texto).join(" ");
   slides.forEach((s, i) => {
