@@ -1,0 +1,15 @@
+{
+  "id": "piloto-carrossel-hora-marcada",
+  "tema": "hora-marcada-vs-ordem-de-chegada",
+  "rotulo": "Hora marcada",
+  "legenda": "Hora marcada ou ordem de chegada? Depende do que você quer que o cliente sinta.\n\nMuitos clientes odeiam esperar e preferem só cortar o cabelo ou aparar a barba e ir embora. E quando percebem que a marcação de horário funciona bem, tendem a preferir cortar com você pela certeza de que não vai ter espera.\n\nFonte: blog Cielo, \"Como atrair clientes para barbearia\".\n\nLink na bio pra testar 7 dias grátis.\n\nNa sua barbearia é hora marcada, ordem de chegada ou os dois?",
+  "slides": [
+    { "tipo": "capa", "titulo": "Hora marcada ou ordem de chegada?", "curiosidade": "Uma delas segura o cliente.", "ilustracao": { "objeto": "cadeiraAntiga" } },
+    { "tipo": "compara", "titulo": "Pro cliente", "a": { "rotulo": "Chegada", "linhas": ["Chega e espera", "Não sabe quanto", "Às vezes desiste"] }, "b": { "rotulo": "Hora marcada", "linhas": ["Chega e senta", "Sabe a hora", "Volta tranquilo"] }, "puxada": "Muitos clientes odeiam esperar." },
+    { "tipo": "compara", "titulo": "Pro seu dia", "a": { "rotulo": "Chegada", "linhas": ["Todo mundo de uma vez", "Horário vazio depois", "Dia imprevisível"] }, "b": { "rotulo": "Hora marcada", "linhas": ["Movimento espalhado", "Encaixe de quem pede", "Você sabe o dia"] }, "puxada": "Previsível é mais leve pra você." },
+    { "tipo": "compara", "titulo": "Pra fidelizar", "a": { "rotulo": "Chegada", "linhas": ["Fila na porta", "Cliente cansa", "Vai pro vizinho"] }, "b": { "rotulo": "Hora marcada", "linhas": ["Sem espera", "Cliente confia", "Prefere você"] }, "puxada": "A certeza de não esperar faz voltar." },
+    { "tipo": "texto", "titulo": "Mas hora marcada só funciona se marcar for fácil", "paragrafos": ["Se o cliente precisa mandar mensagem e esperar resposta, ele desiste no caminho.", "E você passa o dia respondendo no meio do corte."], "puxada": "O segredo é o cliente marcar sozinho." },
+    { "tipo": "tela", "tela": { "nome": "horarios" }, "frase": "No link do Fio, o cliente vê só os horários livres e escolhe o dele." },
+    { "tipo": "fecho", "frase": "Hora marcada sem dor de cabeça. O Fio cuida da sua agenda." }
+  ]
+}

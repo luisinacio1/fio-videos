@@ -1,0 +1,20 @@
+{
+  "id": "piloto-carrossel-cliente-que-volta",
+  "tema": "cliente-que-volta-vale-mais",
+  "rotulo": "Clientes",
+  "legenda": "O cliente que já senta na sua cadeira vale mais do que você imagina.\n\nConquistar um cliente novo custa de 5 a 25 vezes mais do que manter um que você já tem. E, segundo pesquisa de Frederick Reichheld, da Bain & Company, aumentar em 5% a retenção de clientes aumenta o lucro de 25% a 95%.\n\nNa barbearia, manter cliente é coisa simples: saber o nome, lembrar o corte, cumprir o horário e facilitar a próxima marcação.\n\nFonte: Harvard Business Review, \"The Value of Keeping the Right Customers\".\n\nLink na bio pra testar 7 dias grátis.\n\nQuanto tempo seu cliente fiel demora pra voltar?",
+  "slides": [
+    { "tipo": "capa", "titulo": "Buscar cliente novo custa até 25 vezes mais", "curiosidade": "E o mais barato já está na sua cadeira.", "ilustracao": { "personagem": "matheus" } },
+    { "tipo": "texto", "titulo": "A conta que quase ninguém faz", "paragrafos": ["Conquistar um cliente novo custa de 5 a 25 vezes mais do que manter um que você já tem.", "E aumentar em 5% a retenção de clientes aumenta o lucro de 25% a 95%."], "puxada": "Cliente que volta é o que mais dá lucro.", "fonte": "Harvard Business Review, pesquisa de Frederick Reichheld (Bain & Company)" },
+    { "tipo": "texto", "titulo": "Na sua barbearia, isso tem nome e sobrenome", "paragrafos": ["É o cliente que corta com você todo mês e já senta sem precisar explicar o corte.", "Quando ele some, muitas vezes não foi pra outro: só esqueceu de marcar."], "puxada": "Então o trabalho é fazer ele voltar fácil." },
+    { "tipo": "lista", "titulo": "4 jeitos de fazer o cliente voltar", "itens": [
+      { "termo": "Nome", "texto": "chame pelo nome e lembre como ele gosta do corte." },
+      { "termo": "Olho no tempo", "texto": "repare em quem está demorando a voltar." },
+      { "termo": "Próximo corte", "texto": "facilite marcar a próxima vez." },
+      { "termo": "Pontualidade", "texto": "cumpra o horário que você marcou." }
+    ], "puxada": "Salve pra lembrar." },
+    { "tipo": "compara", "titulo": "Cliente novo ou cliente que volta?", "a": { "rotulo": "Cliente novo", "linhas": ["Você explica tudo", "Precisa conquistar", "Pode não voltar"] }, "b": { "rotulo": "Que volta", "linhas": ["Já sabe o corte", "Já confia em você", "Indica outros"] }, "puxada": "Cuidar de quem já vem é o melhor negócio." },
+    { "tipo": "tela", "tela": { "nome": "link" }, "frase": "No Fio, o cliente marca o próximo corte sozinho pelo link, a qualquer hora." },
+    { "tipo": "fecho", "frase": "Quanto mais fácil marcar, mais o cliente volta. O Fio cuida disso." }
+  ]
+}
