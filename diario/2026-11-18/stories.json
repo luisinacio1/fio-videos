@@ -1,0 +1,14 @@
+{
+  "blocos": [
+    {
+      "hora": "9h",
+      "tema": "Sem aplicativo",
+      "quadros": [
+        { "tipo": "dor", "titulo": "Quarta, 9h. O cliente não baixa app nem cria conta.", "destaque": "não baixa app", "personagem": "rafa", "boca": "torta" },
+        { "tipo": "prova", "titulo": "No Fio é um link: o cliente escolhe e só vê horário livre.", "destaque": "horário livre", "tela": { "nome": "horarios" } },
+        { "tipo": "beneficios" },
+        { "tipo": "chamada", "titulo": "Seu cliente só precisa de um link. A gente monta pra você.", "destaque": "A gente monta" }
+      ]
+    }
+  ]
+}
