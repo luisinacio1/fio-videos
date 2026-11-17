@@ -22,12 +22,13 @@ export const LIMITES_CARROSSEL = {
   capaTitulo: 60,
   curiosidade: 50,
   titulo: 70,
-  paragrafo: 160,
-  paragrafos: [2, 4],
+  paragrafo: 140,
+  paragrafos: [2, 3],
+  puxada: 90,
   itens: [3, 5],
-  item: 120,
+  item: 90,
   linhas: [2, 4],
-  linha: 60,
+  linha: 40,
   frase: 90,
   rotulo: 14,
   slides: [6, 8],
@@ -96,13 +97,13 @@ export function conferirCarrossel(r: RoteiroCarrossel, temas: TemaBarbeiro[]): s
         max(s.titulo, L.titulo, "título");
         entre(s.paragrafos?.length ?? 0, L.paragrafos, "parágrafos");
         (s.paragrafos ?? []).forEach((p, k) => max(p, L.paragrafo, `parágrafo ${k + 1}`));
-        if (s.puxada) max(s.puxada, L.paragrafo, "puxada");
+        if (s.puxada) max(s.puxada, L.puxada, "puxada");
         break;
       case "lista":
         max(s.titulo, L.titulo, "título");
         entre(s.itens?.length ?? 0, L.itens, "itens");
         (s.itens ?? []).forEach((x, k) => max(`${x.termo} ${x.texto}`, L.item, `item ${k + 1}`));
-        if (s.puxada) max(s.puxada, L.paragrafo, "puxada");
+        if (s.puxada) max(s.puxada, L.puxada, "puxada");
         break;
       case "compara":
         max(s.titulo, L.titulo, "título");
@@ -111,7 +112,7 @@ export function conferirCarrossel(r: RoteiroCarrossel, temas: TemaBarbeiro[]): s
           entre(lado?.linhas?.length ?? 0, L.linhas, `linhas do lado ${nome}`);
           (lado?.linhas ?? []).forEach((l, k) => max(l, L.linha, `linha ${k + 1} do lado ${nome}`));
         }
-        if (s.puxada) max(s.puxada, L.paragrafo, "puxada");
+        if (s.puxada) max(s.puxada, L.puxada, "puxada");
         break;
       case "tela":
         if (!TELAS_CARROSSEL.includes(s.tela?.nome)) erros.push(`${o}: tela "${s.tela?.nome}" não existe`);

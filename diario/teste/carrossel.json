@@ -1,0 +1,20 @@
+{
+  "id": "teste-carrossel-faltas",
+  "tema": "faltas-uma-em-cinco",
+  "rotulo": "Faltas",
+  "legenda": "Barbearia é o negócio de beleza onde mais se falta.\n\nNum levantamento da empresa de agendamento Fresha, as barbearias tiveram em média 21,16% de faltas. O cliente que esquece quase nunca avisa, e o horário fica vazio.\n\nFonte: Professional Beauty.\n\nLink na bio pra testar 7 dias grátis.\n\nQuantas faltas você teve essa semana?",
+  "slides": [
+    { "tipo": "capa", "titulo": "Barbearia é onde mais se falta", "curiosidade": "E quase ninguém faz a conta.", "ilustracao": { "personagem": "rafa" } },
+    { "tipo": "texto", "titulo": "21,16% dos horários ficaram vazios", "paragrafos": ["Num levantamento da Fresha, as barbearias tiveram em média 21,16% de faltas.", "Foi a taxa mais alta entre os negócios de beleza pesquisados."], "puxada": "E o pior: quem falta quase nunca avisa.", "fonte": "Professional Beauty, levantamento Fresha" },
+    { "tipo": "texto", "titulo": "Na sua barbearia, isso é cadeira parada", "paragrafos": ["O cliente que esquece não liga pra desmarcar.", "Quando você percebe, já não dá tempo de encaixar outro.", "O horário fica vazio e o dia rende menos."], "puxada": "Dá pra diminuir isso com hábitos simples." },
+    { "tipo": "lista", "titulo": "4 jeitos de ter menos faltas", "itens": [
+      { "termo": "Véspera", "texto": "lembre cada cliente um dia antes." },
+      { "termo": "Sem vergonha", "texto": "deixe o cliente desmarcar sem constrangimento." },
+      { "termo": "Anote", "texto": "saiba quem costuma faltar." },
+      { "termo": "Encaixe", "texto": "tenha uma lista de quem quer horário." }
+    ], "puxada": "Salve pra lembrar." },
+    { "tipo": "compara", "titulo": "Quem lembra quem?", "a": { "rotulo": "Sem lembrete", "linhas": ["Cliente esquece", "Horário vazio", "Você descobre tarde"] }, "b": { "rotulo": "Com lembrete", "linhas": ["Cliente confirma", "Ou desmarca antes", "Dá tempo de encaixar"] } },
+    { "tipo": "tela", "tela": { "nome": "lembretes" }, "frase": "No Fio, às 18h a lista de amanhã aparece com a mensagem pronta." },
+    { "tipo": "fecho", "frase": "Menos falta, mais cadeira ocupada. O Fio cuida da sua agenda." }
+  ]
+}

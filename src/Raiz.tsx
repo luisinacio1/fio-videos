@@ -13,6 +13,7 @@ import { Narrado, type PropsNarrado } from "./Narrado";
 import { Tour, linhaDoTempo, type Gravacao, type PropsTour } from "./Tour";
 import { Story, type PropsStory } from "./Story";
 import { StoryBloco, type PropsStoryBloco } from "./motor/StoryBloco";
+import { CarrosselSlide, type PropsCarrosselSlide } from "./motor/CarrosselSlide";
 import { Motor, type PropsMotor } from "./motor/Motor";
 import { duracao } from "./motor/roteiro";
 import { Custo3D, type PropsCusto3D } from "./custo3d/Custo3D";
@@ -92,6 +93,7 @@ export function Raiz() {
         calculateMetadata={({ props }) => ({ durationInFrames: linhaDoTempo(props.gravacao, props.extras).total })}
       />
       {/* stories em imagem (scripts/stories.mjs renderiza cada um com as props do stories.json da semana) */}
+      <Composition id="carrossel-slide" component={CarrosselSlide} fps={FPS} width={1080} height={1350} durationInFrames={1} defaultProps={{ rotulo: "Faltas", n: 1, total: 7, slide: { tipo: "capa", titulo: "Na barbearia, quase 1 em cada 5 clientes falta", curiosidade: "Quanto isso custa no seu mês?" } } as PropsCarrosselSlide} />
       <Composition id="story-bloco" component={StoryBloco} fps={FPS} width={1080} height={1920} durationInFrames={1} defaultProps={{ tema: "Faltas", n: 1, total: 5, quadro: { tipo: "dor", titulo: "3 faltas na semana são R$ 120 de cadeira vazia.", destaque: "R$ 120" } } as PropsStoryBloco} />
       <Composition id="story" component={Story} fps={FPS} width={1080} height={1920} durationInFrames={1} defaultProps={{ tipo: "gancho", rotulo: "Bom dia", titulo: "Exemplo de story do Fio.", destaque: "story" } as PropsStory} />
       {/* vídeos diários do motor (scripts/motor/fazer.mjs): roteiro, tempos, voz e música chegam por props */}

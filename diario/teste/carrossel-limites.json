@@ -1,0 +1,88 @@
+{
+  "id": "teste-limites",
+  "tema": "faltas-uma-em-cinco",
+  "rotulo": "Reagendamentos",
+  "legenda": "Teste. Link na bio. Topa?",
+  "slides": [
+    {
+      "tipo": "capa",
+      "titulo": "desmarcações reagendamento horário desmarcações reagendament",
+      "curiosidade": "desmarcações reagendamento horário desmarcações re",
+      "ilustracao": {
+        "objeto": "tesoura"
+      }
+    },
+    {
+      "tipo": "texto",
+      "titulo": "desmarcações reagendamento horário desmarcações reagendamento horárioo",
+      "paragrafos": [
+        "desmarcações reagendamento horário desmarcações reagendamento horário desmarcações reagendamento horário desmarcações reagendamento horárioo",
+        "desmarcações reagendamento horário desmarcações reagendamento horário desmarcações reagendamento horário desmarcações reagendamento horárioo",
+        "desmarcações reagendamento horário desmarcações reagendamento horário desmarcações reagendamento horário desmarcações reagendamento horárioo"
+      ],
+      "puxada": "desmarcações reagendamento horário desmarcações reagendamento horário desmarcações reagend",
+      "fonte": "Professional Beauty, levantamento Fresha"
+    },
+    {
+      "tipo": "lista",
+      "titulo": "desmarcações reagendamento horário desmarcações reagendamento horárioo",
+      "itens": [
+        {
+          "termo": "Reagendar",
+          "texto": "desmarcações reagendamento horário desmarcações reagendamento horário desmarcaçõ"
+        },
+        {
+          "termo": "Reagendar",
+          "texto": "desmarcações reagendamento horário desmarcações reagendamento horário desmarcaçõ"
+        },
+        {
+          "termo": "Reagendar",
+          "texto": "desmarcações reagendamento horário desmarcações reagendamento horário desmarcaçõ"
+        },
+        {
+          "termo": "Reagendar",
+          "texto": "desmarcações reagendamento horário desmarcações reagendamento horário desmarcaçõ"
+        },
+        {
+          "termo": "Reagendar",
+          "texto": "desmarcações reagendamento horário desmarcações reagendamento horário desmarcaçõ"
+        }
+      ],
+      "puxada": "desmarcações reagendamento horário desmarcações reagendamento horário desmarcações reagend"
+    },
+    {
+      "tipo": "compara",
+      "titulo": "desmarcações reagendamento horário desmarcações reagendamento horárioo",
+      "a": {
+        "rotulo": "Desmarcações",
+        "linhas": [
+          "desmarcações reagendamento horário desma",
+          "desmarcações reagendamento horário desma",
+          "desmarcações reagendamento horário desma",
+          "desmarcações reagendamento horário desma"
+        ]
+      },
+      "b": {
+        "rotulo": "Reagendado",
+        "linhas": [
+          "desmarcações reagendamento horário desma",
+          "desmarcações reagendamento horário desma",
+          "desmarcações reagendamento horário desma",
+          "desmarcações reagendamento horário desma"
+        ]
+      },
+      "puxada": "desmarcações reagendamento horário desmarcações reagendamento horário desmarcações reagend"
+    },
+    {
+      "tipo": "tela",
+      "tela": {
+        "nome": "horarios"
+      },
+      "frase": "desmarcações reagendamento horário desmarcações reagendamento horário desmarcações reagend"
+    },
+    {
+      "tipo": "fecho",
+      "frase": "desmarcações reagendamento horário desmarcações reagendamento horário desmarcações reagend"
+    }
+  ]
+}

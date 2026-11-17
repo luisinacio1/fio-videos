@@ -63,8 +63,18 @@ test("recusa capa fora do primeiro e fecho fora do último", () => {
 });
 
 test("recusa texto acima do limite", () => {
-  const erros = conferirCarrossel(com(2, { tipo: "texto", titulo: "Na sua barbearia", paragrafos: ["a".repeat(161), "Ok."] }), [TEMA]);
-  assert.ok(erros.some((e) => e.startsWith("slide 3") && /160/.test(e)), erros.join("\n"));
+  const erros = conferirCarrossel(com(2, { tipo: "texto", titulo: "Na sua barbearia", paragrafos: ["a".repeat(141), "Ok."] }), [TEMA]);
+  assert.ok(erros.some((e) => e.startsWith("slide 3") && /140/.test(e)), erros.join("\n"));
+});
+
+test("recusa 4 parágrafos, puxada longa, item longo e linha longa no compara", () => {
+  const p = "Frase curta.";
+  assert.ok(conferirCarrossel(com(2, { tipo: "texto", titulo: "T", paragrafos: [p, p, p, p] }), [TEMA]).some((e) => /2 a 3/.test(e)));
+  assert.ok(conferirCarrossel(com(2, { tipo: "texto", titulo: "T", paragrafos: [p, p], puxada: "a".repeat(91) }), [TEMA]).some((e) => /puxada/.test(e) && /90/.test(e)));
+  const item = { termo: "Termo", texto: "a".repeat(90) };
+  assert.ok(conferirCarrossel(com(3, { tipo: "lista", titulo: "T", itens: [item, item, item] }), [TEMA]).some((e) => /item 1/.test(e)));
+  const longa = { rotulo: "A", linhas: ["a".repeat(41), "b"] };
+  assert.ok(conferirCarrossel(com(4, { tipo: "compara", titulo: "T", a: longa, b: { rotulo: "B", linhas: ["c", "d"] } }), [TEMA]).some((e) => /40/.test(e)));
 });
 
 test("recusa palavra proibida", () => {
