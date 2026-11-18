@@ -1,0 +1,101 @@
+{
+  "id": "2026-11-19-11h-santo-dos-barbeiros",
+  "tipo": "atracao-2d",
+  "tema": "santo-dos-barbeiros",
+  "titulo": "O barbeiro que virou santo",
+  "legenda": "Os barbeiros têm um santo. Sabe quem é? 💈\n\nMartinho de Porres nasceu em Lima, no Peru, em 1579, filho de uma mulher negra alforriada e de um nobre espanhol. Foi aprendiz de um homem que era cirurgião, dentista e barbeiro. Foi canonizado pelo papa João XXIII em 1962 e é o padroeiro dos barbeiros. A festa dele é em 3 de novembro.\n\nFonte: verbete \"Martinho de Porres\" (Wikipédia em português).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nE o seu barbeiro, tem paciência de santo?",
+  "falas": [
+    { "texto": "Os barbeiros têm um santo. Sabe quem é?" },
+    { "texto": "O nome dele é Martinho de Porres." },
+    { "texto": "E a história dele começa bem longe da barbearia." },
+    { "texto": "Bora ver como foi." },
+    { "texto": "Martinho nasceu em Lima, no Peru, em 1579." },
+    { "texto": "A mãe era uma mulher negra, alforriada. Ou seja, livre." },
+    { "texto": "E o pai era um nobre espanhol." },
+    { "texto": "Quando cresceu, ele foi ser aprendiz." },
+    { "texto": "O mestre dele era um homem que fazia três coisas." },
+    { "texto": "Era cirurgião. Era dentista. E era barbeiro." },
+    { "texto": "Foi com esse mestre que o Martinho aprendeu." },
+    { "texto": "Agora pula pra 1962." },
+    { "texto": "Nesse ano, o papa João Vinte e Três canonizou o Martinho." },
+    { "texto": "Canonizar é declarar que alguém é santo." },
+    { "texto": "E, desde então, ele é o padroeiro dos barbeiros." },
+    { "texto": "Padroeiro é o santo que protege uma profissão." },
+    { "texto": "E a festa dele é no dia 3 de novembro." },
+    { "texto": "De aprendiz em Lima a santo dos barbeiros. Que história." },
+    { "texto": "Dizem que paciência de barbeiro é coisa de santo." },
+    { "texto": "Mas nem santo aguenta cliente que marca e não aparece." },
+    { "texto": "Pra isso existe o Fio, a agenda do barbeiro." },
+    { "texto": "Na véspera, às seis da tarde, chega a lista de quem lembrar." },
+    { "texto": "A mensagem vem pronta. Você aperta enviar no WhatsApp. Um toque." },
+    { "texto": "E o cliente que não pode ir remarca pelo link, e você recebe o aviso." },
+    { "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct." },
+    { "texto": "A gente monta a sua agenda pra você. Sem custo." },
+    { "pausa": 0.3, "texto": "Fio. Paciência no corte, agenda no resto." },
+    { "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro." },
+    { "texto": "E o seu barbeiro, tem paciência de santo? Conta aqui." }
+  ],
+  "chaves": ["aprendiz", "mestre", "João", "paciência", "caderno", "monta"],
+  "ponte": "19",
+  "fio": "21",
+  "cenas": [
+    { "tipo": "barbearia", "de": "1", "barbeiro": "rafa", "cliente": "ze", "reacoes": [
+      { "em": "1:santo", "boca": "aberta", "olhar": "lado" },
+      { "em": "1:quem", "boca": "sorriso", "olhar": "frente" }
+    ] },
+    { "tipo": "texto", "de": "2", "linhas": ["Martinho", "de Porres."], "destaque": ["Martinho"], "fundo": "escuro" },
+    { "tipo": "linhaDoTempo", "de": "5", "marcos": [
+      { "em": "5", "ano": "1579", "texto": "Nasce em Lima, no Peru", "objeto": "pente" },
+      { "em": "6:negra", "ano": "A mãe", "texto": "Mulher negra alforriada", "objeto": "tesoura" },
+      { "em": "7:nobre", "ano": "O pai", "texto": "Um nobre espanhol", "objeto": "navalha" }
+    ] },
+    { "tipo": "barbeariaAntiga", "de": "8", "barbeiro": "rafa", "cliente": "ze", "ano": "sempre", "reacoes": [
+      { "em": "8:aprendiz", "boca": "sorriso" },
+      { "em": "9:três", "boca": "aberta", "sacode": true }
+    ] },
+    { "tipo": "passos", "de": "10", "titulo": "O mestre dele era", "passos": [
+      { "em": "10", "texto": "Cirurgião" },
+      { "em": "10:dentista", "texto": "Dentista" },
+      { "em": "10:barbeiro", "texto": "Barbeiro", "objeto": "navalha" }
+    ] },
+    { "tipo": "objeto", "de": "11", "objeto": "tesoura", "fundo": "escuro", "etiquetas": [
+      { "em": "11:mestre", "texto": "Onde aprendeu" },
+      { "em": "11:aprendeu", "texto": "O ofício na prática" }
+    ] },
+    { "tipo": "texto", "de": "12", "linhas": ["1962.", "Vira santo."], "destaque": ["1962."], "fundo": "acento" },
+    { "tipo": "objeto", "de": "14", "objeto": "cadeiraAntiga", "fundo": "escuro", "etiquetas": [
+      { "em": "14:canonizar", "texto": "Canonizar" },
+      { "em": "14:santo", "texto": "Declarar que é santo" }
+    ] },
+    { "tipo": "texto", "de": "15", "linhas": ["Padroeiro", "dos barbeiros."], "destaque": ["Padroeiro"], "fundo": "escuro" },
+    { "tipo": "objeto", "de": "17", "objeto": "poste", "variante": "vermelhoBranco", "etiquetas": [
+      { "em": "17:festa", "texto": "A festa dele" },
+      { "em": "17:dia", "texto": "3 de novembro" }
+    ] },
+    { "tipo": "barbearia", "de": "18", "barbeiro": "juninho", "cliente": "matheus", "reacoes": [
+      { "em": "18:aprendiz", "boca": "aberta", "olhar": "lado" },
+      { "em": "18:história", "boca": "sorriso", "olhar": "frente" }
+    ] },
+    { "tipo": "barbearia", "de": "19", "barbeiro": "rafa", "reacoes": [
+      { "em": "19:paciência", "boca": "sorriso", "olhar": "frente" },
+      { "em": "20:aguenta", "boca": "torta", "olhar": "celular" }
+    ] },
+    { "tipo": "apresentaFio", "de": "21",
+      "tela": { "nome": "bloqueio", "hora": "18:00", "data": "segunda-feira, 2 de novembro",
+        "avisos": [{ "em": "22:lista", "tipo": "lembretes", "quantidade": 4 }] },
+      "frases": [
+        { "em": "21:agenda", "texto": "A agenda do barbeiro" },
+        { "em": "22:lista", "texto": "Lista de quem lembrar, às 18h" },
+        { "em": "23:pronta", "texto": "Mensagem pronta, um toque" }
+      ] },
+    { "tipo": "app", "de": "23", "entrada": "subir", "tela": { "nome": "lembretes", "toques": [{ "toque": "23:pronta", "enviar": "23:enviar" }], "todos": "23:toque" } },
+    { "tipo": "app", "de": "24", "tela": { "nome": "bloqueio", "hora": "18:24", "data": "segunda-feira, 2 de novembro",
+      "avisos": [{ "em": "24:aviso", "tipo": "cancelado", "nome": "Diego Souza", "quando": "ter 03/11 às 11:00" }] } },
+    { "tipo": "sala", "de": "25", "personagem": "rafa", "reacoes": [{ "em": "26:monta", "boca": "sorriso", "olhar": "frente" }] },
+    { "tipo": "final", "de": "27" }
+  ],
+  "extras": [
+    { "tipo": "zap", "em": "25:manda", "ate": "26:fim", "de": "Você", "texto": "@agendafio, segue minha lista de clientes e serviços." },
+    { "tipo": "zap", "em": "26:monta", "ate": "26:fim", "de": "@agendafio", "texto": "Recebido! Em até 2 dias sua agenda fica pronta." }
+  ]
+}

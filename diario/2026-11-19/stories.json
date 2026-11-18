@@ -1,0 +1,14 @@
+{
+  "blocos": [
+    {
+      "hora": "9h",
+      "tema": "Lembretes",
+      "quadros": [
+        { "tipo": "dor", "titulo": "Quinta, 9h. O cliente das 10h esqueceu. De novo.", "destaque": "esqueceu", "personagem": "rafa", "boca": "torta" },
+        { "tipo": "prova", "titulo": "No Fio, às 18h chega o aviso: quantos clientes lembrar amanhã.", "destaque": "lembrar amanhã", "tela": { "nome": "aviso", "aviso": { "tipo": "lembretes", "quantidade": 4 }, "hora": "18:00", "data": "segunda-feira, 2 de novembro" } },
+        { "tipo": "beneficios" },
+        { "tipo": "chamada", "titulo": "Mensagem pronta, um toque por cliente. A gente monta pra você.", "destaque": "A gente monta" }
+      ]
+    }
+  ]
+}

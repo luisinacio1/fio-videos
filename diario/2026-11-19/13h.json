@@ -1,0 +1,97 @@
+{
+  "id": "2026-11-19-13h-barbearia-mais-antiga-do-mundo",
+  "tipo": "curiosidade",
+  "tema": "barbearia-mais-antiga-do-mundo",
+  "titulo": "A barbearia mais antiga do mundo abriu em 1805",
+  "legenda": "Essa barbearia abriu em 1805 e continua aberta. 💈\n\nSegundo o Guinness, a barbearia mais antiga do mundo é a Truefitt and Hill, aberta em 1805 em Londres. Objetos dessa barbearia foram encontrados no Titanic, e Winston Churchill foi cliente da casa. Hoje ela fica no bairro de St. James, em Londres.\n\nFonte: Guinness World Records, \"Oldest barber shop business\".\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nQual é a barbearia mais antiga da sua cidade?",
+  "falas": [
+    { "texto": "Essa barbearia abriu em 1805 e continua aberta." },
+    { "texto": "Segundo o Guinness, ela é a barbearia mais antiga do mundo." },
+    { "texto": "O nome dela é Truefitt and Hill." },
+    { "texto": "Bora conhecer essa história." },
+    { "texto": "Ela abriu em Londres, na Inglaterra." },
+    { "texto": "Em 1805. Ou seja, mais de duzentos anos atrás." },
+    { "texto": "Pensa só: quanta coisa mudou de lá pra cá." },
+    { "texto": "Só que a história dessa casa não para por aí." },
+    { "texto": "Objetos dessa barbearia foram encontrados no Titanic." },
+    { "texto": "Isso mesmo: o navio mais famoso que já afundou." },
+    { "texto": "E tem mais: o Winston Churchill foi cliente da casa." },
+    { "texto": "Sim, até o Churchill precisava de um bom corte." },
+    { "texto": "Hoje, essa barbearia fica no bairro de St. James, em Londres." },
+    { "texto": "Ou seja: mais de duzentos anos depois, continua na mesma cidade." },
+    { "texto": "Mais de duzentos anos de porta aberta." },
+    { "texto": "Quantos cortes cabem nesse tempo todo?" },
+    { "texto": "Quantos clientes sentaram nessas cadeiras?" },
+    { "texto": "Uma barbearia de 1805 que continua aberta. Isso é recorde." },
+    { "texto": "Mais de duzentos anos de porta aberta não se fazem só com corte bom." },
+    { "texto": "Se fazem com cliente voltando, horário depois de horário." },
+    { "texto": "Pra isso existe o Fio, a agenda do barbeiro." },
+    { "texto": "Ele mostra o dia inteiro: quem vem, a que horas e qual serviço." },
+    { "texto": "Cada horário novo chega com aviso no seu celular." },
+    { "texto": "E o cliente marca sozinho, pelo link, e só vê os horários livres. Sem baixar aplicativo." },
+    { "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct." },
+    { "texto": "A gente monta a sua agenda pra você. Sem custo." },
+    { "pausa": 0.3, "texto": "Fio. Horário depois de horário." },
+    { "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro." },
+    { "texto": "Qual é a barbearia mais antiga da sua cidade? Conta aqui." }
+  ],
+  "chaves": ["Inglaterra", "navio", "bairro", "cortes", "clientes", "aviso"],
+  "ponte": "19",
+  "fio": "21",
+  "cenas": [
+    { "tipo": "barbeariaAntiga", "de": "1", "barbeiro": "rafa", "cliente": "ze", "ano": "1805", "reacoes": [
+      { "em": "1:continua", "boca": "sorriso" },
+      { "em": "1:aberta", "boca": "aberta", "sacode": true }
+    ] },
+    { "tipo": "objeto", "de": "2", "objeto": "cadeiraAntiga", "fundo": "escuro", "etiquetas": [
+      { "em": "2:Guinness", "texto": "Recorde do Guinness" },
+      { "em": "2:antiga", "texto": "A mais antiga do mundo" }
+    ] },
+    { "tipo": "texto", "de": "3", "linhas": ["Truefitt", "and Hill."], "destaque": ["Truefitt"], "fundo": "acento" },
+    { "tipo": "linhaDoTempo", "de": "5", "marcos": [
+      { "em": "5", "ano": "1805", "texto": "Abre em Londres", "objeto": "tesoura" },
+      { "em": "9:Titanic", "ano": "Titanic", "texto": "Objetos da casa achados lá", "objeto": "navalha" }
+    ] },
+    { "tipo": "texto", "de": "11", "linhas": ["Winston Churchill", "foi cliente."], "destaque": ["cliente."], "fundo": "escuro" },
+    { "tipo": "barbearia", "de": "13", "barbeiro": "rafa", "cliente": "davi", "reacoes": [
+      { "em": "13:Hoje", "boca": "sorriso", "olhar": "frente" },
+      { "em": "14:cidade", "boca": "aberta", "olhar": "lado" }
+    ] },
+    { "tipo": "texto", "de": "15", "linhas": ["Anos de", "porta aberta."], "destaque": ["porta"], "fundo": "acento", "numero": { "de": 0, "ate": 200, "prefixo": "+", "em": "15:duzentos" } },
+    { "tipo": "barbeariaAntiga", "de": "16", "barbeiro": "rafa", "cliente": "ze", "ano": "1805", "reacoes": [
+      { "em": "16:cortes", "boca": "aberta" },
+      { "em": "17:clientes", "boca": "sorriso" }
+    ] },
+    { "tipo": "objeto", "de": "18", "objeto": "poste", "fundo": "escuro", "variante": "vermelhoBranco", "etiquetas": [
+      { "em": "18:barbearia", "texto": "Aberta desde 1805" },
+      { "em": "18:recorde", "texto": "Recorde" }
+    ] },
+    { "tipo": "barbearia", "de": "19", "barbeiro": "rafa", "cliente": "matheus",
+      "mensagens": [{ "em": "20:voltando", "de": "Matheus", "texto": "Tem horário amanhã?" }],
+      "olhaCelular": "20:voltando",
+      "reacoes": [{ "em": "19:corte", "boca": "sorriso", "olhar": "frente" }] },
+    { "tipo": "apresentaFio", "de": "21",
+      "tela": { "nome": "agenda",
+        "clientes": [
+          { "hora": "09:00", "nome": "Davi Rocha", "servico": "Corte masculino" },
+          { "hora": "10:00", "nome": "Matheus Lima", "servico": "Corte + barba" },
+          { "hora": "11:00", "nome": "José Prado", "servico": "Barba" }
+        ],
+        "destaque": { "nome": "Matheus Lima", "em": "22:horas" } },
+      "frases": [
+        { "em": "21:agenda", "texto": "A agenda do barbeiro" },
+        { "em": "22:serviço", "texto": "O dia inteiro num lugar só" },
+        { "em": "22:horas", "texto": "Cada horário, com o serviço" }
+      ] },
+    { "tipo": "app", "de": "23", "entrada": "subir", "tela": { "nome": "bloqueio", "hora": "14:20", "data": "segunda-feira, 2 de novembro",
+      "avisos": [{ "em": "23:aviso", "tipo": "novo", "nome": "Davi Rocha", "servico": "Corte masculino", "quando": "ter 03/11 às 11:00" }] } },
+    { "tipo": "app", "de": "24", "tela": { "nome": "agendamento", "cliente": "Davi Rocha", "hora": "14:20",
+      "toques": { "servico": "24:marca", "dia": "24:link", "horario": "24:livres", "confirmar": "24:aplicativo" } } },
+    { "tipo": "sala", "de": "25", "personagem": "rafa", "reacoes": [{ "em": "26:monta", "boca": "sorriso", "olhar": "frente" }] },
+    { "tipo": "final", "de": "27" }
+  ],
+  "extras": [
+    { "tipo": "zap", "em": "25:manda", "ate": "26:fim", "de": "Você", "texto": "@agendafio, segue minha lista de clientes e serviços." },
+    { "tipo": "zap", "em": "26:monta", "ate": "26:fim", "de": "@agendafio", "texto": "Recebido! Em até 2 dias sua agenda fica pronta." }
+  ]
+}

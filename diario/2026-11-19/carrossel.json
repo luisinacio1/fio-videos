@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-19-carrossel-agendamento-com-a-porta-fechada",
+  "tema": "agendamento-com-a-porta-fechada",
+  "rotulo": "Porta fechada",
+  "legenda": "46% dos agendamentos saem com a porta fechada. 🚪\n\nNuma análise da Phorest, empresa de agendamento, com mais de 5 mil salões e spas, 46% dos agendamentos foram feitos com o estabelecimento fechado. Numa pesquisa da Zenoti, 81% dos clientes frequentes disseram precisar marcar ou mexer no horário fora do horário comercial. Os dois estudos são de fora do Brasil, mas o recado vale: o cliente decide quando ele pode, não quando você abre.\n\nQuem só consegue marcar ligando no horário comercial muitas vezes deixa pra depois e esquece. E responder pedido de horário de madrugada cansa e vira hábito ruim.\n\nFontes: Phorest (via HJI) e Zenoti.\n\nLink na bio pra testar 7 dias grátis.\n\nEm que horário chegam os pedidos de horário na sua barbearia?",
+  "slides": [
+    { "tipo": "capa", "titulo": "46% dos agendamentos saem com a porta fechada", "curiosidade": "E você, atende o cliente a que horas?", "ilustracao": { "personagem": "bia" } },
+    { "tipo": "texto", "titulo": "Quase metade marca fora do expediente", "paragrafos": ["Numa análise da Phorest, com mais de 5 mil salões e spas, 46% dos agendamentos foram feitos com o local fechado.", "Ou seja: quase metade decide fora do seu horário."], "puxada": "E quem é fiel também faz isso.", "fonte": "Phorest, via HJI (análise feita fora do Brasil)" },
+    { "tipo": "texto", "titulo": "Na sua barbearia, é o pedido no Zap à noite", "paragrafos": ["Quem só consegue marcar ligando no horário comercial muitas vezes deixa pra depois e esquece.", "E responder pedido de horário de madrugada cansa e vira hábito ruim."], "puxada": "O que fazer, então?" },
+    { "tipo": "lista", "titulo": "4 jeitos de atender com a porta fechada", "itens": [
+      { "termo": "Qualquer hora", "texto": "deixe o cliente marcar a qualquer hora." },
+      { "termo": "Madrugada", "texto": "não responda pedido de horário de madrugada." },
+      { "termo": "Link", "texto": "coloque o link na bio e no status." },
+      { "termo": "Manhã", "texto": "de manhã, confira o que entrou." }
+    ], "puxada": "Salve pra lembrar." },
+    { "tipo": "texto", "titulo": "Cliente fiel também marca fora do horário", "paragrafos": ["Numa pesquisa da Zenoti, 81% dos clientes frequentes disseram precisar marcar ou mexer no horário fora do horário comercial.", "O cliente fiel também quer marcar quando dá pra ele."], "fonte": "Zenoti, pesquisa norte-americana" },
+    { "tipo": "tela", "tela": { "nome": "aviso", "aviso": { "tipo": "novo", "nome": "Diego Souza", "servico": "Corte masculino", "quando": "ter 03/11 às 11:00" }, "hora": "23:04", "data": "segunda-feira, 2 de novembro" }, "frase": "No Fio o cliente marca sozinho pelo link, até de madrugada, e você recebe o aviso." },
+    { "tipo": "fecho", "frase": "Seu cliente marca quando pode, você atende quando abre. O Fio cuida do meio." }
+  ]
+}

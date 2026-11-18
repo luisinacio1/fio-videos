@@ -1,0 +1,95 @@
+{
+  "id": "2026-11-19-21h-almoco-e-folga-bloqueados",
+  "tipo": "dica",
+  "tema": "almoco-e-folga-bloqueados",
+  "titulo": "Bloqueie o almoço e a folga antes que alguém marque",
+  "legenda": "Cliente marcou bem na hora do seu almoço? 🍱\n\nO erro não é do cliente: o horário parecia livre. Três coisas pra fazer:\n\n• Defina um horário fixo de almoço e trate como compromisso, igual a um cliente.\n• Feriado, férias e folga: avise e bloqueie com antecedência, não na véspera.\n• Lembre que horário que não está bloqueado parece livre para quem pergunta.\n\nSalva pra usar já amanhã.\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nQual foi o pior horário em que já marcaram com você?",
+  "falas": [
+    { "texto": "Cliente marcou bem na hora do seu almoço?" },
+    { "texto": "A marmita esfria, o estômago ronca, e o cliente chega." },
+    { "texto": "O erro não é do cliente. O horário parecia livre." },
+    { "texto": "São três coisas pra fazer, e você usa já amanhã." },
+    { "texto": "Salva esse vídeo pra não esquecer." },
+    { "texto": "Primeira: defina um horário fixo de almoço." },
+    { "texto": "Fixo mesmo. Todo dia, na mesma hora." },
+    { "texto": "E trate como compromisso, igual a um cliente." },
+    { "texto": "Ninguém marca em cima de um cliente, né? Então no almoço também não." },
+    { "texto": "Segunda: feriado, férias e folga." },
+    { "texto": "Avise e bloqueie. Mas não na véspera." },
+    { "texto": "Na véspera, o cliente já marcou e você tem que desmarcar." },
+    { "texto": "Com antecedência, ninguém marca no seu horário." },
+    { "texto": "Terceira: entenda por que isso acontece." },
+    { "texto": "Horário que não está bloqueado parece livre." },
+    { "texto": "Pra quem pergunta, se não tem nada marcado, tem vaga." },
+    { "texto": "Recapitulando: almoço fixo, tratado como compromisso." },
+    { "texto": "Folga e feriado bloqueados antes, não na véspera." },
+    { "texto": "E nenhum horário parado parecendo livre." },
+    { "texto": "No Fio, o que você bloqueia some do link." },
+    { "texto": "O cliente nem vê, e ninguém marca no seu almoço." },
+    { "texto": "É assim no Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena." },
+    { "texto": "Você marca o almoço e a folga como bloqueio na agenda." },
+    { "texto": "O que está fechado some do link. Só aparece horário livre de verdade." },
+    { "texto": "O cliente escolhe sozinho e confirma, sem te chamar no meio do corte." },
+    { "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct." },
+    { "texto": "A gente monta a sua agenda pra você. Sem custo." },
+    { "pausa": 0.3, "texto": "Fio. Seu almoço fica fora do link." },
+    { "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro." },
+    { "texto": "Qual foi o pior horário em que já marcaram com você? Conta aqui." }
+  ],
+  "chaves": ["marmita", "estômago", "vaga", "bloqueie", "link", "caderno"],
+  "ponte": "20",
+  "fio": "22",
+  "cenas": [
+    { "tipo": "barbearia", "de": "1", "barbeiro": "rafa", "cliente": "matheus", "reacoes": [
+      { "em": "1:almoço", "boca": "torta", "olhar": "celular" },
+      { "em": "2:estômago", "boca": "aberta", "sacode": true }
+    ] },
+    { "tipo": "sala", "de": "3", "personagem": "matheus", "pensamento": { "em": "3:livre", "rotulo": "Horário", "titulo": "Parecia livre", "texto": "Ninguém avisou" }, "reacoes": [{ "em": "3:erro", "boca": "sorriso", "olhar": "celular" }] },
+    { "tipo": "texto", "de": "4", "linhas": ["Coisas pra", "fazer amanhã."], "destaque": ["amanhã."], "fundo": "acento", "numero": { "de": 0, "ate": 3, "em": "4:três" } },
+    { "tipo": "passos", "de": "6", "titulo": "Almoço fixo", "passos": [
+      { "em": "6", "texto": "Horário fixo de almoço" },
+      { "em": "7:mesma", "texto": "Todo dia, na mesma hora" },
+      { "em": "8:compromisso", "texto": "Compromisso, igual a cliente" }
+    ] },
+    { "tipo": "barbearia", "de": "9", "barbeiro": "rafa", "cliente": "davi", "reacoes": [
+      { "em": "9:cliente", "boca": "sorriso", "olhar": "frente" },
+      { "em": "9:almoço", "boca": "aberta", "olhar": "lado" }
+    ] },
+    { "tipo": "texto", "de": "10", "linhas": ["Feriado, férias", "e folga."], "destaque": ["folga."], "fundo": "claro" },
+    { "tipo": "compara", "de": "11",
+      "esquerda": { "titulo": "Na véspera", "itens": ["Cliente já marcou", "Você desmarca"], "objeto": "toalha" },
+      "direita": { "titulo": "Com tempo", "itens": ["Horário bloqueado", "Ninguém marca"], "objeto": "pente" },
+      "vencedor": "direita",
+      "revela": ["12:marcou", "12:desmarcar", "13:antecedência", "13:ninguém"] },
+    { "tipo": "sala", "de": "14", "personagem": "davi", "pensamento": { "em": "15:livre", "rotulo": "Quem pergunta", "titulo": "Parece livre", "texto": "Será que tem?" }, "reacoes": [{ "em": "16:vaga", "boca": "sorriso", "olhar": "celular" }] },
+    { "tipo": "passos", "de": "17", "titulo": "Recapitulando", "passos": [
+      { "em": "17", "texto": "Almoço fixo" },
+      { "em": "18:Folga", "texto": "Folga bloqueada antes" },
+      { "em": "19:parado", "texto": "Nada parecendo livre" }
+    ] },
+    { "tipo": "barbearia", "de": "20", "barbeiro": "rafa", "cliente": "ze", "reacoes": [
+      { "em": "20:bloqueia", "boca": "aberta", "olhar": "celular" },
+      { "em": "21:almoço", "boca": "sorriso", "olhar": "frente" }
+    ] },
+    { "tipo": "apresentaFio", "de": "22",
+      "tela": { "nome": "agenda",
+        "clientes": [
+          { "hora": "09:00", "nome": "Davi Rocha", "servico": "Corte masculino" },
+          { "hora": "10:00", "nome": "Matheus Lima", "servico": "Corte + barba" },
+          { "hora": "11:00", "nome": "José Prado", "servico": "Barba" }
+        ] },
+      "frases": [
+        { "em": "22:agenda", "texto": "A agenda do barbeiro" },
+        { "em": "23:almoço", "texto": "Almoço vira bloqueio" },
+        { "em": "23:folga", "texto": "A folga também" }
+      ] },
+    { "tipo": "app", "de": "24", "entrada": "subir", "tela": { "nome": "agendamento", "cliente": "Matheus Lima", "hora": "12:10",
+      "toques": { "servico": "24:fechado", "dia": "24:link", "horario": "24:livre", "confirmar": "25:confirma" } } },
+    { "tipo": "sala", "de": "26", "personagem": "rafa", "reacoes": [{ "em": "27:monta", "boca": "sorriso", "olhar": "frente" }] },
+    { "tipo": "final", "de": "28" }
+  ],
+  "extras": [
+    { "tipo": "zap", "em": "26:manda", "ate": "27:fim", "de": "Você", "texto": "@agendafio, segue minha lista de clientes e serviços." },
+    { "tipo": "zap", "em": "27:monta", "ate": "27:fim", "de": "@agendafio", "texto": "Recebido! Em até 2 dias sua agenda fica pronta." }
+  ]
+}

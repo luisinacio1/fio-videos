@@ -1,0 +1,108 @@
+{
+  "id": "2026-11-19-18h-navalha-por-dentro",
+  "tipo": "atracao-3d",
+  "tema": "navalha-por-dentro",
+  "titulo": "Por dentro da navalha de barbeiro: a alavanca escondida no cabo",
+  "legenda": "A navalha esconde uma alavanca no cabo. 💈\n\nA lâmina gira num pino chamado pivô e se guarda entre duas peças, as escalas, que formam o cabo. A espiga é a alavanca que ajuda a tirar a lâmina do cabo. O dorso é a parte de cima, que não corta; o fio fica do lado oposto. Para manter o corte, a lâmina é passada no couro de vez em quando, e afiada na pedra mais raramente. As primeiras navalhas com fio de aço foram fabricadas em Sheffield, na Inglaterra, em 1680.\n\nFonte: verbete \"Straight razor\" (Wikipédia em inglês).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nE você, já viu uma navalha aberta de perto?",
+  "chaves": ["pivô", "escalas", "espiga", "dorso", "Sheffield", "lembretes", "WhatsApp", "link", "monta"],
+  "falas": [
+    { "texto": "A navalha esconde uma alavanca no cabo." },
+    { "texto": "Olha essa navalha de barbeiro." },
+    { "texto": "Abre, corta, fecha. Parece simples, né?" },
+    { "texto": "Mas tem peça escondida no cabo. Vem comigo." },
+    { "texto": "Para entender, a gente abre a navalha." },
+    { "texto": "O cabo é feito de duas peças, as escalas. E no meio, a lâmina." },
+    { "texto": "Ela gira num pino chamado pivô." },
+    { "texto": "E quando fecha, a lâmina se guarda entre as duas escalas." },
+    { "texto": "Agora a alavanca. Ela se chama espiga." },
+    { "texto": "A espiga ajuda a tirar a lâmina do cabo." },
+    { "texto": "Agora olha a lâmina de lado. Em cima, o dorso." },
+    { "texto": "O dorso é a parte que não corta." },
+    { "texto": "O fio fica do lado oposto. É ali que corta." },
+    { "texto": "E como manter esse fio?" },
+    { "texto": "A lâmina passa no couro, de vez em quando." },
+    { "texto": "E na pedra, só mais raramente, pra afiar." },
+    { "texto": "Agora volta no tempo, até a Inglaterra." },
+    { "texto": "Em Sheffield, saíram as primeiras navalhas com fio de aço." },
+    { "texto": "Foi em 1680." },
+    { "texto": "Mais de trezentos anos depois, o barbeiro ainda cuida do fio." },
+    { "texto": "A navalha pede cuidado pra não perder o fio." },
+    { "texto": "Agenda também: um cliente que esquece e o dia inteiro atrasa." },
+    { "texto": "Pra isso existe o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena." },
+    { "texto": "Todo dia, às seis da tarde, chega o aviso: lembretes de amanhã." },
+    { "texto": "A mensagem já vem pronta. Você aperta enviar no WhatsApp. Um toque por cliente." },
+    { "texto": "Não vai dar pra ir? O cliente desmarca ou remarca pelo link, e você recebe o aviso." },
+    { "texto": "Ainda anota no caderno? Manda sua lista no direct." },
+    { "texto": "E a gente monta pra você: sua agenda pronta em até dois dias, sem custo." },
+    { "pausa": 0.3, "texto": "Fio. A agenda sempre afiada." },
+    { "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro." },
+    { "texto": "E você, já viu uma navalha aberta de perto? Conta aqui." }
+  ],
+  "planos": [
+    {
+      "modo": "vitrine", "de": "1", "objeto": "navalha",
+      "etiquetas": [
+        { "em": "2:navalha", "texto": "Navalha de barbeiro" },
+        { "em": "3:simples", "texto": "Parece simples" },
+        { "em": "4:escondida", "texto": "Peça escondida no cabo" }
+      ]
+    },
+    {
+      "modo": "porDentro", "de": "5", "objeto": "navalha", "abre": "5:abre",
+      "partes": [
+        { "em": "6:escalas", "texto": "escalas" },
+        { "em": "6:lâmina", "texto": "lâmina" },
+        { "em": "7:pivô", "texto": "pivô" }
+      ]
+    },
+    {
+      "modo": "vitrine", "de": "9", "objeto": "navalha",
+      "etiquetas": [
+        { "em": "9:alavanca", "texto": "A alavanca" },
+        { "em": "9:espiga", "texto": "Espiga" },
+        { "em": "10:tirar", "texto": "Ajuda a tirar a lâmina" }
+      ]
+    },
+    {
+      "modo": "vitrine", "de": "11", "objeto": "navalha",
+      "etiquetas": [
+        { "em": "11:dorso", "texto": "Dorso: não corta" },
+        { "em": "13:fio", "texto": "O corte: lado oposto" }
+      ]
+    },
+    {
+      "modo": "vitrine", "de": "14", "objeto": "navalha",
+      "etiquetas": [
+        { "em": "14:manter", "texto": "Manter o fio" },
+        { "em": "15:couro", "texto": "Couro, de vez em quando" },
+        { "em": "16:pedra", "texto": "Pedra, mais raramente" }
+      ]
+    },
+    {
+      "modo": "vitrine", "de": "17", "objeto": "navalha",
+      "etiquetas": [
+        { "em": "17:Inglaterra", "texto": "Inglaterra" },
+        { "em": "18:Sheffield", "texto": "Sheffield" },
+        { "em": "18:aço", "texto": "Primeiro fio de aço" },
+        { "em": "20:cuida", "texto": "Ainda cuidando do fio" }
+      ]
+    }
+  ],
+  "ponte": "21",
+  "fio": {
+    "de": "23",
+    "telas": [
+      { "em": "23", "tela": { "nome": "agenda" } },
+      { "em": "24", "tela": { "nome": "aviso", "aviso": { "tipo": "lembretes", "quantidade": 4 }, "hora": "18:00", "data": "segunda-feira, 2 de novembro" } },
+      { "em": "25:mensagem", "tela": { "nome": "whats" } },
+      { "em": "26:desmarca", "tela": { "nome": "aviso", "aviso": { "tipo": "cancelado", "nome": "Diego Souza", "quando": "ter 03/11 às 11:00" }, "hora": "18:24", "data": "segunda-feira, 2 de novembro" } },
+      { "em": "28:agenda", "tela": { "nome": "agenda" } }
+    ],
+    "frases": [
+      { "em": "24:lembretes", "texto": "Lembretes de amanhã, todo dia às 18h" },
+      { "em": "25:enviar", "texto": "Mensagem pronta, você só envia" },
+      { "em": "26:aviso", "texto": "Desmarcou pelo link? Você é avisado" }
+    ]
+  },
+  "final": { "de": "29" }
+}

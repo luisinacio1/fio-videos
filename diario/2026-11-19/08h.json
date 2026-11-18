@@ -1,0 +1,107 @@
+{
+  "id": "2026-11-19-08h-numero-do-pente",
+  "tipo": "conceito",
+  "tema": "numero-do-pente",
+  "titulo": "Pente 1, 2, 3: o que significa o número da máquina",
+  "legenda": "Máquina 1, 2 ou 3: o que é isso? 💈\n\nO número é do pente que encaixa na máquina: é ele que define quanto cabelo fica. Na maioria das máquinas, cada número a mais deixa uns 3 milímetros a mais:\n\n• Pente 1: cerca de 3 mm.\n• Pente 2: cerca de 6 mm.\n• Pente 3: cerca de 9 a 10 mm.\n\nE o pente zero, ou sem pente, é a máquina direto, quase na pele. Na dúvida, peça um número maior: dá pra cortar mais depois. Salva pra pedir certo no próximo corte.\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nE você, qual número de pente costuma pedir?",
+  "falas": [
+    { "texto": "Máquina 1, 2 ou 3: o que é isso?" },
+    { "texto": "O barbeiro pergunta e você fica sem saber o que responder." },
+    { "texto": "Mas é fácil. Dá pra entender em um minuto." },
+    { "texto": "Primeiro: de que número a gente está falando?" },
+    { "texto": "É o número do pente que encaixa na máquina." },
+    { "texto": "Esse pente define quanto cabelo vai ficar." },
+    { "texto": "Ou seja: o número não é da máquina. É do pente." },
+    { "texto": "E a conta é simples. Cada número a mais deixa uns três milímetros a mais." },
+    { "texto": "O pente 1 deixa cerca de três milímetros." },
+    { "texto": "O pente 2, cerca de seis." },
+    { "texto": "E o pente 3, de nove a dez milímetros." },
+    { "texto": "Três milímetros é pouquinho: quase uma raspada." },
+    { "texto": "E nove ou dez milímetros já é bem mais cabelo." },
+    { "texto": "E tem o pente zero, ou sem pente." },
+    { "texto": "É a máquina direto, quase na pele." },
+    { "texto": "Então é só lembrar: quanto maior o número, mais cabelo fica." },
+    { "texto": "Na dúvida, pede um número maior. Dá pra cortar mais depois." },
+    { "texto": "Agora você já sabe pedir. Salva esse vídeo pro próximo corte." },
+    { "texto": "Saber o número ajuda a pedir o corte certo." },
+    { "texto": "E a marcar o serviço certo também, sem ficar trocando mensagem." },
+    { "texto": "Pra isso existe o Fio, a agenda do barbeiro." },
+    { "texto": "O cliente abre o link, escolhe o serviço, o dia e um horário livre." },
+    { "texto": "Coloca o nome, confirma, e pronto. Sem mandar mensagem." },
+    { "texto": "Na véspera, o barbeiro te manda o lembrete no WhatsApp, em um toque." },
+    { "texto": "Não vai dar? Ele mesmo remarca pelo link, e você recebe o aviso." },
+    { "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct." },
+    { "texto": "A gente monta a sua agenda pra você. Sem custo." },
+    { "pausa": 0.3, "texto": "Fio. O número certo, no horário certo." },
+    { "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro." },
+    { "texto": "E você, qual número de pente costuma pedir? Conta aqui." }
+  ],
+  "chaves": ["milímetros", "pele", "dúvida", "mensagem", "link", "WhatsApp"],
+  "ponte": "19",
+  "fio": "21",
+  "cenas": [
+    { "tipo": "objeto", "de": "1", "objeto": "maquina", "fundo": "escuro", "etiquetas": [
+      { "em": "1:Máquina", "texto": "Pente 1" },
+      { "em": "1:que", "texto": "Pente 2" },
+      { "em": "1:isso", "texto": "Pente 3" }
+    ] },
+    { "tipo": "barbearia", "de": "2", "barbeiro": "rafa", "cliente": "matheus", "reacoes": [
+      { "em": "2:pergunta", "boca": "aberta", "olhar": "lado" },
+      { "em": "2:sem", "boca": "torta", "olhar": "frente" }
+    ] },
+    { "tipo": "texto", "de": "3", "linhas": ["Fácil.", "Um minuto."], "destaque": ["Fácil."], "fundo": "acento" },
+    { "tipo": "sala", "de": "4", "personagem": "davi", "pensamento": { "em": "4:número", "rotulo": "Número", "titulo": "Pente", "texto": "1, 2 ou 3?" }, "reacoes": [{ "em": "4:falando", "boca": "aberta", "olhar": "frente" }] },
+    { "tipo": "objeto", "de": "5", "objeto": "pente", "fundo": "escuro", "etiquetas": [
+      { "em": "5:número", "texto": "O número do pente" },
+      { "em": "5:encaixa", "texto": "Encaixa na máquina" },
+      { "em": "6:define", "texto": "Define o cabelo que fica" }
+    ] },
+    { "tipo": "texto", "de": "7", "linhas": ["Número do pente.", "Não da máquina."], "destaque": ["pente."], "fundo": "claro" },
+    { "tipo": "texto", "de": "8", "linhas": ["Cada número", "a mais:"], "destaque": ["mais:"], "fundo": "escuro", "numero": { "de": 0, "ate": 3, "prefixo": "+", "sufixo": " mm", "em": "8:três" } },
+    { "tipo": "passos", "de": "9", "titulo": "O que cada pente deixa", "passos": [
+      { "em": "9", "texto": "Pente 1: cerca de 3 mm" },
+      { "em": "10:seis", "texto": "Pente 2: cerca de 6 mm" },
+      { "em": "11:nove", "texto": "Pente 3: de 9 a 10 mm", "objeto": "maquina" }
+    ] },
+    { "tipo": "compara", "de": "12",
+      "esquerda": { "titulo": "Pente 1", "itens": ["Cerca de 3 mm", "Quase uma raspada"], "objeto": "maquina" },
+      "direita": { "titulo": "Pente 3", "itens": ["De 9 a 10 mm", "Bem mais cabelo"], "objeto": "pente" },
+      "vencedor": "direita",
+      "revela": ["12:Três", "12:raspada", "13:nove", "13:mais"] },
+    { "tipo": "objeto", "de": "14", "objeto": "maquina", "fundo": "escuro", "etiquetas": [
+      { "em": "14:zero", "texto": "Pente zero" },
+      { "em": "15:direto", "texto": "Máquina direto" },
+      { "em": "15:pele", "texto": "Quase na pele" }
+    ] },
+    { "tipo": "texto", "de": "16", "linhas": ["Maior o número,", "mais cabelo."], "destaque": ["mais"], "fundo": "acento" },
+    { "tipo": "barbearia", "de": "17", "barbeiro": "juninho", "cliente": "davi", "reacoes": [
+      { "em": "17:dúvida", "boca": "aberta", "olhar": "frente" },
+      { "em": "17:depois", "boca": "sorriso", "olhar": "frente" }
+    ] },
+    { "tipo": "texto", "de": "18", "linhas": ["Agora você", "pede certo."], "destaque": ["certo."], "fundo": "escuro" },
+    { "tipo": "barbearia", "de": "19", "barbeiro": "rafa", "cliente": "matheus",
+      "mensagens": [
+        { "em": "20:trocando", "de": "Matheus", "texto": "Pente 2 ou 3?" },
+        { "em": "20:mensagem", "de": "Davi", "texto": "Tem horário hoje?" }
+      ],
+      "olhaCelular": "20:trocando",
+      "reacoes": [{ "em": "19:ajuda", "boca": "sorriso", "olhar": "frente" }, { "em": "20:trocando", "boca": "torta" }] },
+    { "tipo": "apresentaFio", "de": "21",
+      "tela": { "nome": "agendamento", "cliente": "Davi Rocha", "hora": "09:40",
+        "toques": { "servico": "22:serviço", "dia": "22:dia", "horario": "22:horário", "confirmar": "23:confirma" } },
+      "frases": [
+        { "em": "22:link", "texto": "Cliente marca pelo link" },
+        { "em": "22:livre", "texto": "Só os horários livres aparecem" },
+        { "em": "23:mandar", "texto": "Sem trocar mensagem" }
+      ] },
+    { "tipo": "app", "de": "24", "entrada": "subir", "tela": { "nome": "lembretes", "toques": [{ "toque": "24:lembrete", "enviar": "24:toque" }] } },
+    { "tipo": "app", "de": "25", "tela": { "nome": "bloqueio", "hora": "18:24", "data": "segunda-feira, 2 de novembro",
+      "avisos": [{ "em": "25:aviso", "tipo": "cancelado", "nome": "Diego Souza", "quando": "ter 03/11 às 11:00" }] } },
+    { "tipo": "sala", "de": "26", "personagem": "rafa", "reacoes": [{ "em": "27:monta", "boca": "sorriso", "olhar": "frente" }] },
+    { "tipo": "final", "de": "28" }
+  ],
+  "extras": [
+    { "tipo": "zap", "em": "26:manda", "ate": "27:fim", "de": "Você", "texto": "@agendafio, segue minha lista de clientes e serviços." },
+    { "tipo": "zap", "em": "27:monta", "ate": "27:fim", "de": "@agendafio", "texto": "Recebido! Em até 2 dias sua agenda fica pronta." }
+  ]
+}
