@@ -1,0 +1,21 @@
+{
+  "id": "2026-11-20-carrossel-preco-reajuste-com-aviso",
+  "tema": "preco-reajuste-com-aviso",
+  "rotulo": "Reajuste",
+  "legenda": "Vai aumentar o preço? Avise 30 dias antes. 💈\n\nO Sebrae Paraná recomenda comunicar o reajuste com antecedência, por exemplo 30 dias antes do aumento. O mesmo material orienta a nunca justificar com \"o custo subiu\", e sim mostrar o que melhorou no serviço. Pro cliente fiel que sente o aumento, vale ter uma versão mais simples, com preço mais baixo.\n\nPreço novo anunciado só na hora de cobrar soa como surpresa e pega mal. Salva o passo a passo e manda pra outro barbeiro.\n\nFonte: Sebrae Paraná.\n\nLink na bio pra testar 7 dias grátis.\n\nQuando foi seu último reajuste de preço? Conta aqui.",
+  "slides": [
+    { "tipo": "capa", "titulo": "Vai aumentar o preço? Avise 30 dias antes", "curiosidade": "E nunca diga que o custo subiu.", "ilustracao": { "personagem": "rafa" } },
+    { "tipo": "texto", "titulo": "O Sebrae manda avisar com antecedência", "paragrafos": ["O Sebrae Paraná recomenda comunicar o reajuste com antecedência, por exemplo 30 dias antes do aumento.", "Preço novo anunciado só na hora de cobrar soa como surpresa e pega mal."], "puxada": "E o que dizer no aviso?", "fonte": "Sebrae Paraná" },
+    { "tipo": "texto", "titulo": "Na sua barbearia, o aviso vem antes do preço", "paragrafos": ["O mesmo material orienta a nunca justificar com \"o custo subiu\".", "O caminho é mostrar o que melhorou no serviço.", "E pro cliente fiel que sente o aumento, ter uma versão mais simples, com preço mais baixo."], "puxada": "O que fazer, então?" },
+    { "tipo": "lista", "titulo": "5 passos pra reajustar sem perder cliente", "itens": [
+      { "termo": "Avise", "texto": "com um mês de antecedência." },
+      { "termo": "Mostre", "texto": "o que melhorou no serviço." },
+      { "termo": "Opção", "texto": "tenha uma versão mais simples, com preço mais baixo." },
+      { "termo": "Nunca", "texto": "anuncie só na hora de cobrar." },
+      { "termo": "Sem desculpa", "texto": "não peça desculpa pelo preço novo." }
+    ], "puxada": "Salve pra lembrar." },
+    { "tipo": "compara", "titulo": "Como avisar o aumento?", "a": { "rotulo": "Só na cobrança", "linhas": ["Soa como surpresa", "Pega mal", "Cliente desprevenido"] }, "b": { "rotulo": "30 dias antes", "linhas": ["Cliente se prepara", "Você mostra o que melhorou", "Tem opção mais simples"] } },
+    { "tipo": "tela", "tela": { "nome": "link" }, "frase": "No Fio, você manda o link junto: o cliente vê os horários livres e marca sozinho." },
+    { "tipo": "fecho", "frase": "Preço novo com aviso e link pra marcar. O Fio cuida da sua agenda." }
+  ]
+}

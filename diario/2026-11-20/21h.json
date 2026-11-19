@@ -1,0 +1,285 @@
+{
+  "id": "2026-11-20-21h-aluguel-de-cadeira-ou-parceria",
+  "tipo": "conceito",
+  "tema": "aluguel-de-cadeira-ou-parceria",
+  "titulo": "Aluguel de cadeira ou parceria: qual a diferença",
+  "legenda": "Alugar a cadeira ou ser parceiro? Parece igual, mas não é. 💈\n\nAluguel: o barbeiro paga um valor fixo para usar a cadeira, e o resto do que fatura é dele.\n\nParceria: está prevista na Lei do Salão-Parceiro, de 2016. O salão fica com uma cota-parte de cada serviço, fixada em contrato. Na lei, o estabelecimento e o profissional passam a se chamar salão-parceiro e profissional-parceiro.\n\nFonte: Lei nº 13.352/2016 (Planalto).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nNa sua barbearia é aluguel ou parceria?",
+  "falas": [
+    {
+      "texto": "Alugar a cadeira ou ser parceiro?"
+    },
+    {
+      "texto": "Parece a mesma coisa. Mas não é."
+    },
+    {
+      "texto": "Vou explicar rapidinho, do jeito que o barbeiro precisa saber."
+    },
+    {
+      "texto": "Primeiro: o aluguel."
+    },
+    {
+      "texto": "No aluguel, o barbeiro paga um valor fixo pra usar a cadeira."
+    },
+    {
+      "texto": "O valor é fixo. Você combinou, você paga."
+    },
+    {
+      "texto": "Todo o resto que ele fatura é dele."
+    },
+    {
+      "texto": "Ou seja: o dinheiro dos cortes fica com o barbeiro, menos o valor do aluguel."
+    },
+    {
+      "texto": "Segundo: a parceria."
+    },
+    {
+      "texto": "Na parceria, o salão fica com uma parte de cada serviço."
+    },
+    {
+      "texto": "Essa parte tem nome: cota-parte."
+    },
+    {
+      "texto": "E ela é fixada em contrato."
+    },
+    {
+      "texto": "Isso está na Lei do Salão-Parceiro, de dois mil e dezesseis."
+    },
+    {
+      "texto": "Na lei, o estabelecimento passa a se chamar salão-parceiro."
+    },
+    {
+      "texto": "E o profissional passa a se chamar profissional-parceiro."
+    },
+    {
+      "texto": "Resumindo: no aluguel, um valor fixo pela cadeira."
+    },
+    {
+      "texto": "Na parceria, uma parte de cada serviço, combinada em contrato."
+    },
+    {
+      "texto": "Na parceria, cada serviço tem a parte de cada um."
+    },
+    {
+      "texto": "E fazer essa conta no caderno, todo mês, dá dor de cabeça."
+    },
+    {
+      "texto": "Por isso existe o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena."
+    },
+    {
+      "texto": "No plano Equipe, a comissão de cada atendimento já entra na conta."
+    },
+    {
+      "texto": "Marcou como realizado, a comissão já entra."
+    },
+    {
+      "texto": "E o dono vê a comissão do mês de cada barbeiro."
+    },
+    {
+      "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você. Sem custo."
+    },
+    {
+      "pausa": 0.3,
+      "texto": "Fio. Cada um com a sua parte, sem conta no caderno."
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "Na sua barbearia é aluguel ou parceria? Conta aqui."
+    }
+  ],
+  "chaves": [
+    "aluguel",
+    "parceria",
+    "contrato",
+    "comissão",
+    "caderno",
+    "monta"
+  ],
+  "ponte": "18",
+  "fio": "20",
+  "cenas": [
+    {
+      "tipo": "barbearia",
+      "de": "1",
+      "barbeiro": "juninho",
+      "reacoes": [
+        {
+          "em": "1:ser",
+          "boca": "aberta",
+          "sacode": true
+        },
+        {
+          "em": "2:Mas",
+          "boca": "torta"
+        }
+      ]
+    },
+    {
+      "tipo": "objeto",
+      "de": "4",
+      "objeto": "cadeiraAntiga",
+      "fundo": "escuro",
+      "etiquetas": [
+        {
+          "em": "5:valor",
+          "texto": "Valor fixo pela cadeira"
+        },
+        {
+          "em": "7:resto",
+          "texto": "O resto é seu"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "9",
+      "linhas": [
+        "Segundo:",
+        "a parceria"
+      ],
+      "destaque": [
+        "parceria"
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "passos",
+      "de": "10",
+      "titulo": "Na parceria",
+      "passos": [
+        {
+          "em": "10:parte",
+          "texto": "O salão fica com uma parte"
+        },
+        {
+          "em": "11:cota-parte",
+          "texto": "A parte se chama cota-parte"
+        },
+        {
+          "em": "12:contrato",
+          "texto": "Fixada em contrato"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "13",
+      "linhas": [
+        "Lei do",
+        "Salão-Parceiro",
+        "2016"
+      ],
+      "destaque": [
+        "2016"
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "passos",
+      "de": "14",
+      "titulo": "Os nomes na lei",
+      "passos": [
+        {
+          "em": "14:estabelecimento",
+          "texto": "Salão-parceiro"
+        },
+        {
+          "em": "15:profissional",
+          "texto": "Profissional-parceiro"
+        }
+      ]
+    },
+    {
+      "tipo": "compara",
+      "de": "16",
+      "esquerda": {
+        "titulo": "Aluguel",
+        "itens": [
+          "Valor fixo pela cadeira",
+          "O resto é seu"
+        ]
+      },
+      "direita": {
+        "titulo": "Parceria",
+        "itens": [
+          "Parte de cada serviço",
+          "Cota fixada em contrato"
+        ]
+      },
+      "revela": [
+        "16:aluguel",
+        "16:fixo",
+        "17:parceria",
+        "17:contrato"
+      ]
+    },
+    {
+      "tipo": "sala",
+      "de": "18",
+      "personagem": "rafa",
+      "pensamento": {
+        "em": "19:caderno",
+        "rotulo": "Todo mês",
+        "titulo": "A conta de cada um, no caderno"
+      }
+    },
+    {
+      "tipo": "apresentaFio",
+      "de": "20",
+      "tela": {
+        "nome": "equipe",
+        "contar": "22:comissão"
+      },
+      "frases": [
+        {
+          "em": "21:comissão",
+          "texto": "Comissão de cada atendimento"
+        },
+        {
+          "em": "22:realizado",
+          "texto": "Marcou realizado, já entra"
+        },
+        {
+          "em": "23:dono",
+          "texto": "Comissão do mês de cada um"
+        }
+      ]
+    },
+    {
+      "tipo": "sala",
+      "de": "24",
+      "personagem": "juninho",
+      "reacoes": [
+        {
+          "em": "25:monta",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "de": "26"
+    }
+  ],
+  "extras": [
+    {
+      "tipo": "zap",
+      "em": "24:manda",
+      "ate": "25:fim",
+      "de": "Você",
+      "texto": "@agendafio, segue minha lista de clientes e serviços."
+    },
+    {
+      "tipo": "zap",
+      "em": "25:monta",
+      "ate": "25:fim",
+      "de": "@agendafio",
+      "texto": "Recebido! Em até 2 dias sua agenda fica pronta."
+    }
+  ]
+}

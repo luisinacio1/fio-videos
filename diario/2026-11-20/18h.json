@@ -1,0 +1,80 @@
+{
+  "id": "2026-11-20-18h-espelho-de-pedra",
+  "tipo": "atracao-3d",
+  "tema": "espelho-de-pedra",
+  "titulo": "O espelho da barbearia já foi de pedra vulcânica",
+  "legenda": "Os espelhos mais antigos eram de pedra. 🪞\n\nO espelho da barbearia nem sempre foi de vidro. Espelhos de obsidiana, uma pedra vulcânica, achados em Çatalhöyük, na atual Turquia, são de cerca de 6000 a.C. Na Mesopotâmia, faziam-se espelhos de cobre polido desde 4000 a.C.; no Egito, desde cerca de 3000 a.C. O vidro só começou a ser usado em espelhos no século I depois de Cristo. No século XVI, Veneza era um centro de fabricação de espelhos, e o espelho de vidro com prata é atribuído ao químico alemão Justus von Liebig, em 1835.\n\nFonte: verbete \"Mirror\" (Wikipédia em inglês).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nE você, sabia que o espelho já foi de pedra?",
+  "chaves": ["obsidiana", "cobre", "Veneza", "Liebig", "lembretes", "WhatsApp", "link", "monta"],
+  "falas": [
+    { "texto": "Os espelhos mais antigos eram de pedra." },
+    { "texto": "Olha esse espelho de barbearia girando." },
+    { "texto": "Hoje é vidro liso, com você dentro. Mas nem sempre foi assim." },
+    { "texto": "Volta comigo até cerca de seis mil anos antes de Cristo." },
+    { "texto": "Na atual Turquia, acharam espelhos de obsidiana." },
+    { "texto": "Obsidiana é uma pedra vulcânica." },
+    { "texto": "Isso mesmo: uma pedra de vulcão fazia de espelho." },
+    { "texto": "Depois veio o metal." },
+    { "texto": "Na Mesopotâmia, faziam espelho de cobre polido desde quatro mil antes de Cristo." },
+    { "texto": "No Egito, o cobre polido vem de cerca de três mil antes de Cristo." },
+    { "texto": "E o vidro? Só entrou nos espelhos no século primeiro depois de Cristo." },
+    { "texto": "No século dezesseis, Veneza era um centro de fabricação de espelhos." },
+    { "texto": "O espelho de vidro com prata é atribuído ao químico alemão Justus von Liebig." },
+    { "texto": "Isso foi lá em mil oitocentos e trinta e cinco." },
+    { "texto": "Ou seja: pedra, cobre, vidro, e por fim o vidro com prata." },
+    { "texto": "Milhares de anos de espelho, só pra você ver o corte pronto." },
+    { "texto": "Da próxima vez que olhar o espelho da barbearia, lembra da pedra de vulcão." },
+    { "texto": "O espelho mostra o corte pronto." },
+    { "texto": "Mas o que o barbeiro precisa ver é o dia de amanhã, antes de ele chegar." },
+    { "texto": "Pra isso existe o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena." },
+    { "texto": "Todo dia, às seis da tarde, chega o aviso: lembretes de amanhã." },
+    { "texto": "A mensagem já vem pronta. Você aperta enviar no WhatsApp. Um toque por cliente." },
+    { "texto": "O cliente desmarca ou remarca pelo link, e você recebe o aviso." },
+    { "texto": "Ainda anota no caderno? Manda sua lista no direct." },
+    { "texto": "E a gente monta pra você: sua agenda pronta em até dois dias, sem custo." },
+    { "pausa": 0.3, "texto": "Fio. O seu amanhã, antes de chegar." },
+    { "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro." },
+    { "texto": "E você, sabia que o espelho já foi de pedra? Conta aqui." }
+  ],
+  "planos": [
+    { "modo": "vitrine", "de": "1", "objeto": "espelho", "etiquetas": [
+      { "em": "2:espelho", "texto": "Espelho de barbearia" },
+      { "em": "3:vidro", "texto": "Hoje, vidro liso" }
+    ] },
+    { "modo": "vitrine", "de": "4", "objeto": "espelho", "etiquetas": [
+      { "em": "4:seis", "texto": "Cerca de 6000 a.C." },
+      { "em": "5:Turquia", "texto": "Atual Turquia" },
+      { "em": "6:vulcânica", "texto": "Pedra vulcânica" }
+    ] },
+    { "modo": "vitrine", "de": "8", "objeto": "espelho", "etiquetas": [
+      { "em": "8:metal", "texto": "Depois, o metal" },
+      { "em": "9:cobre", "texto": "Cobre polido: 4000 a.C." },
+      { "em": "10:Egito", "texto": "Cerca de 3000 a.C." }
+    ] },
+    { "modo": "vitrine", "de": "11", "objeto": "espelho", "etiquetas": [
+      { "em": "11:vidro", "texto": "Vidro: século I" },
+      { "em": "12:Veneza", "texto": "Veneza, século XVI" },
+      { "em": "13:Liebig", "texto": "Justus von Liebig" }
+    ] },
+    { "modo": "vitrine", "de": "14", "objeto": "espelho", "etiquetas": [
+      { "em": "14:lá", "texto": "Vidro com prata: 1835" },
+      { "em": "15:pedra", "texto": "Pedra, cobre, vidro" },
+      { "em": "16:Milhares", "texto": "Milhares de anos" }
+    ] }
+  ],
+  "ponte": "18",
+  "fio": {
+    "de": "20",
+    "telas": [
+      { "em": "20", "tela": { "nome": "agenda" } },
+      { "em": "21", "tela": { "nome": "aviso", "aviso": { "tipo": "lembretes", "quantidade": 4 }, "hora": "18:00", "data": "segunda-feira, 2 de novembro" } },
+      { "em": "22:mensagem", "tela": { "nome": "whats" } },
+      { "em": "23:desmarca", "tela": { "nome": "aviso", "aviso": { "tipo": "cancelado", "nome": "Diego Souza", "quando": "sex 06/11 às 11:00" }, "hora": "18:24", "data": "segunda-feira, 2 de novembro" } }
+    ],
+    "frases": [
+      { "em": "21:lembretes", "texto": "Lembretes de amanhã, todo dia às 18h" },
+      { "em": "22:enviar", "texto": "Mensagem pronta, você só envia" },
+      { "em": "23:aviso", "texto": "Desmarcou pelo link? Você é avisado" }
+    ]
+  },
+  "final": { "de": "26" }
+}

@@ -1,0 +1,344 @@
+{
+  "id": "2026-11-20-08h-topete-de-marquesa",
+  "tipo": "curiosidade",
+  "tema": "topete-de-marquesa",
+  "titulo": "O topete do Elvis tem nome de marquesa",
+  "legenda": "O topete do Elvis tem nome de mulher. 💈\n\nO pompadour, o topete alto, leva o nome de Madame de Pompadour, amante do rei Luís XV da França. O curioso é que ela usava o cabelo puxado para trás, sem altura no alto: o nome do corte só foi criado no século XX. Nos anos 1950, Elvis Presley e James Dean popularizaram o topete alto, arrumado com brilhantina ou pomada, e o estilo masculino voltou com força em meados dos anos 2000.\n\nFonte: verbete \"Pompadour (hairstyle)\" (Wikipédia em inglês).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nVocê usaria um topete desses?",
+  "falas": [
+    {
+      "texto": "O topete do Elvis tem nome de mulher."
+    },
+    {
+      "texto": "Sabe o topete alto, com o cabelo levantado na frente?"
+    },
+    {
+      "texto": "Ele tem nome: pompadour."
+    },
+    {
+      "texto": "E esse nome vem de uma mulher que viveu na França."
+    },
+    {
+      "texto": "Madame de Pompadour, a amante do rei Luís quinze."
+    },
+    {
+      "texto": "Só que tem uma pegadinha."
+    },
+    {
+      "texto": "O cabelo dela não tinha altura nenhuma no alto."
+    },
+    {
+      "texto": "Ela usava o cabelo puxado pra trás."
+    },
+    {
+      "texto": "Ou seja, o penteado dela não parecia em nada com o topete."
+    },
+    {
+      "texto": "O nome do corte só foi criado no século vinte."
+    },
+    {
+      "texto": "Aí vieram os anos cinquenta."
+    },
+    {
+      "texto": "Elvis Presley e James Dean popularizaram o topete alto."
+    },
+    {
+      "texto": "Arrumado com brilhantina ou pomada."
+    },
+    {
+      "texto": "Cabelo pra cima, brilhando, e o estilo pegou."
+    },
+    {
+      "texto": "Depois voltou com força, em meados dos anos dois mil."
+    },
+    {
+      "texto": "Ou seja: um nome do tempo do rei Luís quinze, num corte que ficou famoso com o Elvis."
+    },
+    {
+      "texto": "Quando vir um topete, lembra: ele nem se parece com o penteado que deu nome a ele."
+    },
+    {
+      "texto": "Topete assim não se faz com pressa."
+    },
+    {
+      "texto": "O cliente merece cadeira sem fila, num horário que ele mesmo escolheu."
+    },
+    {
+      "texto": "Esse horário ele escolhe no Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena."
+    },
+    {
+      "texto": "O cliente abre o link, escolhe o serviço e vê só os horários livres."
+    },
+    {
+      "texto": "Coloca o nome, confirma, e pronto. Sem baixar aplicativo e sem criar conta."
+    },
+    {
+      "texto": "No seu celular, chega o aviso: novo agendamento. Você nem parou o corte."
+    },
+    {
+      "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você. Sem custo."
+    },
+    {
+      "pausa": 0.3,
+      "texto": "Fio. Topete bom começa com horário marcado."
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "Você usaria um topete desses? Conta aqui."
+    }
+  ],
+  "chaves": [
+    "pompadour",
+    "Elvis",
+    "brilhantina",
+    "topete",
+    "horário",
+    "monta"
+  ],
+  "ponte": "18",
+  "fio": "20",
+  "cenas": [
+    {
+      "tipo": "corte",
+      "de": "1",
+      "personagem": "matheus",
+      "estilos": [
+        {
+          "em": "1:topete",
+          "estilo": "topete",
+          "rotulo": "Topete do Elvis"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "2",
+      "barbeiro": "rafa",
+      "cliente": "matheus",
+      "reacoes": [
+        {
+          "em": "2:levantado",
+          "boca": "sorriso"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "3",
+      "linhas": [
+        "Nome:",
+        "pompadour"
+      ],
+      "destaque": [
+        "pompadour"
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "linhaDoTempo",
+      "de": "4",
+      "marcos": [
+        {
+          "em": "4:mulher",
+          "ano": "França",
+          "texto": "Madame de Pompadour"
+        },
+        {
+          "em": "5:amante",
+          "ano": "Rei",
+          "texto": "Amante do rei Luís XV"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "6",
+      "linhas": [
+        "Tem uma",
+        "pegadinha."
+      ],
+      "destaque": [
+        "pegadinha."
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "compara",
+      "de": "7",
+      "esquerda": {
+        "titulo": "Pompadour",
+        "itens": [
+          "Sem altura no alto",
+          "Cabelo puxado pra trás"
+        ]
+      },
+      "direita": {
+        "titulo": "Topete",
+        "itens": [
+          "Cabelo levantado",
+          "Alto na frente"
+        ]
+      },
+      "revela": [
+        "7:altura",
+        "8:puxado",
+        "9:penteado",
+        "9:topete"
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "10",
+      "linhas": [
+        "O nome só nasceu",
+        "no século XX."
+      ],
+      "destaque": [
+        "século XX."
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "corte",
+      "de": "11",
+      "personagem": "davi",
+      "estilos": [
+        {
+          "em": "11:cinquenta",
+          "estilo": "social",
+          "rotulo": "Antes"
+        },
+        {
+          "em": "12:topete",
+          "estilo": "topete",
+          "rotulo": "Elvis e James Dean"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "15",
+      "linhas": [
+        "Voltou com força",
+        "nos anos 2000."
+      ],
+      "destaque": [
+        "anos 2000."
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "barbearia",
+      "de": "16",
+      "barbeiro": "juninho",
+      "cliente": "davi",
+      "reacoes": [
+        {
+          "em": "16:Elvis",
+          "boca": "sorriso"
+        },
+        {
+          "em": "17:penteado",
+          "boca": "aberta"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "18",
+      "barbeiro": "rafa",
+      "mensagens": [
+        {
+          "em": "19:cadeira",
+          "de": "Diego",
+          "texto": "Tem horário amanhã?"
+        }
+      ],
+      "olhaCelular": "19:horário"
+    },
+    {
+      "tipo": "apresentaFio",
+      "de": "20",
+      "tela": {
+        "nome": "agendamento",
+        "cliente": "Davi Rocha",
+        "hora": "10:05",
+        "toques": {
+          "servico": "21:serviço",
+          "dia": "21:vê",
+          "horario": "21:livres",
+          "nome": "22:nome",
+          "confirmar": "22:confirma"
+        }
+      },
+      "frases": [
+        {
+          "em": "20:escolhe",
+          "texto": "O cliente escolhe o horário"
+        },
+        {
+          "em": "21:livres",
+          "texto": "Só os horários livres aparecem"
+        },
+        {
+          "em": "22:aplicativo",
+          "texto": "Sem aplicativo e sem conta"
+        }
+      ]
+    },
+    {
+      "tipo": "app",
+      "tela": {
+        "nome": "bloqueio",
+        "hora": "10:06",
+        "data": "segunda-feira, 2 de novembro",
+        "avisos": [
+          {
+            "em": "23:aviso",
+            "tipo": "novo",
+            "nome": "Davi Rocha",
+            "servico": "Corte masculino",
+            "quando": "ter 03/11 às 11:00"
+          }
+        ]
+      },
+      "de": "23"
+    },
+    {
+      "tipo": "sala",
+      "de": "24",
+      "personagem": "juninho",
+      "reacoes": [
+        {
+          "em": "25:monta",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "de": "26"
+    }
+  ],
+  "extras": [
+    {
+      "tipo": "zap",
+      "em": "24:manda",
+      "ate": "25:fim",
+      "de": "Você",
+      "texto": "@agendafio, segue minha lista de clientes e serviços."
+    },
+    {
+      "tipo": "zap",
+      "em": "25:monta",
+      "ate": "25:fim",
+      "de": "@agendafio",
+      "texto": "Recebido! Em até 2 dias sua agenda fica pronta."
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "id": "2026-11-20-13h-cliente-que-faltou",
+  "tipo": "dica",
+  "tema": "cliente-que-faltou",
+  "titulo": "O que dizer para o cliente que faltou",
+  "legenda": "Cliente faltou. Briga ou deixa pra lá? Nem um, nem outro. 📲\n\nSão 3 passos pra fazer o cliente voltar:\n\n1. Mande uma mensagem leve no mesmo dia: \"Senti sua falta hoje, quer remarcar?\"\n2. Não cobre nem dê sermão na mensagem. A ideia é o cliente voltar.\n3. Se ele faltar de novo, aí vale combinar uma regra clara para os próximos horários.\n\nSalva pra usar na próxima falta.\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nQual é a sua mensagem pro cliente que falta?",
+  "falas": [
+    {
+      "texto": "Cliente faltou. Briga ou deixa pra lá?"
+    },
+    {
+      "texto": "Nem um, nem outro."
+    },
+    {
+      "texto": "Tem um jeito simples de fazer o cliente voltar."
+    },
+    {
+      "texto": "São três passos. Salva esse vídeo, porque você vai usar."
+    },
+    {
+      "texto": "Primeiro: manda uma mensagem leve, no mesmo dia."
+    },
+    {
+      "texto": "Não deixa pra semana que vem. Quanto antes, melhor."
+    },
+    {
+      "texto": "Pode ser assim: senti sua falta hoje, quer remarcar?"
+    },
+    {
+      "texto": "Só isso. Curta, simpática, com a porta aberta."
+    },
+    {
+      "texto": "Segundo: não cobra e não dá sermão."
+    },
+    {
+      "texto": "Nada de: você me deixou na mão."
+    },
+    {
+      "texto": "O cliente já sabe que faltou."
+    },
+    {
+      "texto": "A mensagem só tem um objetivo: o cliente voltar."
+    },
+    {
+      "texto": "Terceiro: se ele faltar de novo, aí sim vale uma regra."
+    },
+    {
+      "texto": "Uma regra clara, combinada pros próximos horários."
+    },
+    {
+      "texto": "Na primeira vez, é um recado leve. Na segunda, é combinado."
+    },
+    {
+      "texto": "Recapitulando: mensagem leve no mesmo dia."
+    },
+    {
+      "texto": "Sem cobrança e sem sermão. E regra clara só se faltar de novo."
+    },
+    {
+      "texto": "E pra remarcar sem ficar trocando mensagem, tem um jeito mais fácil."
+    },
+    {
+      "texto": "Manda o link do agendamento, e ele escolhe o novo horário sozinho."
+    },
+    {
+      "texto": "Esse link é do Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena."
+    },
+    {
+      "texto": "O cliente abre, escolhe o serviço e vê só os horários livres."
+    },
+    {
+      "texto": "Coloca o nome, confirma, e pronto. Sem baixar aplicativo e sem criar conta."
+    },
+    {
+      "texto": "Na véspera, o barbeiro te manda o lembrete no WhatsApp, em um toque."
+    },
+    {
+      "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você. Sem custo."
+    },
+    {
+      "pausa": 0.3,
+      "texto": "Fio. Cliente que remarca sozinho volta mais fácil."
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "Qual é a sua mensagem pro cliente que falta? Conta aqui."
+    }
+  ],
+  "chaves": [
+    "mensagem",
+    "sermão",
+    "regra",
+    "link",
+    "lembrete",
+    "monta"
+  ],
+  "ponte": "18",
+  "fio": "20",
+  "cenas": [
+    {
+      "tipo": "barbearia",
+      "de": "1",
+      "barbeiro": "rafa",
+      "reacoes": [
+        {
+          "em": "1:faltou",
+          "boca": "torta",
+          "olhar": "celular"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "2",
+      "linhas": [
+        "Nem briga.",
+        "Nem deixa pra lá."
+      ],
+      "destaque": [
+        "Nem"
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "sala",
+      "de": "5",
+      "personagem": "rafa",
+      "mensagem": {
+        "em": "7:sua",
+        "para": "Cliente",
+        "texto": "Senti sua falta hoje, quer remarcar?"
+      },
+      "reacoes": [
+        {
+          "em": "8:Curta",
+          "boca": "sorriso"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "9",
+      "linhas": [
+        "Sem cobrança.",
+        "Sem sermão."
+      ],
+      "destaque": [
+        "sermão."
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "compara",
+      "de": "13",
+      "esquerda": {
+        "titulo": "Primeira vez",
+        "itens": [
+          "Recado leve",
+          "Sem cobrar"
+        ]
+      },
+      "direita": {
+        "titulo": "De novo",
+        "itens": [
+          "Regra clara",
+          "Combinada antes"
+        ]
+      },
+      "revela": [
+        "13:Terceiro",
+        "14:regra",
+        "14:clara",
+        "15:combinado"
+      ]
+    },
+    {
+      "tipo": "passos",
+      "de": "16",
+      "titulo": "Recapitulando",
+      "passos": [
+        {
+          "em": "16:mensagem",
+          "texto": "Mensagem leve no mesmo dia"
+        },
+        {
+          "em": "17:cobrança",
+          "texto": "Sem cobrança e sem sermão"
+        },
+        {
+          "em": "17:regra",
+          "texto": "Regra só se faltar de novo"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "18",
+      "barbeiro": "rafa",
+      "cliente": "matheus",
+      "mensagens": [
+        {
+          "em": "18:mensagem",
+          "de": "Diego",
+          "texto": "Posso remarcar?"
+        },
+        {
+          "em": "19:novo",
+          "de": "Diego",
+          "texto": "Qual horário tem?"
+        }
+      ],
+      "olhaCelular": "19:link"
+    },
+    {
+      "tipo": "apresentaFio",
+      "de": "20",
+      "tela": {
+        "nome": "agendamento",
+        "cliente": "Diego Souza",
+        "hora": "14:20",
+        "toques": {
+          "servico": "21:serviço",
+          "dia": "21:vê",
+          "horario": "21:livres",
+          "nome": "22:nome",
+          "confirmar": "22:confirma"
+        }
+      },
+      "frases": [
+        {
+          "em": "20:link",
+          "texto": "Ele remarca sozinho pelo link"
+        },
+        {
+          "em": "21:livres",
+          "texto": "Só os horários livres aparecem"
+        },
+        {
+          "em": "22:aplicativo",
+          "texto": "Sem aplicativo e sem conta"
+        }
+      ]
+    },
+    {
+      "tipo": "app",
+      "de": "23",
+      "tela": {
+        "nome": "lembretes",
+        "toques": [
+          {
+            "toque": "23:lembrete",
+            "enviar": "23:toque"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "sala",
+      "de": "24",
+      "personagem": "juninho",
+      "reacoes": [
+        {
+          "em": "25:monta",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "de": "26"
+    }
+  ],
+  "extras": [
+    {
+      "tipo": "zap",
+      "em": "24:manda",
+      "ate": "25:fim",
+      "de": "Você",
+      "texto": "@agendafio, segue minha lista de clientes e serviços."
+    },
+    {
+      "tipo": "zap",
+      "em": "25:monta",
+      "ate": "25:fim",
+      "de": "@agendafio",
+      "texto": "Recebido! Em até 2 dias sua agenda fica pronta."
+    }
+  ]
+}

@@ -1,0 +1,321 @@
+{
+  "id": "2026-11-20-11h-barbeiro-da-volta-ao-mundo",
+  "tipo": "atracao-2d",
+  "tema": "barbeiro-da-volta-ao-mundo",
+  "titulo": "O barbeiro que deu a primeira volta ao mundo",
+  "legenda": "Um barbeiro deu a primeira volta ao mundo. ⛵\n\nHernando de Bustamante era o barbeiro-cirurgião da nau Victoria, na expedição de Fernão de Magalhães e Elcano, de 1519 a 1522. Ele foi um dos só 18 tripulantes que voltaram à Espanha com Juan Sebastián Elcano. Era um dos três barbeiros-cirurgiões da tripulação, e o trabalho podia incluir arrancar dentes, pôr ossos no lugar e amputar. Os registros de batismo indicam que ele nasceu em Alcántara, na Espanha, em 1494.\n\nFonte: verbete \"Hernando de Bustamante\" (Wikipédia em inglês).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nVocê conhecia a história do barbeiro da nau?",
+  "falas": [
+    {
+      "texto": "Um barbeiro deu a primeira volta ao mundo."
+    },
+    {
+      "texto": "Isso mesmo. Ele estava num navio. E não era só pra cortar cabelo."
+    },
+    {
+      "texto": "Bora ver essa história."
+    },
+    {
+      "texto": "O nome dele: Hernando de Bustamante."
+    },
+    {
+      "texto": "Os registros de batismo indicam que ele nasceu em Alcántara, na Espanha, em mil quatrocentos e noventa e quatro."
+    },
+    {
+      "texto": "Em mil quinhentos e dezenove, partiu a expedição de Fernão de Magalhães e Elcano."
+    },
+    {
+      "texto": "Bustamante ia na nau Victoria."
+    },
+    {
+      "texto": "Lá, ele era o barbeiro-cirurgião."
+    },
+    {
+      "texto": "E o que faz um barbeiro-cirurgião? Muito mais que cortar cabelo."
+    },
+    {
+      "texto": "O trabalho podia incluir arrancar dentes."
+    },
+    {
+      "texto": "Pôr ossos no lugar. E até amputar."
+    },
+    {
+      "texto": "E ele não estava sozinho: eram três barbeiros-cirurgiões na tripulação."
+    },
+    {
+      "texto": "A volta ao mundo terminou em mil quinhentos e vinte e dois."
+    },
+    {
+      "texto": "Quantos voltaram? Só dezoito tripulantes."
+    },
+    {
+      "texto": "E um deles era o barbeiro, Hernando de Bustamante."
+    },
+    {
+      "texto": "Ele voltou à Espanha com Juan Sebastián Elcano."
+    },
+    {
+      "texto": "Ou seja: na primeira volta ao mundo, tinha um barbeiro a bordo."
+    },
+    {
+      "texto": "Três anos no mar, e o barbeiro cuidou de todo mundo."
+    },
+    {
+      "texto": "Na barbearia é igual: ele cuida de todos, e ninguém cuida da agenda dele."
+    },
+    {
+      "texto": "Quem cuida é o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena."
+    },
+    {
+      "texto": "Na agenda, o dia inteiro fica num lugar só, com cada cliente e cada serviço."
+    },
+    {
+      "texto": "Atendeu? Toca no cliente e marca como realizado."
+    },
+    {
+      "texto": "Escolhe a forma de pagamento, e a receita já entra no financeiro."
+    },
+    {
+      "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você. Sem custo."
+    },
+    {
+      "pausa": 0.3,
+      "texto": "Fio. A agenda de quem cuida de todo mundo."
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "Você conhecia a história do barbeiro da nau? Conta aqui."
+    }
+  ],
+  "chaves": [
+    "Bustamante",
+    "Victoria",
+    "cirurgião",
+    "dentes",
+    "agenda",
+    "monta"
+  ],
+  "ponte": "18",
+  "fio": "20",
+  "cenas": [
+    {
+      "tipo": "barbeariaAntiga",
+      "de": "1",
+      "barbeiro": "rafa",
+      "cliente": "ze",
+      "ano": "sempre",
+      "reacoes": [
+        {
+          "em": "1:volta",
+          "boca": "aberta"
+        },
+        {
+          "em": "2:navio",
+          "boca": "sorriso"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "4",
+      "linhas": [
+        "Hernando",
+        "de Bustamante"
+      ],
+      "destaque": [
+        "Bustamante"
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "linhaDoTempo",
+      "de": "5",
+      "marcos": [
+        {
+          "em": "5:nasceu",
+          "ano": "1494",
+          "texto": "Nasce em Alcántara"
+        },
+        {
+          "em": "6:partiu",
+          "ano": "1519",
+          "texto": "Parte a expedição"
+        },
+        {
+          "em": "8:ele",
+          "ano": "Victoria",
+          "texto": "Barbeiro-cirurgião"
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "de": "9",
+      "titulo": "O trabalho podia incluir",
+      "passos": [
+        {
+          "em": "9:faz",
+          "texto": "Cortar cabelo"
+        },
+        {
+          "em": "10:dentes",
+          "texto": "Arrancar dentes"
+        },
+        {
+          "em": "11:ossos",
+          "texto": "Pôr ossos no lugar"
+        },
+        {
+          "em": "11:amputar",
+          "texto": "E até amputar"
+        }
+      ]
+    },
+    {
+      "tipo": "objeto",
+      "de": "12",
+      "objeto": "cadeiraAntiga",
+      "fundo": "acento",
+      "etiquetas": [
+        {
+          "em": "12:três",
+          "texto": "3 barbeiros-cirurgiões"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "13",
+      "linhas": [
+        "Só 18 tripulantes",
+        "voltaram à Espanha"
+      ],
+      "destaque": [
+        "18"
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "barbeariaAntiga",
+      "de": "15",
+      "barbeiro": "rafa",
+      "cliente": "carlos",
+      "ano": "sempre",
+      "reacoes": [
+        {
+          "em": "15:um",
+          "boca": "sorriso"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "17",
+      "linhas": [
+        "Na primeira volta ao mundo,",
+        "tinha um barbeiro a bordo."
+      ],
+      "destaque": [
+        "barbeiro"
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "barbearia",
+      "de": "18",
+      "barbeiro": "juninho",
+      "cliente": "matheus",
+      "mensagens": [
+        {
+          "em": "19:todos",
+          "de": "Diego",
+          "texto": "Tem horário hoje?"
+        },
+        {
+          "em": "19:ninguém",
+          "de": "Lucas",
+          "texto": "Amanhã cedo dá?"
+        }
+      ],
+      "olhaCelular": "19:ninguém"
+    },
+    {
+      "tipo": "apresentaFio",
+      "de": "20",
+      "tela": {
+        "nome": "agenda",
+        "clientes": [
+          {
+            "hora": "09:00",
+            "nome": "Davi Rocha",
+            "servico": "Corte masculino"
+          },
+          {
+            "hora": "10:00",
+            "nome": "Matheus Lima",
+            "servico": "Corte + barba"
+          },
+          {
+            "hora": "11:00",
+            "nome": "José Prado",
+            "servico": "Barba"
+          }
+        ],
+        "realizar": {
+          "nome": "Matheus Lima",
+          "em": "22:toca"
+        }
+      },
+      "frases": [
+        {
+          "em": "20:agenda",
+          "texto": "A agenda do barbeiro"
+        },
+        {
+          "em": "21:serviço",
+          "texto": "O dia inteiro num lugar só"
+        },
+        {
+          "em": "22:marca",
+          "texto": "Atendeu? Marca como realizado"
+        }
+      ]
+    },
+    {
+      "tipo": "sala",
+      "de": "24",
+      "personagem": "rafa",
+      "reacoes": [
+        {
+          "em": "25:monta",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "de": "26"
+    }
+  ],
+  "extras": [
+    {
+      "tipo": "zap",
+      "em": "24:manda",
+      "ate": "25:fim",
+      "de": "Você",
+      "texto": "@agendafio, segue minha lista de clientes e serviços."
+    },
+    {
+      "tipo": "zap",
+      "em": "25:monta",
+      "ate": "25:fim",
+      "de": "@agendafio",
+      "texto": "Recebido! Em até 2 dias sua agenda fica pronta."
+    }
+  ]
+}
