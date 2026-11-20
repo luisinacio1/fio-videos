@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-21-carrossel-comissao-quanto-pagar",
+  "tema": "comissao-quanto-pagar",
+  "rotulo": "Comissão",
+  "legenda": "Quanto pagar de comissão pro barbeiro? Geralmente entre 30% e 50%. 💈\n\nSegundo o Sebrae Paraná, a comissão de profissionais no salão geralmente varia entre 30% e 50%, e depende do tipo de serviço, da experiência do profissional e do posicionamento do salão. No Brasil, a Lei 13.352, de 2016, permite o contrato de parceria por escrito, com a parte do salão fixada no contrato. Comissão combinada só de boca vira briga no fim do mês.\n\nSalva o passo a passo e manda pra outro barbeiro.\n\nFonte: Sebrae Paraná e Lei 13.352/2016.\n\nLink na bio pra testar 7 dias grátis.\n\nQuanto você paga de comissão hoje? Conta aqui.",
+  "slides": [
+    { "tipo": "capa", "titulo": "Quanto pagar de comissão pro barbeiro?", "curiosidade": "No salão, geralmente de 30% a 50%.", "ilustracao": { "personagem": "juninho" } },
+    { "tipo": "texto", "titulo": "A comissão geralmente fica entre 30% e 50%", "paragrafos": ["Segundo o Sebrae Paraná, a comissão de profissionais no salão geralmente varia entre 30% e 50%.", "O percentual depende do tipo de serviço, da experiência e do posicionamento do salão."], "puxada": "E o que isso muda na sua barbearia?", "fonte": "Sebrae Paraná" },
+    { "tipo": "texto", "titulo": "Na sua barbearia, não existe um número único", "paragrafos": ["Cada serviço pode ter a sua comissão, e cada barbeiro, a sua experiência.", "Comissão combinada só de boca vira briga no fim do mês.", "Por escrito, ninguém precisa lembrar de cabeça."], "puxada": "O que fazer, então?" },
+    { "tipo": "lista", "titulo": "4 passos pra definir a comissão", "itens": [
+      { "termo": "Gastos", "texto": "some todos os gastos fixos do mês." },
+      { "termo": "Serviço", "texto": "defina a comissão por tipo de serviço." },
+      { "termo": "Escrito", "texto": "combine tudo por escrito." },
+      { "termo": "Revisão", "texto": "revise os valores de tempos em tempos." }
+    ], "puxada": "Salve pra lembrar." },
+    { "tipo": "texto", "titulo": "A lei já prevê contrato de parceria", "paragrafos": ["No Brasil, a Lei 13.352, de 2016, permite o contrato de parceria por escrito com o barbeiro.", "Nele, a parte do salão fica fixada no contrato."], "puxada": "E a conta do mês?", "fonte": "Lei 13.352/2016" },
+    { "tipo": "tela", "tela": { "nome": "equipe" }, "frase": "No Fio, cada atendimento já entra com a comissão, e o dono vê a de cada barbeiro no mês." },
+    { "tipo": "fecho", "frase": "Comissão combinada e conta sem caderno. O Fio cuida da sua equipe." }
+  ]
+}

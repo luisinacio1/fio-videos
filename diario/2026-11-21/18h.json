@@ -1,0 +1,100 @@
+{
+  "id": "2026-11-21-18h-cadeira-hidraulica",
+  "tipo": "atracao-3d",
+  "tema": "cadeira-hidraulica",
+  "titulo": "A cadeira hidráulica: a peça mais pesada da barbearia moderna",
+  "legenda": "Uma alavanca controla a cadeira inteira. 💈\n\nA cadeira de barbeiro costuma ser de metal e couro, e é bem pesada. Em 1900, nos Estados Unidos, o imigrante alemão Ernest Koken criou uma cadeira hidráulica e patenteou a alavanca lateral que controlava todas as funções. Em alguns estados americanos, a lei exige encosto de cabeça na cadeira para fazer barba. Em 1957, a japonesa Takara Belmont começou a vender nos Estados Unidos cadeiras quase iguais às americanas, mais baratas; em 1970, comprou a marca Koken e chegou a 70% do mercado.\n\nFonte: verbete \"Barber chair\" (Wikipédia em inglês).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nE você, já reparou na alavanca da cadeira do seu barbeiro?",
+  "chaves": ["metal", "Koken", "alavanca", "Takara", "lembretes", "WhatsApp", "marcado", "monta"],
+  "falas": [
+    { "texto": "Uma alavanca controla a cadeira inteira." },
+    { "texto": "Olha essa cadeira de barbeiro girando. Parece comum, né?" },
+    { "texto": "Ela é de metal e couro." },
+    { "texto": "E é bem pesada." },
+    { "texto": "Mas o segredo dela é uma alavanca só. Vem comigo." },
+    { "texto": "Pra entender, volta pros Estados Unidos, em 1900." },
+    { "texto": "Lá, o Ernest Koken, um imigrante alemão, criou uma cadeira hidráulica." },
+    { "texto": "E patenteou uma alavanca na lateral." },
+    { "texto": "Essa alavanca controlava todas as funções da cadeira." },
+    { "texto": "Tudo num lugar só." },
+    { "texto": "Agora, um detalhe que vem da lei." },
+    { "texto": "Em alguns estados americanos, a lei exige encosto de cabeça na cadeira." },
+    { "texto": "Isso quando o serviço é fazer barba." },
+    { "texto": "Agora pula pra 1957." },
+    { "texto": "A japonesa Takara Belmont começou a vender cadeiras nos Estados Unidos." },
+    { "texto": "Eram quase iguais às americanas. Só que mais baratas." },
+    { "texto": "Em 1970, ela comprou a marca Koken." },
+    { "texto": "E chegou a setenta por cento do mercado." },
+    { "texto": "Uma alavanca de 1900 fez história na cadeira do barbeiro." },
+    { "texto": "A cadeira sobe e desce com uma alavanca." },
+    { "texto": "Lembrar o cliente de amanhã também devia ser simples: um toque por cliente." },
+    { "texto": "Pra isso existe o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena." },
+    { "texto": "Todo dia, às seis da tarde, chega o aviso: lembretes de amanhã." },
+    { "texto": "A mensagem já vem pronta. Você aperta enviar no WhatsApp." },
+    { "texto": "Um toque por cliente, e quem já foi avisado fica marcado." },
+    { "texto": "Ainda anota no caderno? Manda sua lista no direct." },
+    { "texto": "E a gente monta pra você: sua agenda pronta em até dois dias, sem custo." },
+    { "pausa": 0.3, "texto": "Fio. A agenda que diminui as faltas." },
+    { "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro." },
+    { "texto": "E você, já reparou na alavanca da cadeira do seu barbeiro? Conta aqui." }
+  ],
+  "planos": [
+    {
+      "modo": "vitrine", "de": "1", "objeto": "cadeiraModerna",
+      "etiquetas": [
+        { "em": "2:cadeira", "texto": "Cadeira de barbeiro" },
+        { "em": "3:metal", "texto": "Metal e couro" },
+        { "em": "4:pesada", "texto": "Bem pesada" },
+        { "em": "5:alavanca", "texto": "Uma alavanca só" }
+      ]
+    },
+    {
+      "modo": "vitrine", "de": "6", "objeto": "cadeiraAntiga",
+      "etiquetas": [
+        { "em": "6:Estados", "texto": "Estados Unidos, 1900" },
+        { "em": "7:Koken", "texto": "Ernest Koken" },
+        { "em": "8:alavanca", "texto": "Alavanca na lateral" },
+        { "em": "9:funções", "texto": "Controla tudo" }
+      ]
+    },
+    {
+      "modo": "vitrine", "de": "11", "objeto": "cadeiraModerna",
+      "etiquetas": [
+        { "em": "12:lei", "texto": "A lei exige" },
+        { "em": "12:encosto", "texto": "Encosto de cabeça" },
+        { "em": "13:barba", "texto": "Pra fazer barba" }
+      ]
+    },
+    {
+      "modo": "vitrine", "de": "14", "objeto": "cadeiraAntiga",
+      "etiquetas": [
+        { "em": "15:Takara", "texto": "Takara Belmont" },
+        { "em": "15:vender", "texto": "Vende nos EUA" },
+        { "em": "16:baratas", "texto": "Mais baratas" }
+      ]
+    },
+    {
+      "modo": "vitrine", "de": "17", "objeto": "cadeiraModerna",
+      "etiquetas": [
+        { "em": "17:comprou", "texto": "Compra a marca Koken" },
+        { "em": "18:mercado", "texto": "70% do mercado" },
+        { "em": "19:alavanca", "texto": "Uma alavanca de 1900" }
+      ]
+    }
+  ],
+  "ponte": "20",
+  "fio": {
+    "de": "22",
+    "telas": [
+      { "em": "22", "tela": { "nome": "agenda" } },
+      { "em": "23", "tela": { "nome": "aviso", "aviso": { "tipo": "lembretes", "quantidade": 4 }, "hora": "18:00", "data": "segunda-feira, 2 de novembro" } },
+      { "em": "24:mensagem", "tela": { "nome": "whats" } },
+      { "em": "25:cliente", "tela": { "nome": "lembretes" } }
+    ],
+    "frases": [
+      { "em": "23:lembretes", "texto": "Lembretes de amanhã, todo dia às 18h" },
+      { "em": "24:enviar", "texto": "Mensagem pronta, você só envia" },
+      { "em": "25:avisado", "texto": "Quem já foi avisado fica marcado" }
+    ]
+  },
+  "final": { "de": "28" }
+}

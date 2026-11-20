@@ -1,0 +1,83 @@
+{
+  "id": "2026-11-21-11h-sangrador-do-rio",
+  "tipo": "atracao-2d",
+  "tema": "sangrador-do-rio",
+  "titulo": "O barbeiro sangrador do Rio de Janeiro",
+  "legenda": "No Rio antigo, barbeiro também fazia sangria. 💈\n\nNo Rio de Janeiro do século XIX, os sangradores eram em sua maioria escravizados, libertos e pessoas livres pobres, entre elas imigrantes e africanos livres. Muitos também eram barbeiros: usavam os instrumentos de corte para fazer incisões e para cortar o cabelo e a barba. Entre 1808 e 1828, era preciso ter registro na Fisicatura-mor; depois disso, eles passaram a atuar sem registro, mas mantiveram a confiança da população. Em 1832, com as primeiras faculdades de medicina, em Salvador e no Rio, estudantes passaram a fazer a sangria.\n\nFonte: reportagem \"A saúde entre dois mundos\" (Revista Pesquisa Fapesp).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nSeu barbeiro é de confiança? Conta aqui.",
+  "falas": [
+    { "texto": "No Rio antigo, barbeiro também fazia sangria." },
+    { "texto": "Parece coisa de filme. Mas aconteceu aqui no Brasil." },
+    { "texto": "No Rio de Janeiro do século dezenove, esse trabalho era dos sangradores." },
+    { "texto": "Bora ver quem eram eles." },
+    { "texto": "Em sua maioria, eram escravizados, libertos e pessoas livres pobres." },
+    { "texto": "Tinha também imigrantes e africanos livres." },
+    { "texto": "E muitos deles eram barbeiros." },
+    { "texto": "Usavam os mesmos instrumentos de corte pra fazer incisões, e pra cortar cabelo e barba." },
+    { "texto": "Ou seja: a mesma mão que fazia a barba também fazia a sangria." },
+    { "texto": "Só que o trabalho tinha regra." },
+    { "texto": "Entre 1808 e 1828, o sangrador precisava de registro na Fisicatura-mor." },
+    { "texto": "Depois disso, eles passaram a trabalhar sem registro." },
+    { "texto": "Mas a população continuou confiando neles." },
+    { "texto": "Em 1832, nasceram as primeiras faculdades de medicina, em Salvador e no Rio." },
+    { "texto": "E os estudantes passaram a fazer a sangria." },
+    { "texto": "No Rio daquele tempo, o barbeiro era gente de confiança." },
+    { "texto": "Barbeiro sempre viveu da confiança de quem volta." },
+    { "texto": "E o cliente volta mais fácil quando marcar é simples." },
+    { "texto": "Por isso existe o Fio, a agenda do barbeiro. O cliente marca sozinho, pelo seu link." },
+    { "texto": "Escolhe o serviço, vê só os horários livres e confirma." },
+    { "texto": "Sem baixar aplicativo e sem criar conta." },
+    { "texto": "Chegou agendamento novo? O aviso aparece no seu celular, sem parar o corte." },
+    { "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct." },
+    { "texto": "A gente monta a sua agenda pra você. Sem custo." },
+    { "pausa": 0.3, "texto": "Fio. O cliente volta, e marca pelo link." },
+    { "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro." },
+    { "texto": "Seu barbeiro é de confiança? Conta aqui." }
+  ],
+  "chaves": ["sangria", "sangradores", "barbeiros", "registro", "confiança", "monta"],
+  "ponte": "17",
+  "fio": "19",
+  "cenas": [
+    { "tipo": "barbeariaAntiga", "de": "1", "barbeiro": "rafa", "cliente": "ze", "ano": "sempre",
+      "reacoes": [{ "em": "1:fazia", "boca": "aberta", "sacode": true }] },
+    { "tipo": "texto", "de": "2", "linhas": ["Aconteceu", "no Brasil."], "destaque": ["Brasil."], "fundo": "escuro" },
+    { "tipo": "objeto", "de": "3", "objeto": "cadeiraAntiga", "fundo": "acento",
+      "etiquetas": [{ "em": "3:Rio", "texto": "Rio de Janeiro" }, { "em": "3:sangradores", "texto": "Os sangradores" }] },
+    { "tipo": "passos", "de": "5", "titulo": "Quem eram", "passos": [
+      { "em": "5:escravizados", "texto": "Escravizados" },
+      { "em": "5:libertos", "texto": "Libertos" },
+      { "em": "5:livres", "texto": "Livres e pobres" },
+      { "em": "6:imigrantes", "texto": "Imigrantes e africanos livres" }
+    ] },
+    { "tipo": "objeto", "de": "7", "objeto": "navalha", "fundo": "escuro",
+      "etiquetas": [{ "em": "7:barbeiros", "texto": "Muitos eram barbeiros" }, { "em": "8:incisões", "texto": "Fazer incisões" }, { "em": "8:cabelo", "texto": "Cabelo e barba" }] },
+    { "tipo": "barbeariaAntiga", "de": "9", "barbeiro": "juninho", "cliente": "carlos", "ano": "sempre",
+      "reacoes": [{ "em": "9:barba", "boca": "sorriso" }, { "em": "9:sangria", "boca": "aberta", "sacode": true }] },
+    { "tipo": "texto", "de": "10", "linhas": ["Tinha regra."], "destaque": ["regra."], "fundo": "claro" },
+    { "tipo": "linhaDoTempo", "de": "11", "marcos": [
+      { "em": "11", "ano": "1808-1828", "texto": "Registro obrigatório", "objeto": "tesoura" },
+      { "em": "12:Depois", "ano": "Depois", "texto": "Sem registro, com confiança", "objeto": "pente" },
+      { "em": "14:nasceram", "ano": "1832", "texto": "Faculdades de medicina", "objeto": "navalha" }
+    ] },
+    { "tipo": "texto", "de": "16", "linhas": ["Barbeiro:", "gente de confiança."], "destaque": ["confiança."], "fundo": "acento" },
+    { "tipo": "barbearia", "de": "17", "barbeiro": "rafa", "cliente": "matheus",
+      "mensagens": [{ "em": "18:cliente", "de": "Diego", "texto": "Tem horário hoje?" }, { "em": "18:simples", "de": "Lucas", "texto": "E amanhã?" }],
+      "olhaCelular": "18:cliente",
+      "reacoes": [{ "em": "17:viveu", "boca": "sorriso", "olhar": "frente" }] },
+    { "tipo": "apresentaFio", "de": "19",
+      "tela": { "nome": "agendamento", "cliente": "Matheus Lima", "hora": "11:40",
+        "toques": { "servico": "20:serviço", "dia": "20:horários", "horario": "20:livres", "nome": "21:aplicativo", "confirmar": "20:confirma" } },
+      "frases": [
+        { "em": "19:marca", "texto": "Cliente marca sozinho pelo link" },
+        { "em": "20:livres", "texto": "Só os horários livres aparecem" },
+        { "em": "21:aplicativo", "texto": "Sem aplicativo e sem conta" }
+      ] },
+    { "tipo": "app", "de": "22", "tela": { "nome": "bloqueio", "hora": "11:42", "data": "segunda-feira, 2 de novembro",
+      "avisos": [{ "em": "22:aviso", "tipo": "novo", "nome": "Matheus Lima", "servico": "Corte masculino", "quando": "seg 02/11 às 15:00" }] } },
+    { "tipo": "sala", "de": "23", "personagem": "rafa", "reacoes": [{ "em": "24:monta", "boca": "sorriso", "olhar": "frente" }] },
+    { "tipo": "final", "de": "25" }
+  ],
+  "extras": [
+    { "tipo": "zap", "em": "23:manda", "ate": "24:fim", "de": "Você", "texto": "@agendafio, segue minha lista de clientes e serviços." },
+    { "tipo": "zap", "em": "24:monta", "ate": "24:fim", "de": "@agendafio", "texto": "Recebido! Em até 2 dias sua agenda fica pronta." }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "id": "2026-11-21-21h-undercut-das-gangues",
+  "tipo": "curiosidade",
+  "tema": "undercut-das-gangues",
+  "titulo": "O undercut já foi corte de gangue",
+  "legenda": "Esse corte da moda já foi de gangue. 💈\n\nDo começo do século XX até os anos 1920, o undercut era popular entre jovens operários e membros de gangues de rua. Os Peaky Blinders, de Birmingham, usavam o corte; cabelo comprido era desvantagem numa briga de rua. O corte também era ligado à pobreza: era o jeito de quem não podia pagar um barbeiro que fizesse a transição nas laterais. E ele voltou com força no começo dos anos 2010.\n\nFonte: verbete \"Undercut (hairstyle)\" (Wikipédia em inglês).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nVocê já usou undercut?",
+  "falas": [
+    { "texto": "Esse corte da moda já foi de gangue." },
+    { "texto": "Você já viu por aí: o undercut." },
+    { "texto": "Hoje ele tá em todo lugar. Mas nasceu na rua." },
+    { "texto": "Bora voltar no tempo." },
+    { "texto": "Do começo do século vinte até os anos vinte, o undercut era popular." },
+    { "texto": "Entre jovens operários." },
+    { "texto": "E entre membros de gangues de rua." },
+    { "texto": "Uma dessas gangues ficou famosa: os Peaky Blinders, de Birmingham." },
+    { "texto": "Eles usavam o corte." },
+    { "texto": "Cabelo comprido era desvantagem numa briga de rua." },
+    { "texto": "Então o corte curto fazia sentido pra quem vivia ali." },
+    { "texto": "Mas tem outra parte da história." },
+    { "texto": "O corte também era ligado à pobreza." },
+    { "texto": "Era o jeito de quem não podia pagar um barbeiro." },
+    { "texto": "Um barbeiro que fizesse a transição nas laterais." },
+    { "texto": "Transição é aquele degradê suave que liga o curto ao comprido." },
+    { "texto": "E o undercut voltou com força no começo dos anos dois mil e dez." },
+    { "texto": "O que era corte de quem não podia pagar barbeiro, hoje é pedido de barbearia." },
+    { "texto": "O undercut saiu da rua e voltou pra barbearia." },
+    { "texto": "E quem faz o corte da moda precisa de cliente que não esquece o horário." },
+    { "texto": "Pra isso existe o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena." },
+    { "texto": "O dia inteiro fica num lugar só, e cada horário novo aparece na hora." },
+    { "texto": "Na véspera, às seis da tarde, chega a lista de quem lembrar." },
+    { "texto": "A mensagem vem pronta. Você aperta enviar no WhatsApp. Um toque." },
+    { "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct." },
+    { "texto": "A gente monta a sua agenda pra você. Sem custo." },
+    { "pausa": 0.3, "texto": "Fio. O corte da moda, no horário certo." },
+    { "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro." },
+    { "texto": "Você já usou undercut? Conta aqui." }
+  ],
+  "chaves": ["undercut", "gangue", "Peaky", "pobreza", "transição", "monta"],
+  "ponte": "19",
+  "fio": "21",
+  "cenas": [
+    { "tipo": "corte", "de": "1", "personagem": "matheus", "estilos": [
+      { "em": "1:corte", "estilo": "degrade-alto", "rotulo": "O undercut" },
+      { "em": "1:gangue", "estilo": "navalhado", "rotulo": "Corte de gangue" }
+    ] },
+    { "tipo": "barbearia", "de": "2", "barbeiro": "juninho", "cliente": "davi",
+      "reacoes": [{ "em": "2:viu", "boca": "aberta", "olhar": "frente" }, { "em": "3:rua", "boca": "torta", "sacode": true }] },
+    { "tipo": "texto", "de": "4", "linhas": ["Bora voltar", "no tempo."], "destaque": ["tempo."], "fundo": "escuro" },
+    { "tipo": "linhaDoTempo", "de": "5", "marcos": [
+      { "em": "5", "ano": "Séc. XX", "texto": "Popular entre operários", "objeto": "tesoura" },
+      { "em": "7:gangues", "ano": "Anos 1920", "texto": "E entre gangues de rua", "objeto": "navalha" }
+    ] },
+    { "tipo": "texto", "de": "8", "linhas": ["Peaky Blinders,", "Birmingham."], "destaque": ["Peaky"], "fundo": "acento" },
+    { "tipo": "barbeariaAntiga", "de": "9", "barbeiro": "rafa", "cliente": "ze", "ano": "sempre",
+      "reacoes": [{ "em": "10:comprido", "boca": "torta" }, { "em": "11:curto", "boca": "sorriso" }] },
+    { "tipo": "texto", "de": "12", "linhas": ["Ligado à", "pobreza."], "destaque": ["pobreza."], "fundo": "escuro" },
+    { "tipo": "objeto", "de": "14", "objeto": "tesoura", "fundo": "claro",
+      "etiquetas": [{ "em": "14:barbeiro", "texto": "Pagar um barbeiro" }, { "em": "15:transição", "texto": "A transição" }, { "em": "15:laterais", "texto": "Nas laterais" }] },
+    { "tipo": "corte", "de": "16", "personagem": "davi", "estilos": [
+      { "em": "16:transição", "estilo": "degrade-medio", "rotulo": "Transição suave" },
+      { "em": "17:voltou", "estilo": "degrade-alto", "rotulo": "Voltou com força" }
+    ] },
+    { "tipo": "texto", "de": "18", "linhas": ["Da rua", "pra barbearia."], "destaque": ["barbearia."], "fundo": "acento" },
+    { "tipo": "barbearia", "de": "19", "barbeiro": "rafa", "cliente": "matheus",
+      "mensagens": [{ "em": "20:cliente", "de": "Diego", "texto": "Tem horário hoje?" }, { "em": "20:esquece", "de": "Lucas", "texto": "Que horas era mesmo?" }],
+      "olhaCelular": "20:cliente",
+      "reacoes": [{ "em": "19:voltou", "boca": "sorriso" }, { "em": "20:esquece", "boca": "torta" }] },
+    { "tipo": "apresentaFio", "de": "21",
+      "tela": { "nome": "agenda", "destaque": { "nome": "Davi Rocha", "em": "22:novo" },
+        "clientes": [{ "hora": "09:00", "nome": "Davi Rocha", "servico": "Corte masculino" }, { "hora": "10:00", "nome": "Matheus Lima", "servico": "Corte + barba" }, { "hora": "11:00", "nome": "José Prado", "servico": "Corte masculino" }] },
+      "frases": [
+        { "em": "21:agenda", "texto": "A agenda do barbeiro" },
+        { "em": "22:dia", "texto": "O dia inteiro num lugar só" },
+        { "em": "22:novo", "texto": "Horário novo aparece na hora" }
+      ] },
+    { "tipo": "app", "de": "23", "tela": { "nome": "bloqueio", "hora": "18:00", "data": "segunda-feira, 2 de novembro",
+      "avisos": [{ "em": "23:seis", "tipo": "lembretes", "quantidade": 4 }] } },
+    { "tipo": "app", "de": "24", "entrada": "subir",
+      "tela": { "nome": "lembretes", "toques": [{ "toque": "24:pronta", "enviar": "24:toque" }] } },
+    { "tipo": "sala", "de": "25", "personagem": "juninho", "reacoes": [{ "em": "26:monta", "boca": "sorriso", "olhar": "frente" }] },
+    { "tipo": "final", "de": "27" }
+  ],
+  "extras": [
+    { "tipo": "zap", "em": "25:manda", "ate": "26:fim", "de": "Você", "texto": "@agendafio, segue minha lista de clientes e serviços." },
+    { "tipo": "zap", "em": "26:monta", "ate": "26:fim", "de": "@agendafio", "texto": "Recebido! Em até 2 dias sua agenda fica pronta." }
+  ]
+}
