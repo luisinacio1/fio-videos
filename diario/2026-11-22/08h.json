@@ -1,0 +1,103 @@
+{
+  "id": "2026-11-22-08h-redemoinho",
+  "tipo": "conceito",
+  "tema": "redemoinho",
+  "titulo": "O que é redemoinho, e por que ele muda o corte",
+  "legenda": "Seu redemoinho manda no seu corte. 💈\n\nRedemoinho é o ponto onde os fios crescem em espiral, quase sempre no alto ou atrás da cabeça. Se o corte ficar curto demais ali, o cabelo pode ficar espetado. Por isso, barbeiro que conhece o seu redemoinho já sabe onde deixar mais comprido.\n\nSalva pra contar pro barbeiro no próximo corte.\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nE o seu redemoinho, fica onde? Conta aqui.",
+  "falas": [
+    { "texto": "Seu redemoinho manda no seu corte." },
+    { "texto": "Você sabe onde ele está? Quase ninguém sabe." },
+    { "texto": "E ele decide se o corte fica bom ou espetado." },
+    { "texto": "Primeiro: o que é redemoinho?" },
+    { "texto": "É o ponto onde os fios crescem em espiral." },
+    { "texto": "Em vez de crescer retinho, o cabelo gira ali." },
+    { "texto": "Quase sempre ele fica no alto da cabeça." },
+    { "texto": "Ou atrás, na parte de trás da cabeça." },
+    { "texto": "Agora vem a parte que importa: o que muda no corte." },
+    { "texto": "Se o corte ficar curto demais ali, o cabelo pode ficar espetado." },
+    { "texto": "Sabe aquele pedaço que fica em pé? Pode ser isso." },
+    { "texto": "Por isso o jeito é deixar mais comprido ali." },
+    { "texto": "Barbeiro que conhece o seu redemoinho já sabe onde deixar mais comprido." },
+    { "texto": "Ou seja: ele conhece a sua cabeça, e o corte sai certo." },
+    { "texto": "Teste rápido: o corte ficou curto demais no redemoinho. O que acontece?" },
+    { "texto": "O cabelo pode ficar espetado." },
+    { "texto": "E se o barbeiro deixa mais comprido ali? Ele já sabe onde." },
+    { "texto": "Recapitulando: redemoinho é onde os fios giram, no alto ou atrás." },
+    { "texto": "Curto demais ali, espeta. Mais comprido, o barbeiro sabe onde deixar." },
+    { "texto": "Por isso muita gente não troca de barbeiro." },
+    { "texto": "E quem achou o seu quer garantir horário com ele, sem disputa." },
+    { "texto": "Pra isso existe o Fio, a agenda do barbeiro." },
+    { "texto": "O cliente abre o link e escolhe o serviço, o dia e um horário livre." },
+    { "texto": "Coloca o nome, confirma, e o horário cai na sua agenda." },
+    { "texto": "Na véspera, o lembrete sai no seu WhatsApp, em um toque." },
+    { "texto": "Não vai dar? Ele mesmo remarca pelo link, e você recebe o aviso." },
+    { "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct." },
+    { "texto": "A gente monta a sua agenda pra você. Sem custo." },
+    { "pausa": 0.3, "texto": "Fio. Seu barbeiro, no seu horário." },
+    { "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro." },
+    { "texto": "E o seu redemoinho, fica onde? Conta aqui." }
+  ],
+  "chaves": ["espiral", "espetado", "comprido", "barbeiro", "horário", "monta"],
+  "ponte": "20",
+  "fio": "22",
+  "cenas": [
+    { "tipo": "corte", "de": "1", "personagem": "matheus", "estilos": [
+      { "em": "1:redemoinho", "estilo": "topete", "rotulo": "Seu redemoinho" },
+      { "em": "1:corte", "estilo": "degrade-medio", "rotulo": "Seu corte" }
+    ] },
+    { "tipo": "texto", "de": "2", "linhas": ["Você sabe", "onde está o seu?"], "destaque": ["seu?"], "fundo": "escuro" },
+    { "tipo": "barbearia", "de": "3", "barbeiro": "rafa", "cliente": "matheus", "reacoes": [{ "em": "3:espetado", "boca": "torta", "olhar": "frente" }] },
+    { "tipo": "texto", "de": "4", "linhas": ["O que é", "redemoinho?"], "destaque": ["redemoinho?"], "fundo": "acento" },
+    { "tipo": "objeto", "de": "5", "objeto": "pente", "fundo": "escuro", "etiquetas": [
+      { "em": "5:ponto", "texto": "Onde os fios giram" },
+      { "em": "5:espiral", "texto": "Crescem em espiral" }
+    ] },
+    { "tipo": "texto", "de": "6", "linhas": ["O cabelo", "gira ali."], "destaque": ["gira"], "fundo": "claro" },
+    { "tipo": "passos", "de": "7", "titulo": "Onde fica", "passos": [
+      { "em": "7", "texto": "No alto da cabeça" },
+      { "em": "8:atrás", "texto": "Ou atrás da cabeça" }
+    ] },
+    { "tipo": "texto", "de": "9", "linhas": ["O que muda", "no corte?"], "destaque": ["muda"], "fundo": "escuro" },
+    { "tipo": "corte", "de": "10", "personagem": "ze", "estilos": [
+      { "em": "10:curto", "estilo": "degrade-alto", "rotulo": "Curto demais ali" },
+      { "em": "10:espetado", "estilo": "topete", "rotulo": "Cabelo espetado" }
+    ] },
+    { "tipo": "sala", "de": "11", "personagem": "matheus", "cabeloBagunca": "11:pedaço", "reacoes": [{ "em": "11:pedaço", "boca": "torta", "sacode": true }] },
+    { "tipo": "barbearia", "de": "12", "barbeiro": "rafa", "cliente": "davi", "reacoes": [{ "em": "12:comprido", "boca": "sorriso", "olhar": "frente" }] },
+    { "tipo": "texto", "de": "13", "linhas": ["Sabe onde", "deixar comprido."], "destaque": ["comprido."], "fundo": "acento" },
+    { "tipo": "barbearia", "de": "14", "barbeiro": "juninho", "cliente": "ze", "reacoes": [{ "em": "14:certo", "boca": "sorriso", "olhar": "frente" }] },
+    { "tipo": "corte", "de": "15", "personagem": "matheus", "estilos": [
+      { "em": "15:curto", "estilo": "degrade-alto", "rotulo": "Curto demais ali!" },
+      { "em": "16:espetado", "estilo": "topete", "rotulo": "Espetado!" }
+    ] },
+    { "tipo": "corte", "de": "17", "personagem": "davi", "estilos": [
+      { "em": "17:comprido", "estilo": "social", "rotulo": "Mais comprido ali" }
+    ] },
+    { "tipo": "passos", "de": "18", "titulo": "Redemoinho", "passos": [
+      { "em": "18:giram", "texto": "Onde os fios giram" },
+      { "em": "18:alto", "texto": "No alto ou atrás" },
+      { "em": "19:curto", "texto": "Curto demais, espeta" },
+      { "em": "19:comprido", "texto": "Mais comprido ali" }
+    ] },
+    { "tipo": "objeto", "de": "20", "objeto": "cadeiraAntiga", "fundo": "escuro", "etiquetas": [
+      { "em": "20:troca", "texto": "Não troca de barbeiro" }
+    ] },
+    { "tipo": "texto", "de": "21", "linhas": ["Horário garantido,", "sem disputa."], "destaque": ["sem"], "fundo": "claro" },
+    { "tipo": "apresentaFio", "de": "22",
+      "tela": { "nome": "agendamento", "cliente": "Davi Rocha", "hora": "20:10",
+        "toques": { "servico": "23:serviço", "dia": "23:dia", "horario": "23:livre", "nome": "24:nome", "confirmar": "24:confirma" } },
+      "frases": [
+        { "em": "23:link", "texto": "Cliente marca sozinho pelo link" },
+        { "em": "23:livre", "texto": "Só horário livre aparece" },
+        { "em": "24:agenda", "texto": "Cai direto na sua agenda" }
+      ] },
+    { "tipo": "app", "de": "25", "tela": { "nome": "bloqueio", "hora": "18:00", "data": "segunda-feira, 2 de novembro", "avisos": [{ "em": "25:véspera", "tipo": "lembretes", "quantidade": 4 }] } },
+    { "tipo": "app", "de": "26", "entrada": "subir", "tela": { "nome": "bloqueio", "hora": "18:24", "data": "segunda-feira, 2 de novembro", "avisos": [{ "em": "26:aviso", "tipo": "cancelado", "nome": "Diego Souza", "quando": "ter 03/11 às 11:00" }] } },
+    { "tipo": "sala", "de": "27", "personagem": "rafa", "reacoes": [{ "em": "28:monta", "boca": "sorriso", "olhar": "frente" }] },
+    { "tipo": "final", "de": "29" }
+  ],
+  "extras": [
+    { "tipo": "zap", "em": "27:manda", "ate": "28:fim", "de": "Você", "texto": "@agendafio, segue minha lista de clientes e serviços." },
+    { "tipo": "zap", "em": "28:monta", "ate": "28:fim", "de": "@agendafio", "texto": "Recebido! Em até 2 dias sua agenda fica pronta." }
+  ]
+}

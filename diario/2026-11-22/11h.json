@@ -1,0 +1,99 @@
+{
+  "id": "2026-11-22-11h-barbeiro-da-banda",
+  "tipo": "atracao-2d",
+  "tema": "barbeiro-da-banda",
+  "titulo": "O barbeiro africano que tinha uma banda no Rio",
+  "legenda": "Era barbeiro, era livre e tinha uma banda. 🎺\n\nAntônio José Dutra nasceu no Reino do Congo e conseguiu a alforria no começo dos anos 1820. No Rio do século XIX, muitos barbeiros eram também sangradores e músicos. Quando morreu, em 1849, ele tinha uma barbearia, uma banda de música e dois imóveis. Segundo a pesquisa, o legado dele foi importante para a vida modesta dos negros livres numa sociedade escravista.\n\nFonte: artigo na Revista de História (SciELO).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nVocê conhece um barbeiro que faz de tudo um pouco? Conta aqui.",
+  "falas": [
+    { "texto": "Era barbeiro, era livre e tinha uma banda." },
+    { "texto": "Esse homem viveu no Rio de Janeiro, no século dezenove." },
+    { "texto": "Ele se chamava Antônio José Dutra." },
+    { "texto": "E a história dele diz muito sobre a barbearia daquele tempo. Bora conhecer." },
+    { "texto": "Dutra nasceu no Reino do Congo, na África." },
+    { "texto": "E conseguiu a alforria no começo dos anos mil oitocentos e vinte." },
+    { "texto": "Alforria é a liberdade: ele deixou de ser escravizado." },
+    { "texto": "Depois, no Rio, ele virou barbeiro." },
+    { "texto": "No Rio daquele século, barbeiro fazia mais do que cortar cabelo." },
+    { "texto": "Muitos barbeiros eram também sangradores." },
+    { "texto": "Sangrador era quem tirava sangue de doente, como se fazia na época." },
+    { "texto": "E muitos eram também músicos." },
+    { "texto": "Barbeiro, sangrador e músico: tudo ao mesmo tempo." },
+    { "texto": "Dutra seguiu esse caminho: tinha uma barbearia e uma banda." },
+    { "texto": "Quando morreu, em 1849, deixou uma barbearia, uma banda de música e dois imóveis." },
+    { "texto": "Para quem tinha sido escravizado, era muita coisa." },
+    { "texto": "Segundo a pesquisa, o legado dele foi importante pra vida modesta dos negros livres." },
+    { "texto": "Isso numa sociedade escravista." },
+    { "texto": "Ou seja: uma barbearia, uma banda e um legado." },
+    { "texto": "Dutra cortava, tocava e cuidava do negócio." },
+    { "texto": "Barbeiro que faz tudo precisa de uma agenda que não dependa só da cabeça dele." },
+    { "texto": "Pra isso existe o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena." },
+    { "texto": "Todo dia, às seis da tarde, chega o aviso: lembretes de amanhã." },
+    { "texto": "Ali está a agenda do dia: quem marcou, que horas e qual serviço." },
+    { "texto": "A mensagem vem pronta. Você aperta enviar no WhatsApp. Um toque." },
+    { "texto": "Quem já foi avisado fica marcado na lista." },
+    { "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct." },
+    { "texto": "A gente monta a sua agenda pra você. Sem custo." },
+    { "pausa": 0.3, "texto": "Fio. Sua agenda fora da cabeça." },
+    { "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro." },
+    { "texto": "Você conhece um barbeiro que faz de tudo um pouco? Conta aqui." }
+  ],
+  "chaves": ["Dutra", "alforria", "sangradores", "músicos", "banda", "legado"],
+  "ponte": "20",
+  "fio": "22",
+  "cenas": [
+    { "tipo": "barbeariaAntiga", "de": "1", "barbeiro": "rafa", "cliente": "ze", "ano": "sempre", "reacoes": [{ "em": "1:livre", "boca": "sorriso", "olhar": "frente" }, { "em": "1:banda", "boca": "aberta" }] },
+    { "tipo": "texto", "de": "2", "linhas": ["Rio de Janeiro,", "século XIX."], "destaque": ["XIX."], "fundo": "escuro" },
+    { "tipo": "objeto", "de": "3", "objeto": "tesoura", "fundo": "acento", "etiquetas": [{ "em": "3:Antônio", "texto": "Antônio José Dutra" }] },
+    { "tipo": "barbeariaAntiga", "de": "4", "barbeiro": "juninho", "cliente": "carlos", "ano": "sempre", "reacoes": [{ "em": "4:história", "boca": "aberta" }, { "em": "4:conhecer", "boca": "sorriso" }] },
+    { "tipo": "linhaDoTempo", "de": "5", "marcos": [
+      { "em": "5", "ano": "Congo", "texto": "Nasceu no Reino do Congo", "objeto": "navalha" },
+      { "em": "6:alforria", "ano": "Anos 1820", "texto": "Conseguiu a alforria", "objeto": "pente" }
+    ] },
+    { "tipo": "texto", "de": "7", "linhas": ["Alforria =", "liberdade."], "destaque": ["liberdade."], "fundo": "claro" },
+    { "tipo": "barbeariaAntiga", "de": "8", "barbeiro": "rafa", "cliente": "carlos", "ano": "sempre", "reacoes": [{ "em": "8:barbeiro", "boca": "sorriso", "olhar": "frente" }] },
+    { "tipo": "passos", "de": "9", "titulo": "Barbeiro no Rio", "passos": [
+      { "em": "9", "texto": "Cortava cabelo", "objeto": "tesoura" },
+      { "em": "10:sangradores", "texto": "Era sangrador" }
+    ] },
+    { "tipo": "objeto", "de": "11", "objeto": "navalha", "fundo": "escuro", "etiquetas": [
+      { "em": "11:sangrador", "texto": "Sangrador" },
+      { "em": "11:sangue", "texto": "Tirava sangue" }
+    ] },
+    { "tipo": "barbeariaAntiga", "de": "12", "barbeiro": "juninho", "cliente": "ze", "ano": "sempre", "reacoes": [{ "em": "12:músicos", "boca": "aberta", "sacode": true }] },
+    { "tipo": "texto", "de": "13", "linhas": ["Barbeiro, sangrador", "e músico."], "destaque": ["músico."], "fundo": "acento" },
+    { "tipo": "barbeariaAntiga", "de": "14", "barbeiro": "rafa", "cliente": "ze", "ano": "sempre", "reacoes": [{ "em": "14:banda", "boca": "sorriso", "olhar": "frente" }] },
+    { "tipo": "passos", "de": "15", "titulo": "Quando morreu, deixou", "passos": [
+      { "em": "15:barbearia", "texto": "Uma barbearia" },
+      { "em": "15:banda", "texto": "Uma banda de música" },
+      { "em": "15:dois", "texto": "Dois imóveis" }
+    ] },
+    { "tipo": "texto", "de": "16", "linhas": ["Era muita", "coisa."], "destaque": ["muita"], "fundo": "escuro" },
+    { "tipo": "objeto", "de": "17", "objeto": "cadeiraAntiga", "fundo": "escuro", "etiquetas": [
+      { "em": "17:legado", "texto": "O legado dele" },
+      { "em": "17:modesta", "texto": "Vida modesta dos livres" },
+      { "em": "18:escravista", "texto": "Sociedade escravista" }
+    ] },
+    { "tipo": "texto", "de": "19", "linhas": ["Barbearia,", "banda e legado."], "destaque": ["legado."], "fundo": "acento" },
+    { "tipo": "barbearia", "de": "20", "barbeiro": "rafa", "cliente": "matheus",
+      "mensagens": [{ "em": "20:cuidava", "de": "Diego", "texto": "Tem horário hoje?" }, { "em": "21:agenda", "de": "Lucas", "texto": "E amanhã?" }],
+      "olhaCelular": "21:agenda", "reacoes": [{ "em": "21:cabeça", "boca": "torta" }] },
+    { "tipo": "apresentaFio", "de": "22",
+      "tela": { "nome": "agenda", "clientes": [
+        { "hora": "09:00", "nome": "Davi Rocha", "servico": "Corte masculino" },
+        { "hora": "10:00", "nome": "Matheus Lima", "servico": "Corte + barba" },
+        { "hora": "11:00", "nome": "José Prado", "servico": "Barba" }
+      ], "destaque": { "nome": "Matheus Lima", "em": "24:agenda" } },
+      "frases": [
+        { "em": "22:agenda", "texto": "A agenda do seu dia" },
+        { "em": "23:lembretes", "texto": "Lembretes de amanhã, às 18h" },
+        { "em": "24:quem", "texto": "Quem, que horas, qual serviço" }
+      ] },
+    { "tipo": "app", "de": "25", "entrada": "subir", "tela": { "nome": "lembretes", "toques": [{ "toque": "25:vem", "enviar": "25:enviar" }, "26:avisado"] } },
+    { "tipo": "sala", "de": "27", "personagem": "rafa", "reacoes": [{ "em": "28:monta", "boca": "sorriso", "olhar": "frente" }] },
+    { "tipo": "final", "de": "29" }
+  ],
+  "extras": [
+    { "tipo": "zap", "em": "27:manda", "ate": "28:fim", "de": "Você", "texto": "@agendafio, segue minha lista de clientes e serviços." },
+    { "tipo": "zap", "em": "28:monta", "ate": "28:fim", "de": "@agendafio", "texto": "Recebido! Em até 2 dias sua agenda fica pronta." }
+  ]
+}

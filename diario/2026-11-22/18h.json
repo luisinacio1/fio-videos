@@ -1,0 +1,86 @@
+{
+  "id": "2026-11-22-18h-toalha-quente",
+  "tipo": "atracao-3d",
+  "tema": "toalha-quente",
+  "titulo": "Por que o barbeiro coloca toalha quente no rosto",
+  "legenda": "Por que o barbeiro coloca toalha quente no rosto? 💈\n\nNa barbearia, a toalha aquecida serve para umedecer a pele e a barba e facilitar o barbear. No Japão, a toalhinha úmida servida ao cliente se chama oshibori, e a toalha quente da barbearia pode ser vista como um tipo dela. Por lá, 29 de outubro é o dia do oshibori desde 2004. E muitas companhias aéreas dão toalha quente aos passageiros da primeira classe e da executiva antes da primeira refeição em voos longos.\n\nFonte: verbete \"Hot towel\" (Wikipédia em inglês).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nE você, gosta da toalha quente no rosto? Conta aqui.",
+  "chaves": ["aquecida", "oshibori", "Japão", "executiva", "lembretes", "WhatsApp", "marcado", "monta"],
+  "falas": [
+    { "texto": "Por que o barbeiro coloca toalha quente no rosto?" },
+    { "texto": "Olha essa toalha de barbearia girando. Fofa, né?" },
+    { "texto": "Na barbearia, ela vem aquecida." },
+    { "texto": "O calor serve pra umedecer a pele e a barba." },
+    { "texto": "Com tudo mais úmido, fica mais fácil de barbear." },
+    { "texto": "Ou seja: a toalha quente prepara o rosto pro barbear." },
+    { "texto": "Esse cuidado tem um parente do outro lado do mundo. Vem comigo." },
+    { "texto": "No Japão, o cliente ganha uma toalhinha úmida." },
+    { "texto": "O nome dela é oshibori." },
+    { "texto": "E a toalha quente da barbearia pode ser vista como um tipo de oshibori." },
+    { "texto": "Os japoneses gostam tanto que existe até um dia do oshibori." },
+    { "texto": "É 29 de outubro, desde 2004." },
+    { "texto": "Agora olha onde mais a toalha quente aparece: no avião." },
+    { "texto": "Muitas companhias aéreas dão toalha quente na primeira classe e na executiva." },
+    { "texto": "Isso antes da primeira refeição, em voos longos." },
+    { "texto": "Na barbearia, no Japão e no avião: toalha quente é sinal de cuidado." },
+    { "texto": "Um pano aquecido, e o cliente já se sente bem recebido." },
+    { "texto": "Toalha quente é cuidado com o cliente." },
+    { "texto": "Cuidar também é avisar na véspera: amanhã é o seu horário." },
+    { "texto": "Pra isso existe o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena." },
+    { "texto": "Todo dia, às seis da tarde, chega o aviso: lembretes de amanhã." },
+    { "texto": "Ele diz quantos clientes você precisa lembrar." },
+    { "texto": "A mensagem já vem pronta. Você aperta enviar no WhatsApp. Um toque por cliente." },
+    { "texto": "E quem já foi avisado fica marcado na lista." },
+    { "texto": "Ainda anota no caderno? Manda sua lista no direct." },
+    { "texto": "E a gente monta pra você: sua agenda pronta em até dois dias, sem custo." },
+    { "pausa": 0.3, "texto": "Fio. O lembrete que cuida do cliente." },
+    { "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro." },
+    { "texto": "E você, gosta da toalha quente no rosto? Conta aqui." }
+  ],
+  "planos": [
+    {
+      "modo": "vitrine", "de": "1", "objeto": "toalha",
+      "etiquetas": [
+        { "em": "2:toalha", "texto": "Toalha de barbearia" },
+        { "em": "3:aquecida", "texto": "Vem aquecida" },
+        { "em": "4:umedecer", "texto": "Umedece pele e barba" },
+        { "em": "5:fácil", "texto": "Barbear mais fácil" }
+      ]
+    },
+    {
+      "modo": "vitrine", "de": "7", "objeto": "toalha",
+      "etiquetas": [
+        { "em": "8:Japão", "texto": "No Japão" },
+        { "em": "9:oshibori", "texto": "Oshibori" },
+        { "em": "10:tipo", "texto": "Um tipo de oshibori" },
+        { "em": "12", "texto": "29 de outubro" },
+        { "em": "12:desde", "texto": "Dia do oshibori" }
+      ]
+    },
+    {
+      "modo": "vitrine", "de": "13", "objeto": "toalha",
+      "etiquetas": [
+        { "em": "13:avião", "texto": "No avião" },
+        { "em": "14:primeira", "texto": "Primeira classe" },
+        { "em": "14:executiva", "texto": "E executiva" },
+        { "em": "15:refeição", "texto": "Antes da refeição" },
+        { "em": "16:cuidado", "texto": "Sinal de cuidado" }
+      ]
+    }
+  ],
+  "ponte": "18",
+  "fio": {
+    "de": "20",
+    "telas": [
+      { "em": "20", "tela": { "nome": "agenda" } },
+      { "em": "21", "tela": { "nome": "aviso", "aviso": { "tipo": "lembretes", "quantidade": 5 }, "hora": "18:00", "data": "segunda-feira, 2 de novembro" } },
+      { "em": "23:mensagem", "tela": { "nome": "whats" } },
+      { "em": "24:avisado", "tela": { "nome": "lembretes" } }
+    ],
+    "frases": [
+      { "em": "22:quantos", "texto": "Aviso diz quantos lembrar" },
+      { "em": "23:enviar", "texto": "Mensagem pronta, você só envia" },
+      { "em": "24:marcado", "texto": "Quem foi avisado fica marcado" }
+    ]
+  },
+  "final": { "de": "27" }
+}

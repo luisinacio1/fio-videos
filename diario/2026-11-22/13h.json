@@ -1,0 +1,94 @@
+{
+  "id": "2026-11-22-13h-cabelo-cresce-por-mes",
+  "tipo": "curiosidade",
+  "tema": "cabelo-cresce-por-mes",
+  "titulo": "Quanto o cabelo cresce por mês",
+  "legenda": "Seu cabelo cresce cerca de um centímetro por mês. ✂️\n\nEssa é a conta mais repetida, em média. Mas varia de pessoa para pessoa: já se mediu de 0,6 a 3,36 centímetros por mês. Quem tem cabelo loiro tem, em média, uns 150 mil fios; cabelo preto, uns 100 mil; ruivo, uns 90 mil. E cada fio passa por uma fase de crescimento que pode durar de três a cinco anos.\n\nFonte: verbete \"Human hair growth\" (Wikipédia em inglês).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nDe quanto em quanto tempo o seu cabelo pede corte? Conta aqui.",
+  "falas": [
+    { "texto": "Seu cabelo cresce cerca de um centímetro por mês." },
+    { "texto": "Parece pouco, né? Mas tem muito mais por trás disso." },
+    { "texto": "A conta mais repetida é essa: um centímetro por mês, em média." },
+    { "texto": "Mas é só média. Cada cabeça cresce no seu ritmo." },
+    { "texto": "Já mediram gente que cresce só zero vírgula seis centímetro por mês." },
+    { "texto": "E gente que cresce até três vírgula trinta e seis." },
+    { "texto": "Ou seja: o seu cabelo pode crescer bem mais rápido, ou bem mais devagar, que o de um amigo." },
+    { "texto": "Agora, quantos fios você tem? Depende da cor." },
+    { "texto": "Quem tem cabelo loiro tem, em média, uns cento e cinquenta mil fios." },
+    { "texto": "Cabelo preto, uns cem mil." },
+    { "texto": "E ruivo, uns noventa mil." },
+    { "texto": "E cada fio passa por uma fase de crescimento." },
+    { "texto": "Essa fase pode durar de três a cinco anos." },
+    { "texto": "Ou seja: cada fio trabalha anos pra chegar no tamanho que você vê." },
+    { "texto": "Resumindo: um centímetro por mês, em média, mas varia de pessoa pra pessoa." },
+    { "texto": "E varia também a quantidade de fios, conforme a cor." },
+    { "texto": "Da próxima vez que passar a mão no cabelo, lembra dessa conta." },
+    { "texto": "Um centímetro por mês já desmancha um degradê." },
+    { "texto": "Por isso o cliente volta, e precisa achar horário sem complicação." },
+    { "texto": "Pra isso existe o Fio, a agenda do barbeiro." },
+    { "texto": "O cliente abre o link e vê só os horários livres." },
+    { "texto": "Escolhe o serviço, coloca o nome e confirma." },
+    { "texto": "No celular do barbeiro, chega o aviso: novo agendamento." },
+    { "texto": "Sem baixar aplicativo e sem criar conta." },
+    { "texto": "Na véspera, o lembrete sai no WhatsApp, em um toque por cliente." },
+    { "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct." },
+    { "texto": "A gente monta a sua agenda pra você. Sem custo." },
+    { "pausa": 0.3, "texto": "Fio. O próximo corte, já marcado." },
+    { "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro." },
+    { "texto": "De quanto em quanto tempo o seu cabelo pede corte? Conta aqui." }
+  ],
+  "chaves": ["centímetro", "média", "fios", "anos", "degradê", "monta"],
+  "ponte": "18",
+  "fio": "20",
+  "cenas": [
+    { "tipo": "corte", "de": "1", "personagem": "davi", "estilos": [
+      { "em": "1:cabelo", "estilo": "degrade-alto", "rotulo": "Corte de hoje" },
+      { "em": "1:mês", "estilo": "social", "rotulo": "Um mês depois" }
+    ] },
+    { "tipo": "texto", "de": "2", "linhas": ["Um centímetro", "por mês."], "destaque": ["centímetro"], "fundo": "acento" },
+    { "tipo": "barbearia", "de": "3", "barbeiro": "rafa", "cliente": "davi", "reacoes": [{ "em": "3:média", "boca": "sorriso", "olhar": "frente" }] },
+    { "tipo": "texto", "de": "4", "linhas": ["É só", "a média."], "destaque": ["média."], "fundo": "escuro" },
+    { "tipo": "compara", "de": "5",
+      "esquerda": { "titulo": "Devagar", "itens": ["0,6 cm por mês"], "objeto": "pente" },
+      "direita": { "titulo": "Rápido", "itens": ["3,36 cm por mês"], "objeto": "maquina" },
+      "revela": ["5:seis", "6:trinta"] },
+    { "tipo": "sala", "de": "7", "personagem": "matheus", "reacoes": [{ "em": "7:rápido", "boca": "aberta", "sacode": true }, { "em": "7:devagar", "boca": "sorriso", "olhar": "frente" }] },
+    { "tipo": "texto", "de": "8", "linhas": ["Quantos fios", "você tem?"], "destaque": ["fios"], "fundo": "claro" },
+    { "tipo": "passos", "de": "9", "titulo": "Fios por cor", "passos": [
+      { "em": "9:loiro", "texto": "Loiro: uns 150 mil" },
+      { "em": "10:preto", "texto": "Preto: uns 100 mil" },
+      { "em": "11:ruivo", "texto": "Ruivo: uns 90 mil" }
+    ] },
+    { "tipo": "corte", "de": "12", "personagem": "ze", "estilos": [{ "em": "12:fase", "estilo": "degrade-baixo", "rotulo": "Fase de crescimento" }] },
+    { "tipo": "texto", "de": "13", "linhas": ["De 3 a 5 anos", "por fio."], "destaque": ["anos"], "fundo": "escuro" },
+    { "tipo": "barbearia", "de": "14", "barbeiro": "rafa", "cliente": "matheus", "reacoes": [{ "em": "14:fio", "boca": "aberta", "olhar": "lado" }, { "em": "14:vê", "boca": "sorriso", "olhar": "frente" }] },
+    { "tipo": "passos", "de": "15", "titulo": "Resumindo", "passos": [
+      { "em": "15:centímetro", "texto": "1 cm por mês, em média" },
+      { "em": "15:varia", "texto": "Varia de pessoa pra pessoa" },
+      { "em": "16:quantidade", "texto": "Fios variam com a cor" }
+    ] },
+    { "tipo": "sala", "de": "17", "personagem": "bia", "reacoes": [{ "em": "17:lembra", "boca": "sorriso", "olhar": "frente" }] },
+    { "tipo": "corte", "de": "18", "personagem": "davi", "estilos": [
+      { "em": "18:centímetro", "estilo": "degrade-medio", "rotulo": "Degradê novo" },
+      { "em": "18:desmancha", "estilo": "social", "rotulo": "Um mês depois" }
+    ] },
+    { "tipo": "barbearia", "de": "19", "barbeiro": "rafa", "cliente": "carlos",
+      "mensagens": [{ "em": "19:horário", "de": "Diego", "texto": "Tem horário hoje?" }, { "em": "19:complicação", "de": "Lucas", "texto": "E amanhã?" }],
+      "olhaCelular": "19:complicação", "reacoes": [{ "em": "19:complicação", "boca": "torta" }] },
+    { "tipo": "apresentaFio", "de": "20",
+      "tela": { "nome": "agendamento", "cliente": "José Prado", "hora": "13:40",
+        "toques": { "servico": "21:link", "dia": "21:horários", "horario": "21:livres", "nome": "22:nome", "confirmar": "22:confirma" } },
+      "frases": [
+        { "em": "21:link", "texto": "Abre o link, sem baixar nada" },
+        { "em": "21:livres", "texto": "Só horário livre aparece" },
+        { "em": "22:confirma", "texto": "Confirmou, está na agenda" }
+      ] },
+    { "tipo": "app", "de": "23", "entrada": "subir", "tela": { "nome": "bloqueio", "hora": "13:40", "data": "segunda-feira, 2 de novembro", "avisos": [{ "em": "23:aviso", "tipo": "novo", "nome": "José Prado", "servico": "Corte masculino", "quando": "ter 03/11 às 11:00" }] } },
+    { "tipo": "app", "de": "25", "tela": { "nome": "lembretes", "toques": [{ "toque": "25:lembrete", "enviar": "25:toque" }, "25:cliente"] } },
+    { "tipo": "sala", "de": "26", "personagem": "rafa", "reacoes": [{ "em": "27:monta", "boca": "sorriso", "olhar": "frente" }] },
+    { "tipo": "final", "de": "28" }
+  ],
+  "extras": [
+    { "tipo": "zap", "em": "26:manda", "ate": "27:fim", "de": "Você", "texto": "@agendafio, segue minha lista de clientes e serviços." },
+    { "tipo": "zap", "em": "27:monta", "ate": "27:fim", "de": "@agendafio", "texto": "Recebido! Em até 2 dias sua agenda fica pronta." }
+  ]
+}

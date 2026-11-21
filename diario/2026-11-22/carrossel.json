@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-22-carrossel-encaixe-horario-que-vagou",
+  "tema": "encaixe-horario-que-vagou",
+  "rotulo": "Encaixe",
+  "legenda": "Horário que vagou não precisa ficar vazio. 💈\n\nNo levantamento norte-americano da Zenoti, os cancelamentos nas barbearias dobraram de um ano pro outro: de 2% em 2024 pra 4% em 2025. Quem pede encaixe costuma aceitar o horário que aparecer no mesmo dia, mas horário vago só vira encaixe se alguém ficar sabendo a tempo. Uma lista curta de quem quer adiantar o corte resolve boa parte dos buracos do dia.\n\nSalva os 4 passos e manda pra outro barbeiro.\n\nFonte: Zenoti, tendências de barbearias.\n\nLink na bio pra testar 7 dias grátis.\n\nQuantos horários vagos você teve essa semana? Conta aqui.",
+  "slides": [
+    { "tipo": "capa", "titulo": "Horário que vagou não precisa ficar vazio", "curiosidade": "Cancelamentos dobraram nas barbearias.", "ilustracao": { "personagem": "davi" } },
+    { "tipo": "texto", "titulo": "Cancelamento dobrou de um ano pro outro", "paragrafos": ["No levantamento norte-americano da Zenoti, os cancelamentos nas barbearias dobraram de um ano pro outro.", "Foram de 2% em 2024 pra 4% em 2025."], "puxada": "E o que isso muda na sua barbearia?", "fonte": "Zenoti, barbearias nos EUA" },
+    { "tipo": "texto", "titulo": "Horário vago só vira encaixe se alguém souber", "paragrafos": ["Quem pede encaixe costuma aceitar o horário que aparecer no mesmo dia.", "Mas horário vago só vira encaixe se alguém ficar sabendo a tempo."], "puxada": "O que fazer, então?" },
+    { "tipo": "lista", "titulo": "4 passos pra transformar o vago em encaixe", "itens": [
+      { "termo": "Lista", "texto": "anote quem pediu encaixe no dia." },
+      { "termo": "Aviso", "texto": "avise assim que um horário vagar." },
+      { "termo": "Perto", "texto": "comece por quem mora ou trabalha perto." },
+      { "termo": "Link", "texto": "deixe o horário vago à vista no link." }
+    ], "puxada": "Salve pra lembrar." },
+    { "tipo": "texto", "titulo": "Uma lista curta resolve boa parte dos buracos", "paragrafos": ["Uma lista curta de quem quer adiantar o corte resolve boa parte dos buracos do dia.", "Quando o horário vagar, você já sabe quem chamar."], "puxada": "E quando o cliente desmarca?" },
+    { "tipo": "tela", "tela": { "nome": "aviso", "aviso": { "tipo": "cancelado", "nome": "Diego Souza", "quando": "ter 03/11 às 11:00" }, "hora": "18:24", "data": "segunda-feira, 2 de novembro" }, "frase": "Cliente desmarcou pelo link? No Fio você recebe o aviso e o horário volta livre." },
+    { "tipo": "fecho", "frase": "Horário vago é chance de encaixe. O Fio avisa, a gente monta." }
+  ]
+}
