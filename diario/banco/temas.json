@@ -2936,5 +2936,1325 @@
       "corte",
       "compara"
     ]
+  },
+  {
+    "id": "peruca-e-imposto-do-po",
+    "tipo": "curiosidade",
+    "titulo": "A moda das perucas e o imposto que a acabou",
+    "gancho": "Um imposto sobre pó acabou com a peruca.",
+    "fatos": [
+      {
+        "texto": "O rei Luís XIII começou a usar peruca em 1624, depois de começar a ficar careca cedo.",
+        "fonte": "https://en.wikipedia.org/wiki/Peruke"
+      },
+      {
+        "texto": "A moda foi muito promovida pelo filho dele, Luís XIV, e se espalhou pela Europa na década de 1660.",
+        "fonte": "https://en.wikipedia.org/wiki/Peruke"
+      },
+      {
+        "texto": "As perucas chegaram à Inglaterra quando Carlos II voltou ao trono, em 1660, depois do exílio na França.",
+        "fonte": "https://en.wikipedia.org/wiki/Peruke"
+      },
+      {
+        "texto": "No século 18, o pó das perucas era feito de amido bem moído, perfumado com flor de laranjeira, lavanda ou raiz de íris.",
+        "fonte": "https://en.wikipedia.org/wiki/Peruke"
+      },
+      {
+        "texto": "Por volta de 1765, a peruca saiu de moda, menos para algumas profissões, como cocheiros e advogados.",
+        "fonte": "https://en.wikipedia.org/wiki/Peruke"
+      },
+      {
+        "texto": "Em 1795, William Pitt, o Jovem, criou um imposto sobre o pó de cabelo, e o verbete diz que isso acabou com a moda das perucas e do pó.",
+        "fonte": "https://en.wikipedia.org/wiki/Peruke"
+      }
+    ],
+    "ponte": "A moda de cabelo muda, mas o cliente continua querendo o visual em dia. O difícil é ele lembrar da data da volta: um lembrete na véspera resolve.",
+    "tela": "lembretes",
+    "pecas": [
+      "linhaDoTempo",
+      "objeto",
+      "compara",
+      "sala"
+    ]
+  },
+  {
+    "id": "tesoura-de-mola-a-pivo",
+    "tipo": "curiosidade",
+    "titulo": "A tesoura já foi uma peça só, de mola",
+    "gancho": "A tesoura antiga nem tinha parafuso no meio.",
+    "fatos": [
+      {
+        "texto": "Na Europa, tesouras de arco (de uma peça só) aparecem por volta de 1000 a.C.",
+        "fonte": "https://en.wikipedia.org/wiki/Scissors"
+      },
+      {
+        "texto": "A tesoura com pivô, aquela com duas lâminas unidas no meio, ficou comum no noroeste da Europa por volta dos séculos 13 e 14.",
+        "fonte": "https://en.wikipedia.org/wiki/Scissors"
+      },
+      {
+        "texto": "Sheffield, na Inglaterra, teve a primeira produção em massa de tesouras, a partir de 1761.",
+        "fonte": "https://en.wikipedia.org/wiki/Scissors"
+      },
+      {
+        "texto": "Robert Hinchliffe, de Sheffield, produziu o primeiro par de tesouras de aço fundido, pensado para o mercado de massa.",
+        "fonte": "https://en.wikipedia.org/wiki/Scissors"
+      }
+    ],
+    "ponte": "Tesoura boa o barbeiro afia e usa de novo. Horário furado ninguém recupera: na agenda, ele vê o buraco do dia antes de virar prejuízo.",
+    "tela": "agenda",
+    "pecas": [
+      "objeto",
+      "linhaDoTempo",
+      "passos",
+      "barbeariaAntiga"
+    ]
+  },
+  {
+    "id": "por-que-cabelo-branqueia",
+    "tipo": "curiosidade",
+    "titulo": "O cabelo branco não é branco",
+    "gancho": "Cabelo branco não tem tinta nenhuma.",
+    "fatos": [
+      {
+        "texto": "O cabelo grisalho ou branco não vem de um pigmento cinza ou branco, e sim da falta de pigmento e de melanina.",
+        "fonte": "https://en.wikipedia.org/wiki/Human_hair_color"
+      },
+      {
+        "texto": "A cor do cabelo vem de dois tipos de melanina: a eumelanina (preta ou marrom) e a feomelanina (vermelha ou amarela), ambas feitas por células chamadas melanócitos.",
+        "fonte": "https://en.wikipedia.org/wiki/Human_hair_color"
+      },
+      {
+        "texto": "O verbete diz que a idade em que o cabelo começa a ficar grisalho parece depender quase só da genética.",
+        "fonte": "https://en.wikipedia.org/wiki/Human_hair_color"
+      },
+      {
+        "texto": "Segundo o verbete, o cabelo grisalho costuma começar no início ou meio dos 20 anos nos homens e no fim dos 20 nas mulheres.",
+        "fonte": "https://en.wikipedia.org/wiki/Human_hair_color"
+      },
+      {
+        "texto": "Entre a população do oeste da Eurásia, o cabelo ruivo é de 1% a 2%, a cor de cabelo menos comum do mundo, segundo o verbete.",
+        "fonte": "https://en.wikipedia.org/wiki/Human_hair_color"
+      }
+    ],
+    "ponte": "Quem quer cuidar dos fios brancos ou da cor volta de tempos em tempos. Se o barbeiro lembra o cliente na véspera, o retorno não fica pro mês que vem.",
+    "tela": "lembretes",
+    "pecas": [
+      "compara",
+      "corte",
+      "texto",
+      "sala"
+    ]
+  },
+  {
+    "id": "tonsura-do-monge",
+    "tipo": "curiosidade",
+    "titulo": "A tonsura: o corte de monge que durou séculos",
+    "gancho": "Um papa aposentou o corte de monge.",
+    "fatos": [
+      {
+        "texto": "Tonsura é o ato de cortar ou raspar parte ou todo o cabelo da cabeça como sinal de devoção religiosa ou humildade.",
+        "fonte": "https://en.wikipedia.org/wiki/Tonsure"
+      },
+      {
+        "texto": "A tonsura romana era raspar só o alto da cabeça, deixando o cabelo crescer em forma de coroa.",
+        "fonte": "https://en.wikipedia.org/wiki/Tonsure"
+      },
+      {
+        "texto": "A tonsura oriental era raspar a cabeça inteira; hoje a Igreja Ortodoxa corta quatro mechas em forma de cruz.",
+        "fonte": "https://en.wikipedia.org/wiki/Tonsure"
+      },
+      {
+        "texto": "A tradição católica dizia que a tonsura vinha de São Pedro, mas o verbete afirma que não há prova disso.",
+        "fonte": "https://en.wikipedia.org/wiki/Tonsure"
+      },
+      {
+        "texto": "A tonsura foi abandonada por ordem papal em 1972, quando o papa Paulo VI decidiu que a primeira tonsura não seria mais concedida.",
+        "fonte": "https://en.wikipedia.org/wiki/Tonsure"
+      }
+    ],
+    "ponte": "Um corte com forma certa precisa de retoque na data certa. Pra cliente não esquecer a volta, o barbeiro pode lembrar na véspera, em um toque.",
+    "tela": "lembretes",
+    "pecas": [
+      "linhaDoTempo",
+      "compara",
+      "corte",
+      "objeto"
+    ]
+  },
+  {
+    "id": "costeleta-e-o-general-burnside",
+    "tipo": "curiosidade",
+    "titulo": "A costeleta tem nome de general",
+    "gancho": "A costeleta leva o nome de um general.",
+    "fatos": [
+      {
+        "texto": "A palavra inglesa sideburns é uma deturpação do século 19 de burnsides.",
+        "fonte": "https://en.wikipedia.org/wiki/Sideburns"
+      },
+      {
+        "texto": "O nome homenageia Ambrose Burnside, general da Guerra Civil americana, que unia costeletas grossas a um bigode e deixava o queixo sem barba.",
+        "fonte": "https://en.wikipedia.org/wiki/Sideburns"
+      },
+      {
+        "texto": "Há costeletas em estátuas e máscaras romanas do século 1.",
+        "fonte": "https://en.wikipedia.org/wiki/Sideburns"
+      },
+      {
+        "texto": "Saíram de moda no início do século 20; as máscaras de gás da Primeira Guerra exigiam homens sem barba, mas bigode era permitido.",
+        "fonte": "https://en.wikipedia.org/wiki/Sideburns"
+      },
+      {
+        "texto": "Voltaram em meados dos anos 1950, impulsionadas por Marlon Brando em O Selvagem e por Elvis Presley.",
+        "fonte": "https://en.wikipedia.org/wiki/Sideburns"
+      }
+    ],
+    "ponte": "Costeleta é detalhe: um milímetro a mais muda tudo. Por isso o barbeiro precisa de tempo certo por cliente, sem encaixe de última hora no meio do corte.",
+    "tela": "agenda",
+    "pecas": [
+      "linhaDoTempo",
+      "corte",
+      "compara",
+      "passos"
+    ]
+  },
+  {
+    "id": "origem-do-xampu",
+    "tipo": "curiosidade",
+    "titulo": "De onde vem a palavra xampu",
+    "gancho": "Xampu veio de uma palavra que significa massagem.",
+    "fatos": [
+      {
+        "texto": "A palavra inglesa shampoo vem da palavra hindi cā̃pō, que vem de uma raiz sânscrita ligada a pressionar, amassar ou acalmar.",
+        "fonte": "https://en.wikipedia.org/wiki/Shampoo"
+      },
+      {
+        "texto": "A palavra entrou no inglês na época colonial na Índia, em 1762, e o sentido de lavar o cabelo só foi registrado em 1860.",
+        "fonte": "https://en.wikipedia.org/wiki/Shampoo"
+      },
+      {
+        "texto": "Em 1821, Dean Mahomed abriu em Brighton, na Inglaterra, o primeiro banho comercial de vapor com massagem e shampoo do país.",
+        "fonte": "https://en.wikipedia.org/wiki/Shampoo"
+      },
+      {
+        "texto": "Em 1900, Josef Wilhelm Rausch criou na Suíça um sabão líquido para lavar cabelo e o chamou de Champooing.",
+        "fonte": "https://en.wikipedia.org/wiki/Shampoo"
+      },
+      {
+        "texto": "O Drene, dos anos 1930, foi o primeiro xampu com agentes sintéticos no lugar do sabão.",
+        "fonte": "https://en.wikipedia.org/wiki/Shampoo"
+      }
+    ],
+    "ponte": "Lavar o cabelo também gasta tempo na cadeira, e cada minuto conta. Quando o horário está certo na agenda, o barbeiro não corre.",
+    "tela": "agenda",
+    "pecas": [
+      "linhaDoTempo",
+      "objeto",
+      "passos",
+      "barbearia"
+    ]
+  },
+  {
+    "id": "secador-de-cabelo-e-o-fogao",
+    "tipo": "curiosidade",
+    "titulo": "O primeiro secador de cabelo ligava no fogão",
+    "gancho": "O primeiro secador de cabelo era preso ao fogão.",
+    "fatos": [
+      {
+        "texto": "O primeiro secador de cabelo foi inventado em 1888 pelo cabeleireiro francês Alexandre Godefroy.",
+        "fonte": "https://en.wikipedia.org/wiki/Hair_dryer"
+      },
+      {
+        "texto": "O modelo dele era grande, feito para a pessoa ficar sentada, e se ligava ao cano da chaminé de um fogão a gás, por isso não era portátil.",
+        "fonte": "https://en.wikipedia.org/wiki/Hair_dryer"
+      },
+      {
+        "texto": "Por volta de 1920, os secadores de segurar na mão começaram a ser vendidos.",
+        "fonte": "https://en.wikipedia.org/wiki/Hair_dryer"
+      },
+      {
+        "texto": "Os secadores de capacete rígido, que surgiram nos anos 1950, são o tipo mais visto em salões.",
+        "fonte": "https://en.wikipedia.org/wiki/Hair_dryer"
+      }
+    ],
+    "ponte": "Antes cabelo se secava preso a um fogão. Hoje o que prende o barbeiro é o celular apitando no meio do corte: 'tem horário?'. O link responde por ele.",
+    "tela": "agendamento",
+    "pecas": [
+      "objeto",
+      "linhaDoTempo",
+      "barbearia",
+      "compara"
+    ]
+  },
+  {
+    "id": "pincel-de-barba-do-seculo-18",
+    "tipo": "curiosidade",
+    "titulo": "O pincel de barba e o fim do barbeiro de todo dia",
+    "gancho": "Um pincel e uma navalha dobrável mudaram a barbearia.",
+    "fatos": [
+      {
+        "texto": "O pincel de barba moderno pode ser rastreado até a França, na década de 1750.",
+        "fonte": "https://en.wikipedia.org/wiki/Shaving_brush"
+      },
+      {
+        "texto": "Em francês ele se chama blaireau, que quer dizer texugo, porque os pincéis mais caros usam pelo de texugo.",
+        "fonte": "https://en.wikipedia.org/wiki/Shaving_brush"
+      },
+      {
+        "texto": "Os pincéis mais baratos usam pelo de javali ou de cavalo.",
+        "fonte": "https://en.wikipedia.org/wiki/Shaving_brush"
+      },
+      {
+        "texto": "Nos anos 1800, a navalha de cabo dobrável tornou prático fazer a própria barba em vez de ir ao barbeiro.",
+        "fonte": "https://en.wikipedia.org/wiki/Shaving_brush"
+      },
+      {
+        "texto": "Ao contrário do pelo de texugo e das fibras sintéticas, a cerda de javali absorve água, por isso o pincel deve ficar de molho antes do uso.",
+        "fonte": "https://en.wikipedia.org/wiki/Shaving_brush"
+      }
+    ],
+    "ponte": "Quando o cliente passou a poder se barbear em casa, ir ao barbeiro virou escolha. Então marcar horário tem que ser fácil: um link e um lembrete na véspera.",
+    "tela": "bloqueio",
+    "pecas": [
+      "objeto",
+      "compara",
+      "linhaDoTempo",
+      "barbeariaAntiga"
+    ]
+  },
+  {
+    "id": "joana-darc-e-os-cortes",
+    "tipo": "curiosidade",
+    "titulo": "Joana d'Arc e dois cortes que voltaram à moda",
+    "gancho": "Joana d'Arc inspirou um corte de 1909.",
+    "fatos": [
+      {
+        "texto": "O corte tigela foi muito popular entre os homens na primeira metade do século 15.",
+        "fonte": "https://en.wikipedia.org/wiki/Bowl_cut"
+      },
+      {
+        "texto": "Em fevereiro de 1429, Joana d'Arc cortou o cabelo nessa moda masculina.",
+        "fonte": "https://en.wikipedia.org/wiki/Bowl_cut"
+      },
+      {
+        "texto": "Em 1431, os registros do julgamento dela descreveram o cabelo como raspado em volta, como o de um jovem na moda.",
+        "fonte": "https://en.wikipedia.org/wiki/Bowl_cut"
+      },
+      {
+        "texto": "Em 1909, o cabeleireiro polonês Antoine de Paris lançou a moda do corte bob curto, que ele disse ter sido inspirado nos relatos sobre Joana d'Arc.",
+        "fonte": "https://en.wikipedia.org/wiki/Bob_cut"
+      },
+      {
+        "texto": "Em meados dos anos 1920, o bob era o penteado feminino dominante no mundo ocidental.",
+        "fonte": "https://en.wikipedia.org/wiki/Bob_cut"
+      }
+    ],
+    "ponte": "Um corte volta à moda e de repente todo mundo quer o mesmo horário. Quando o link mostra só o que está livre, o barbeiro não responde a fila no direct.",
+    "tela": "agendamento",
+    "pecas": [
+      "linhaDoTempo",
+      "corte",
+      "compara",
+      "texto"
+    ]
+  },
+  {
+    "id": "o-que-olhar-na-cadeira-higiene",
+    "tipo": "dica",
+    "titulo": "O que olhar na barbearia antes de sentar na cadeira",
+    "gancho": "Antes de sentar, olhe estas quatro coisas",
+    "fatos": [
+      {
+        "texto": "A Secretaria de Saúde do Rio de Janeiro orienta o cliente a verificar a esterilização de materiais como alicates, tesouras, navalhas e lâminas.",
+        "fonte": "https://www.saude.rj.gov.br/viver-melhor/noticias/2017/09/o-que-observar-no-salao-de-beleza"
+      },
+      {
+        "texto": "A mesma orientação pede toalhas limpas, sempre lavadas após cada uso.",
+        "fonte": "https://www.saude.rj.gov.br/viver-melhor/noticias/2017/09/o-que-observar-no-salao-de-beleza"
+      },
+      {
+        "texto": "Ela também manda observar se o profissional higieniza as mãos e os materiais com frequência e de maneira adequada.",
+        "fonte": "https://www.saude.rj.gov.br/viver-melhor/noticias/2017/09/o-que-observar-no-salao-de-beleza"
+      },
+      {
+        "texto": "O primeiro passo, diz o texto, é ver se o salão está regularizado junto à Vigilância Sanitária municipal.",
+        "fonte": "https://www.saude.rj.gov.br/viver-melhor/noticias/2017/09/o-que-observar-no-salao-de-beleza"
+      }
+    ],
+    "ponte": "O cliente repara na toalha limpa e na lâmina nova. Repara também quando o barbeiro para o corte para responder 'tem horário?'. Pelo link, ele já vê os horários livres.",
+    "tela": "agenda",
+    "pecas": [
+      "barbearia",
+      "passos",
+      "objeto",
+      "final"
+    ]
+  },
+  {
+    "id": "agenda-de-fim-de-ano",
+    "tipo": "dica",
+    "titulo": "Fim de ano na barbearia: como montar a agenda de dezembro",
+    "gancho": "Dezembro enche. Prepare a agenda em novembro.",
+    "fatos": [
+      {
+        "texto": "Em fim de ano todo mundo quer cortar na mesma semana, então os horários de véspera acabam primeiro.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Vale decidir cedo quais dias você abre mais cedo ou fecha mais tarde, e avisar os clientes antes.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Cliente fiel pede horário com antecedência quando sabe que a agenda vai apertar.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Folga de feriado combinada antes evita marcar horário e ter que cancelar depois.",
+        "fonte": "oficio"
+      }
+    ],
+    "ponte": "Quando a agenda aperta, um horário furado dói em dobro. O cliente marca pelo link e pode remarcar por ele, e você bloqueia a folga de feriado antes que alguém marque.",
+    "tela": "bloqueio",
+    "pecas": [
+      "compara",
+      "barbearia",
+      "app",
+      "corte"
+    ]
+  },
+  {
+    "id": "o-que-levar-ao-barbeiro",
+    "tipo": "dica",
+    "titulo": "O que levar ao barbeiro para o corte sair como você quer",
+    "gancho": "Leve isto e o corte não sai errado",
+    "fatos": [
+      {
+        "texto": "Uma foto do corte que você quer explica melhor do que muita conversa.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Se possível, leve também uma foto do que você não quer, para o barbeiro entender o limite.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Chegue com o cabelo limpo e sem boné apertado há horas, para o barbeiro ver como ele cai de verdade.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Diga logo no começo quanto tempo você tem, para o barbeiro ajustar o que cabe no horário.",
+        "fonte": "oficio"
+      }
+    ],
+    "ponte": "Muita gente chega correndo sem saber se o horário combina com o corte. Quando o cliente escolhe o serviço pelo link, o barbeiro já sabe quanto tempo reservar.",
+    "tela": "agendamento",
+    "pecas": [
+      "objeto",
+      "compara",
+      "sala",
+      "passos"
+    ]
+  },
+  {
+    "id": "preparar-para-a-barba",
+    "tipo": "dica",
+    "titulo": "Como se preparar para fazer a barba na barbearia",
+    "gancho": "Quer fazer a barba? Não apare antes.",
+    "fatos": [
+      {
+        "texto": "Chegue com a barba do tamanho que ela está, sem aparar em casa, para o barbeiro desenhar a partir do que existe.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Se a pele for sensível, avise antes de a navalha encostar no rosto.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Mostre onde quer a linha da bochecha e do pescoço, apontando com o dedo no espelho.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Barba com toalha quente e navalha leva mais tempo que um corte simples, então reserve esse tempo.",
+        "fonte": "oficio"
+      }
+    ],
+    "ponte": "Serviço que dura mais precisa de horário maior, e é aí que o cliente chega e a agenda está apertada. Pelo link ele escolhe o serviço e só aparecem os horários livres.",
+    "tela": "agendamento",
+    "pecas": [
+      "passos",
+      "objeto",
+      "corte",
+      "sala"
+    ]
+  },
+  {
+    "id": "cuidado-depois-da-navalha",
+    "tipo": "dica",
+    "titulo": "Depois da navalha: o que o cliente pode fazer em casa",
+    "gancho": "Saiu da navalha? Faça isto e não aquilo.",
+    "fatos": [
+      {
+        "texto": "Depois da navalha, o rosto fica sensível, então seque dando batidinhas e não esfregando a toalha.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Pergunte ao barbeiro qual pós-barba ele passou, para você saber o que combina com a sua pele.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Evite coçar e mexer no rosto nas primeiras horas.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Se a pele ficar muito incomodada, o barbeiro pode ajustar o jeito de fazer da próxima vez, então conte para ele.",
+        "fonte": "oficio"
+      }
+    ],
+    "ponte": "O barbeiro gosta de saber como o cliente ficou, mas não dá para escrever no meio do corte. Pelo link, a próxima vez já fica marcada antes de o cliente sair.",
+    "tela": "agendamento",
+    "pecas": [
+      "quarto",
+      "objeto",
+      "passos",
+      "texto"
+    ]
+  },
+  {
+    "id": "tolerancia-de-atraso",
+    "tipo": "dica",
+    "titulo": "Cliente atrasou: quantos minutos esperar e como avisar",
+    "gancho": "Cliente atrasou. Espere ou chame o próximo?",
+    "fatos": [
+      {
+        "texto": "Combine uma tolerância curta e diga ela na confirmação, assim ninguém é pego de surpresa.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Se o cliente avisa que vai atrasar, dá para ver se o próximo cabe antes dele.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Atender o cliente atrasado no meio do horário do próximo atrasa o dia inteiro.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Quando o atraso é grande, oferecer outro horário é melhor do que cortar com pressa.",
+        "fonte": "oficio"
+      }
+    ],
+    "ponte": "Atraso e falta nascem do mesmo esquecimento. O lembrete de véspera sai do seu WhatsApp com a mensagem pronta, e você aperta enviar.",
+    "tela": "lembretes",
+    "pecas": [
+      "compara",
+      "barbearia",
+      "app",
+      "passos"
+    ]
+  },
+  {
+    "id": "gorjeta-e-avaliacao",
+    "tipo": "dica",
+    "titulo": "Como agradecer um bom corte: gorjeta, avaliação e indicação",
+    "gancho": "Gostou do corte? Agradeça do jeito que ajuda.",
+    "fatos": [
+      {
+        "texto": "Gorjeta é voluntária e vale o quanto você achar justo, sem obrigação.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Voltar no horário combinado também é um jeito de agradecer, porque o barbeiro planeja o dia em cima disso.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Indicar o barbeiro para um amigo traz cliente novo de graça.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Uma avaliação ou uma foto marcando a barbearia aparece para quem ainda não conhece o trabalho.",
+        "fonte": "oficio"
+      }
+    ],
+    "ponte": "Quem indica um amigo quer mandar um jeito fácil de marcar. Em vez de 'chama no zap', ele manda o link da barbearia, e o amigo escolhe o horário sozinho.",
+    "tela": "agendamento",
+    "pecas": [
+      "sala",
+      "objeto",
+      "app",
+      "final"
+    ]
+  },
+  {
+    "id": "semana-do-barbeiro",
+    "tipo": "dica",
+    "titulo": "Como o barbeiro pode organizar a semana",
+    "gancho": "Sua semana tem dia forte e dia fraco.",
+    "fatos": [
+      {
+        "texto": "Todo barbeiro sabe quais dias lotam e quais ficam mais calmos, e vale planejar em cima disso.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Tarefas como limpar os instrumentos e repor material cabem melhor no dia mais calmo.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Uma folga fixa na semana ajuda o cliente a decidir quando marcar.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Almoço e pausa marcados no horário evitam que o dia vire uma fila sem intervalo.",
+        "fonte": "oficio"
+      }
+    ],
+    "ponte": "Pausa, folga e almoço só funcionam se ninguém marcar em cima deles. Bloqueado na agenda, o horário some do link do cliente.",
+    "tela": "bloqueio",
+    "pecas": [
+      "linhaDoTempo",
+      "compara",
+      "barbearia",
+      "app"
+    ]
+  },
+  {
+    "id": "manter-o-corte-entre-idas",
+    "tipo": "dica",
+    "titulo": "Como manter o corte bonito entre uma ida e outra",
+    "gancho": "O corte acabou de sair. Como manter?",
+    "fatos": [
+      {
+        "texto": "Penteie ou ajeite o cabelo no mesmo sentido que o barbeiro deixou, para o corte cair como saiu da cadeira.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Pomada ou cera em pouca quantidade, e comece pouco, porque dá para pôr mais depois.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Não tente cortar sozinho o contorno do pescoço, porque é fácil errar a linha.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Quando o corte começa a perder a forma, o melhor é marcar logo, antes de ficar sem horário bom.",
+        "fonte": "oficio"
+      }
+    ],
+    "ponte": "Corte bom perde a forma e some da cabeça do cliente, e a agenda do barbeiro fica com buraco. Na véspera, o lembrete vai do seu WhatsApp com mensagem pronta.",
+    "tela": "lembretes",
+    "pecas": [
+      "quarto",
+      "corte",
+      "passos",
+      "objeto"
+    ]
+  },
+  {
+    "id": "buzz-cut",
+    "tipo": "conceito",
+    "titulo": "O que é buzz cut",
+    "gancho": "Buzz cut: o corte mais simples e mais exigente",
+    "fatos": [
+      {
+        "texto": "Buzz cut é o corte feito só na máquina, com o mesmo tamanho na cabeça inteira.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "O tamanho do cabelo vem do pente da máquina: quanto maior o número, mais cabelo fica.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Não tem tesoura nem risco: o que aparece é o formato da cabeça.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Como o cabelo é curtinho, qualquer falha ou fio crescido aparece rápido, e o cliente volta logo pra refazer.",
+        "fonte": "oficio"
+      }
+    ],
+    "ponte": "Corte curtinho cresce rápido e o cliente volta logo. Só que ele esquece o dia, e a cadeira fica vazia. Na véspera, o lembrete já vai pronto no seu WhatsApp, é só apertar enviar.",
+    "tela": "lembretes",
+    "pecas": [
+      "corte",
+      "compara",
+      "objeto",
+      "final"
+    ]
+  },
+  {
+    "id": "barba-desenhada-ou-por-fazer",
+    "tipo": "conceito",
+    "titulo": "Barba desenhada ou barba por fazer: qual a diferença",
+    "gancho": "Barba desenhada e barba por fazer não são a mesma",
+    "fatos": [
+      {
+        "texto": "Barba desenhada tem linhas definidas: bochecha, pescoço e contorno feitos na navalha ou na máquina.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Barba por fazer é curta e mais solta, com contorno natural e pouco desenho.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "A desenhada pede retoque mais seguido, porque as linhas perdem a forma quando o pelo cresce.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "A por fazer dá menos trabalho, mas também precisa de aparo para não virar barba desleixada.",
+        "fonte": "oficio"
+      }
+    ],
+    "ponte": "Barba desenhada pede retoque marcado. O cliente fala 'semana que vem eu passo aí' e a cadeira fica sem horário certo. Com o link, ele já sai da cadeira com o próximo dia marcado.",
+    "tela": "agendamento",
+    "pecas": [
+      "compara",
+      "corte",
+      "barbearia",
+      "final"
+    ]
+  },
+  {
+    "id": "sobrancelha-na-navalha",
+    "tipo": "conceito",
+    "titulo": "O que é sobrancelha na navalha",
+    "gancho": "Sobrancelha na navalha: o que o barbeiro faz",
+    "fatos": [
+      {
+        "texto": "É o acabamento da sobrancelha feito com a lâmina da navalha, tirando os fios que passam do desenho.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "O barbeiro mantém o formato natural e limpa só o contorno, sem mudar o jeito do rosto.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "A navalha precisa de lâmina nova e mão firme, por isso é um serviço rápido e de precisão.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Muita gente pede junto com o corte ou a barba, como acabamento.",
+        "fonte": "oficio"
+      }
+    ],
+    "ponte": "Serviço rápido assim cabe num buraco da agenda, mas só se o barbeiro souber que o buraco existe. Na agenda do dia, o horário livre aparece na hora, sem parar o corte para olhar o caderno.",
+    "tela": "agenda",
+    "pecas": [
+      "objeto",
+      "passos",
+      "corte",
+      "final"
+    ]
+  },
+  {
+    "id": "hidratacao-ou-pomada",
+    "tipo": "conceito",
+    "titulo": "Hidratação ou pomada: qual a diferença",
+    "gancho": "Hidratação e pomada: uma cuida, a outra modela",
+    "fatos": [
+      {
+        "texto": "Pomada é um produto de modelar: ela dá forma, fixação e acabamento ao penteado.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Hidratação é um tratamento feito no cabelo, e não serve para fixar o penteado.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "A pomada sai com a lavagem. A hidratação é um serviço à parte, feito na cadeira.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "O cliente pode pedir os dois, em horários diferentes, e cada um tem seu tempo na cadeira.",
+        "fonte": "oficio"
+      }
+    ],
+    "ponte": "Serviço diferente tem tempo diferente, e o horário precisa caber no tamanho dele. No link, o cliente escolhe o serviço e só aparecem os horários livres que cabem.",
+    "tela": "agendamento",
+    "pecas": [
+      "compara",
+      "objeto",
+      "barbearia",
+      "final"
+    ]
+  },
+  {
+    "id": "platinado-ou-luzes",
+    "tipo": "conceito",
+    "titulo": "Platinado ou luzes: qual a diferença",
+    "gancho": "Platinado ou luzes: o cabelo clareia diferente",
+    "fatos": [
+      {
+        "texto": "No platinado, o cabelo inteiro é descolorido até ficar bem claro.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Nas luzes, só algumas mechas são clareadas, e o resto fica na cor natural.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "As duas coisas pedem descoloração, e o processo leva um tempo bem maior que um corte comum.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Com o tempo, a raiz cresce na cor natural, e o cliente precisa voltar para retocar.",
+        "fonte": "oficio"
+      }
+    ],
+    "ponte": "Serviço longo ocupa a cadeira por um bom tempo. Se o cliente falta, o buraco na agenda é grande. O lembrete na véspera, pronto no WhatsApp, ajuda a ele não esquecer.",
+    "tela": "lembretes",
+    "pecas": [
+      "compara",
+      "passos",
+      "sala",
+      "final"
+    ]
+  },
+  {
+    "id": "agenda-aberta-ou-fechada",
+    "tipo": "conceito",
+    "titulo": "Agenda aberta ou agenda fechada: qual a diferença",
+    "gancho": "Agenda aberta ou fechada: qual cabe na sua barbearia",
+    "fatos": [
+      {
+        "texto": "Agenda aberta é a que o cliente vê e escolhe o horário livre sozinho, a qualquer hora.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Agenda fechada é a que só o barbeiro mexe: o cliente pede e espera a resposta.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Na fechada, o barbeiro responde mensagem no meio do corte, e quem manda mensagem à noite só tem resposta no dia seguinte.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Na aberta, o horário que o barbeiro bloqueou (almoço, folga) não aparece para o cliente.",
+        "fonte": "oficio"
+      }
+    ],
+    "ponte": "Com o link de agendamento, o cliente vê só o que está livre. E o que você bloqueia, como almoço e folga, some do link. Ninguém marca em cima do seu descanso.",
+    "tela": "bloqueio",
+    "pecas": [
+      "compara",
+      "app",
+      "passos",
+      "final"
+    ]
+  },
+  {
+    "id": "retorno-do-cliente",
+    "tipo": "conceito",
+    "titulo": "O que é retorno do cliente",
+    "gancho": "Retorno do cliente: o que o barbeiro precisa saber",
+    "fatos": [
+      {
+        "texto": "Retorno é quando o cliente volta à barbearia depois de um atendimento.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Cada tipo de corte tem seu tempo natural de retorno: o curtinho volta antes, o mais longo demora mais.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Cliente que passa muito mais tempo que o normal sem voltar costuma ter sumido, e uma mensagem simples pode trazer ele de volta.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Para saber se o cliente voltou, o barbeiro precisa lembrar a data do último corte dele.",
+        "fonte": "oficio"
+      }
+    ],
+    "ponte": "Quem anota no caderno perde a conta de quem sumiu. Na agenda, você vê quem veio e quando, e o cliente remarca pelo link sem te chamar no meio do corte.",
+    "tela": "agenda",
+    "pecas": [
+      "objeto",
+      "linhaDoTempo",
+      "passos",
+      "final"
+    ]
+  },
+  {
+    "id": "horario-de-pico",
+    "tipo": "conceito",
+    "titulo": "O que é horário de pico na barbearia",
+    "gancho": "Horário de pico: quando todo mundo quer cortar",
+    "fatos": [
+      {
+        "texto": "Horário de pico é o período em que mais clientes querem ser atendidos ao mesmo tempo.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Na barbearia, o pico costuma vir no fim da tarde, depois do trabalho, e no sábado.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Nesses horários, quem não marcou fica sem vaga, ou espera muito tempo na cadeira de espera.",
+        "fonte": "oficio"
+      },
+      {
+        "texto": "Fora do pico, há horários vazios, e o cliente que pode escolher aproveita o sossego.",
+        "fonte": "oficio"
+      }
+    ],
+    "ponte": "No pico, o celular não para e o barbeiro responde 'tem horário?' com a máquina na mão. Com o link, o cliente já vê o que está livre e marca sozinho.",
+    "tela": "agendamento",
+    "pecas": [
+      "barbearia",
+      "compara",
+      "sala",
+      "final"
+    ]
+  },
+  {
+    "id": "olivier-le-daim",
+    "tipo": "atracao-2d",
+    "titulo": "O barbeiro que virou conde e conselheiro do rei da França",
+    "gancho": "Um barbeiro que o rei da França ouvia",
+    "fatos": [
+      {
+        "texto": "Olivier le Daim nasceu por volta de 1428, em Tielt, na Flandres, de família modesta.",
+        "fonte": "https://en.wikipedia.org/wiki/Olivier_le_Daim"
+      },
+      {
+        "texto": "Foi para Paris e virou barbeiro e criado de confiança do rei Luís XI.",
+        "fonte": "https://en.wikipedia.org/wiki/Olivier_le_Daim"
+      },
+      {
+        "texto": "Em 1474 recebeu título de nobreza e o nome Le Daim; em 1477 virou conde de Meulan.",
+        "fonte": "https://en.wikipedia.org/wiki/Olivier_le_Daim"
+      },
+      {
+        "texto": "Em 1477 o rei o mandou à Borgonha para influenciar Maria de Borgonha; zombaram dele e ele foi expulso de Gante.",
+        "fonte": "https://en.wikipedia.org/wiki/Olivier_le_Daim"
+      },
+      {
+        "texto": "Depois da morte do rei, foi preso, julgado e enforcado em Montfaucon, em 21 de maio de 1484.",
+        "fonte": "https://en.wikipedia.org/wiki/Olivier_le_Daim"
+      }
+    ],
+    "ponte": "O barbeiro do rei ouvia segredos porque o cliente confiava nele. Hoje essa confiança aparece em coisa pequena: o cliente que avisa quando não vai dar, em vez de sumir.",
+    "tela": "lembretes",
+    "pecas": [
+      "barbeariaAntiga",
+      "objeto",
+      "linhaDoTempo",
+      "final"
+    ]
+  },
+  {
+    "id": "samurai-e-o-coque",
+    "tipo": "atracao-2d",
+    "titulo": "O coque do samurai: o corte que cabia debaixo do capacete",
+    "gancho": "O corte do samurai tinha um motivo de guerra",
+    "fatos": [
+      {
+        "texto": "O chonmage, o coque do samurai, nasceu como um jeito de manter firme o capacete kabuto na batalha.",
+        "fonte": "https://en.wikipedia.org/wiki/Chonmage"
+      },
+      {
+        "texto": "No fim dos anos 1500 e começo dos 1600, raspar o topo da cabeça passou a ser exigido dos samurais.",
+        "fonte": "https://en.wikipedia.org/wiki/Chonmage"
+      },
+      {
+        "texto": "Com o tempo, o penteado virou sinal de status, e o estilo variava conforme a posição social.",
+        "fonte": "https://en.wikipedia.org/wiki/Chonmage"
+      },
+      {
+        "texto": "Os rōnin, que não serviam a um senhor, não eram obrigados a raspar a cabeça, e por isso eram fáceis de reconhecer.",
+        "fonte": "https://en.wikipedia.org/wiki/Chonmage"
+      },
+      {
+        "texto": "Em 1871, um decreto obrigou os samurais a cortar o cabelo curto, e na prática o chonmage foi abandonado.",
+        "fonte": "https://en.wikipedia.org/wiki/Chonmage"
+      },
+      {
+        "texto": "Hoje a Associação Japonesa de Sumô emprega cabeleireiros especializados, os tokoyama, para preparar o cabelo dos lutadores.",
+        "fonte": "https://en.wikipedia.org/wiki/Chonmage"
+      }
+    ],
+    "ponte": "Um corte que servia à guerra, depois à posição social, depois virou lei. O de hoje serve a quem senta na cadeira, e só funciona se o cliente chegar na hora marcada.",
+    "tela": "agenda",
+    "pecas": [
+      "corte",
+      "linhaDoTempo",
+      "compara",
+      "final"
+    ]
+  },
+  {
+    "id": "barbearia-refugio-holman",
+    "tipo": "atracao-2d",
+    "titulo": "A barbearia onde se podia conversar em paz, mesmo na segregação",
+    "gancho": "A barbearia que era refúgio na época da segregação",
+    "fatos": [
+      {
+        "texto": "A Holman's Barber Shop ficava na Gervais Street, 2128, em Columbia, Carolina do Sul.",
+        "fonte": "https://www.nps.gov/places/holman-s-barber-shop.htm"
+      },
+      {
+        "texto": "Lewis Holman nasceu em 1900, foi estudar na Universidade Allen e escolheu a barbearia como profissão.",
+        "fonte": "https://www.nps.gov/places/holman-s-barber-shop.htm"
+      },
+      {
+        "texto": "A barbearia funcionou até 2018.",
+        "fonte": "https://www.nps.gov/places/holman-s-barber-shop.htm"
+      },
+      {
+        "texto": "Era um lugar onde clientes negros podiam se encontrar, conversar e ser bem atendidos, sem o assédio que sofriam em espaços controlados por brancos durante a segregação.",
+        "fonte": "https://www.nps.gov/places/holman-s-barber-shop.htm"
+      },
+      {
+        "texto": "Os clientes falavam de assuntos da comunidade e do país, às vezes jogando damas ou engraxando os sapatos.",
+        "fonte": "https://www.nps.gov/places/holman-s-barber-shop.htm"
+      },
+      {
+        "texto": "A barbearia consta do Registro Nacional de Lugares Históricos dos Estados Unidos e foi listada no guia Green Book.",
+        "fonte": "https://www.nps.gov/places/holman-s-barber-shop.htm"
+      }
+    ],
+    "ponte": "Barbearia boa é lugar onde o cliente quer voltar. Só que na hora do aperto ele pergunta: tem horário? A lista de horários livres no link responde por você, no meio do corte.",
+    "tela": "agendamento",
+    "pecas": [
+      "barbearia",
+      "sala",
+      "cidade",
+      "final"
+    ]
+  },
+  {
+    "id": "barbeiro-que-virou-banqueiro",
+    "tipo": "atracao-2d",
+    "titulo": "O barbeiro que nasceu escravizado e fundou uma seguradora",
+    "gancho": "Cinco barbearias e uma empresa gigante",
+    "fatos": [
+      {
+        "texto": "John Merrick nasceu escravizado, no condado de Sampson, na Carolina do Norte, em 7 de setembro de 1859.",
+        "fonte": "https://dncr.nc.gov/blog/2016/09/07/john-merrick-durham-founder-north-carolina-mutual"
+      },
+      {
+        "texto": "Foi pedreiro em Raleigh, trabalhou como engraxate numa barbearia e depois virou barbeiro.",
+        "fonte": "https://dncr.nc.gov/blog/2016/09/07/john-merrick-durham-founder-north-carolina-mutual"
+      },
+      {
+        "texto": "Em 1892 ele tinha cinco barbearias em Durham: três para clientes brancos e duas para clientes negros.",
+        "fonte": "https://dncr.nc.gov/blog/2016/09/07/john-merrick-durham-founder-north-carolina-mutual"
+      },
+      {
+        "texto": "Ajudou a criar uma empresa de seguros fraternal, a Royal Knights of King David, o que o levou a fundar a North Carolina Mutual Life Insurance Company.",
+        "fonte": "https://dncr.nc.gov/blog/2016/09/07/john-merrick-durham-founder-north-carolina-mutual"
+      },
+      {
+        "texto": "A página do governo estadual chama a empresa de maior negócio de propriedade de negros dos Estados Unidos.",
+        "fonte": "https://dncr.nc.gov/blog/2016/09/07/john-merrick-durham-founder-north-carolina-mutual"
+      },
+      {
+        "texto": "Merrick foi presidente da seguradora até morrer, em 1919.",
+        "fonte": "https://dncr.nc.gov/blog/2016/09/07/john-merrick-durham-founder-north-carolina-mutual"
+      }
+    ],
+    "ponte": "Merrick começou com a cadeira de um barbeiro e fez de cada cliente o começo de algo maior. Para o seu negócio crescer, o primeiro passo é a cadeira não ficar vazia: horário marcado pelo link e lembrete na véspera.",
+    "tela": "agenda",
+    "pecas": [
+      "linhaDoTempo",
+      "passos",
+      "barbearia",
+      "final"
+    ]
+  },
+  {
+    "id": "primeiro-barbeiro-de-roma",
+    "tipo": "atracao-2d",
+    "titulo": "Quando os romanos descobriram o barbeiro",
+    "gancho": "Em Roma, por muito tempo ninguém tinha barbeiro",
+    "fatos": [
+      {
+        "texto": "Segundo o verbete, Públio Titínio Mena trouxe um barbeiro das colônias gregas da Sicília para Roma, em 209 ou 300 a.C.",
+        "fonte": "https://en.wikipedia.org/wiki/Roman_hairstyles"
+      },
+      {
+        "texto": "No começo, a maioria das pessoas cortava o próprio cabelo; o ofício virou profissão e prosperou mais na época imperial.",
+        "fonte": "https://en.wikipedia.org/wiki/Roman_hairstyles"
+      },
+      {
+        "texto": "As barbearias, as tonstrinae, eram lugares de encontro social.",
+        "fonte": "https://en.wikipedia.org/wiki/Roman_hairstyles"
+      },
+      {
+        "texto": "A maioria dos barbeiros trabalhava em lojinhas, muitas perto do Circo Máximo, e sinais com tesoura ou espelho marcavam o lugar.",
+        "fonte": "https://en.wikipedia.org/wiki/Roman_hairstyles"
+      },
+      {
+        "texto": "O barbeiro segurava um espelho para o cliente ver o resultado, e cada navalha tinha seu estojo.",
+        "fonte": "https://en.wikipedia.org/wiki/Roman_hairstyles"
+      },
+      {
+        "texto": "O primeiro barbear de um rapaz era muitas vezes comemorado como passagem para a vida adulta.",
+        "fonte": "https://en.wikipedia.org/wiki/Roman_hairstyles"
+      }
+    ],
+    "ponte": "Em Roma o cliente achava o barbeiro pela placa na porta. Hoje ele acha pelo celular, e a primeira pergunta continua sendo a mesma: tem horário?",
+    "tela": "agendamento",
+    "pecas": [
+      "barbeariaAntiga",
+      "objeto",
+      "compara",
+      "apresentaFio"
+    ]
+  },
+  {
+    "id": "barbeiro-do-grande-ditador",
+    "tipo": "atracao-2d",
+    "titulo": "O barbeiro que Chaplin pôs no cinema contra um ditador",
+    "gancho": "Um barbeiro fez o discurso mais famoso do cinema",
+    "fatos": [
+      {
+        "texto": "O Grande Ditador, de 1940, foi escrito, dirigido, produzido e estrelado por Charlie Chaplin.",
+        "fonte": "https://en.wikipedia.org/wiki/The_Great_Dictator"
+      },
+      {
+        "texto": "Chaplin faz dois papéis: Adenoid Hynkel, um ditador inspirado em Hitler, e um barbeiro judeu perseguido.",
+        "fonte": "https://en.wikipedia.org/wiki/The_Great_Dictator"
+      },
+      {
+        "texto": "O filme estreou em Nova York em 15 de outubro de 1940 e foi o primeiro filme realmente falado de Chaplin.",
+        "fonte": "https://en.wikipedia.org/wiki/The_Great_Dictator"
+      },
+      {
+        "texto": "A cena de barbear no filme usa a Dança Húngara nº 5, de Brahms.",
+        "fonte": "https://en.wikipedia.org/wiki/The_Great_Dictator"
+      },
+      {
+        "texto": "O filme termina com o discurso do barbeiro sobre fraternidade e democracia, usado em mais de 40 músicas.",
+        "fonte": "https://en.wikipedia.org/wiki/The_Great_Dictator"
+      },
+      {
+        "texto": "Foi o filme de maior sucesso comercial de Chaplin, com cinco indicações ao Oscar.",
+        "fonte": "https://en.wikipedia.org/wiki/The_Great_Dictator"
+      }
+    ],
+    "ponte": "No filme, o barbeiro de repente tem a plateia do mundo. Na vida real, o público dele é quem está na cadeira, e o que ele mais quer é que cada um chegue na hora.",
+    "tela": "lembretes",
+    "pecas": [
+      "sala",
+      "objeto",
+      "texto",
+      "final"
+    ]
+  },
+  {
+    "id": "billy-o-barbeiro-de-lincoln",
+    "tipo": "atracao-2d",
+    "titulo": "Billy, o barbeiro de Lincoln por 24 anos",
+    "gancho": "O barbeiro que Lincoln chamava de amigo",
+    "fatos": [
+      {
+        "texto": "William de Fleurville, também escrito Florville, nasceu no Haiti em 1807.",
+        "fonte": "https://www.mrlincolnandfreedom.org/library/mr-lincolns-contemporaries/william-de-fleurville-1807-1868/"
+      },
+      {
+        "texto": "Ele foi do Caribe para Baltimore por volta de 1820, depois para Nova Orleans e depois para Illinois.",
+        "fonte": "https://www.mrlincolnandfreedom.org/library/mr-lincolns-contemporaries/william-de-fleurville-1807-1868/"
+      },
+      {
+        "texto": "Conheceu Lincoln em New Salem, em 1831, e depois foi para Springfield.",
+        "fonte": "https://www.mrlincolnandfreedom.org/library/mr-lincolns-contemporaries/william-de-fleurville-1807-1868/"
+      },
+      {
+        "texto": "Abriu uma barbearia em frente ao prédio do governo estadual; um historiador a chamou de segunda casa de Lincoln antes do casamento, em 1842.",
+        "fonte": "https://www.mrlincolnandfreedom.org/library/mr-lincolns-contemporaries/william-de-fleurville-1807-1868/"
+      },
+      {
+        "texto": "Foi barbeiro de Lincoln por 24 anos, e Lincoln foi advogado dele num caso de propriedade.",
+        "fonte": "https://www.mrlincolnandfreedom.org/library/mr-lincolns-contemporaries/william-de-fleurville-1807-1868/"
+      },
+      {
+        "texto": "Juntou bastante terra e fundou a primeira lavanderia de roupas de Springfield.",
+        "fonte": "https://www.mrlincolnandfreedom.org/library/mr-lincolns-contemporaries/william-de-fleurville-1807-1868/"
+      }
+    ],
+    "ponte": "Cliente de 24 anos é cliente que tem a cadeira dele marcada na cabeça. Quando ele esquece o dia, um lembrete no WhatsApp, em um toque, faz o mesmo papel.",
+    "tela": "lembretes",
+    "pecas": [
+      "barbearia",
+      "cidade",
+      "linhaDoTempo",
+      "apresentaFio"
+    ]
+  },
+  {
+    "id": "corte-ou-cabeca-dinastia-qing",
+    "tipo": "atracao-2d",
+    "titulo": "Cortar o cabelo ou perder a cabeça: a lei do rabo-de-cavalo na China",
+    "gancho": "Na China, o corte do cabelo era lei",
+    "fatos": [
+      {
+        "texto": "O queue, ou soncoho em manchu, era o penteado masculino do povo manchu, no centro da Manchúria.",
+        "fonte": "https://en.wikipedia.org/wiki/Queue_(hairstyle)"
+      },
+      {
+        "texto": "Em 21 de julho de 1645, o regente Dorgon mandou os homens han rasparem a frente da cabeça e trançarem o resto do cabelo.",
+        "fonte": "https://en.wikipedia.org/wiki/Queue_(hairstyle)"
+      },
+      {
+        "texto": "Eles tinham 10 dias para obedecer, ou enfrentariam a pena de morte.",
+        "fonte": "https://en.wikipedia.org/wiki/Queue_(hairstyle)"
+      },
+      {
+        "texto": "O lema da dinastia Qing era algo como: corte o cabelo e mantenha a cabeça, ou mantenha o cabelo e perca a cabeça.",
+        "fonte": "https://en.wikipedia.org/wiki/Queue_(hairstyle)"
+      },
+      {
+        "texto": "Depois da Revolução Xinhai, de 1911, e da queda dos Qing, em 1912, a trança deixou de ser obrigatória.",
+        "fonte": "https://en.wikipedia.org/wiki/Queue_(hairstyle)"
+      },
+      {
+        "texto": "A maioria a abandonou depois que Puyi, o último imperador, cortou a dele, em 1922.",
+        "fonte": "https://en.wikipedia.org/wiki/Queue_(hairstyle)"
+      }
+    ],
+    "ponte": "Na China de 1645 o corte tinha prazo de 10 dias, sob pena de morte. O seu cliente tem um prazo mais leve: o horário marcado. E uma mensagem na véspera ajuda a não perdê-lo.",
+    "tela": "bloqueio",
+    "pecas": [
+      "cidade",
+      "passos",
+      "linhaDoTempo",
+      "final"
+    ]
+  },
+  {
+    "id": "tesoura-de-cabelo-nao-e-de-pano",
+    "tipo": "atracao-3d",
+    "titulo": "A tesoura de cabelo não é a tesoura de costura",
+    "gancho": "A tesoura de cabelo não é a de costura",
+    "fatos": [
+      {
+        "texto": "A tesoura é um par de lâminas que giram num pivô, com os cabos do lado oposto ao das lâminas; apertar os cabos fecha as lâminas.",
+        "fonte": "https://en.wikipedia.org/wiki/Scissors"
+      },
+      {
+        "texto": "A tesoura de costura corta tecido, e a de alfaiate corta materiais pesados, como couro ou várias camadas de pano.",
+        "fonte": "https://en.wikipedia.org/wiki/Scissors"
+      },
+      {
+        "texto": "A tesoura de cortar cabelo tem ângulos de lâmina próprios para cortar mechas de cabelo.",
+        "fonte": "https://en.wikipedia.org/wiki/Scissors"
+      },
+      {
+        "texto": "As tesouras de cabelo, também chamadas de tesouras de barbeiro, medem em geral de 13 a 18 centímetros.",
+        "fonte": "https://en.wikipedia.org/wiki/Hair-cutting_shears"
+      },
+      {
+        "texto": "Muitas têm um apoio para o dedo, chamado em inglês de tang, em um dos aros, que dá mais controle a quem corta.",
+        "fonte": "https://en.wikipedia.org/wiki/Hair-cutting_shears"
+      },
+      {
+        "texto": "A tesoura de desbaste tem dentes de pente em uma ou nas duas lâminas e corta só parte dos fios.",
+        "fonte": "https://en.wikipedia.org/wiki/Hair-cutting_shears"
+      }
+    ],
+    "ponte": "Tesoura de cabelo na gaveta de cabelo, tesoura de pano na de pano: cada coisa no seu lugar. O cliente também precisa ter o lugar dele: na agenda do dia, cada horário aparece em ordem, sem caderno rabiscado.",
+    "tela": "agenda",
+    "pecas": [
+      "vitrine"
+    ]
+  },
+  {
+    "id": "espelho-tres-camadas",
+    "tipo": "atracao-3d",
+    "titulo": "O espelho tem três camadas, e você só vê uma",
+    "gancho": "O espelho tem três camadas. Você só vê uma.",
+    "fatos": [
+      {
+        "texto": "Um espelho comum tem três partes: uma placa de vidro, uma camada fina de metal que reflete a luz e uma proteção por cima dessa camada.",
+        "fonte": "https://en.wikipedia.org/wiki/Mirror"
+      },
+      {
+        "texto": "A camada que reflete fica, em geral, atrás do vidro, e o vidro serve de suporte liso e duro.",
+        "fonte": "https://en.wikipedia.org/wiki/Mirror"
+      },
+      {
+        "texto": "A proteção de trás evita arranhões, manchas e corrosão na camada que reflete.",
+        "fonte": "https://en.wikipedia.org/wiki/Mirror"
+      },
+      {
+        "texto": "No século XVI, Veneza era um centro de espelhos feitos com uma liga de estanho e mercúrio, e eles eram muito caros.",
+        "fonte": "https://en.wikipedia.org/wiki/Mirror"
+      }
+    ],
+    "ponte": "A proteção atrás do espelho existe para a camada de metal não se estragar com o tempo. Horário marcado também precisa de proteção contra o esquecimento: na véspera, a mensagem vem pronta e o barbeiro aperta enviar no WhatsApp.",
+    "tela": "lembretes",
+    "pecas": [
+      "vitrine"
+    ]
+  },
+  {
+    "id": "couro-que-afia-a-navalha",
+    "tipo": "atracao-3d",
+    "titulo": "O couro que alinha a navalha: o que é a cinta de afiar",
+    "gancho": "O pedaço de couro que alinha a navalha",
+    "fatos": [
+      {
+        "texto": "A cinta de afiar, em inglês strop, é uma tira macia usada para alinhar e polir uma lâmina.",
+        "fonte": "https://en.wikipedia.org/wiki/Razor_strop"
+      },
+      {
+        "texto": "Ela pode ser de couro, lona, tecido jeans, madeira balsa ou outro material macio.",
+        "fonte": "https://en.wikipedia.org/wiki/Razor_strop"
+      },
+      {
+        "texto": "Passar a lâmina na cinta pode realinhar um fio torto.",
+        "fonte": "https://en.wikipedia.org/wiki/Razor_strop"
+      },
+      {
+        "texto": "Com uma pasta abrasiva, como diamante ou óxido de cromo, a cinta tira um pouco de metal e ajuda a chegar a um acabamento espelhado.",
+        "fonte": "https://en.wikipedia.org/wiki/Razor_strop"
+      },
+      {
+        "texto": "A cinta pode ser pendurada, em bloco ou em forma de pá de mão.",
+        "fonte": "https://en.wikipedia.org/wiki/Razor_strop"
+      },
+      {
+        "texto": "A navalha é a lâmina mais fina do dia a dia e precisa passar na cinta com frequência.",
+        "fonte": "https://en.wikipedia.org/wiki/Razor_strop"
+      }
+    ],
+    "ponte": "Passar a navalha na cinta é um minuto que o cliente nem vê, mas o barbeiro precisa dele. Na agenda, esse respiro entre um cliente e outro pode ficar bloqueado, e o horário simplesmente some do link.",
+    "tela": "bloqueio",
+    "pecas": [
+      "vitrine"
+    ]
+  },
+  {
+    "id": "fila-de-mulheres-em-1920",
+    "tipo": "atracao-3d",
+    "titulo": "1920: a fila de mulheres na porta do barbeiro",
+    "gancho": "Em 1920, a fila da barbearia era de mulheres",
+    "fatos": [
+      {
+        "texto": "Por volta de 1920, o corte curto feminino chamado bob ia rapidamente virando moda.",
+        "fonte": "https://en.wikipedia.org/wiki/Bobbed_hair"
+      },
+      {
+        "texto": "Cabeleireiros, treinados em cabelo comprido, demoraram a ver que o corte curto ficaria, e barbeiros de várias cidades tinham fila de mulheres para cortar o cabelo comprido.",
+        "fonte": "https://en.wikipedia.org/wiki/Bobbed_hair"
+      },
+      {
+        "texto": "Em 1921, o New York Times noticiou que cabeleireiras de Connecticut que quisessem fazer bob precisariam de licença de barbeiro.",
+        "fonte": "https://en.wikipedia.org/wiki/Bobbed_hair"
+      },
+      {
+        "texto": "Em meados dos anos 1920, o bob era o corte feminino dominante no mundo ocidental.",
+        "fonte": "https://en.wikipedia.org/wiki/Bobbed_hair"
+      },
+      {
+        "texto": "Até cerca de 1920, pouco se tinha feito para profissionalizar o ofício de barbeiro; as primeiras escolas ensinavam só a parte prática.",
+        "fonte": "https://en.wikipedia.org/wiki/Barber"
+      },
+      {
+        "texto": "No século XX, as barbearias se tornaram unissex e passaram a receber muitas mulheres.",
+        "fonte": "https://pt.wikipedia.org/wiki/Barbearia"
+      }
+    ],
+    "ponte": "Fila longa na porta mostra que o barbeiro é bom, mas cansa quem espera. Hoje o cliente abre o link da barbearia, vê só os horários livres e escolhe o dele.",
+    "tela": "agendamento",
+    "pecas": [
+      "viagemNoTempo"
+    ]
   }
 ]
