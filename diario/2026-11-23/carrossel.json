@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-23-carrossel-avaliacao-estrela-vale-dinheiro",
+  "tema": "avaliacao-estrela-vale-dinheiro",
+  "rotulo": "Avaliações",
+  "legenda": "Uma estrela a mais vale dinheiro. ⭐\n\nNum estudo de Harvard com restaurantes de Seattle, nos Estados Unidos, uma estrela a mais no Yelp, site de avaliações, trouxe de 5% a 9% mais faturamento. O efeito apareceu nos restaurantes independentes; nos de rede, a nota não fez diferença. Barbearia de bairro é como o restaurante independente: vive da fama que tem na rua. E, num levantamento americano da BrightLocal, só 4% dos consumidores disseram nunca ler avaliações de negócios na internet.\n\nSalva os 4 passos e manda pra outro barbeiro.\n\nFontes: Harvard Magazine (estudo da Harvard Business School) e BrightLocal.\n\nLink na bio pra testar 7 dias grátis.\n\nQuantas avaliações a sua barbearia tem hoje? Conta aqui.",
+  "slides": [
+    { "tipo": "capa", "titulo": "Uma estrela a mais vale dinheiro", "curiosidade": "De 5% a 9% mais faturamento.", "ilustracao": { "personagem": "rafa" } },
+    { "tipo": "texto", "titulo": "Uma estrela a mais: de 5% a 9% de faturamento", "paragrafos": ["Num estudo de Harvard com restaurantes de Seattle, uma estrela a mais no Yelp trouxe de 5% a 9% mais faturamento.", "Yelp é um site de avaliações."], "puxada": "E o que isso muda na sua barbearia?", "fonte": "Harvard Magazine, estudo da Harvard Business School" },
+    { "tipo": "texto", "titulo": "Barbearia de bairro vive da fama na rua", "paragrafos": ["O efeito apareceu nos restaurantes independentes. Nos de rede, a nota não fez diferença.", "Barbearia de bairro é como o restaurante independente: vive da fama que tem na rua.", "E só 4% dos consumidores dizem nunca ler avaliações."], "puxada": "O que fazer, então?", "fonte": "BrightLocal, levantamento americano" },
+    { "tipo": "lista", "titulo": "4 passos pra ter avaliação boa", "itens": [
+      { "termo": "Peça", "texto": "peça avaliação a quem saiu satisfeito." },
+      { "termo": "Responda", "texto": "responda todas, as boas e as ruins." },
+      { "termo": "Agradeça", "texto": "agradeça pelo nome." },
+      { "termo": "Corrija", "texto": "corrija o que a crítica apontar." }
+    ], "puxada": "Salve pra lembrar." },
+    { "tipo": "texto", "titulo": "Responder também conta", "paragrafos": ["Quem lê a avaliação vê como você responde.", "Agradecer pelo nome e corrigir o que a crítica apontou mostra que tem gente cuidando."], "puxada": "E o que gera avaliação boa?" },
+    { "tipo": "tela", "tela": { "nome": "horarios" }, "frase": "Avaliação boa nasce de horário cumprido: no link do Fio o cliente só vê horário livre." },
+    { "tipo": "fecho", "frase": "Boa fama se constrói um horário cumprido por vez. O Fio ajuda, a gente monta." }
+  ]
+}

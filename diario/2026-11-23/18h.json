@@ -1,0 +1,86 @@
+{
+  "id": "2026-11-23-18h-a-fabrica-de-postes",
+  "tipo": "atracao-3d",
+  "tema": "a-fabrica-de-postes",
+  "titulo": "Poste de barbeiro: a última fábrica da América do Norte",
+  "legenda": "Quem ainda fabrica o poste de barbeiro? 💈\n\nEm 1950, William Marvy, de St. Paul, nos Estados Unidos, começou a fabricar postes de barbeiro. A fábrica fez o poste número 50 mil em 1967 e passou de 82 mil até 2010. Hoje é a única fabricante da América do Norte e vende uns 500 postes por ano. Nos anos 1960, eram 5.100.\n\nAs vendas caíram porque poucas barbearias novas abrem por lá e muitas cidades proíbem placas que se mexem. Já em Amsterdã, na Renascença, cada cor indicava um serviço: vermelho para sangria, branco para pôr osso no lugar ou arrancar dente, azul para barba.\n\nFontes: verbete \"Barber's pole\" (Wikipédia em inglês).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nE na sua cidade, ainda tem poste de barbeiro girando? Conta aqui.",
+  "chaves": ["Marvy", "Amsterdã", "sangria", "link", "WhatsApp", "caderno", "monta"],
+  "falas": [
+    { "texto": "Quem ainda fabrica o poste de barbeiro?" },
+    { "texto": "Olha esse poste de barbeiro girando." },
+    { "texto": "Parece coisa antiga, né? Mas alguém ainda faz." },
+    { "texto": "Vem comigo até St. Paul, nos Estados Unidos." },
+    { "texto": "Em 1950, um homem chamado William Marvy começou a fabricar postes de barbeiro lá." },
+    { "texto": "Em 1967, saiu o poste número cinquenta mil." },
+    { "texto": "E até 2010, a fábrica passou de oitenta e dois mil postes." },
+    { "texto": "Hoje, ela é a única fabricante da América do Norte." },
+    { "texto": "E vende uns quinhentos postes por ano." },
+    { "texto": "Parece muito? Nos anos 1960, eram cinco mil e cem." },
+    { "texto": "Então o que aconteceu?" },
+    { "texto": "Primeiro: poucas barbearias novas abrem por lá." },
+    { "texto": "Segundo: muitas cidades proíbem placas que se mexem." },
+    { "texto": "Ou seja: menos barbearia nova e mais regra na rua." },
+    { "texto": "Mas o poste vem de bem antes disso." },
+    { "texto": "Em Amsterdã, na Renascença, cada cor mostrava um serviço." },
+    { "texto": "Vermelho era sangria. Branco, pôr osso no lugar ou arrancar dente." },
+    { "texto": "E o azul era a barba." },
+    { "texto": "Ou seja: o poste era um cardápio pendurado na rua." },
+    { "texto": "Mais de oitenta mil postes depois, a fábrica de St. Paul segue de pé." },
+    { "texto": "O poste girando chamava cliente na rua." },
+    { "texto": "Hoje o cliente chega pelo celular, e quer marcar sem esperar resposta." },
+    { "texto": "Pra isso existe o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena." },
+    { "texto": "O cliente abre o seu link, escolhe o serviço e vê só os horários livres." },
+    { "texto": "Confirmou? Você recebe o aviso: novo agendamento." },
+    { "texto": "Na véspera, a mensagem vem pronta. Você aperta enviar no WhatsApp. Um toque." },
+    { "texto": "Ainda anota no caderno? Manda sua lista no direct." },
+    { "texto": "E a gente monta pra você: sua agenda pronta em até dois dias, sem custo." },
+    { "texto": "Fio. Seu link avisa que tem horário.", "pausa": 0.3 },
+    { "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro." },
+    { "texto": "E na sua cidade, ainda tem poste de barbeiro girando? Conta aqui." }
+  ],
+  "planos": [
+    { "modo": "vitrine", "de": "1", "objeto": "poste", "etiquetas": [
+      { "em": "2:poste", "texto": "Poste de barbeiro" },
+      { "em": "3:antiga", "texto": "Coisa antiga?" }
+    ] },
+    { "modo": "vitrine", "de": "4", "objeto": "poste", "etiquetas": [
+      { "em": "4:Paul", "texto": "St. Paul, EUA" },
+      { "em": "5:William", "texto": "William Marvy, 1950" },
+      { "em": "6:cinquenta", "texto": "Poste nº 50 mil, 1967" },
+      { "em": "7:oitenta", "texto": "Mais de 82 mil até 2010" }
+    ] },
+    { "modo": "vitrine", "de": "8", "objeto": "poste", "etiquetas": [
+      { "em": "8:única", "texto": "A única fábrica" },
+      { "em": "9:quinhentos", "texto": "500 postes por ano" },
+      { "em": "10:cinco", "texto": "Anos 1960: 5.100" }
+    ] },
+    { "modo": "vitrine", "de": "11", "objeto": "poste", "etiquetas": [
+      { "em": "12:Primeiro", "texto": "Poucas barbearias novas" },
+      { "em": "13:proíbem", "texto": "Cidades proíbem placas" },
+      { "em": "14:regra", "texto": "Mais regra na rua" }
+    ] },
+    { "modo": "vitrine", "de": "15", "objeto": "poste", "etiquetas": [
+      { "em": "16:Amsterdã", "texto": "Amsterdã, Renascença" },
+      { "em": "17:Vermelho", "texto": "Vermelho: sangria" },
+      { "em": "17:Branco", "texto": "Branco: osso e dente" },
+      { "em": "18:azul", "texto": "Azul: barba" },
+      { "em": "19:cardápio", "texto": "Um cardápio na rua" }
+    ] }
+  ],
+  "ponte": "21",
+  "fio": {
+    "de": "23",
+    "telas": [
+      { "em": "23", "tela": { "nome": "link" } },
+      { "em": "24:livres", "tela": { "nome": "horarios" } },
+      { "em": "25", "tela": { "nome": "confirmado" } },
+      { "em": "26:mensagem", "tela": { "nome": "whats" } }
+    ],
+    "frases": [
+      { "em": "24:livres", "texto": "Só os horários livres aparecem" },
+      { "em": "25:aviso", "texto": "Marcou? Você recebe o aviso" },
+      { "em": "26:enviar", "texto": "Mensagem pronta, você só envia" }
+    ]
+  },
+  "final": { "de": "29" }
+}
