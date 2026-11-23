@@ -1,0 +1,247 @@
+{
+  "id": "2026-11-24-18h-barbearia-de-1920",
+  "tipo": "atracao-3d",
+  "tema": "barbearia-de-1920",
+  "titulo": "A barbearia de 1920 e a de hoje",
+  "legenda": "Entra comigo numa barbearia de 1920. 💈\n\nPor volta de 1900, as barbearias de donos negros já eram negócios influentes nos Estados Unidos. Dos anos 1920 aos 1950, a pomada era o produto da moda no cabelo masculino. Hoje, segundo o Sebrae, muitas barbearias têm música, bebidas e até eventos, e viraram lugar de encontro. O Sebrae também cita como tendência as barbearias que marcam horário por aplicativo ou site e lembram o cliente do horário.\n\nFontes: verbetes \"Barber\" e \"Pomade\" (Wikipédia em inglês) e a ideia de negócio \"Barbearia\" (Sebrae).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nEm qual época você gostaria de cortar o cabelo?",
+  "chaves": [
+    "pomada",
+    "Sebrae",
+    "encontro",
+    "lembretes",
+    "WhatsApp",
+    "link",
+    "monta"
+  ],
+  "falas": [
+    {
+      "texto": "Entra comigo numa barbearia de 1920."
+    },
+    {
+      "texto": "Olha essa cadeira antiga. Ela já viu muita história."
+    },
+    {
+      "texto": "Por volta de 1900, barbearias de donos negros já eram negócios influentes nos Estados Unidos."
+    },
+    {
+      "texto": "Ou seja: antes mesmo de 1920, barbearia já era coisa séria."
+    },
+    {
+      "texto": "Agora olha o cabelo dos homens dessa época."
+    },
+    {
+      "texto": "Dos anos vinte aos anos cinquenta, a pomada era o produto da moda."
+    },
+    {
+      "texto": "Era a pomada que deixava o cabelo masculino no estilo do momento."
+    },
+    {
+      "texto": "Mas o tempo foi passando. Segura aí, que a gente vai viajar."
+    },
+    {
+      "texto": "Olha a barbearia virando a de hoje, peça por peça."
+    },
+    {
+      "texto": "A cadeira muda, o ambiente muda, tudo muda."
+    },
+    {
+      "texto": "Hoje, segundo o Sebrae, muitas barbearias têm música, bebidas e até eventos."
+    },
+    {
+      "texto": "Elas viraram lugar de encontro."
+    },
+    {
+      "texto": "Não é mais só entrar, cortar e ir embora."
+    },
+    {
+      "texto": "E o Sebrae cita outra tendência."
+    },
+    {
+      "texto": "Barbearias que marcam horário por aplicativo ou site."
+    },
+    {
+      "texto": "E que lembram o cliente do horário."
+    },
+    {
+      "texto": "De 1920 até hoje, a barbearia mudou de cara e de jeito de receber."
+    },
+    {
+      "texto": "A cadeira continua lá. O que mudou foi como o cliente chega até ela."
+    },
+    {
+      "texto": "Em 1920, o cliente entrava e esperava a vez."
+    },
+    {
+      "texto": "Hoje ele quer marcar pelo celular e chegar na hora. Caderno não ajuda nisso."
+    },
+    {
+      "texto": "Pra isso existe o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena."
+    },
+    {
+      "texto": "O cliente abre o seu link, escolhe o serviço, o dia e um horário livre."
+    },
+    {
+      "texto": "Coloca o nome, confirma, e você recebe o aviso de novo agendamento."
+    },
+    {
+      "texto": "Às seis da tarde chega o aviso: lembretes de amanhã."
+    },
+    {
+      "texto": "A mensagem vem pronta. Você aperta enviar no WhatsApp. Um toque por cliente."
+    },
+    {
+      "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você. Em até dois dias, sem custo."
+    },
+    {
+      "pausa": 0.3,
+      "texto": "Fio. Seu link avisa que tem horário."
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "Em qual época você gostaria de cortar o cabelo? Conta aqui."
+    }
+  ],
+  "planos": [
+    {
+      "modo": "vitrine",
+      "de": "1",
+      "objeto": "cadeiraAntiga",
+      "etiquetas": [
+        {
+          "em": "2:cadeira",
+          "texto": "Cadeira antiga"
+        },
+        {
+          "em": "3:influentes",
+          "texto": "Negócio influente"
+        },
+        {
+          "em": "4:séria",
+          "texto": "Já era coisa séria"
+        }
+      ]
+    },
+    {
+      "modo": "viagemNoTempo",
+      "de": "5",
+      "anos": [
+        "1920",
+        "hoje"
+      ],
+      "vira": "9:virando"
+    },
+    {
+      "modo": "vitrine",
+      "de": "11",
+      "objeto": "cadeiraModerna",
+      "etiquetas": [
+        {
+          "em": "11:música",
+          "texto": "Música"
+        },
+        {
+          "em": "11:bebidas",
+          "texto": "Bebidas"
+        },
+        {
+          "em": "12:encontro",
+          "texto": "Lugar de encontro"
+        }
+      ]
+    },
+    {
+      "modo": "vitrine",
+      "de": "14",
+      "objeto": "cadeiraModerna",
+      "etiquetas": [
+        {
+          "em": "15:aplicativo",
+          "texto": "Horário por app ou site"
+        },
+        {
+          "em": "16:lembram",
+          "texto": "Lembra o cliente"
+        }
+      ]
+    },
+    {
+      "modo": "vitrine",
+      "de": "17",
+      "objeto": "cadeiraAntiga",
+      "etiquetas": [
+        {
+          "em": "17:cara",
+          "texto": "Mudou de cara"
+        },
+        {
+          "em": "18:chega",
+          "texto": "Mudou o jeito de chegar"
+        }
+      ]
+    }
+  ],
+  "ponte": "19",
+  "fio": {
+    "de": "21",
+    "telas": [
+      {
+        "em": "21",
+        "tela": {
+          "nome": "link"
+        }
+      },
+      {
+        "em": "22:horário",
+        "tela": {
+          "nome": "horarios"
+        }
+      },
+      {
+        "em": "23:confirma",
+        "tela": {
+          "nome": "confirmado"
+        }
+      },
+      {
+        "em": "24",
+        "tela": {
+          "nome": "aviso",
+          "aviso": {
+            "tipo": "lembretes",
+            "quantidade": 4
+          },
+          "hora": "18:00",
+          "data": "segunda-feira, 2 de novembro"
+        }
+      },
+      {
+        "em": "25:mensagem",
+        "tela": {
+          "nome": "whats"
+        }
+      }
+    ],
+    "frases": [
+      {
+        "em": "22:livre",
+        "texto": "Só os horários livres aparecem"
+      },
+      {
+        "em": "24:lembretes",
+        "texto": "Lembretes de amanhã, às 18h"
+      },
+      {
+        "em": "25:enviar",
+        "texto": "Mensagem pronta, você só envia"
+      }
+    ]
+  },
+  "final": {
+    "de": "28"
+  }
+}

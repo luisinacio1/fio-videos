@@ -1,0 +1,469 @@
+{
+  "id": "2026-11-24-13h-horario-de-pico",
+  "tipo": "conceito",
+  "tema": "horario-de-pico",
+  "titulo": "O que é horário de pico na barbearia",
+  "legenda": "Horário de pico: quando todo mundo quer cortar. 💈\n\nHorário de pico é o período em que mais clientes querem ser atendidos ao mesmo tempo. Na barbearia, o pico costuma vir no fim da tarde, depois do trabalho, e no sábado. Nesses horários, quem não marcou fica sem vaga ou espera muito tempo na cadeira de espera. Fora do pico, há horários vazios, e o cliente que pode escolher aproveita o sossego.\n\nSalva pra lembrar na hora de marcar.\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nQual é o seu horário de pico?",
+  "falas": [
+    {
+      "texto": "Horário de pico: quando todo mundo quer cortar."
+    },
+    {
+      "texto": "Você já chegou na barbearia e não tinha vaga?"
+    },
+    {
+      "texto": "Então você caiu num horário de pico."
+    },
+    {
+      "texto": "Vamos entender o que é isso."
+    },
+    {
+      "texto": "Horário de pico é o período em que mais clientes querem ser atendidos ao mesmo tempo."
+    },
+    {
+      "texto": "Ou seja: muita gente querendo a mesma cadeira."
+    },
+    {
+      "texto": "E quando isso acontece na barbearia?"
+    },
+    {
+      "texto": "O pico costuma vir no fim da tarde, depois do trabalho."
+    },
+    {
+      "texto": "E também no sábado."
+    },
+    {
+      "texto": "Nesses horários, quem não marcou fica sem vaga."
+    },
+    {
+      "texto": "Ou espera muito tempo na cadeira de espera."
+    },
+    {
+      "texto": "Agora o outro lado: fora do pico."
+    },
+    {
+      "texto": "Fora do pico, há horários vazios."
+    },
+    {
+      "texto": "E o cliente que pode escolher aproveita o sossego."
+    },
+    {
+      "texto": "Lado a lado: no pico, o cliente que não marcou espera ou fica sem vaga."
+    },
+    {
+      "texto": "Fora do pico, sobra horário e sossego."
+    },
+    {
+      "texto": "Agora testa você. Fim de tarde, saindo do trabalho. Pico ou não?"
+    },
+    {
+      "texto": "Pico, claro. O fim da tarde, depois do trabalho, é um dos horários."
+    },
+    {
+      "texto": "E o sábado? Também é pico."
+    },
+    {
+      "texto": "Pronto: agora você sabe o que é horário de pico."
+    },
+    {
+      "texto": "Salva esse vídeo pra lembrar na hora de marcar."
+    },
+    {
+      "texto": "No pico, o celular não para, e o barbeiro responde: tem horário? com a máquina na mão."
+    },
+    {
+      "texto": "Com o link, o cliente já vê o que está livre e marca sozinho."
+    },
+    {
+      "texto": "Esse link é do Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena."
+    },
+    {
+      "texto": "O cliente escolhe o serviço, o dia e um horário livre."
+    },
+    {
+      "texto": "Coloca o nome, confirma, e o horário cai na sua agenda."
+    },
+    {
+      "texto": "Sem baixar aplicativo e sem criar conta."
+    },
+    {
+      "texto": "Na véspera, às seis da tarde, chega a lista de quem lembrar. Um toque por cliente."
+    },
+    {
+      "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você. Em até dois dias, sem custo."
+    },
+    {
+      "pausa": 0.3,
+      "texto": "Fio. Quem marca, garante a vaga."
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "Qual é o seu horário de pico? Conta aqui."
+    }
+  ],
+  "chaves": [
+    "pico",
+    "sábado",
+    "vaga",
+    "sossego",
+    "caderno",
+    "monta"
+  ],
+  "ponte": "22",
+  "fio": "24",
+  "cenas": [
+    {
+      "tipo": "barbearia",
+      "de": "1",
+      "barbeiro": "rafa",
+      "cliente": "matheus",
+      "reacoes": [
+        {
+          "em": "1:quer",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "sala",
+      "de": "2",
+      "personagem": "matheus",
+      "reacoes": [
+        {
+          "em": "2:vaga",
+          "boca": "torta",
+          "sacode": true
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "3",
+      "linhas": [
+        "Horário",
+        "de pico."
+      ],
+      "destaque": [
+        "pico."
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "passos",
+      "de": "5",
+      "titulo": "Horário de pico",
+      "passos": [
+        {
+          "em": "5:período",
+          "texto": "Período de mais clientes"
+        },
+        {
+          "em": "5:mesmo",
+          "texto": "Ao mesmo tempo"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "6",
+      "barbeiro": "rafa",
+      "cliente": "davi",
+      "reacoes": [
+        {
+          "em": "6:gente",
+          "boca": "aberta",
+          "sacode": true
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "de": "8",
+      "titulo": "Quando é o pico",
+      "passos": [
+        {
+          "em": "8:fim",
+          "texto": "Fim da tarde"
+        },
+        {
+          "em": "8:depois",
+          "texto": "Depois do trabalho"
+        },
+        {
+          "em": "9:sábado",
+          "texto": "Sábado"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "10",
+      "barbeiro": "juninho",
+      "cliente": "ze",
+      "reacoes": [
+        {
+          "em": "10:sem",
+          "boca": "torta",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "sala",
+      "de": "11",
+      "personagem": "carlos",
+      "reacoes": [
+        {
+          "em": "11:espera",
+          "boca": "torta",
+          "olhar": "lado"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "12",
+      "linhas": [
+        "Fora",
+        "do pico."
+      ],
+      "destaque": [
+        "Fora"
+      ],
+      "fundo": "claro"
+    },
+    {
+      "tipo": "barbearia",
+      "de": "13",
+      "barbeiro": "rafa",
+      "reacoes": [
+        {
+          "em": "13:vazios",
+          "boca": "sorriso",
+          "olhar": "lado"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "14",
+      "barbeiro": "rafa",
+      "cliente": "davi",
+      "reacoes": [
+        {
+          "em": "14:sossego",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "compara",
+      "de": "15",
+      "esquerda": {
+        "titulo": "No pico",
+        "itens": [
+          "Fim da tarde e sábado",
+          "Sem marcar, sem vaga"
+        ],
+        "objeto": "cadeiraAntiga"
+      },
+      "direita": {
+        "titulo": "Fora do pico",
+        "itens": [
+          "Horários vazios",
+          "Mais sossego"
+        ],
+        "objeto": "pente"
+      },
+      "revela": [
+        "15:pico",
+        "15:espera",
+        "16:horário",
+        "16:sossego"
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "17",
+      "linhas": [
+        "Fim de tarde,",
+        "saindo do trabalho.",
+        "Pico?"
+      ],
+      "destaque": [
+        "Pico?"
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "barbearia",
+      "de": "18",
+      "barbeiro": "rafa",
+      "cliente": "matheus",
+      "reacoes": [
+        {
+          "em": "18:claro",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "19",
+      "barbeiro": "juninho",
+      "cliente": "bia",
+      "reacoes": [
+        {
+          "em": "19:sábado",
+          "boca": "aberta",
+          "sacode": true
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "20",
+      "linhas": [
+        "Agora você sabe",
+        "o que é pico."
+      ],
+      "destaque": [
+        "pico."
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "sala",
+      "de": "21",
+      "personagem": "rafa",
+      "reacoes": [
+        {
+          "em": "21:Salva",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "22",
+      "barbeiro": "juninho",
+      "cliente": "davi",
+      "mensagens": [
+        {
+          "em": "22:celular",
+          "de": "Diego",
+          "texto": "Tem horário hoje?"
+        },
+        {
+          "em": "22:tem",
+          "de": "Lucas",
+          "texto": "Tem vaga às 18h?"
+        }
+      ],
+      "reacoes": [
+        {
+          "em": "22:máquina",
+          "boca": "aberta",
+          "olhar": "celular"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "23",
+      "linhas": [
+        "Cliente vê o que",
+        "está livre."
+      ],
+      "destaque": [
+        "livre."
+      ],
+      "fundo": "claro"
+    },
+    {
+      "tipo": "apresentaFio",
+      "de": "24",
+      "tela": {
+        "nome": "agendamento",
+        "cliente": "Matheus Lima",
+        "hora": "17:40",
+        "toques": {
+          "servico": "25:serviço",
+          "dia": "25:dia",
+          "horario": "25:livre",
+          "nome": "26:nome",
+          "confirmar": "26:confirma"
+        }
+      },
+      "frases": [
+        {
+          "em": "24:link",
+          "texto": "O link mostra o que está livre"
+        },
+        {
+          "em": "25:livre",
+          "texto": "Só os horários livres aparecem"
+        },
+        {
+          "em": "27:aplicativo",
+          "texto": "Sem aplicativo e sem conta"
+        }
+      ]
+    },
+    {
+      "tipo": "app",
+      "de": "28",
+      "entrada": "subir",
+      "tela": {
+        "nome": "lembretes",
+        "toques": [
+          {
+            "toque": "28:lista",
+            "enviar": "28:toque"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "sala",
+      "de": "29",
+      "personagem": "rafa",
+      "reacoes": [
+        {
+          "em": "30:monta",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "de": "31"
+    }
+  ],
+  "extras": [
+    {
+      "tipo": "zap",
+      "em": "29:manda",
+      "ate": "30:fim",
+      "de": "Você",
+      "texto": "@agendafio, segue minha lista de clientes e serviços."
+    },
+    {
+      "tipo": "zap",
+      "em": "30:monta",
+      "ate": "30:fim",
+      "de": "@agendafio",
+      "texto": "Recebido! Em até 2 dias sua agenda fica pronta."
+    }
+  ]
+}

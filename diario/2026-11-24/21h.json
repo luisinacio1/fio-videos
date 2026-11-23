@@ -1,0 +1,422 @@
+{
+  "id": "2026-11-24-21h-origem-do-xampu",
+  "tipo": "curiosidade",
+  "tema": "origem-do-xampu",
+  "titulo": "De onde vem a palavra xampu",
+  "legenda": "Xampu veio de uma palavra que quer dizer pressionar. 💈\n\nA palavra inglesa shampoo vem da palavra hindi cā̃pō, que vem de uma raiz sânscrita ligada a pressionar, amassar ou acalmar. Ela entrou no inglês na época colonial na Índia, em 1762, e o sentido de lavar o cabelo só foi registrado em 1860. Em 1821, Dean Mahomed abriu em Brighton, na Inglaterra, o primeiro banho comercial de vapor com massagem e shampoo do país. Em 1900, Josef Wilhelm Rausch criou na Suíça um sabão líquido para lavar cabelo e o chamou de Champooing. O Drene, dos anos 1930, foi o primeiro xampu com agentes sintéticos no lugar do sabão.\n\nFonte: verbete \"Shampoo\" (Wikipédia em inglês).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nVocê sabia da origem da palavra xampu?",
+  "falas": [
+    {
+      "texto": "Xampu veio de uma palavra que quer dizer pressionar."
+    },
+    {
+      "texto": "Pois é. A palavra xampu nem nasceu no Brasil."
+    },
+    {
+      "texto": "A palavra inglesa é shampoo, e ela vem do hindi."
+    },
+    {
+      "texto": "E o hindi, por sua vez, tirou isso de uma raiz do sânscrito."
+    },
+    {
+      "texto": "Essa raiz tem a ver com pressionar, amassar ou acalmar."
+    },
+    {
+      "texto": "Ou seja, a palavra lembra apertar e acalmar, não lavar."
+    },
+    {
+      "texto": "Agora vem a data. A palavra entrou no inglês em 1762."
+    },
+    {
+      "texto": "Foi na época colonial na Índia."
+    },
+    {
+      "texto": "Mas lavar o cabelo? Esse sentido só foi registrado em 1860."
+    },
+    {
+      "texto": "Ou seja: quase cem anos depois."
+    },
+    {
+      "texto": "Agora vem outra história, na Inglaterra."
+    },
+    {
+      "texto": "Dean Mahomed abriu em Brighton o primeiro banho comercial de vapor do país."
+    },
+    {
+      "texto": "Era um banho de vapor com massagem e xampu."
+    },
+    {
+      "texto": "Em 1900, na Suíça, Josef Wilhelm Rausch criou um sabão líquido pra lavar cabelo."
+    },
+    {
+      "texto": "Ele chamou o sabão de Champooing."
+    },
+    {
+      "texto": "E nos anos trinta veio o Drene."
+    },
+    {
+      "texto": "Trocou o sabão por agentes sintéticos. Foi o primeiro xampu assim."
+    },
+    {
+      "texto": "Da raiz que pressiona ao xampu sintético, a palavra viajou muito."
+    },
+    {
+      "texto": "Lavar o cabelo também gasta tempo na cadeira, e cada minuto conta."
+    },
+    {
+      "texto": "Quando o horário está certo na agenda, o barbeiro não corre."
+    },
+    {
+      "texto": "Pra isso existe o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena."
+    },
+    {
+      "texto": "Você vê o dia inteiro num lugar só: cada cliente, serviço e horário."
+    },
+    {
+      "texto": "Quando alguém marca pelo link, chega o aviso de novo agendamento."
+    },
+    {
+      "texto": "Cliente cancelou pelo link? Você recebe o aviso."
+    },
+    {
+      "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você. Em até dois dias, sem custo."
+    },
+    {
+      "pausa": 0.3,
+      "texto": "Fio. O dia inteiro num lugar só."
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "Você sabia da origem da palavra xampu? Conta aqui."
+    }
+  ],
+  "chaves": [
+    "Brighton",
+    "Rausch",
+    "Índia",
+    "minuto",
+    "caderno",
+    "monta"
+  ],
+  "ponte": "19",
+  "fio": "21",
+  "cenas": [
+    {
+      "tipo": "objeto",
+      "de": "1",
+      "objeto": "pincel",
+      "fundo": "escuro",
+      "etiquetas": [
+        {
+          "em": "1:Xampu",
+          "texto": "Xampu"
+        },
+        {
+          "em": "1:pressionar",
+          "texto": "Vem de pressionar"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "2",
+      "barbeiro": "rafa",
+      "cliente": "ze",
+      "reacoes": [
+        {
+          "em": "2:nasceu",
+          "boca": "aberta",
+          "sacode": true
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "de": "3",
+      "titulo": "De onde vem",
+      "passos": [
+        {
+          "em": "3:inglesa",
+          "texto": "Inglês: shampoo"
+        },
+        {
+          "em": "3:hindi",
+          "texto": "Hindi"
+        },
+        {
+          "em": "4:sânscrito",
+          "texto": "Raiz do sânscrito"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "5",
+      "linhas": [
+        "Pressionar,",
+        "amassar,",
+        "acalmar."
+      ],
+      "destaque": [
+        "acalmar."
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "barbearia",
+      "de": "6",
+      "barbeiro": "rafa",
+      "cliente": "carlos",
+      "reacoes": [
+        {
+          "em": "6:lavar",
+          "boca": "torta",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "linhaDoTempo",
+      "de": "7",
+      "marcos": [
+        {
+          "em": "7",
+          "ano": "1762",
+          "texto": "A palavra entra no inglês",
+          "objeto": "pente"
+        },
+        {
+          "em": "9:Mas",
+          "ano": "1860",
+          "texto": "Aparece o sentido de lavar",
+          "objeto": "toalha"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "10",
+      "barbeiro": "juninho",
+      "cliente": "davi",
+      "reacoes": [
+        {
+          "em": "10:quase",
+          "boca": "aberta",
+          "sacode": true
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "11",
+      "linhas": [
+        "Inglaterra,",
+        "Brighton,",
+        "1821."
+      ],
+      "destaque": [
+        "Brighton,"
+      ],
+      "fundo": "claro"
+    },
+    {
+      "tipo": "objeto",
+      "de": "13",
+      "objeto": "toalha",
+      "fundo": "escuro",
+      "etiquetas": [
+        {
+          "em": "13:vapor",
+          "texto": "Banho de vapor"
+        },
+        {
+          "em": "13:massagem",
+          "texto": "Massagem"
+        },
+        {
+          "em": "13:xampu",
+          "texto": "E xampu"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "14",
+      "linhas": [
+        "Suíça, 1900:",
+        "sabão líquido",
+        "pro cabelo."
+      ],
+      "destaque": [
+        "líquido"
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "objeto",
+      "de": "15",
+      "objeto": "pomada",
+      "fundo": "claro",
+      "etiquetas": [
+        {
+          "em": "15:Champooing",
+          "texto": "Champooing"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "16",
+      "linhas": [
+        "Anos 1930:",
+        "o Drene."
+      ],
+      "destaque": [
+        "Drene."
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "compara",
+      "de": "17",
+      "esquerda": {
+        "titulo": "Antes",
+        "itens": [
+          "Com sabão"
+        ],
+        "objeto": "pincel"
+      },
+      "direita": {
+        "titulo": "Drene",
+        "itens": [
+          "Agentes sintéticos"
+        ],
+        "objeto": "pomada"
+      },
+      "vencedor": "direita",
+      "revela": [
+        "17:sabão",
+        "17:sintéticos"
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "18",
+      "barbeiro": "rafa",
+      "cliente": "matheus",
+      "reacoes": [
+        {
+          "em": "18:viajou",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "19",
+      "barbeiro": "rafa",
+      "cliente": "carlos",
+      "reacoes": [
+        {
+          "em": "19:minuto",
+          "boca": "aberta",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "20",
+      "linhas": [
+        "Horário certo,",
+        "barbeiro sem correr."
+      ],
+      "destaque": [
+        "certo,"
+      ],
+      "fundo": "claro"
+    },
+    {
+      "tipo": "apresentaFio",
+      "de": "21",
+      "tela": {
+        "nome": "agenda"
+      },
+      "frases": [
+        {
+          "em": "21:agenda",
+          "texto": "A agenda do dia"
+        },
+        {
+          "em": "22:cliente",
+          "texto": "Cada cliente e serviço"
+        },
+        {
+          "em": "22:horário",
+          "texto": "Cada horário no seu lugar"
+        }
+      ]
+    },
+    {
+      "tipo": "app",
+      "de": "23",
+      "tela": {
+        "nome": "bloqueio",
+        "hora": "10:06",
+        "data": "segunda-feira, 2 de novembro",
+        "avisos": [
+          {
+            "em": "23:aviso",
+            "tipo": "novo",
+            "nome": "Davi Rocha",
+            "servico": "Corte masculino",
+            "quando": "ter 03/11 às 11:00"
+          },
+          {
+            "em": "24:cancelou",
+            "tipo": "cancelado",
+            "nome": "Matheus Lima",
+            "quando": "ter 03/11 às 15:00"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "sala",
+      "de": "25",
+      "personagem": "rafa",
+      "reacoes": [
+        {
+          "em": "26:monta",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "de": "27"
+    }
+  ],
+  "extras": [
+    {
+      "tipo": "zap",
+      "em": "25:manda",
+      "ate": "26:fim",
+      "de": "Você",
+      "texto": "@agendafio, segue minha lista de clientes e serviços."
+    },
+    {
+      "tipo": "zap",
+      "em": "26:monta",
+      "ate": "26:fim",
+      "de": "@agendafio",
+      "texto": "Recebido! Em até 2 dias sua agenda fica pronta."
+    }
+  ]
+}

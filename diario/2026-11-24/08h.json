@@ -1,0 +1,463 @@
+{
+  "id": "2026-11-24-08h-agenda-de-fim-de-ano",
+  "tipo": "dica",
+  "tema": "agenda-de-fim-de-ano",
+  "titulo": "Fim de ano na barbearia: como montar a agenda de dezembro",
+  "legenda": "Dezembro enche. Prepare a agenda em novembro. 💈\n\nSão 4 coisas pra fazer antes do fim de ano:\n\n1. Lembre que, em fim de ano, todo mundo quer cortar na mesma semana, então os horários de véspera acabam primeiro.\n2. Decida cedo quais dias você abre mais cedo ou fecha mais tarde, e avise os clientes antes.\n3. Avise o cliente fiel: ele pede horário com antecedência quando sabe que a agenda vai apertar.\n4. Combine a folga de feriado antes, pra não marcar horário e ter que cancelar depois.\n\nSalva pra usar quando a agenda apertar.\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nVocê abre mais cedo ou fecha mais tarde em dezembro?",
+  "falas": [
+    {
+      "texto": "Dezembro enche. Prepare a agenda em novembro."
+    },
+    {
+      "texto": "Em fim de ano, todo mundo quer cortar na mesma semana."
+    },
+    {
+      "texto": "E aí os horários de véspera acabam primeiro."
+    },
+    {
+      "texto": "Então são quatro coisas pra fazer antes de dezembro chegar."
+    },
+    {
+      "texto": "Salva esse vídeo, que vai servir quando a agenda apertar."
+    },
+    {
+      "texto": "Primeira: lembre que a véspera acaba primeiro."
+    },
+    {
+      "texto": "Todo mundo quer o cabelo pronto no mesmo dia."
+    },
+    {
+      "texto": "Se você sabe disso cedo, não é pego de surpresa."
+    },
+    {
+      "texto": "Segunda: decida quais dias você abre mais cedo ou fecha mais tarde."
+    },
+    {
+      "texto": "Faça isso cedo, antes de o povo começar a marcar."
+    },
+    {
+      "texto": "E avise os clientes antes. Sem aviso, ninguém se organiza."
+    },
+    {
+      "texto": "Terceira: seu cliente fiel pede horário com antecedência."
+    },
+    {
+      "texto": "Isso acontece quando ele sabe que a agenda vai apertar."
+    },
+    {
+      "texto": "Então conta pra ele. Ele mesmo pode querer garantir o horário."
+    },
+    {
+      "texto": "Quarta: combine a folga de feriado antes."
+    },
+    {
+      "texto": "Assim você não marca um horário e depois tem que cancelar."
+    },
+    {
+      "texto": "Recapitulando: a véspera acaba primeiro, e você define os dias especiais."
+    },
+    {
+      "texto": "Avisa o cliente fiel e combina a folga de feriado antes."
+    },
+    {
+      "texto": "Só que, quando a agenda aperta, um horário furado dói em dobro."
+    },
+    {
+      "texto": "E folga combinada só vale se ninguém marcar em cima dela."
+    },
+    {
+      "texto": "Pra isso existe o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena."
+    },
+    {
+      "texto": "Você bloqueia o dia de folga, e o horário some do link."
+    },
+    {
+      "texto": "Chega o aviso de cada agendamento novo no seu celular."
+    },
+    {
+      "texto": "O cliente cancela ou remarca pelo link, e você recebe o aviso."
+    },
+    {
+      "texto": "Na véspera, às seis da tarde, chega a lista de quem lembrar. Um toque por cliente."
+    },
+    {
+      "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você. Em até dois dias, sem custo."
+    },
+    {
+      "pausa": 0.3,
+      "texto": "Fio. A folga que ninguém atropela."
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "E você, abre mais cedo ou fecha mais tarde em dezembro? Conta aqui."
+    }
+  ],
+  "chaves": [
+    "Dezembro",
+    "antecedência",
+    "feriado",
+    "bloqueia",
+    "caderno",
+    "monta"
+  ],
+  "ponte": "19",
+  "fio": "21",
+  "cenas": [
+    {
+      "tipo": "barbearia",
+      "de": "1",
+      "barbeiro": "rafa",
+      "cliente": "matheus",
+      "reacoes": [
+        {
+          "em": "1:Dezembro",
+          "boca": "aberta",
+          "sacode": true
+        },
+        {
+          "em": "1:novembro",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "2",
+      "linhas": [
+        "Fim de ano:",
+        "todo mundo na",
+        "mesma semana."
+      ],
+      "destaque": [
+        "mesma"
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "barbearia",
+      "de": "3",
+      "barbeiro": "juninho",
+      "cliente": "davi",
+      "reacoes": [
+        {
+          "em": "3:acabam",
+          "boca": "torta",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "4",
+      "linhas": [
+        "coisas pra fazer",
+        "antes de dezembro."
+      ],
+      "destaque": [
+        "fazer"
+      ],
+      "fundo": "escuro",
+      "numero": {
+        "de": 0,
+        "ate": 4,
+        "em": "4:quatro"
+      }
+    },
+    {
+      "tipo": "sala",
+      "de": "5",
+      "personagem": "rafa",
+      "reacoes": [
+        {
+          "em": "5:Salva",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "6",
+      "linhas": [
+        "1. A véspera",
+        "acaba primeiro."
+      ],
+      "destaque": [
+        "véspera"
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "barbearia",
+      "de": "7",
+      "barbeiro": "rafa",
+      "cliente": "carlos",
+      "reacoes": [
+        {
+          "em": "7:pronto",
+          "boca": "aberta",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "sala",
+      "de": "8",
+      "personagem": "matheus",
+      "reacoes": [
+        {
+          "em": "8:surpresa",
+          "boca": "aberta",
+          "sacode": true
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "9",
+      "linhas": [
+        "2. Dias com",
+        "horário diferente."
+      ],
+      "destaque": [
+        "diferente."
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "sala",
+      "de": "10",
+      "personagem": "rafa",
+      "pensamento": {
+        "em": "10:cedo",
+        "rotulo": "Decide cedo",
+        "titulo": "Dias especiais",
+        "texto": "abre antes ou fecha depois"
+      }
+    },
+    {
+      "tipo": "barbearia",
+      "de": "11",
+      "barbeiro": "rafa",
+      "cliente": "ze",
+      "reacoes": [
+        {
+          "em": "11:avise",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "12",
+      "linhas": [
+        "3. Cliente fiel",
+        "pede antes."
+      ],
+      "destaque": [
+        "fiel"
+      ],
+      "fundo": "claro"
+    },
+    {
+      "tipo": "sala",
+      "de": "13",
+      "personagem": "carlos",
+      "reacoes": [
+        {
+          "em": "13:apertar",
+          "boca": "aberta",
+          "olhar": "celular"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "14",
+      "barbeiro": "juninho",
+      "cliente": "bia",
+      "reacoes": [
+        {
+          "em": "14:garantir",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "15",
+      "linhas": [
+        "4. Folga de feriado",
+        "combinada antes."
+      ],
+      "destaque": [
+        "Folga"
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "barbearia",
+      "de": "16",
+      "barbeiro": "rafa",
+      "cliente": "matheus",
+      "reacoes": [
+        {
+          "em": "16:cancelar",
+          "boca": "torta",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "de": "17",
+      "titulo": "Antes de dezembro",
+      "passos": [
+        {
+          "em": "17:véspera",
+          "texto": "A véspera acaba primeiro"
+        },
+        {
+          "em": "17:dias",
+          "texto": "Define os dias especiais"
+        },
+        {
+          "em": "18:cliente",
+          "texto": "Avisa o cliente fiel"
+        },
+        {
+          "em": "18:folga",
+          "texto": "Combina a folga antes"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "19",
+      "barbeiro": "juninho",
+      "reacoes": [
+        {
+          "em": "19:furado",
+          "boca": "torta",
+          "olhar": "lado"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "20",
+      "linhas": [
+        "Folga combinada",
+        "só vale se ninguém",
+        "marcar em cima."
+      ],
+      "destaque": [
+        "ninguém"
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "apresentaFio",
+      "de": "21",
+      "tela": {
+        "nome": "bloqueio",
+        "hora": "10:05",
+        "data": "segunda-feira, 2 de novembro",
+        "avisos": [
+          {
+            "em": "23:aviso",
+            "tipo": "novo",
+            "nome": "Davi Rocha",
+            "servico": "Corte masculino",
+            "quando": "ter 03/11 às 11:00"
+          }
+        ]
+      },
+      "frases": [
+        {
+          "em": "21:Fio",
+          "texto": "A agenda do barbeiro"
+        },
+        {
+          "em": "22:bloqueia",
+          "texto": "Folga bloqueada some do link"
+        },
+        {
+          "em": "23:aviso",
+          "texto": "Agendamento novo: você é avisado"
+        }
+      ]
+    },
+    {
+      "tipo": "app",
+      "de": "24",
+      "tela": {
+        "nome": "bloqueio",
+        "hora": "10:06",
+        "data": "segunda-feira, 2 de novembro",
+        "avisos": [
+          {
+            "em": "24:cancela",
+            "tipo": "cancelado",
+            "nome": "Matheus Lima",
+            "quando": "ter 03/11 às 15:00"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "app",
+      "de": "25",
+      "entrada": "subir",
+      "tela": {
+        "nome": "lembretes",
+        "toques": [
+          {
+            "toque": "25:lista",
+            "enviar": "25:toque"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "sala",
+      "de": "26",
+      "personagem": "rafa",
+      "reacoes": [
+        {
+          "em": "27:monta",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "de": "28"
+    }
+  ],
+  "extras": [
+    {
+      "tipo": "zap",
+      "em": "26:manda",
+      "ate": "27:fim",
+      "de": "Você",
+      "texto": "@agendafio, segue minha lista de clientes e serviços."
+    },
+    {
+      "tipo": "zap",
+      "em": "27:monta",
+      "ate": "27:fim",
+      "de": "@agendafio",
+      "texto": "Recebido! Em até 2 dias sua agenda fica pronta."
+    }
+  ]
+}

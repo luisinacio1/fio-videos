@@ -1,0 +1,413 @@
+{
+  "id": "2026-11-24-11h-rei-do-blindado",
+  "tipo": "atracao-2d",
+  "tema": "rei-do-blindado",
+  "titulo": "O barbeiro que criou o blindado",
+  "legenda": "Esse topete aguenta uma moto em cima. Parece exagero, mas já aconteceu num programa de TV. 💈\n\nO blindado é um topete com mechas coloridas, inspirado no pompadour. Foi criado pelo barbeiro Ariel Franco e virou febre entre jovens da periferia e nas redes sociais. Ariel aprendeu a cortar cabelo na prisão e diz: \"A barbearia salvou a minha vida\". Depois de solto, cortou de graça para treinar, fez cursos e abriu um salão. Num programa de TV, colocou uma moto sobre a cabeça de um jovem para provar que o penteado não desmonta. Em 2021, Luiza Helena Trajano e Caito Maia viraram sócios da barbearia dele.\n\nFontes: Sebrae (ideia de negócio \"Barbearia\"), Omelete e Money Times.\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nVocê deixaria uma moto em cima do seu topete?",
+  "falas": [
+    {
+      "texto": "Esse topete aguenta uma moto em cima."
+    },
+    {
+      "texto": "Não é exagero. Isso já aconteceu num programa de TV."
+    },
+    {
+      "texto": "O dono dessa ideia é um barbeiro: o Ariel Franco."
+    },
+    {
+      "texto": "Bora ver a história dele."
+    },
+    {
+      "texto": "O penteado se chama blindado."
+    },
+    {
+      "texto": "É um topete com mechas coloridas, inspirado no pompadour."
+    },
+    {
+      "texto": "Foi o Ariel que criou. E virou febre entre os jovens da periferia e nas redes sociais."
+    },
+    {
+      "texto": "Mas a vida do Ariel não foi fácil."
+    },
+    {
+      "texto": "Ele aprendeu a cortar cabelo na prisão."
+    },
+    {
+      "texto": "E ele diz: a barbearia salvou a minha vida."
+    },
+    {
+      "texto": "Depois de solto, ele não esperou ninguém."
+    },
+    {
+      "texto": "Cortou de graça pra treinar. Fez cursos."
+    },
+    {
+      "texto": "E abriu um salão."
+    },
+    {
+      "texto": "Aí veio o teste, num programa de TV."
+    },
+    {
+      "texto": "Ele colocou uma moto sobre a cabeça de um jovem."
+    },
+    {
+      "texto": "Pra provar que o penteado não desmonta."
+    },
+    {
+      "texto": "Em 2021, Luiza Helena Trajano e Caito Maia viraram sócios da barbearia dele."
+    },
+    {
+      "texto": "Do corte de graça pra treinar, até uma barbearia com dois sócios."
+    },
+    {
+      "texto": "O blindado não sai do lugar."
+    },
+    {
+      "texto": "O horário do cliente, às vezes, sai da cabeça dele."
+    },
+    {
+      "texto": "E pra isso existe o Fio, a agenda do barbeiro, com o lembrete da véspera."
+    },
+    {
+      "texto": "Às seis da tarde, chega o aviso: lembretes de amanhã."
+    },
+    {
+      "texto": "Você toca em cada cliente, e a mensagem já vem pronta."
+    },
+    {
+      "texto": "Aperta enviar no WhatsApp. Um toque por cliente."
+    },
+    {
+      "texto": "Não vai dar pra ir? O cliente remarca pelo link, e você recebe o aviso."
+    },
+    {
+      "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você. Em até dois dias, sem custo."
+    },
+    {
+      "pausa": 0.3,
+      "texto": "Fio. Horário marcado, cliente avisado."
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "Você deixaria uma moto em cima do seu topete? Conta aqui."
+    }
+  ],
+  "chaves": [
+    "blindado",
+    "prisão",
+    "salão",
+    "moto",
+    "sócios",
+    "monta"
+  ],
+  "ponte": "19",
+  "fio": "21",
+  "cenas": [
+    {
+      "tipo": "corte",
+      "de": "1",
+      "personagem": "matheus",
+      "estilos": [
+        {
+          "em": "1:topete",
+          "estilo": "topete",
+          "rotulo": "Esse topete"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "2",
+      "linhas": [
+        "Isso aconteceu",
+        "num programa de TV."
+      ],
+      "destaque": [
+        "TV."
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "barbearia",
+      "de": "3",
+      "barbeiro": "rafa",
+      "cliente": "davi",
+      "reacoes": [
+        {
+          "em": "3:Ariel",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "objeto",
+      "de": "5",
+      "objeto": "pente",
+      "fundo": "escuro",
+      "etiquetas": [
+        {
+          "em": "5:blindado",
+          "texto": "O blindado"
+        },
+        {
+          "em": "6:mechas",
+          "texto": "Mechas coloridas"
+        },
+        {
+          "em": "6:pompadour",
+          "texto": "Inspirado no pompadour"
+        }
+      ]
+    },
+    {
+      "tipo": "corte",
+      "de": "7",
+      "personagem": "davi",
+      "estilos": [
+        {
+          "em": "7:criou",
+          "estilo": "topete",
+          "rotulo": "Criado pelo Ariel"
+        },
+        {
+          "em": "7:febre",
+          "estilo": "topete",
+          "rotulo": "Febre nas redes"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "8",
+      "linhas": [
+        "A vida do Ariel",
+        "não foi fácil."
+      ],
+      "destaque": [
+        "fácil."
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "passos",
+      "de": "9",
+      "titulo": "Ariel",
+      "passos": [
+        {
+          "em": "9",
+          "texto": "Aprendeu a cortar na prisão"
+        },
+        {
+          "em": "10:barbearia",
+          "texto": "\"A barbearia salvou a minha vida\""
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "11",
+      "barbeiro": "rafa",
+      "cliente": "matheus",
+      "reacoes": [
+        {
+          "em": "11:esperou",
+          "boca": "aberta",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "de": "12",
+      "titulo": "Depois de solto",
+      "passos": [
+        {
+          "em": "12:cortou",
+          "texto": "Cortou de graça pra treinar"
+        },
+        {
+          "em": "12:cursos",
+          "texto": "Fez cursos"
+        },
+        {
+          "em": "13:salão",
+          "texto": "Abriu um salão"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "14",
+      "linhas": [
+        "O teste:",
+        "um programa de TV."
+      ],
+      "destaque": [
+        "teste:"
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "barbearia",
+      "de": "15",
+      "barbeiro": "juninho",
+      "cliente": "davi",
+      "reacoes": [
+        {
+          "em": "15:moto",
+          "boca": "aberta",
+          "sacode": true
+        }
+      ]
+    },
+    {
+      "tipo": "corte",
+      "de": "16",
+      "personagem": "matheus",
+      "estilos": [
+        {
+          "em": "16:desmonta",
+          "estilo": "topete",
+          "rotulo": "Não desmonta"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "17",
+      "linhas": [
+        "Em 2021,",
+        "sócios na",
+        "barbearia dele."
+      ],
+      "destaque": [
+        "2021,"
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "barbearia",
+      "de": "18",
+      "barbeiro": "rafa",
+      "cliente": "ze",
+      "reacoes": [
+        {
+          "em": "18:sócios",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "19",
+      "barbeiro": "juninho",
+      "reacoes": [
+        {
+          "em": "20:cabeça",
+          "boca": "torta",
+          "olhar": "lado"
+        }
+      ]
+    },
+    {
+      "tipo": "apresentaFio",
+      "de": "21",
+      "tela": {
+        "nome": "bloqueio",
+        "hora": "18:00",
+        "data": "segunda-feira, 2 de novembro",
+        "avisos": [
+          {
+            "em": "22:aviso",
+            "tipo": "lembretes",
+            "quantidade": 4
+          }
+        ]
+      },
+      "frases": [
+        {
+          "em": "21:lembrete",
+          "texto": "O lembrete da véspera"
+        },
+        {
+          "em": "22:chega",
+          "texto": "Às 18h, chega o aviso"
+        },
+        {
+          "em": "22:amanhã",
+          "texto": "Lista de quem lembrar amanhã"
+        }
+      ]
+    },
+    {
+      "tipo": "app",
+      "de": "23",
+      "entrada": "subir",
+      "tela": {
+        "nome": "lembretes",
+        "toques": [
+          {
+            "toque": "23:toca",
+            "enviar": "24:enviar"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "app",
+      "de": "25",
+      "tela": {
+        "nome": "bloqueio",
+        "hora": "09:12",
+        "data": "segunda-feira, 2 de novembro",
+        "avisos": [
+          {
+            "em": "25:remarca",
+            "tipo": "cancelado",
+            "nome": "Diego Souza",
+            "quando": "ter 03/11 às 11:00"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "sala",
+      "de": "26",
+      "personagem": "rafa",
+      "reacoes": [
+        {
+          "em": "27:monta",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "de": "28"
+    }
+  ],
+  "extras": [
+    {
+      "tipo": "zap",
+      "em": "26:manda",
+      "ate": "27:fim",
+      "de": "Você",
+      "texto": "@agendafio, segue minha lista de clientes e serviços."
+    },
+    {
+      "tipo": "zap",
+      "em": "27:monta",
+      "ate": "27:fim",
+      "de": "@agendafio",
+      "texto": "Recebido! Em até 2 dias sua agenda fica pronta."
+    }
+  ]
+}

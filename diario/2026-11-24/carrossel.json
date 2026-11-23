@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-24-carrossel-lembrete-que-segura-o-cliente",
+  "tema": "lembrete-que-segura-o-cliente",
+  "rotulo": "Lembretes",
+  "legenda": "O lembrete certo derrubou as faltas. ⏰\n\nNum teste no serviço público de saúde do Reino Unido, com 10.111 pacientes, o lembrete que dizia o custo de uma falta deixou as faltas em 8,4%. Com o lembrete de sempre, elas ficaram em 11,1%. Na barbearia vale o mesmo: lembrete curto, com dia e hora, é lido, e textão é ignorado. Lembrar que o horário está guardado só pra ele mostra que a falta pesa.\n\nSalva os jeitos e manda pra outro barbeiro.\n\nFonte: PLOS ONE (teste no serviço de saúde do Reino Unido).\n\nLink na bio pra testar 7 dias grátis.\n\nQual lembrete você manda hoje pro seu cliente? Conta aqui.",
+  "slides": [
+    { "tipo": "capa", "titulo": "O lembrete certo derrubou as faltas", "curiosidade": "De 11,1% pra 8,4% de faltas.", "ilustracao": { "personagem": "juninho" } },
+    { "tipo": "texto", "titulo": "Lembrete com o custo da falta: 8,4% de faltas", "paragrafos": ["Num teste no serviço de saúde do Reino Unido, com 10.111 pacientes, o lembrete com o custo da falta levou as faltas a 8,4%.", "Com o lembrete de sempre, as faltas ficaram em 11,1%."], "puxada": "E o que isso muda na sua barbearia?", "fonte": "PLOS ONE, teste no serviço de saúde do Reino Unido" },
+    { "tipo": "texto", "titulo": "Na sua barbearia, lembrete curto vence textão", "paragrafos": ["Lembrete curto, com dia e hora, é lido. Textão é ignorado.", "Lembrar que o horário está guardado só pra ele mostra que a falta pesa."], "puxada": "Como montar esse lembrete?" },
+    { "tipo": "lista", "titulo": "4 jeitos de lembrar o cliente", "itens": [
+      { "termo": "Véspera", "texto": "mande na véspera, não em cima da hora." },
+      { "termo": "Clareza", "texto": "diga dia e hora com clareza." },
+      { "termo": "Só dele", "texto": "lembre que o horário é só dele." },
+      { "termo": "Aviso", "texto": "peça pra avisar se não puder vir." }
+    ], "puxada": "Salve pra lembrar." },
+    { "tipo": "texto", "titulo": "Peça pra ele avisar se não puder", "paragrafos": ["O lembrete não serve só pra cliente não esquecer.", "Ao pedir que avise, ele entende que a falta pesa pra você."], "puxada": "E se o lembrete já vier pronto?" },
+    { "tipo": "tela", "tela": { "nome": "lembretes" }, "frase": "No Fio, às 18h a lista de amanhã aparece com a mensagem pronta. Você envia num toque." },
+    { "tipo": "fecho", "frase": "Lembrete certo segura o cliente. O Fio ajuda, e a gente monta." }
+  ]
+}
