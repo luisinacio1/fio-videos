@@ -1,0 +1,105 @@
+{
+  "id": "2026-11-25-18h-tesoura-de-cabelo-nao-e-de-pano",
+  "tipo": "atracao-3d",
+  "tema": "tesoura-de-cabelo-nao-e-de-pano",
+  "titulo": "A tesoura de cabelo não é a tesoura de costura",
+  "legenda": "A tesoura de cabelo não é a de costura. Parece igual, mas não é. ✂️\n\nToda tesoura é um par de lâminas que giram num pivô, com os cabos do lado oposto ao das lâminas: apertar os cabos fecha as lâminas. A de costura corta tecido, e a de alfaiate corta materiais pesados, como couro ou várias camadas de pano. Já a tesoura de cabelo tem ângulos de lâmina próprios para cortar mechas. Em geral ela mede de 13 a 18 centímetros, e muitas têm um apoio para o dedo (o tang, em inglês) que dá mais controle. A de desbaste tem dentes de pente em uma ou nas duas lâminas e corta só parte dos fios.\n\nFontes: verbetes \"Scissors\" e \"Hair-cutting shears\" (Wikipédia em inglês).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nE a tesoura lá de casa, já cortou cabelo escondido? Conta aqui.",
+  "chaves": ["pivô", "costura", "tang", "desbaste", "lembretes", "WhatsApp", "monta", "lugar"],
+  "falas": [
+    { "texto": "A tesoura de cabelo não é a de costura." },
+    { "texto": "Olha essa tesoura de barbeiro girando." },
+    { "texto": "Parece igual à tesoura de casa, né?" },
+    { "texto": "Só que não é. Vem comigo descobrir por quê." },
+    { "texto": "Para entender, a gente abre a tesoura." },
+    { "texto": "São duas lâminas que giram juntas num pivô." },
+    { "texto": "E os cabos ficam do lado oposto ao das lâminas." },
+    { "texto": "Por isso, apertar os cabos fecha as lâminas." },
+    { "texto": "Agora, a tesoura de costura corta tecido." },
+    { "texto": "A de alfaiate é mais forte: corta couro e várias camadas de pano." },
+    { "texto": "E a tesoura de cabelo? Os ângulos da lâmina são só dela." },
+    { "texto": "Eles foram feitos para cortar mechas de cabelo." },
+    { "texto": "Ela também não é grande. Em geral, mede de 13 a 18 centímetros." },
+    { "texto": "Repara no aro: muitas têm um apoio para o dedo." },
+    { "texto": "Em inglês, esse apoio se chama tang. Ele dá mais controle a quem corta." },
+    { "texto": "E tem a tesoura de desbaste, com dentes de pente em uma ou nas duas lâminas." },
+    { "texto": "Esses dentes cortam só parte dos fios." },
+    { "texto": "Ou seja: cada tesoura nasceu pra um serviço." },
+    { "texto": "Tesoura de cabelo corta cabelo, e a de costura corta tecido." },
+    { "texto": "Tesoura de cabelo na gaveta de cabelo, tesoura de pano na de pano: cada coisa no seu lugar." },
+    { "texto": "O cliente também precisa ter o lugar dele: na agenda do dia, cada horário em ordem, sem caderno rabiscado." },
+    { "texto": "Pra isso existe o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena." },
+    { "texto": "Todo dia, às seis da tarde, chega o aviso: lembretes de amanhã." },
+    { "texto": "A mensagem já vem pronta. Você aperta enviar no WhatsApp. Um toque por cliente." },
+    { "texto": "Ainda anota tudo no caderno? Manda sua lista no direct." },
+    { "texto": "E a gente monta pra você: sua agenda pronta em até dois dias, sem custo." },
+    { "pausa": 0.3, "texto": "Fio. Cada horário no seu lugar." },
+    { "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro." },
+    { "texto": "E a tesoura lá de casa, já cortou cabelo escondido? Conta aqui." }
+  ],
+  "planos": [
+    {
+      "modo": "vitrine", "de": "1", "objeto": "tesoura",
+      "etiquetas": [
+        { "em": "2:tesoura", "texto": "Tesoura de barbeiro" },
+        { "em": "3:igual", "texto": "Parece igual?" },
+        { "em": "4:descobrir", "texto": "Vamos descobrir" }
+      ]
+    },
+    {
+      "modo": "porDentro", "de": "5", "objeto": "tesoura", "abre": "5:abre",
+      "partes": [
+        { "em": "6:duas", "texto": "lâmina de cima" },
+        { "em": "6:lâminas", "texto": "lâmina de baixo" },
+        { "em": "6:pivô", "texto": "pivô" }
+      ]
+    },
+    {
+      "modo": "vitrine", "de": "8", "objeto": "tesoura",
+      "etiquetas": [
+        { "em": "8:apertar", "texto": "Aperta e fecha" },
+        { "em": "9:costura", "texto": "Costura: tecido" },
+        { "em": "10:alfaiate", "texto": "Alfaiate: couro e pano" }
+      ]
+    },
+    {
+      "modo": "vitrine", "de": "11", "objeto": "tesoura",
+      "etiquetas": [
+        { "em": "11:ângulos", "texto": "Ângulos só dela" },
+        { "em": "12:mechas", "texto": "Feita pra mechas" },
+        { "em": "13:geral", "texto": "13 a 18 centímetros" }
+      ]
+    },
+    {
+      "modo": "vitrine", "de": "14", "objeto": "tesoura",
+      "etiquetas": [
+        { "em": "14:apoio", "texto": "Apoio pro dedo" },
+        { "em": "15:tang", "texto": "Tang: mais controle" },
+        { "em": "16:desbaste", "texto": "Tesoura de desbaste" },
+        { "em": "17:dentes", "texto": "Corta só parte dos fios" }
+      ]
+    },
+    {
+      "modo": "vitrine", "de": "18", "objeto": "tesoura",
+      "etiquetas": [
+        { "em": "18:serviço", "texto": "Cada uma, um serviço" },
+        { "em": "19:tecido", "texto": "Cabelo corta cabelo" }
+      ]
+    }
+  ],
+  "ponte": "20",
+  "fio": {
+    "de": "22",
+    "telas": [
+      { "em": "22", "tela": { "nome": "agenda" } },
+      { "em": "23", "tela": { "nome": "aviso", "aviso": { "tipo": "lembretes", "quantidade": 4 }, "hora": "18:00", "data": "segunda-feira, 2 de novembro" } },
+      { "em": "24:mensagem", "tela": { "nome": "whats" } },
+      { "em": "26:agenda", "tela": { "nome": "agenda" } }
+    ],
+    "frases": [
+      { "em": "23:lembretes", "texto": "Lembretes de amanhã, todo dia às 18h" },
+      { "em": "24:enviar", "texto": "Mensagem pronta, você só envia" },
+      { "em": "26:monta", "texto": "A gente monta pra você" }
+    ]
+  },
+  "final": { "de": "27" }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-25-carrossel-whats-cortar-ou-responder",
+  "tema": "whats-cortar-ou-responder",
+  "rotulo": "WhatsApp",
+  "legenda": "Você corta cabelo ou responde WhatsApp? Os dois ao mesmo tempo não dá. 💬\n\nNuma pesquisa Mobile Time/Opinion Box, 76% dos brasileiros com WhatsApp disseram se comunicar com marcas pelo app. Ou seja: o pedido de horário vai chegar no meio do corte. Parar pra responder atrasa o cliente da cadeira e o próximo, e pedido sem resposta vira cliente marcando em outro lugar.\n\nSalva os jeitos e manda pra outro barbeiro.\n\nFonte: Mobile Time/Opinion Box (2.072 brasileiros com mais de 16 anos, janeiro de 2020).\n\nLink na bio pra testar 7 dias grátis.\n\nVocê responde WhatsApp no meio do corte? Conta aqui.",
+  "slides": [
+    { "tipo": "capa", "titulo": "Você corta cabelo ou responde WhatsApp?", "curiosidade": "76% falam com marcas pelo app.", "ilustracao": { "personagem": "rafa" } },
+    { "tipo": "texto", "titulo": "76% falam com marcas pelo WhatsApp", "paragrafos": ["Numa pesquisa Mobile Time/Opinion Box, 76% dos brasileiros com WhatsApp disseram se comunicar com marcas pelo app.", "A pesquisa ouviu 2.072 brasileiros com mais de 16 anos, em janeiro de 2020."], "puxada": "E o seu WhatsApp, quem responde?", "fonte": "Mobile Time/Opinion Box, janeiro de 2020" },
+    { "tipo": "texto", "titulo": "Na sua barbearia, mensagem parada custa cliente", "paragrafos": ["Parar o corte pra responder atrasa o cliente da cadeira e o próximo.", "E pedido de horário sem resposta vira cliente marcando em outro lugar."], "puxada": "Como resolver isso?" },
+    { "tipo": "lista", "titulo": "Jeitos de segurar o WhatsApp", "itens": [
+      { "termo": "Corte", "texto": "não responda no meio do corte." },
+      { "termo": "Respiro", "texto": "separe uns minutos entre clientes." },
+      { "termo": "Status", "texto": "coloque o link de marcar no status." },
+      { "termo": "Resposta", "texto": "tenha uma resposta pronta com o link." }
+    ], "puxada": "Salve pra lembrar." },
+    { "tipo": "texto", "titulo": "Deixe uma resposta pronta com o link", "paragrafos": ["Guarde uma mensagem pronta e cole o link de marcar em cada pedido de horário.", "O cliente recebe a resposta na hora, e você não para o corte."], "puxada": "E se o link já mostrasse os horários?" },
+    { "tipo": "tela", "tela": { "nome": "link" }, "frase": "No Fio, quem pede horário no Zap recebe o link, vê os livres e marca sozinho." },
+    { "tipo": "fecho", "frase": "Responder tudo no meio do corte não dá. O link responde, e a gente monta." }
+  ]
+}
