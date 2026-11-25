@@ -1,0 +1,288 @@
+{
+  "id": "2026-11-26-18h-maquina-sem-tomada",
+  "tipo": "atracao-3d",
+  "tema": "maquina-sem-tomada",
+  "titulo": "A máquina de cortar cabelo antes da tomada",
+  "legenda": "A primeira máquina de cortar cabelo era na mão. ✂️\n\nA máquina manual foi inventada por volta de 1855 por Nikola Bizumić, um barbeiro sérvio. O mecanismo que faz a lâmina ir e vir pode ser manual ou elétrico. Por volta de 1921, a Andis entrou no mercado de máquinas elétricas; a Oster veio em 1928.\n\nFonte: verbete \"Hair clipper\" (Wikipédia em inglês).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nVocê já viu uma máquina de cortar cabelo manual?",
+  "chaves": [
+    "manual",
+    "Bizumić",
+    "vai e vem",
+    "Andis",
+    "Oster",
+    "lembretes",
+    "WhatsApp",
+    "monta"
+  ],
+  "falas": [
+    {
+      "texto": "A primeira máquina de cortar cabelo era na mão."
+    },
+    {
+      "texto": "Sem tomada, sem motor, sem zumbido."
+    },
+    {
+      "texto": "Esta aqui é a de hoje, de pertinho."
+    },
+    {
+      "texto": "Hoje a gente liga na tomada e nem pensa."
+    },
+    {
+      "texto": "Mas, no começo, não tinha nada disso."
+    },
+    {
+      "texto": "Por volta de 1855, nasceu a máquina manual."
+    },
+    {
+      "texto": "Quem inventou foi um barbeiro sérvio."
+    },
+    {
+      "texto": "O nome dele: Nikola Bizumić."
+    },
+    {
+      "texto": "Mas como uma máquina corta cabelo?"
+    },
+    {
+      "texto": "O segredo é um movimento só: a lâmina vai e volta."
+    },
+    {
+      "texto": "Vai e volta, vai e volta, bem rapidinho."
+    },
+    {
+      "texto": "Esse vai e vem é o mecanismo da máquina."
+    },
+    {
+      "texto": "E ele pode ser de dois tipos."
+    },
+    {
+      "texto": "Manual: quem faz a lâmina andar é a mão."
+    },
+    {
+      "texto": "Ou elétrico: quem faz é a energia da tomada."
+    },
+    {
+      "texto": "O vai e vem é o mesmo. Muda só quem empurra."
+    },
+    {
+      "texto": "Aí chega a era da tomada."
+    },
+    {
+      "texto": "Por volta de 1921, a Andis entrou no mercado de máquinas elétricas."
+    },
+    {
+      "texto": "E em 1928 veio a Oster."
+    },
+    {
+      "texto": "Primeiro na mão. Depois na tomada. A mesma ideia: uma lâmina indo e voltando."
+    },
+    {
+      "texto": "Da mão à tomada, o corte ficou mais rápido."
+    },
+    {
+      "texto": "A agenda também pode sair do caderno e ir pro celular."
+    },
+    {
+      "texto": "Pra isso existe o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena."
+    },
+    {
+      "texto": "O cliente marca pelo link e só vê os horários livres."
+    },
+    {
+      "texto": "Todo dia, às seis da tarde, chega o aviso: lembretes de amanhã."
+    },
+    {
+      "texto": "A mensagem vem pronta. Você aperta enviar no WhatsApp. Um toque."
+    },
+    {
+      "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você, em até dois dias. Sem custo."
+    },
+    {
+      "pausa": 0.3,
+      "texto": "Fio. Sua agenda sai do caderno."
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "Você já viu uma máquina de cortar cabelo manual? Conta aqui."
+    }
+  ],
+  "planos": [
+    {
+      "modo": "vitrine",
+      "de": "1",
+      "objeto": "maquina",
+      "etiquetas": [
+        {
+          "em": "1:máquina",
+          "texto": "Máquina de cortar"
+        },
+        {
+          "em": "2:tomada",
+          "texto": "No começo: sem tomada"
+        },
+        {
+          "em": "3:hoje",
+          "texto": "Esta é a de hoje"
+        }
+      ]
+    },
+    {
+      "modo": "vitrine",
+      "de": "4",
+      "objeto": "maquina",
+      "etiquetas": [
+        {
+          "em": "4:tomada",
+          "texto": "Hoje: na tomada"
+        },
+        {
+          "em": "5:começo",
+          "texto": "No começo: nada disso"
+        }
+      ]
+    },
+    {
+      "modo": "vitrine",
+      "de": "6",
+      "objeto": "maquina",
+      "etiquetas": [
+        {
+          "em": "6:nasceu",
+          "texto": "Por volta de 1855"
+        },
+        {
+          "em": "7:sérvio",
+          "texto": "Barbeiro sérvio"
+        },
+        {
+          "em": "8:Nikola",
+          "texto": "Nikola Bizumić"
+        }
+      ]
+    },
+    {
+      "modo": "vitrine",
+      "de": "9",
+      "objeto": "maquina",
+      "etiquetas": [
+        {
+          "em": "9:como",
+          "texto": "Como ela corta?"
+        },
+        {
+          "em": "10:lâmina",
+          "texto": "A lâmina vai e volta"
+        },
+        {
+          "em": "12:mecanismo",
+          "texto": "O vai e vem"
+        }
+      ]
+    },
+    {
+      "modo": "vitrine",
+      "de": "13",
+      "objeto": "maquina",
+      "etiquetas": [
+        {
+          "em": "13:tipos",
+          "texto": "Dois tipos"
+        },
+        {
+          "em": "14:Manual",
+          "texto": "Manual: a mão"
+        },
+        {
+          "em": "15:elétrico",
+          "texto": "Elétrico: a tomada"
+        },
+        {
+          "em": "16:muda",
+          "texto": "Muda só quem empurra"
+        }
+      ]
+    },
+    {
+      "modo": "vitrine",
+      "de": "17",
+      "objeto": "maquina",
+      "etiquetas": [
+        {
+          "em": "18:Andis",
+          "texto": "Por volta de 1921: Andis"
+        },
+        {
+          "em": "19:Oster",
+          "texto": "1928: Oster"
+        },
+        {
+          "em": "20:tomada",
+          "texto": "Da mão à tomada"
+        }
+      ]
+    }
+  ],
+  "ponte": "21",
+  "fio": {
+    "de": "23",
+    "telas": [
+      {
+        "em": "23",
+        "tela": {
+          "nome": "link"
+        }
+      },
+      {
+        "em": "24:livres",
+        "tela": {
+          "nome": "horarios"
+        }
+      },
+      {
+        "em": "25",
+        "tela": {
+          "nome": "aviso",
+          "aviso": {
+            "tipo": "lembretes",
+            "quantidade": 4
+          },
+          "hora": "18:00",
+          "data": "segunda-feira, 2 de novembro"
+        }
+      },
+      {
+        "em": "26:mensagem",
+        "tela": {
+          "nome": "whats"
+        }
+      },
+      {
+        "em": "27:caderno",
+        "tela": {
+          "nome": "agenda"
+        }
+      }
+    ],
+    "frases": [
+      {
+        "em": "24:livres",
+        "texto": "Só os horários livres aparecem"
+      },
+      {
+        "em": "25:lembretes",
+        "texto": "Lembretes de amanhã, às 18h"
+      },
+      {
+        "em": "26:enviar",
+        "texto": "Mensagem pronta, você só envia"
+      }
+    ]
+  },
+  "final": {
+    "de": "29"
+  }
+}

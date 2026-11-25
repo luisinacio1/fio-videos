@@ -1,0 +1,387 @@
+{
+  "id": "2026-11-26-21h-agenda-aberta-ou-fechada",
+  "tipo": "conceito",
+  "tema": "agenda-aberta-ou-fechada",
+  "titulo": "Agenda aberta ou agenda fechada: qual a diferença",
+  "legenda": "Agenda aberta ou fechada? A diferença é quem escolhe. 📅\n\nAgenda aberta é a que o cliente vê e escolhe o horário livre sozinho, a qualquer hora. Agenda fechada é a que só o barbeiro mexe: o cliente pede e espera a resposta.\n\n• Fechada: o barbeiro responde mensagem no meio do corte, e quem manda mensagem à noite só tem resposta no dia seguinte.\n• Aberta: o horário que o barbeiro bloqueou, como almoço e folga, não aparece para o cliente.\n\nSalva pra decidir como organizar a sua agenda.\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nE você, agenda aberta ou fechada?",
+  "falas": [
+    {
+      "texto": "Agenda aberta ou fechada? A diferença é quem escolhe."
+    },
+    {
+      "texto": "Parece detalhe. Mas muda o seu dia inteiro."
+    },
+    {
+      "texto": "Vem comigo que eu explico."
+    },
+    {
+      "texto": "Agenda aberta é a que o cliente vê."
+    },
+    {
+      "texto": "Ele olha os horários livres e escolhe sozinho."
+    },
+    {
+      "texto": "A qualquer hora do dia ou da noite."
+    },
+    {
+      "texto": "Agenda fechada é a que só o barbeiro mexe."
+    },
+    {
+      "texto": "O cliente pede, e espera a resposta."
+    },
+    {
+      "texto": "Agora, a diferença na prática."
+    },
+    {
+      "texto": "Na fechada, o barbeiro responde mensagem no meio do corte."
+    },
+    {
+      "texto": "Cabelo na mão, celular apitando."
+    },
+    {
+      "texto": "E quem manda mensagem à noite só tem resposta no dia seguinte."
+    },
+    {
+      "texto": "Na aberta, o cliente escolhe e pronto."
+    },
+    {
+      "texto": "E os horários que o barbeiro bloqueou não aparecem pra ele."
+    },
+    {
+      "texto": "Almoço e folga, por exemplo."
+    },
+    {
+      "texto": "Resumindo: aberta, o cliente escolhe. Fechada, o barbeiro responde."
+    },
+    {
+      "texto": "Pronto: agora você sabe a diferença."
+    },
+    {
+      "texto": "Qual cabe na sua barbearia? Depende de quanto você quer parar o corte pra responder."
+    },
+    {
+      "texto": "Uma agenda aberta é um link: o cliente vê só o que está livre."
+    },
+    {
+      "texto": "E ninguém marca em cima do seu descanso."
+    },
+    {
+      "texto": "Esse link existe: é o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena."
+    },
+    {
+      "texto": "O cliente escolhe o serviço, o dia e um horário livre, e confirma."
+    },
+    {
+      "texto": "Sem baixar aplicativo e sem criar conta."
+    },
+    {
+      "texto": "O almoço e a folga você bloqueia, e o horário some do link."
+    },
+    {
+      "texto": "E cada agendamento novo chega como aviso no seu celular."
+    },
+    {
+      "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você. Sem custo."
+    },
+    {
+      "pausa": 0.3,
+      "texto": "Fio. A agenda aberta que respeita seu almoço."
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "E você, agenda aberta ou fechada? Conta aqui."
+    }
+  ],
+  "chaves": [
+    "aberta",
+    "fechada",
+    "bloqueou",
+    "almoço",
+    "link",
+    "monta"
+  ],
+  "ponte": "19",
+  "fio": "21",
+  "cenas": [
+    {
+      "tipo": "compara",
+      "de": "1",
+      "esquerda": {
+        "titulo": "Aberta",
+        "itens": [
+          "Cliente escolhe"
+        ]
+      },
+      "direita": {
+        "titulo": "Fechada",
+        "itens": [
+          "Barbeiro responde"
+        ]
+      },
+      "revela": [
+        "1:aberta",
+        "1:fechada"
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "2",
+      "linhas": [
+        "Muda o seu",
+        "dia inteiro."
+      ],
+      "destaque": [
+        "dia"
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "passos",
+      "de": "4",
+      "titulo": "Agenda aberta",
+      "passos": [
+        {
+          "em": "4",
+          "texto": "O cliente vê os horários"
+        },
+        {
+          "em": "5:livres",
+          "texto": "Escolhe um livre, sozinho"
+        },
+        {
+          "em": "6:qualquer",
+          "texto": "A qualquer hora"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "7",
+      "barbeiro": "rafa",
+      "cliente": "matheus",
+      "mensagens": [
+        {
+          "em": "8:pede",
+          "de": "Diego",
+          "texto": "Tem horário hoje?"
+        },
+        {
+          "em": "8:espera",
+          "de": "Lucas",
+          "texto": "Alô? Tem horário?"
+        }
+      ],
+      "olhaCelular": "8:pede",
+      "reacoes": [
+        {
+          "em": "7:fechada",
+          "boca": "neutra"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "10",
+      "barbeiro": "juninho",
+      "cliente": "davi",
+      "mensagens": [
+        {
+          "em": "10:mensagem",
+          "de": "Pedro",
+          "texto": "Dá pra encaixar hoje?"
+        },
+        {
+          "em": "12:noite",
+          "de": "Caio",
+          "texto": "Tem horário amanhã?"
+        }
+      ],
+      "olhaCelular": "11:celular",
+      "reacoes": [
+        {
+          "em": "11:cabelo",
+          "boca": "torta",
+          "olhar": "celular"
+        },
+        {
+          "em": "11:apitando",
+          "boca": "aberta",
+          "sacode": true
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "de": "13",
+      "titulo": "Na agenda aberta",
+      "passos": [
+        {
+          "em": "13:escolhe",
+          "texto": "Cliente escolhe o horário livre"
+        },
+        {
+          "em": "14:bloqueou",
+          "texto": "O que você bloqueia não aparece"
+        },
+        {
+          "em": "15:Almoço",
+          "texto": "Almoço e folga: ninguém marca"
+        }
+      ]
+    },
+    {
+      "tipo": "compara",
+      "de": "16",
+      "esquerda": {
+        "titulo": "Aberta",
+        "itens": [
+          "Cliente escolhe"
+        ]
+      },
+      "direita": {
+        "titulo": "Fechada",
+        "itens": [
+          "Barbeiro responde"
+        ]
+      },
+      "revela": [
+        "16:aberta",
+        "16:fechada"
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "18",
+      "linhas": [
+        "Qual cabe",
+        "na sua barbearia?"
+      ],
+      "destaque": [
+        "barbearia?"
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "sala",
+      "de": "19",
+      "personagem": "rafa",
+      "reacoes": [
+        {
+          "em": "19:link",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "apresentaFio",
+      "de": "21",
+      "tela": {
+        "nome": "agendamento",
+        "cliente": "Matheus Lima",
+        "hora": "12:10",
+        "toques": {
+          "servico": "22:serviço",
+          "dia": "22:dia",
+          "horario": "22:livre",
+          "nome": "23:aplicativo",
+          "confirmar": "23:conta"
+        }
+      },
+      "frases": [
+        {
+          "em": "21:agenda",
+          "texto": "A sua agenda aberta, pelo link"
+        },
+        {
+          "em": "22:livre",
+          "texto": "Só os horários livres aparecem"
+        },
+        {
+          "em": "23:aplicativo",
+          "texto": "Sem aplicativo e sem conta"
+        }
+      ]
+    },
+    {
+      "tipo": "app",
+      "de": "24",
+      "tela": {
+        "nome": "agenda",
+        "clientes": [
+          {
+            "hora": "09:00",
+            "nome": "Davi Rocha",
+            "servico": "Corte masculino"
+          },
+          {
+            "hora": "10:00",
+            "nome": "Matheus Lima",
+            "servico": "Corte + barba"
+          },
+          {
+            "hora": "14:00",
+            "nome": "José Prado",
+            "servico": "Corte masculino"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "app",
+      "de": "25",
+      "entrada": "subir",
+      "tela": {
+        "nome": "bloqueio",
+        "hora": "10:06",
+        "data": "segunda-feira, 2 de novembro",
+        "avisos": [
+          {
+            "em": "25:aviso",
+            "tipo": "novo",
+            "nome": "Matheus Lima",
+            "servico": "Corte + barba",
+            "quando": "ter 03/11 às 11:00"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "sala",
+      "de": "26",
+      "personagem": "juninho",
+      "reacoes": [
+        {
+          "em": "27:monta",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "de": "28"
+    }
+  ],
+  "extras": [
+    {
+      "tipo": "zap",
+      "em": "26:manda",
+      "ate": "27:fim",
+      "de": "Você",
+      "texto": "@agendafio, segue minha lista de clientes e serviços."
+    },
+    {
+      "tipo": "zap",
+      "em": "27:monta",
+      "ate": "27:fim",
+      "de": "@agendafio",
+      "texto": "Recebido! Em até 2 dias sua agenda fica pronta."
+    }
+  ]
+}

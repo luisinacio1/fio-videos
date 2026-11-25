@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-26-carrossel-horario-morto-quanto-fica-vazio",
+  "tema": "horario-morto-quanto-fica-vazio",
+  "rotulo": "Horário vazio",
+  "legenda": "Quanto da sua agenda fica vazio? Numa barbearia típica, quase metade. 📅\n\nNo levantamento norte-americano da Zenoti, a barbearia típica (a mediana) teve 56% de ocupação do tempo disponível. As 10% melhores chegaram a 75%. E horário morto costuma se repetir: o mesmo dia, a mesma faixa de hora, toda semana. Saber onde estão os buracos é o primeiro passo pra oferecer esse horário a quem pode vir.\n\nSalva o quadro e manda pra outro barbeiro.\n\nFonte: Zenoti, levantamento de tendências de barbearias.\n\nLink na bio pra testar 7 dias grátis.\n\nQual dia da sua semana tem mais horário vazio? Conta aqui.",
+  "slides": [
+    { "tipo": "capa", "titulo": "Quanto da sua agenda fica vazio?", "curiosidade": "A barbearia típica ocupa só 56%.", "ilustracao": { "personagem": "rafa" } },
+    { "tipo": "texto", "titulo": "A barbearia típica ocupa só 56% dos horários", "paragrafos": ["No levantamento norte-americano da Zenoti, a barbearia típica teve 56% de ocupação do tempo disponível.", "As 10% melhores chegaram a 75%."], "puxada": "E o seu horário vazio, onde está?", "fonte": "Zenoti, tendências de barbearias" },
+    { "tipo": "texto", "titulo": "Na sua barbearia, o buraco costuma se repetir", "paragrafos": ["Horário morto costuma se repetir: o mesmo dia, a mesma faixa de hora, toda semana.", "Saber onde estão os buracos é o primeiro passo pra oferecer esse horário a quem pode vir."], "puxada": "Como achar esses buracos?" },
+    { "tipo": "lista", "titulo": "Como achar e ocupar seus horários mortos", "itens": [
+      { "termo": "Anote", "texto": "os horários que sempre sobram." },
+      { "termo": "Compare", "texto": "veja se eles se repetem toda semana." },
+      { "termo": "Ofereça", "texto": "esses horários a quem é flexível." },
+      { "termo": "Divulgue", "texto": "os horários vagos no status." }
+    ], "puxada": "Salve pra lembrar." },
+    { "tipo": "compara", "titulo": "Barbearia típica ou as 10% melhores", "a": { "rotulo": "Típica", "linhas": ["56% do tempo ocupado", "É a mediana do levantamento"] }, "b": { "rotulo": "10% melhores", "linhas": ["75% do tempo ocupado", "Mesmo levantamento"] }, "puxada": "A diferença começa em saber onde sobra." },
+    { "tipo": "tela", "tela": { "nome": "agenda" }, "frase": "No Fio, o dia inteiro fica num lugar só, com os horários vazios à vista." },
+    { "tipo": "fecho", "frase": "Quem vê o buraco na agenda consegue ocupar. O Fio mostra, e a gente monta." }
+  ]
+}

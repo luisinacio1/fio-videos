@@ -1,0 +1,393 @@
+{
+  "id": "2026-11-26-08h-bigode-proibido-e-obrigatorio",
+  "tipo": "curiosidade",
+  "tema": "bigode-proibido-e-obrigatorio",
+  "titulo": "O bigode já foi proibido e obrigatório",
+  "legenda": "Já teve lei mandando raspar o bigode. E depois, lei mandando deixar crescer. 💈\n\nEm 1447, um ato inglês obrigou os homens a raspar o lábio superior. Cerca de 400 anos depois, os soldados ingleses foram proibidos de raspar o bigode. E no Exército britânico, o bigode foi parte obrigatória do uniforme até 1916. Aquela história de que \"bigode\" vem do juramento alemão \"bei Gott\" é popular, mas não tem comprovação.\n\nFontes: verbetes \"Bigode\" (Wikipédia em português) e \"Moustache\" (Wikipédia em inglês).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nE você, bigode ou cara limpa?",
+  "falas": [
+    {
+      "texto": "Já teve lei mandando raspar o bigode."
+    },
+    {
+      "texto": "E depois teve lei mandando deixar crescer."
+    },
+    {
+      "texto": "Bigode já foi proibido. E já foi obrigatório."
+    },
+    {
+      "texto": "Bora ver como isso aconteceu."
+    },
+    {
+      "texto": "Primeiro, a Inglaterra, em 1447."
+    },
+    {
+      "texto": "Naquele ano, um ato inglês obrigou os homens a raspar o lábio superior."
+    },
+    {
+      "texto": "Lábio superior é o lugar onde mora o bigode."
+    },
+    {
+      "texto": "Ou seja: todo mundo sem bigode, por lei."
+    },
+    {
+      "texto": "Agora pula cerca de quatrocentos anos."
+    },
+    {
+      "texto": "Aí a lei virou do avesso."
+    },
+    {
+      "texto": "Os soldados ingleses foram proibidos de raspar o bigode."
+    },
+    {
+      "texto": "Antes, tinha que raspar. Agora, não podia mais."
+    },
+    {
+      "texto": "E no Exército britânico, o bigode virou parte obrigatória do uniforme."
+    },
+    {
+      "texto": "Isso durou até 1916."
+    },
+    {
+      "texto": "Já pensou? Bigode como item de farda."
+    },
+    {
+      "texto": "Agora, uma história que muita gente conta sobre a palavra."
+    },
+    {
+      "texto": "Dizem que bigode vem do juramento alemão: bei Gott."
+    },
+    {
+      "texto": "É uma história popular. Mas não tem comprovação."
+    },
+    {
+      "texto": "Então fica o que dá pra provar: a lei mudou de lado."
+    },
+    {
+      "texto": "Hoje, bigode é escolha sua."
+    },
+    {
+      "texto": "O horário com o barbeiro também deveria ser: sem ficar esperando ele responder."
+    },
+    {
+      "texto": "Pra isso existe o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena."
+    },
+    {
+      "texto": "O cliente abre o link, escolhe o serviço e vê só os horários livres."
+    },
+    {
+      "texto": "Coloca o nome, confirma, e o horário cai na sua agenda. Sem baixar aplicativo."
+    },
+    {
+      "texto": "No seu celular, chega o aviso: novo agendamento. Você nem parou o corte."
+    },
+    {
+      "texto": "Na véspera, a mensagem do lembrete já vem pronta. Você aperta enviar. Um toque."
+    },
+    {
+      "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você. Sem custo."
+    },
+    {
+      "pausa": 0.3,
+      "texto": "Fio. O horário sem esperar resposta."
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "E você, bigode ou cara limpa? Conta aqui."
+    }
+  ],
+  "chaves": [
+    "Inglaterra",
+    "soldados",
+    "uniforme",
+    "comprovação",
+    "link",
+    "monta"
+  ],
+  "ponte": "20",
+  "fio": "22",
+  "cenas": [
+    {
+      "tipo": "barbearia",
+      "de": "1",
+      "barbeiro": "rafa",
+      "cliente": "ze",
+      "reacoes": [
+        {
+          "em": "1:raspar",
+          "boca": "aberta",
+          "sacode": true
+        },
+        {
+          "em": "2:crescer",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "3",
+      "linhas": [
+        "Proibido.",
+        "E obrigatório."
+      ],
+      "destaque": [
+        "obrigatório."
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "barbeariaAntiga",
+      "de": "5",
+      "barbeiro": "rafa",
+      "cliente": "ze",
+      "ano": "1447",
+      "reacoes": [
+        {
+          "em": "6:ato",
+          "boca": "aberta",
+          "sacode": true
+        },
+        {
+          "em": "6:raspar",
+          "boca": "torta"
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "de": "7",
+      "titulo": "Ato inglês de 1447",
+      "passos": [
+        {
+          "em": "7",
+          "texto": "Lábio superior: onde mora o bigode"
+        },
+        {
+          "em": "8:sem",
+          "texto": "Todo mundo sem bigode"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "9",
+      "linhas": [
+        "anos depois,",
+        "a lei vira."
+      ],
+      "destaque": [
+        "vira."
+      ],
+      "fundo": "escuro",
+      "numero": {
+        "de": 0,
+        "ate": 400,
+        "prefixo": "~",
+        "em": "9:quatrocentos"
+      }
+    },
+    {
+      "tipo": "compara",
+      "de": "11",
+      "esquerda": {
+        "titulo": "1447",
+        "itens": [
+          "Tinha que raspar"
+        ]
+      },
+      "direita": {
+        "titulo": "Soldados",
+        "itens": [
+          "Proibido raspar"
+        ]
+      },
+      "revela": [
+        "12:antes",
+        "12:agora"
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "13",
+      "linhas": [
+        "Bigode:",
+        "parte do uniforme."
+      ],
+      "destaque": [
+        "uniforme."
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "barbeariaAntiga",
+      "de": "15",
+      "barbeiro": "rafa",
+      "cliente": "carlos",
+      "ano": "1916",
+      "reacoes": [
+        {
+          "em": "15:farda",
+          "boca": "sorriso"
+        }
+      ]
+    },
+    {
+      "tipo": "compara",
+      "de": "16",
+      "esquerda": {
+        "titulo": "Popular",
+        "itens": [
+          "Vem de bei Gott"
+        ]
+      },
+      "direita": {
+        "titulo": "Provado",
+        "itens": [
+          "Sem comprovação"
+        ]
+      },
+      "revela": [
+        "17:juramento",
+        "18:comprovação"
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "19",
+      "linhas": [
+        "A lei mudou",
+        "de lado."
+      ],
+      "destaque": [
+        "lado."
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "barbearia",
+      "de": "20",
+      "barbeiro": "juninho",
+      "cliente": "davi",
+      "mensagens": [
+        {
+          "em": "21:esperando",
+          "de": "Diego",
+          "texto": "Tem horário hoje?"
+        },
+        {
+          "em": "21:responder",
+          "de": "Lucas",
+          "texto": "Alô? Tem horário?"
+        }
+      ],
+      "olhaCelular": "21:esperando",
+      "reacoes": [
+        {
+          "em": "20:escolha",
+          "boca": "sorriso"
+        }
+      ]
+    },
+    {
+      "tipo": "apresentaFio",
+      "de": "22",
+      "tela": {
+        "nome": "agendamento",
+        "cliente": "Diego Souza",
+        "hora": "10:05",
+        "toques": {
+          "servico": "23:link",
+          "dia": "23:escolhe",
+          "horario": "23:livres",
+          "nome": "24:nome",
+          "confirmar": "24:confirma"
+        }
+      },
+      "frases": [
+        {
+          "em": "22:agenda",
+          "texto": "A agenda do barbeiro"
+        },
+        {
+          "em": "23:livres",
+          "texto": "Só os horários livres aparecem"
+        },
+        {
+          "em": "24:aplicativo",
+          "texto": "Sem aplicativo e sem conta"
+        }
+      ]
+    },
+    {
+      "tipo": "app",
+      "de": "25",
+      "tela": {
+        "nome": "bloqueio",
+        "hora": "10:06",
+        "data": "segunda-feira, 2 de novembro",
+        "avisos": [
+          {
+            "em": "25:aviso",
+            "tipo": "novo",
+            "nome": "Diego Souza",
+            "servico": "Corte masculino",
+            "quando": "seg 02/11 às 15:00"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "app",
+      "de": "26",
+      "entrada": "subir",
+      "tela": {
+        "nome": "lembretes",
+        "toques": [
+          {
+            "toque": "26:pronta",
+            "enviar": "26:enviar"
+          }
+        ],
+        "todos": "26:toque"
+      }
+    },
+    {
+      "tipo": "sala",
+      "de": "27",
+      "personagem": "juninho",
+      "reacoes": [
+        {
+          "em": "28:monta",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "de": "29"
+    }
+  ],
+  "extras": [
+    {
+      "tipo": "zap",
+      "em": "27:manda",
+      "ate": "28:fim",
+      "de": "Você",
+      "texto": "@agendafio, segue minha lista de clientes e serviços."
+    },
+    {
+      "tipo": "zap",
+      "em": "28:monta",
+      "ate": "28:fim",
+      "de": "@agendafio",
+      "texto": "Recebido! Em até 2 dias sua agenda fica pronta."
+    }
+  ]
+}

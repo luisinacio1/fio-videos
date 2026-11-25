@@ -1,0 +1,418 @@
+{
+  "id": "2026-11-26-13h-sair-do-caderno",
+  "tipo": "dica",
+  "tema": "sair-do-caderno",
+  "titulo": "O que juntar antes de trocar o caderno por uma agenda no celular",
+  "legenda": "Quer largar o caderno? Junte três coisas antes. 📒\n\n1. A lista de clientes, com nome e telefone, mesmo que esteja espalhada no caderno e no WhatsApp.\n2. Os serviços, cada um com o preço e quanto tempo leva.\n3. Fotos dos cortes que você mais faz.\n\nSalva pra usar quando for trocar o caderno pela agenda.\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nQual é a idade do seu caderno de agenda?",
+  "falas": [
+    {
+      "texto": "Quer largar o caderno? Junte três coisas antes."
+    },
+    {
+      "texto": "É rápido, e a troca fica bem mais fácil."
+    },
+    {
+      "texto": "Salva esse vídeo, que você vai precisar."
+    },
+    {
+      "texto": "Primeira: a lista de clientes."
+    },
+    {
+      "texto": "Com o nome e o telefone de cada um."
+    },
+    {
+      "texto": "Mesmo que esteja espalhada."
+    },
+    {
+      "texto": "Um pedaço no caderno, outro no WhatsApp."
+    },
+    {
+      "texto": "Junta tudo num lugar só."
+    },
+    {
+      "texto": "Segunda: os serviços."
+    },
+    {
+      "texto": "Escreva cada serviço com o preço."
+    },
+    {
+      "texto": "E com quanto tempo ele leva."
+    },
+    {
+      "texto": "Cada serviço tem o seu preço e o seu tempo."
+    },
+    {
+      "texto": "Terceira: fotos dos cortes."
+    },
+    {
+      "texto": "Separe fotos dos cortes que você mais faz."
+    },
+    {
+      "texto": "São os que mais saem da sua cadeira."
+    },
+    {
+      "texto": "Recapitulando: lista de clientes, serviços com preço e tempo, e fotos."
+    },
+    {
+      "texto": "Com essas três coisas na mão, trocar o caderno deixa de ser um bicho de sete cabeças."
+    },
+    {
+      "texto": "Não precisa estar tudo arrumado."
+    },
+    {
+      "texto": "O importante é ter tudo à mão antes de começar."
+    },
+    {
+      "texto": "Um tempinho juntando isso hoje poupa muita dor de cabeça depois."
+    },
+    {
+      "texto": "Juntou as três coisas? Então a parte difícil já foi."
+    },
+    {
+      "texto": "O caderno não te avisa que alguém marcou às 23h. Uma agenda no celular avisa."
+    },
+    {
+      "texto": "Pra isso existe o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena."
+    },
+    {
+      "texto": "O cliente marca pelo link, vê só os horários livres e confirma."
+    },
+    {
+      "texto": "E no seu celular chega o aviso: novo agendamento."
+    },
+    {
+      "texto": "Na véspera, às seis da tarde, chega a lista de quem lembrar."
+    },
+    {
+      "texto": "A mensagem vem pronta. Você aperta enviar no WhatsApp. Um toque."
+    },
+    {
+      "texto": "Já juntou a lista, os serviços e as fotos? Manda tudo pra gente no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você, em até dois dias. Sem custo."
+    },
+    {
+      "pausa": 0.3,
+      "texto": "Fio. Seu caderno pode descansar."
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "Qual é a idade do seu caderno de agenda? Conta aqui."
+    }
+  ],
+  "chaves": [
+    "clientes",
+    "telefone",
+    "serviços",
+    "fotos",
+    "celular",
+    "monta"
+  ],
+  "ponte": "21",
+  "fio": "23",
+  "cenas": [
+    {
+      "tipo": "sala",
+      "de": "1",
+      "personagem": "rafa",
+      "reacoes": [
+        {
+          "em": "1:caderno",
+          "boca": "aberta",
+          "olhar": "frente"
+        },
+        {
+          "em": "2:rápido",
+          "boca": "sorriso"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "3",
+      "linhas": [
+        "Três coisas",
+        "antes de largar",
+        "o caderno."
+      ],
+      "destaque": [
+        "Três"
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "passos",
+      "de": "4",
+      "titulo": "1. Lista de clientes",
+      "passos": [
+        {
+          "em": "4",
+          "texto": "O nome de cada cliente"
+        },
+        {
+          "em": "5:telefone",
+          "texto": "O telefone de cada um"
+        },
+        {
+          "em": "6:espalhada",
+          "texto": "Mesmo espalhada"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "7",
+      "linhas": [
+        "Caderno aqui,",
+        "WhatsApp ali."
+      ],
+      "destaque": [
+        "WhatsApp"
+      ],
+      "fundo": "claro"
+    },
+    {
+      "tipo": "passos",
+      "de": "9",
+      "titulo": "2. Os serviços",
+      "passos": [
+        {
+          "em": "9",
+          "texto": "Cada serviço"
+        },
+        {
+          "em": "10:preço",
+          "texto": "Com o preço"
+        },
+        {
+          "em": "11:quanto",
+          "texto": "E quanto tempo leva"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "12",
+      "linhas": [
+        "Cada serviço",
+        "tem preço e tempo."
+      ],
+      "destaque": [
+        "tempo."
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "corte",
+      "de": "13",
+      "personagem": "davi",
+      "estilos": [
+        {
+          "em": "13",
+          "estilo": "topete",
+          "rotulo": "Foto do topete"
+        },
+        {
+          "em": "14:cortes",
+          "estilo": "social",
+          "rotulo": "Foto do social"
+        },
+        {
+          "em": "15:cadeira",
+          "estilo": "degrade-medio",
+          "rotulo": "Foto do degradê"
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "de": "16",
+      "titulo": "Antes de largar o caderno",
+      "passos": [
+        {
+          "em": "16:clientes",
+          "texto": "Lista de clientes"
+        },
+        {
+          "em": "16:serviços",
+          "texto": "Serviços: preço e tempo"
+        },
+        {
+          "em": "16:fotos",
+          "texto": "Fotos dos cortes"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "17",
+      "linhas": [
+        "Três coisas",
+        "na mão."
+      ],
+      "destaque": [
+        "mão."
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "sala",
+      "de": "18",
+      "personagem": "juninho",
+      "reacoes": [
+        {
+          "em": "19:importante",
+          "boca": "sorriso",
+          "olhar": "frente"
+        },
+        {
+          "em": "20:tempinho",
+          "boca": "aberta"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "21",
+      "barbeiro": "rafa",
+      "cliente": "matheus",
+      "mensagens": [
+        {
+          "em": "22:23h",
+          "de": "Diego",
+          "texto": "Marca pra amanhã?"
+        }
+      ],
+      "olhaCelular": "22:avisa",
+      "reacoes": [
+        {
+          "em": "21:parte",
+          "boca": "sorriso"
+        }
+      ]
+    },
+    {
+      "tipo": "apresentaFio",
+      "de": "23",
+      "tela": {
+        "nome": "agendamento",
+        "cliente": "Diego Souza",
+        "hora": "09:30",
+        "toques": {
+          "servico": "23:barbeiro",
+          "dia": "24:marca",
+          "horario": "24:livres",
+          "confirmar": "24:confirma"
+        }
+      },
+      "frases": [
+        {
+          "em": "23:agenda",
+          "texto": "A agenda do barbeiro"
+        },
+        {
+          "em": "24:livres",
+          "texto": "Só os horários livres aparecem"
+        },
+        {
+          "em": "24:confirma",
+          "texto": "Confirmou? Cai na sua agenda"
+        }
+      ]
+    },
+    {
+      "tipo": "app",
+      "de": "25",
+      "tela": {
+        "nome": "agenda",
+        "clientes": [
+          {
+            "hora": "09:00",
+            "nome": "Davi Rocha",
+            "servico": "Corte masculino"
+          },
+          {
+            "hora": "10:00",
+            "nome": "Diego Souza",
+            "servico": "Corte masculino"
+          },
+          {
+            "hora": "11:00",
+            "nome": "José Prado",
+            "servico": "Corte masculino"
+          }
+        ],
+        "destaque": {
+          "nome": "Diego Souza",
+          "em": "25:novo"
+        }
+      }
+    },
+    {
+      "tipo": "app",
+      "de": "26",
+      "tela": {
+        "nome": "bloqueio",
+        "hora": "18:00",
+        "data": "segunda-feira, 2 de novembro",
+        "avisos": [
+          {
+            "em": "26:seis",
+            "tipo": "lembretes",
+            "quantidade": 4
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "app",
+      "de": "27",
+      "entrada": "subir",
+      "tela": {
+        "nome": "lembretes",
+        "toques": [
+          {
+            "toque": "27:pronta",
+            "enviar": "27:enviar"
+          }
+        ],
+        "todos": "27:toque"
+      }
+    },
+    {
+      "tipo": "sala",
+      "de": "28",
+      "personagem": "juninho",
+      "reacoes": [
+        {
+          "em": "29:monta",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "de": "30"
+    }
+  ],
+  "extras": [
+    {
+      "tipo": "zap",
+      "em": "28:manda",
+      "ate": "29:fim",
+      "de": "Você",
+      "texto": "@agendafio, segue minha lista de clientes e serviços."
+    },
+    {
+      "tipo": "zap",
+      "em": "29:monta",
+      "ate": "29:fim",
+      "de": "@agendafio",
+      "texto": "Recebido! Em até 2 dias sua agenda fica pronta."
+    }
+  ]
+}

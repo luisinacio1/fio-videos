@@ -1,0 +1,368 @@
+{
+  "id": "2026-11-26-11h-soldados-sem-barba",
+  "tipo": "atracao-2d",
+  "tema": "soldados-sem-barba",
+  "titulo": "Por que os soldados antigos tiravam a barba",
+  "legenda": "Alexandre, o Grande, tinha medo de puxão de barba. 💈\n\nAlexandre incentivava os soldados macedônios a raspar a barba antes da batalha, com medo de que o inimigo agarrasse. Na Grécia, raspar a barba só ficou popular depois do exemplo dele. Em Roma, Cipião, o Africano, foi pelo jeito o primeiro romano a raspar. Séculos depois, o imperador Adriano foi o primeiro a usar barba cheia; segundo Plutarco, para esconder cicatrizes.\n\nFontes: verbetes \"Shaving\" e \"Beard\" (Wikipédia em inglês).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nE você, raspa a barba ou deixa crescer?",
+  "falas": [
+    {
+      "texto": "Alexandre, o Grande, tinha medo de puxão de barba."
+    },
+    {
+      "texto": "Parece piada, mas virou ordem pro exército inteiro."
+    },
+    {
+      "texto": "Por que os soldados antigos tiravam a barba?"
+    },
+    {
+      "texto": "Bora voltar na história."
+    },
+    {
+      "texto": "Estamos com Alexandre, o Grande, e os soldados macedônios."
+    },
+    {
+      "texto": "Antes da batalha, ele incentivava todos a raspar a barba."
+    },
+    {
+      "texto": "O motivo? Medo de que o inimigo agarrasse."
+    },
+    {
+      "texto": "Barba comprida é um puxador de graça."
+    },
+    {
+      "texto": "Barba raspada? Nada pra agarrar."
+    },
+    {
+      "texto": "E o exemplo pegou. Na Grécia, raspar a barba só ficou popular depois de Alexandre."
+    },
+    {
+      "texto": "Ou seja: foi um general que mudou a moda."
+    },
+    {
+      "texto": "Agora vamos pra Roma."
+    },
+    {
+      "texto": "Lá, Cipião, o Africano, foi pelo jeito o primeiro romano a raspar a barba."
+    },
+    {
+      "texto": "Pelo jeito, porque ninguém garante."
+    },
+    {
+      "texto": "Séculos depois, a moda virou de novo."
+    },
+    {
+      "texto": "O imperador Adriano foi o primeiro a usar barba cheia."
+    },
+    {
+      "texto": "E por quê? Segundo Plutarco, para esconder cicatrizes."
+    },
+    {
+      "texto": "Barba raspada, barba cheia: tudo já foi moda, e tudo já teve motivo."
+    },
+    {
+      "texto": "Barba já foi estratégia de guerra."
+    },
+    {
+      "texto": "Hoje, a estratégia do barbeiro é outra: lembrar o cliente na véspera, com a mensagem pronta."
+    },
+    {
+      "texto": "Pra isso existe o Fio, a agenda do barbeiro."
+    },
+    {
+      "texto": "Todo dia, às seis da tarde, chega o aviso: lembretes de amanhã."
+    },
+    {
+      "texto": "A mensagem vem pronta. Você aperta enviar no WhatsApp. Um toque por cliente."
+    },
+    {
+      "texto": "O cliente marca sozinho pelo link e só vê os horários livres."
+    },
+    {
+      "texto": "Não vai dar? Ele cancela ou remarca pelo link, e você recebe o aviso."
+    },
+    {
+      "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você. Sem custo."
+    },
+    {
+      "pausa": 0.3,
+      "texto": "Fio. Cada cliente lembrado em um toque."
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "E você, raspa a barba ou deixa crescer? Conta aqui."
+    }
+  ],
+  "chaves": [
+    "Alexandre",
+    "agarrasse",
+    "Cipião",
+    "Adriano",
+    "cicatrizes",
+    "lembretes"
+  ],
+  "ponte": "19",
+  "fio": "21",
+  "cenas": [
+    {
+      "tipo": "objeto",
+      "de": "1",
+      "objeto": "navalha",
+      "fundo": "escuro",
+      "etiquetas": [
+        {
+          "em": "1:medo",
+          "texto": "Medo de puxão"
+        },
+        {
+          "em": "2:ordem",
+          "texto": "Ordem: raspar a barba"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "3",
+      "linhas": [
+        "Por que tiravam",
+        "a barba?"
+      ],
+      "destaque": [
+        "barba?"
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "barbeariaAntiga",
+      "de": "5",
+      "barbeiro": "rafa",
+      "cliente": "ze",
+      "ano": "sempre",
+      "reacoes": [
+        {
+          "em": "6:raspar",
+          "boca": "aberta",
+          "sacode": true
+        },
+        {
+          "em": "7:medo",
+          "boca": "torta"
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "de": "8",
+      "titulo": "Barba na batalha",
+      "passos": [
+        {
+          "em": "8:puxador",
+          "texto": "Barba comprida: o inimigo agarra"
+        },
+        {
+          "em": "9:raspada",
+          "texto": "Raspada: nada pra agarrar"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "10",
+      "linhas": [
+        "Depois de Alexandre,",
+        "raspar virou moda."
+      ],
+      "destaque": [
+        "moda."
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "linhaDoTempo",
+      "de": "12",
+      "marcos": [
+        {
+          "em": "12",
+          "ano": "Grécia",
+          "texto": "Raspar vira moda",
+          "objeto": "navalha"
+        },
+        {
+          "em": "13:Cipião",
+          "ano": "Roma",
+          "texto": "Cipião raspa a barba",
+          "objeto": "tesoura"
+        },
+        {
+          "em": "16:Adriano",
+          "ano": "Séculos depois",
+          "texto": "Adriano usa barba cheia",
+          "objeto": "pente"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "17",
+      "linhas": [
+        "Barba cheia",
+        "pra esconder",
+        "cicatrizes."
+      ],
+      "destaque": [
+        "cicatrizes."
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "barbeariaAntiga",
+      "de": "18",
+      "barbeiro": "rafa",
+      "cliente": "carlos",
+      "ano": "sempre",
+      "reacoes": [
+        {
+          "em": "18:moda",
+          "boca": "sorriso"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "19",
+      "barbeiro": "juninho",
+      "cliente": "matheus",
+      "mensagens": [
+        {
+          "em": "20:lembrar",
+          "de": "Diego",
+          "texto": "Que horas era mesmo?"
+        },
+        {
+          "em": "20:véspera",
+          "de": "Lucas",
+          "texto": "Tô com horário amanhã?"
+        }
+      ],
+      "olhaCelular": "20:lembrar",
+      "reacoes": [
+        {
+          "em": "19:guerra",
+          "boca": "aberta"
+        }
+      ]
+    },
+    {
+      "tipo": "apresentaFio",
+      "de": "21",
+      "tela": {
+        "nome": "bloqueio",
+        "hora": "18:00",
+        "data": "segunda-feira, 2 de novembro",
+        "avisos": [
+          {
+            "em": "22:lembretes",
+            "tipo": "lembretes",
+            "quantidade": 4
+          }
+        ]
+      },
+      "frases": [
+        {
+          "em": "21:agenda",
+          "texto": "A agenda do barbeiro"
+        },
+        {
+          "em": "22:seis",
+          "texto": "Todo dia, às 18h"
+        },
+        {
+          "em": "22:lembretes",
+          "texto": "Lembretes de amanhã"
+        }
+      ]
+    },
+    {
+      "tipo": "app",
+      "de": "23",
+      "entrada": "subir",
+      "tela": {
+        "nome": "lembretes",
+        "toques": [
+          {
+            "toque": "23:pronta",
+            "enviar": "23:enviar"
+          }
+        ],
+        "todos": "23:toque"
+      }
+    },
+    {
+      "tipo": "app",
+      "de": "24",
+      "tela": {
+        "nome": "agendamento",
+        "cliente": "Diego Souza",
+        "hora": "09:30",
+        "toques": {
+          "servico": "24:marca",
+          "dia": "24:sozinho",
+          "horario": "24:livres"
+        }
+      }
+    },
+    {
+      "tipo": "app",
+      "de": "25",
+      "tela": {
+        "nome": "bloqueio",
+        "hora": "09:41",
+        "data": "segunda-feira, 2 de novembro",
+        "avisos": [
+          {
+            "em": "25:recebe",
+            "tipo": "cancelado",
+            "nome": "Diego Souza",
+            "quando": "ter 03/11 às 11:00"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "sala",
+      "de": "26",
+      "personagem": "rafa",
+      "reacoes": [
+        {
+          "em": "27:monta",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "de": "28"
+    }
+  ],
+  "extras": [
+    {
+      "tipo": "zap",
+      "em": "26:manda",
+      "ate": "27:fim",
+      "de": "Você",
+      "texto": "@agendafio, segue minha lista de clientes e serviços."
+    },
+    {
+      "tipo": "zap",
+      "em": "27:monta",
+      "ate": "27:fim",
+      "de": "@agendafio",
+      "texto": "Recebido! Em até 2 dias sua agenda fica pronta."
+    }
+  ]
+}
