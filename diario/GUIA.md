@@ -1,11 +1,12 @@
 # Guia dos vídeos diários do Fio
 
-Todo dia saem **5 vídeos**: 2 de atração (um em 2D e um em 3D) e 3 informativos (uma curiosidade, uma dica e um
+Todo dia saem **5 vídeos**, todos em 2D: 2 de atração e 3 informativos (uma curiosidade, uma dica e um
 conceito). Cada roteiro é um JSON que o motor transforma em vídeo: voz grátis, cenários desenhados, telas reais do app,
 legenda dinâmica e música. O passo a passo do dia está em `diario/ROTINA.md`.
 
 - **O padrão de qualidade são os 5 pilotos aprovados pelo dono**, em `diario/pilotos/`: `atracao-2d.json`,
-  `atracao-3d.json`, `curiosidade.json`, `dica.json` e `conceito.json`. Antes de escrever, abra o piloto do mesmo tipo
+  `curiosidade.json`, `dica.json` e `conceito.json`. **Não há mais vídeo 3D** (o dono pediu para parar: não estavam
+  bons nem performando); ignore `atracao-3d.json` e a seção "Vídeo 3D". Antes de escrever, abra o piloto do mesmo tipo
   e copie o jeito dele: o tamanho, o ritmo, a ponte, a parte do Fio e o fecho.
 - Os exemplos curtos de cada peça estão em `diario/teste/pecas/`.
 - O formato completo do 2D está em `src/motor/roteiro.ts`. O do 3D está em `src/custo3d/atracao.ts` (planos) e
@@ -20,7 +21,7 @@ Todos os caminhos deste guia são a partir da pasta dos vídeos (a que tem `diar
 | 8h | Informativo | `curiosidade`, `dica` ou `conceito` | 2D | `scripts/motor/fazer.mjs` |
 | 11h | Atração 2D | `atracao-2d` | 2D | `scripts/motor/fazer.mjs` |
 | 13h | Informativo | `curiosidade`, `dica` ou `conceito` | 2D | `scripts/motor/fazer.mjs` |
-| 18h | Atração 3D | `atracao-3d` | 3D | `scripts/motor/fazer-3d.mjs` |
+| 18h | Atração 2D (a segunda do dia, outro tema) | `atracao-2d` | 2D | `scripts/motor/fazer.mjs` |
 | 21h | Informativo | `curiosidade`, `dica` ou `conceito` | 2D | `scripts/motor/fazer.mjs` |
 
 - Os 3 informativos do dia são **um de cada tipo**: uma `curiosidade`, uma `dica` e um `conceito`. A ordem gira de um
@@ -30,7 +31,6 @@ Todos os caminhos deste guia são a partir da pasta dos vídeos (a que tem `diar
 O que é cada tipo:
 
 - **Atração:** produção maior, contada como história ou minidocumentário. Em 2D, com personagens, cenários e objetos.
-  Em 3D, com objetos girando, abrindo por dentro, a barbearia de 1920 virando a de hoje ou o "Quanto custa montar".
 - **Curiosidade:** um fato surpreendente e verdadeiro, com fonte.
 - **Dica:** algo prático que a pessoa usa hoje ("Como pedir o corte que você quer sem dar errado").
 - **Conceito:** explica um termo ou uma ideia ("Degradê baixo, médio e alto: qual a diferença?").

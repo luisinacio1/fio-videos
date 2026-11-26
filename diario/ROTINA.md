@@ -14,9 +14,8 @@ sempre é **amanhã** (a rotina prepara o dia seguinte). Nos comandos abaixo, **
 **Os ids nos comandos.** Onde um comando tiver `<tema>` ou `<id>`, troque pelo valor real antes de rodar: `<tema>` é o
 id do tema (ex.: `poste-por-dentro`) e `<id>` é o id do vídeo (ex.: `2026-11-20-18h-poste-por-dentro`).
 
-**O tempo.** O trabalho inteiro tem um limite de 3 horas, contando a instalação. O 3D é o mais lento: ele é escrito e
-começa a renderizar primeiro, e roda em segundo plano enquanto você escreve os outros. **Passadas 2 horas e 10
-minutos do começo**, pare as revisões e publique o que estiver pronto (veja "Se algo der errado").
+**O tempo.** O trabalho inteiro tem um limite de 3 horas, contando a instalação. Os vídeos renderizam em segundo plano
+enquanto você faz os stories e o carrossel. **Passadas 2 horas e 10 minutos do começo**, pare as revisões e publique o que estiver pronto (veja "Se algo der errado").
 
 ## O dia
 
@@ -25,7 +24,7 @@ minutos do começo**, pare as revisões e publique o que estiver pronto (veja "S
 | 8h | `diario/$DIA/08h.json` | informativo A | 2D | `$DIA-08h-<tema>` |
 | 11h | `diario/$DIA/11h.json` | `atracao-2d` | 2D | `$DIA-11h-<tema>` |
 | 13h | `diario/$DIA/13h.json` | informativo B | 2D | `$DIA-13h-<tema>` |
-| 18h | `diario/$DIA/18h.json` | `atracao-3d` | 3D | `$DIA-18h-<tema>` |
+| 18h | `diario/$DIA/18h.json` | `atracao-2d` (a segunda do dia) | 2D | `$DIA-18h-<tema>` |
 | 21h | `diario/$DIA/21h.json` | informativo C | 2D | `$DIA-21h-<tema>` |
 
 `<tema>` é o `id` do tema no banco, igualzinho. O roteiro também leva `"tema": "<id do tema>"`.
@@ -44,7 +43,11 @@ node -e 'const [a,m,d]=process.argv[1].split("-").map(Number);const n=(Date.UTC(
 
 Exemplo: 2026-11-20 é o dia 324 do ano, resto 0: 8h curiosidade, 13h dica, 21h conceito.
 
-**Cada tipo sai uma vez só no dia.** Nunca repita um tipo para cobrir outro horário.
+**Cada tipo sai uma vez só no dia**, menos a atração 2D, que sai duas vezes (11h e 18h) com **temas diferentes**. Nunca
+repita um tipo para cobrir outro horário.
+
+**Sem 3D.** O dono pediu para parar os vídeos 3D (não estavam bons nem performando). Não use `fazer-3d.mjs`, os temas
+`atracao-3d` nem a seção "Vídeo 3D" do GUIA.
 
 ## Passo a passo
 
@@ -65,7 +68,6 @@ Exemplo: 2026-11-20 é o dia 324 do ano, resto 0: 8h curiosidade, 13h dica, 21h 
 Para cada tipo do dia, liste os temas livres:
 
 ```sh
-node scripts/motor/banco.mjs livres atracao-3d $DIA
 node scripts/motor/banco.mjs livres atracao-2d $DIA
 node scripts/motor/banco.mjs livres curiosidade $DIA
 node scripts/motor/banco.mjs livres dica $DIA
@@ -85,45 +87,17 @@ pela fila do Instagram e pelos temas dos pilotos, presos até 12/01/2027). Regra
   do poste (a história do sangue e a ilusão das listras) são temas diferentes, mas não saem perto um do outro. Se a
   regra do objeto deixar a lista de um tipo sem opção, ela cede: escolha o tema livre cujo objeto saiu há mais tempo.
 - Varie as telas do Fio entre os vídeos do dia (o campo `tela` dos temas).
-- No 18h, olhe o `pecas` do tema: `montar` usa o formato "Quanto custa montar"; os outros (`vitrine`, `porDentro`,
-  `viagemNoTempo`) usam o vídeo de planos (veja "Vídeo 3D" no GUIA).
+- As duas atrações (11h e 18h) saem da mesma lista `atracao-2d`, com temas e assuntos diferentes.
 
-### 3. O 18h (3D) primeiro
-
-1. Leia `src/custo3d/atracao.ts` (vídeo de planos) ou, se o tema for `montar`, `src/custo3d/roteiro.ts` e
-   `diario/precos-3d.json`.
-2. Escreva `diario/$DIA/18h.json`, seguindo o piloto `diario/pilotos/atracao-3d.json` e a seção "Vídeo 3D" do GUIA.
-   Escreva 3 ganchos e fique com o mais forte.
-3. Confira a voz e os tempos:
-
-   ```sh
-   node scripts/motor/fazer-3d.mjs diario/$DIA/18h.json --so-voz
-   ```
-
-   Ele gera as telas do app, a voz, mostra o tempo de cada fala e, no fim, a linha
-   `conteúdo … s · ponte … s · Fio … s · total … s`. Se aparecer `✗`, corrija o roteiro e rode de novo. Corrija também
-   se os tempos dessa linha estiverem fora das metas do GUIA (conteúdo 45 a 100 s, ponte 5 a 10 s, Fio 20 a 30 s,
-   total 75 a 140 s), mesmo sem `✗`.
-4. Comece os quadros de conferência **em segundo plano** (assim você escreve os outros enquanto ele trabalha). Troque
-   `<id>` pelo id do vídeo (ex.: `2026-11-20-18h-poste-por-dentro`):
-
-   ```sh
-   rm -rf out/motor/<id>
-   nohup sh -c 'node scripts/motor/fazer-3d.mjs diario/$DIA/18h.json --so-quadros --telas-prontas; echo "FIM: código $?"' > out/log-18h.txt 2>&1 < /dev/null &
-   echo $! > out/pid-18h.txt
-   ```
-
-   (`--telas-prontas` usa as telas que o `--so-voz` já gerou.)
-
-### 4. Os 4 vídeos 2D
+### 3. Os 5 vídeos 2D
 
 1. Leia `src/motor/roteiro.ts`.
-2. Escreva `diario/$DIA/08h.json`, `11h.json`, `13h.json` e `21h.json`, cada um com o `tipo` do seu horário, seguindo
+2. Escreva `diario/$DIA/08h.json`, `11h.json`, `13h.json`, `18h.json` e `21h.json`, cada um com o `tipo` do seu horário, seguindo
    o piloto do mesmo tipo e o GUIA. Para cada um, escreva 3 ganchos e fique com o mais forte.
-3. Confira a voz e os tempos dos 4 de uma vez:
+3. Confira a voz e os tempos dos 5 de uma vez:
 
    ```sh
-   node scripts/motor/fazer.mjs diario/$DIA/08h.json diario/$DIA/11h.json diario/$DIA/13h.json diario/$DIA/21h.json --so-voz
+   node scripts/motor/fazer.mjs diario/$DIA/08h.json diario/$DIA/11h.json diario/$DIA/13h.json diario/$DIA/18h.json diario/$DIA/21h.json --so-voz
    ```
 
    Para cada roteiro, ele mostra o tempo de cada fala e, no fim, a linha `conteúdo … s · ponte … s · Fio … s · total
@@ -134,25 +108,24 @@ pela fila do Instagram e pelos temas dos pilotos, presos até 12/01/2027). Regra
    quebrar, os outros continuam. Troque cada `<id>` pelo id do vídeo:
 
    ```sh
-   rm -rf out/motor/<id do 08h> out/motor/<id do 11h> out/motor/<id do 13h> out/motor/<id do 21h>
-   nohup sh -c 'for h in 08h 11h 13h 21h; do echo "▶▶ $h"; node scripts/motor/fazer.mjs diario/$DIA/$h.json --quadros; echo "FIM $h: código $?"; done; echo "FIM: tudo"' > out/log-2d.txt 2>&1 < /dev/null &
+   rm -rf out/motor/<id do 08h> out/motor/<id do 11h> out/motor/<id do 13h> out/motor/<id do 18h> out/motor/<id do 21h>
+   nohup sh -c 'for h in 08h 11h 13h 18h 21h; do echo "▶▶ $h"; node scripts/motor/fazer.mjs diario/$DIA/$h.json --quadros; echo "FIM $h: código $?"; done; echo "FIM: tudo"' > out/log-2d.txt 2>&1 < /dev/null &
    echo $! > out/pid-2d.txt
    ```
 
    Nesse comando, troque `$DIA` pela data escrita (ex.: `diario/2026-11-20/$h.json`); o `$h` fica como está.
 
-   Tire da lista `08h 11h 13h 21h` o horário que ficou sem tema.
+   Tire da lista `08h 11h 13h 18h 21h` o horário que ficou sem tema.
 
 ### Como esperar um trabalho em segundo plano
 
 Não use laços de `sleep`. Espere assim (nessa chamada, use o tempo de espera máximo da ferramenta, 600000 ms):
 
 ```sh
-timeout 540 tail --pid=$(cat out/pid-18h.txt) -f /dev/null; tail -n 20 out/log-18h.txt
+timeout 540 tail --pid=$(cat out/pid-2d.txt) -f /dev/null; tail -n 20 out/log-2d.txt
 ```
 
 Ele volta quando o trabalho termina ou depois de 9 minutos. Repita até o fim do log mostrar que acabou:
-- 3D (`out/log-18h.txt`, `out/pid-18h.txt`): a linha `FIM: código …`. Código 0 é sucesso.
 - 2D (`out/log-2d.txt`, `out/pid-2d.txt`): a linha `FIM: tudo`. Cada vídeo tem a sua linha `FIM 08h: código …`;
   código 0 é sucesso.
 
@@ -165,29 +138,12 @@ São dezenas de quadros por vídeo. **Abra em lotes**: numa mesma mensagem, faç
 arquivo, uma por quadro, e só depois olhe o resultado. Nunca abra um quadro por mensagem: as rodadas acabam antes do
 fim do trabalho. Liste os quadros com `ls out/motor/<id>/` (troque `<id>` pelo id do vídeo) e abra **todos**, em ordem.
 
-### 5. Revise o 3D e faça o vídeo
-
-1. Quando o `out/log-18h.txt` tiver `FIM: código 0`, abra **todos** os quadros em `out/motor/<id>/` (em lotes). Confira
-   o "Padrão de qualidade" do GUIA: placa cortada ou encostando, etiqueta que não combina com a fala, frase do Fio
-   quebrando em 4 linhas, letra diferente nas placas, legenda tapando o objeto.
-2. Se precisar corrigir, corrija o roteiro, rode o `--so-voz` de novo e refaça os quadros (passo 3.4). Se mudou
-   alguma tela em `fio.telas`, tire o `--telas-prontas`. **No máximo 1 volta de correção no 3D**, e só se ainda não
-   tiver passado 1 hora e 30 minutos do começo.
-3. Faça o vídeo, em segundo plano:
-
-   ```sh
-   nohup sh -c 'node scripts/motor/fazer-3d.mjs diario/$DIA/18h.json --telas-prontas; echo "FIM: código $?"' > out/log-18h.txt 2>&1 < /dev/null &
-   echo $! > out/pid-18h.txt
-   ```
-
-4. Quando terminar (`✓ out/motor/<id>.mp4` e `FIM: código 0`), publique o 18h (passo 7).
-
-### 6. Revise os 2D
+### 4. Revise os 2D
 
 1. Quando o `out/log-2d.txt` tiver `FIM: tudo`, veja quais vídeos saíram (`ls out/motor/*.mp4`) e o código de cada
    um (`grep FIM out/log-2d.txt`).
 2. **Vídeo sem `.mp4` ficou para trás:** leia o motivo no log (`✗` ou a mensagem de erro), corrija se for do roteiro e
-   rode só ele (passo 6.4).
+   rode só ele (passo 4.4).
 3. Para cada vídeo que saiu, abra **todos** os quadros em `out/motor/<id>/` (em lotes) e confira o "Padrão de
    qualidade" do GUIA.
 4. Se precisar corrigir, corrija o roteiro e refaça **só aquele vídeo** (no máximo 2 voltas por vídeo). Troque `<id>`
@@ -200,9 +156,9 @@ fim do trabalho. Liste os quadros com `ls out/motor/<id>/` (troque `<id>` pelo i
    ```
 
    Espere com `out/pid-13h.txt` e `out/log-13h.txt` (a linha `FIM: código …`).
-5. Publique cada vídeo aprovado assim que ele estiver pronto (passo 7). Não espere os outros.
+5. Publique cada vídeo aprovado assim que ele estiver pronto (passo 5). Não espere os outros.
 
-### 7. Publique
+### 5. Publique
 
 Um comando por vídeo pronto (o `.mp4` precisa existir em `out/motor/<id>.mp4`):
 
@@ -219,7 +175,7 @@ node scripts/motor/publicar.mjs $DIA 21h:diario/$DIA/21h.json
 - `horário já passou`: aquele horário ficou para trás (acontece quando o GitHub atrasa muito e `DIA` é hoje). Não
   tente outro horário; só conte no resumo.
 
-### 8. Stories
+### 6. Stories
 
 Igual a antes (veja "Stories do dia" no GUIA):
 
@@ -228,9 +184,9 @@ Igual a antes (veja "Stories do dia" no GUIA):
 3. Abra as imagens em `out/motor/stories/$DIA/` (em lotes) e confira texto cortado ou sobreposto.
 4. Publique: `node scripts/motor/stories.mjs $DIA --publicar`.
 
-Os stories são rápidos: se o 3D ou os 2D ainda estiverem renderizando, faça os stories enquanto espera.
+Os stories são rápidos: se os vídeos ainda estiverem renderizando, faça os stories enquanto espera.
 
-### 9. Carrossel (15h)
+### 7. Carrossel (15h)
 
 Um carrossel por dia, às 15h, que **ensina o barbeiro** a cuidar do negócio (veja "Carrossel do dia" no GUIA). Também
 é rápido: faça enquanto os vídeos renderizam.
@@ -245,7 +201,7 @@ Um carrossel por dia, às 15h, que **ensina o barbeiro** a cuidar do negócio (v
 6. Publique: `node scripts/motor/carrossel.mjs $DIA --publicar`. Se precisar trocar as imagens de um carrossel que
    ainda não saiu, rode de novo com `--publicar --trocar`.
 
-### 10. Resumo
+### 8. Resumo
 
 Termine com um resumo curto:
 - os 5 horários, com o tema, o gancho escolhido e os tempos (conteúdo, ponte, Fio e total) de cada um;
@@ -264,7 +220,6 @@ Termine com um resumo curto:
 - **Referência que não existe** (`a palavra "…" não está na fala N`): use uma das palavras que a mensagem mostra.
   Lembre que ano depois de preposição ("em 1935") vira uma palavra só.
 - **Palavra proibida** (`usa palavra proibida` ou `chama o Fio de "ferramenta"`): reescreva a fala ou a legenda.
-- **`falta a tela N`** no 3D: rode de novo sem `--telas-prontas` (ele gera as telas).
 - **O tempo está acabando:** passadas **2 horas e 10 minutos** do começo (veja `out/inicio.txt`), pare as voltas de
   revisão, não comece render novo, publique o que estiver pronto e aprovado, faça os stories e escreva o resumo. Um
   render que ainda está rodando só é publicado se terminar antes de você escrever o resumo.

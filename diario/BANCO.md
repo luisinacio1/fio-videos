@@ -29,11 +29,10 @@ node scripts/motor/banco.mjs livres curiosidade | grep -c " — "
 node scripts/motor/banco.mjs livres dica | grep -c " — "
 node scripts/motor/banco.mjs livres conceito | grep -c " — "
 node scripts/motor/banco.mjs livres atracao-2d | grep -c " — "
-node scripts/motor/banco.mjs livres atracao-3d | grep -c " — "
 ```
 
 Faltam `25 − N` temas daquele tipo. Se já tiver 25 ou mais, não acrescente nenhum. Faça no máximo 10 temas novos de
-cada tipo por domingo; comece pelo tipo com menos temas livres e vá alternando entre os tipos, para o limite de 2 horas
+cada tipo por domingo (14 de `atracao-2d`, que sai duas vezes por dia). Não faça mais temas `atracao-3d`: o 3D parou; comece pelo tipo com menos temas livres e vá alternando entre os tipos, para o limite de 2 horas
 não deixar um tipo inteiro sem tema novo.
 
 Veja também como as telas e as peças estão distribuídas no banco inteiro:
