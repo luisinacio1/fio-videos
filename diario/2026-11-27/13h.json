@@ -1,0 +1,382 @@
+{
+  "id": "2026-11-27-13h-ticket-medio",
+  "tipo": "conceito",
+  "tema": "ticket-medio",
+  "titulo": "O que é ticket médio na barbearia",
+  "legenda": "Quanto cada cliente deixa, em média, na sua barbearia? Essa conta tem nome: ticket médio. 💈\n\nTicket médio é o total que entrou dividido pelo número de atendimentos. Exemplo: R$ 2.000 em 40 atendimentos dão R$ 50 de ticket médio. Ele sobe quando o cliente faz corte e barba juntos, em vez de um serviço só.\n\nSalva pra fazer essa conta no fim do mês.\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nVocê sabe qual é o ticket médio da sua barbearia?",
+  "falas": [
+    {
+      "texto": "Quanto cada cliente deixa na sua barbearia?"
+    },
+    {
+      "texto": "Tem uma conta simples que responde isso."
+    },
+    {
+      "texto": "Ela se chama ticket médio."
+    },
+    {
+      "texto": "Bora entender, passo a passo."
+    },
+    {
+      "texto": "Primeiro: o que é ticket médio?"
+    },
+    {
+      "texto": "É o total que entrou, dividido pelo número de atendimentos."
+    },
+    {
+      "texto": "Ou seja: você soma tudo o que entrou."
+    },
+    {
+      "texto": "Depois, divide por quantos atendimentos você fez."
+    },
+    {
+      "texto": "Vamos ao exemplo. Entraram dois mil reais no mês."
+    },
+    {
+      "texto": "E foram quarenta atendimentos."
+    },
+    {
+      "texto": "Dois mil dividido por quarenta dá cinquenta."
+    },
+    {
+      "texto": "Então o ticket médio é de cinquenta reais."
+    },
+    {
+      "texto": "Ou seja: cada cliente deixou, em média, cinquenta reais."
+    },
+    {
+      "texto": "Salva esse vídeo, pra fazer essa conta no fim do mês."
+    },
+    {
+      "texto": "Dá pra fazer a conta de qualquer barbearia: é só o total e o número de atendimentos."
+    },
+    {
+      "texto": "Agora, como esse número sobe?"
+    },
+    {
+      "texto": "Ele sobe quando o cliente faz corte e barba juntos."
+    },
+    {
+      "texto": "Em vez de um serviço só."
+    },
+    {
+      "texto": "Lado a lado: só o corte, ou corte e barba."
+    },
+    {
+      "texto": "O mesmo cliente, só que com o ticket mais alto."
+    },
+    {
+      "texto": "Pra fazer essa conta, você precisa saber quanto entrou."
+    },
+    {
+      "texto": "E precisa saber quantos clientes você atendeu."
+    },
+    {
+      "texto": "Pra isso existe o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena."
+    },
+    {
+      "texto": "Você marca o atendimento como realizado e escolhe a forma de pagamento."
+    },
+    {
+      "texto": "A receita entra no financeiro. Aí a conta fica fácil de fazer."
+    },
+    {
+      "texto": "Os horários do dia aparecem na sua agenda, um embaixo do outro."
+    },
+    {
+      "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você. Sem custo."
+    },
+    {
+      "texto": "Fio. Cada atendimento na conta certa.",
+      "pausa": 0.3
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "E você, sabe qual é o ticket médio da sua barbearia? Conta aqui."
+    }
+  ],
+  "chaves": [
+    "total",
+    "atendimentos",
+    "cinquenta",
+    "corte",
+    "financeiro",
+    "monta"
+  ],
+  "ponte": "21",
+  "fio": "23",
+  "cenas": [
+    {
+      "tipo": "barbearia",
+      "de": "1",
+      "barbeiro": "rafa",
+      "cliente": "davi",
+      "reacoes": [
+        {
+          "em": "1:cada",
+          "boca": "aberta",
+          "olhar": "frente"
+        },
+        {
+          "em": "2:conta",
+          "boca": "sorriso",
+          "olhar": "lado"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "2",
+      "linhas": [
+        "Uma conta simples:",
+        "ticket médio."
+      ],
+      "destaque": [
+        "ticket"
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "passos",
+      "de": "5",
+      "titulo": "A conta",
+      "passos": [
+        {
+          "em": "5",
+          "texto": "Total que entrou"
+        },
+        {
+          "em": "6:dividido",
+          "texto": "Dividido por"
+        },
+        {
+          "em": "8:quantos",
+          "texto": "Número de atendimentos"
+        }
+      ]
+    },
+    {
+      "tipo": "sala",
+      "de": "9",
+      "personagem": "rafa",
+      "pensamento": {
+        "em": "9:dois",
+        "rotulo": "Entrou no mês",
+        "titulo": "R$ 2.000",
+        "texto": "40 atendimentos"
+      },
+      "reacoes": [
+        {
+          "em": "10:quarenta",
+          "boca": "aberta",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "11",
+      "linhas": [
+        "Ticket médio",
+        "por cliente."
+      ],
+      "destaque": [
+        "médio"
+      ],
+      "fundo": "escuro",
+      "numero": {
+        "de": 0,
+        "ate": 50,
+        "prefixo": "R$ ",
+        "em": "12:cinquenta"
+      }
+    },
+    {
+      "tipo": "sala",
+      "de": "14",
+      "personagem": "davi",
+      "reacoes": [
+        {
+          "em": "14:Salva",
+          "boca": "sorriso",
+          "olhar": "celular"
+        },
+        {
+          "em": "15:qualquer",
+          "boca": "aberta",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "16",
+      "barbeiro": "rafa",
+      "cliente": "carlos",
+      "reacoes": [
+        {
+          "em": "17:corte",
+          "boca": "sorriso",
+          "olhar": "frente"
+        },
+        {
+          "em": "17:barba",
+          "boca": "aberta"
+        }
+      ]
+    },
+    {
+      "tipo": "compara",
+      "de": "18",
+      "esquerda": {
+        "titulo": "Só o corte",
+        "itens": [
+          "Um serviço",
+          "Ticket menor"
+        ],
+        "objeto": "tesoura"
+      },
+      "direita": {
+        "titulo": "Corte e barba",
+        "itens": [
+          "Dois serviços",
+          "Ticket sobe"
+        ],
+        "objeto": "navalha"
+      },
+      "vencedor": "direita",
+      "revela": [
+        "19:lado",
+        "19:só",
+        "19:barba",
+        "20:ticket"
+      ]
+    },
+    {
+      "tipo": "sala",
+      "de": "21",
+      "personagem": "rafa",
+      "pensamento": {
+        "em": "21:saber",
+        "rotulo": "Quanto?",
+        "titulo": "Quantos clientes?",
+        "texto": "Conta de cabeça?"
+      },
+      "reacoes": [
+        {
+          "em": "22:atendeu",
+          "boca": "torta",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "apresentaFio",
+      "de": "23",
+      "tela": {
+        "nome": "agenda",
+        "clientes": [
+          {
+            "hora": "09:00",
+            "nome": "Matheus Lima",
+            "servico": "Corte + barba"
+          },
+          {
+            "hora": "10:00",
+            "nome": "Diego Souza",
+            "servico": "Corte masculino"
+          },
+          {
+            "hora": "11:00",
+            "nome": "Carlos Alves",
+            "servico": "Barba"
+          }
+        ],
+        "realizar": {
+          "nome": "Matheus Lima",
+          "em": "24:realizado"
+        }
+      },
+      "frases": [
+        {
+          "em": "23:agenda",
+          "texto": "O dia inteiro num lugar só"
+        },
+        {
+          "em": "24:realizado",
+          "texto": "Marca o atendimento realizado"
+        },
+        {
+          "em": "24:pagamento",
+          "texto": "Escolhe a forma de pagamento"
+        }
+      ]
+    },
+    {
+      "tipo": "app",
+      "de": "26",
+      "entrada": "subir",
+      "tela": {
+        "nome": "agenda",
+        "clientes": [
+          {
+            "hora": "09:00",
+            "nome": "Matheus Lima",
+            "servico": "Corte + barba"
+          },
+          {
+            "hora": "10:00",
+            "nome": "Diego Souza",
+            "servico": "Corte masculino"
+          },
+          {
+            "hora": "11:00",
+            "nome": "Carlos Alves",
+            "servico": "Barba"
+          }
+        ],
+        "destaque": {
+          "nome": "Diego Souza",
+          "em": "26:horários"
+        }
+      }
+    },
+    {
+      "tipo": "sala",
+      "de": "27",
+      "personagem": "rafa",
+      "reacoes": [
+        {
+          "em": "28:monta",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "de": "29"
+    }
+  ],
+  "extras": [
+    {
+      "tipo": "zap",
+      "em": "27:manda",
+      "ate": "28:fim",
+      "de": "Você",
+      "texto": "@agendafio, segue minha lista de clientes e serviços."
+    },
+    {
+      "tipo": "zap",
+      "em": "28:monta",
+      "ate": "28:fim",
+      "de": "@agendafio",
+      "texto": "Recebido! Em até 2 dias sua agenda fica pronta."
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "id": "2026-11-27-08h-cliente-sumido",
+  "tipo": "dica",
+  "tema": "cliente-sumido",
+  "titulo": "A mensagem para o cliente que sumiu há 30 dias",
+  "legenda": "Faz um mês que o cliente não aparece. Manda mensagem, mas do jeito certo: ✂️\n\n1. Escreve como gente, não como propaganda. Por exemplo: \"Fala, João! Faz um tempinho, bora dar um tapa no visual?\"\n2. Não manda pra todo mundo de uma vez: manda pra quem você conhece pelo nome.\n3. Deixa fácil marcar: manda junto o caminho pra escolher o horário.\n\nSalva pra usar quando um cliente sumir.\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nVocê já mandou mensagem pra cliente que sumiu?",
+  "falas": [
+    {
+      "texto": "Cliente sumiu há 30 dias? Escreve assim."
+    },
+    {
+      "texto": "Faz um mês que ele não aparece."
+    },
+    {
+      "texto": "E você fica na dúvida: mando mensagem ou deixo pra lá?"
+    },
+    {
+      "texto": "Manda. Mas do jeito certo."
+    },
+    {
+      "texto": "São três coisas pra fazer nessa mensagem."
+    },
+    {
+      "texto": "Salva esse vídeo, pra usar quando um cliente sumir."
+    },
+    {
+      "texto": "Primeira: escreve como gente, não como propaganda."
+    },
+    {
+      "texto": "Tipo: Fala, João! Faz um tempinho, bora dar um tapa no visual?"
+    },
+    {
+      "texto": "Parece conversa de amigo. É isso mesmo que tem que parecer."
+    },
+    {
+      "texto": "Mensagem com cara de panfleto não parece vir de você."
+    },
+    {
+      "texto": "Segunda: não manda pra todo mundo de uma vez."
+    },
+    {
+      "texto": "Manda pra quem você conhece pelo nome."
+    },
+    {
+      "texto": "Cada cliente é um. A mensagem tem que parecer feita pra ele."
+    },
+    {
+      "texto": "Terceira: deixa fácil marcar."
+    },
+    {
+      "texto": "Manda junto o caminho pra escolher o horário."
+    },
+    {
+      "texto": "Quanto menos ida e volta de mensagem, melhor."
+    },
+    {
+      "texto": "Recapitulando: escreve como gente, manda pra quem você conhece pelo nome e deixa o caminho pro horário."
+    },
+    {
+      "texto": "Uma mensagem simples, do jeito certo."
+    },
+    {
+      "texto": "Esse caminho pro horário pode ser um link."
+    },
+    {
+      "texto": "Com o link do Fio na mensagem, o cliente escolhe o dia e a hora sozinho."
+    },
+    {
+      "texto": "O Fio é a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena."
+    },
+    {
+      "texto": "O cliente abre o link e escolhe o serviço, o dia e um horário livre."
+    },
+    {
+      "texto": "Coloca o nome e confirma. Sem baixar aplicativo e sem criar conta."
+    },
+    {
+      "texto": "No seu celular, chega o aviso: novo agendamento. Você nem parou o corte."
+    },
+    {
+      "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você. Sem custo."
+    },
+    {
+      "texto": "Fio. Seu link no fim da mensagem.",
+      "pausa": 0.3
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "E você, já mandou mensagem pra cliente que sumiu? Conta aqui."
+    }
+  ],
+  "chaves": [
+    "gente",
+    "propaganda",
+    "nome",
+    "horário",
+    "link",
+    "monta"
+  ],
+  "ponte": "19",
+  "fio": "21",
+  "cenas": [
+    {
+      "tipo": "barbearia",
+      "de": "1",
+      "barbeiro": "rafa",
+      "olhaCelular": "2:aparece",
+      "reacoes": [
+        {
+          "em": "1:sumiu",
+          "boca": "torta",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "sala",
+      "de": "3",
+      "personagem": "juninho",
+      "pensamento": {
+        "em": "3:dúvida",
+        "rotulo": "Mando?",
+        "titulo": "Cliente sumido",
+        "texto": "30 dias sem vir"
+      },
+      "reacoes": [
+        {
+          "em": "4:Manda",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "5",
+      "linhas": [
+        "Coisas pra fazer",
+        "na mensagem."
+      ],
+      "destaque": [
+        "mensagem."
+      ],
+      "fundo": "acento",
+      "numero": {
+        "de": 0,
+        "ate": 3,
+        "em": "5:três"
+      }
+    },
+    {
+      "tipo": "sala",
+      "de": "7",
+      "personagem": "matheus",
+      "mensagem": {
+        "em": "8:Fala",
+        "para": "João",
+        "texto": "Fala, João! Faz um tempinho, bora dar um tapa no visual?"
+      },
+      "reacoes": [
+        {
+          "em": "9:amigo",
+          "boca": "sorriso",
+          "olhar": "celular"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "10",
+      "linhas": [
+        "Conversa,",
+        "não panfleto."
+      ],
+      "destaque": [
+        "panfleto."
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "barbearia",
+      "de": "11",
+      "barbeiro": "rafa",
+      "cliente": "carlos",
+      "reacoes": [
+        {
+          "em": "12:nome",
+          "boca": "sorriso",
+          "olhar": "frente"
+        },
+        {
+          "em": "13:feita",
+          "boca": "aberta"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "14",
+      "barbeiro": "juninho",
+      "cliente": "bia",
+      "reacoes": [
+        {
+          "em": "14:fácil",
+          "boca": "sorriso",
+          "olhar": "frente"
+        },
+        {
+          "em": "15:caminho",
+          "boca": "aberta",
+          "olhar": "celular"
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "de": "17",
+      "titulo": "Na mensagem",
+      "passos": [
+        {
+          "em": "17:gente",
+          "texto": "Fala como gente"
+        },
+        {
+          "em": "17:nome",
+          "texto": "Pra quem você conhece"
+        },
+        {
+          "em": "17:horário",
+          "texto": "O caminho pro horário",
+          "objeto": "pente"
+        }
+      ]
+    },
+    {
+      "tipo": "sala",
+      "de": "19",
+      "personagem": "rafa",
+      "mensagem": {
+        "em": "20:link",
+        "para": "João",
+        "texto": "Bora marcar? É só escolher o horário no link."
+      }
+    },
+    {
+      "tipo": "apresentaFio",
+      "de": "21",
+      "tela": {
+        "nome": "agendamento",
+        "cliente": "João Pereira",
+        "hora": "10:30",
+        "toques": {
+          "servico": "22:serviço",
+          "dia": "22:dia",
+          "horario": "22:livre",
+          "nome": "23:nome",
+          "confirmar": "23:confirma"
+        }
+      },
+      "frases": [
+        {
+          "em": "22:abre",
+          "texto": "Cliente marca sozinho pelo link"
+        },
+        {
+          "em": "22:livre",
+          "texto": "Só aparece horário livre"
+        },
+        {
+          "em": "23:aplicativo",
+          "texto": "Sem baixar aplicativo"
+        }
+      ]
+    },
+    {
+      "tipo": "app",
+      "de": "24",
+      "entrada": "subir",
+      "tela": {
+        "nome": "bloqueio",
+        "hora": "10:12",
+        "data": "segunda-feira, 2 de novembro",
+        "avisos": [
+          {
+            "em": "24:aviso",
+            "tipo": "novo",
+            "nome": "João Pereira",
+            "servico": "Corte masculino",
+            "quando": "seg 02/11 às 15:00"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "sala",
+      "de": "25",
+      "personagem": "rafa",
+      "reacoes": [
+        {
+          "em": "26:monta",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "de": "27"
+    }
+  ],
+  "extras": [
+    {
+      "tipo": "zap",
+      "em": "25:manda",
+      "ate": "26:fim",
+      "de": "Você",
+      "texto": "@agendafio, segue minha lista de clientes e serviços."
+    },
+    {
+      "tipo": "zap",
+      "em": "26:monta",
+      "ate": "26:fim",
+      "de": "@agendafio",
+      "texto": "Recebido! Em até 2 dias sua agenda fica pronta."
+    }
+  ]
+}

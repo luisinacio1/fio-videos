@@ -1,0 +1,404 @@
+{
+  "id": "2026-11-27-11h-billy-o-barbeiro-de-lincoln",
+  "tipo": "atracao-2d",
+  "tema": "billy-o-barbeiro-de-lincoln",
+  "titulo": "Billy, o barbeiro de Lincoln por 24 anos",
+  "legenda": "Barbeiro de Lincoln por 24 anos. Esse é o Billy. 💈\n\nWilliam de Fleurville, também escrito Florville, nasceu no Haiti em 1807. Foi do Caribe para Baltimore por volta de 1820, depois para Nova Orleans e depois para Illinois. Conheceu Lincoln em New Salem, em 1831, e depois foi para Springfield, onde abriu uma barbearia em frente ao prédio do governo estadual. Um historiador a chamou de segunda casa de Lincoln antes do casamento, em 1842. Billy foi barbeiro de Lincoln por 24 anos, e Lincoln foi advogado dele num caso de propriedade. Ele ainda juntou bastante terra e fundou a primeira lavanderia de roupas de Springfield.\n\nFonte: biografia de William de Fleurville no Mr. Lincoln and Freedom.\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nE você, há quantos anos corta com o mesmo barbeiro?",
+  "falas": [
+    {
+      "texto": "Barbeiro de Lincoln por 24 anos. Conheça o Billy."
+    },
+    {
+      "texto": "O nome dele era William de Fleurville."
+    },
+    {
+      "texto": "Ele nasceu no Haiti, em 1807."
+    },
+    {
+      "texto": "Bora ver como ele chegou até Lincoln."
+    },
+    {
+      "texto": "Por volta de 1820, foi do Caribe para Baltimore."
+    },
+    {
+      "texto": "Depois, Nova Orleans. E depois, Illinois."
+    },
+    {
+      "texto": "Conheceu Lincoln em New Salem, em 1831."
+    },
+    {
+      "texto": "Depois foi para Springfield."
+    },
+    {
+      "texto": "Lá, abriu uma barbearia em frente ao prédio do governo estadual."
+    },
+    {
+      "texto": "Um historiador a chamou de segunda casa de Lincoln, antes do casamento, em 1842."
+    },
+    {
+      "texto": "Tem barbearia que vira segunda casa. A dele virou."
+    },
+    {
+      "texto": "Billy foi barbeiro de Lincoln por 24 anos."
+    },
+    {
+      "texto": "E Lincoln foi advogado dele, num caso de propriedade."
+    },
+    {
+      "texto": "Um cuidava do cabelo. O outro, do processo."
+    },
+    {
+      "texto": "Billy também juntou bastante terra."
+    },
+    {
+      "texto": "E fundou a primeira lavanderia de roupas de Springfield."
+    },
+    {
+      "texto": "Barbeiro, dono de terra e dono de lavanderia."
+    },
+    {
+      "texto": "Cliente de 24 anos é cliente fiel de verdade."
+    },
+    {
+      "texto": "Cliente de 24 anos tem a cadeira marcada na cabeça."
+    },
+    {
+      "texto": "Quando esquece o dia, um lembrete no WhatsApp faz esse papel."
+    },
+    {
+      "texto": "Pra isso existe o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena."
+    },
+    {
+      "texto": "Na véspera, às seis da tarde, chega a lista de quem lembrar."
+    },
+    {
+      "texto": "A mensagem vem pronta. Você aperta enviar no WhatsApp. Um toque."
+    },
+    {
+      "texto": "Quem já foi avisado fica marcado na lista."
+    },
+    {
+      "texto": "Não vai dar pra ir? O cliente cancela ou remarca pelo link, e você é avisado."
+    },
+    {
+      "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você. Sem custo."
+    },
+    {
+      "texto": "Fio. Lembrete em um toque.",
+      "pausa": 0.3
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "E você, há quantos anos corta com o mesmo barbeiro? Conta aqui."
+    }
+  ],
+  "chaves": [
+    "Haiti",
+    "Lincoln",
+    "Springfield",
+    "segunda casa",
+    "lavanderia",
+    "monta"
+  ],
+  "ponte": "19",
+  "fio": "21",
+  "cenas": [
+    {
+      "tipo": "barbeariaAntiga",
+      "de": "1",
+      "barbeiro": "rafa",
+      "cliente": "ze",
+      "ano": "sempre",
+      "reacoes": [
+        {
+          "em": "1:Lincoln",
+          "boca": "aberta",
+          "olhar": "lado"
+        },
+        {
+          "em": "1:Billy",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "2",
+      "linhas": [
+        "William de",
+        "Fleurville."
+      ],
+      "destaque": [
+        "Fleurville."
+      ],
+      "fundo": "escuro"
+    },
+    {
+      "tipo": "texto",
+      "de": "3",
+      "linhas": [
+        "Nascido no Haiti,",
+        "em 1807."
+      ],
+      "destaque": [
+        "Haiti,"
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "passos",
+      "de": "5",
+      "titulo": "A viagem do Billy",
+      "passos": [
+        {
+          "em": "5",
+          "texto": "Caribe, depois Baltimore"
+        },
+        {
+          "em": "6:Orleans",
+          "texto": "Nova Orleans"
+        },
+        {
+          "em": "6:Illinois",
+          "texto": "Illinois"
+        }
+      ]
+    },
+    {
+      "tipo": "linhaDoTempo",
+      "de": "7",
+      "marcos": [
+        {
+          "em": "7",
+          "ano": "1831",
+          "texto": "Conhece Lincoln em New Salem",
+          "objeto": "tesoura"
+        },
+        {
+          "em": "8:Springfield",
+          "ano": "Depois",
+          "texto": "Muda para Springfield",
+          "objeto": "pente"
+        }
+      ]
+    },
+    {
+      "tipo": "barbeariaAntiga",
+      "de": "9",
+      "barbeiro": "rafa",
+      "cliente": "carlos",
+      "ano": "sempre",
+      "reacoes": [
+        {
+          "em": "9:governo",
+          "boca": "aberta",
+          "olhar": "frente"
+        },
+        {
+          "em": "10:casa",
+          "boca": "sorriso"
+        }
+      ]
+    },
+    {
+      "tipo": "objeto",
+      "de": "10",
+      "objeto": "cadeiraAntiga",
+      "fundo": "escuro",
+      "etiquetas": [
+        {
+          "em": "10:historiador",
+          "texto": "Palavra de historiador"
+        },
+        {
+          "em": "10:segunda",
+          "texto": "Segunda casa de Lincoln"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "12",
+      "linhas": [
+        "Anos como barbeiro",
+        "de Lincoln."
+      ],
+      "destaque": [
+        "Anos"
+      ],
+      "fundo": "claro",
+      "numero": {
+        "de": 0,
+        "ate": 24,
+        "em": "12:barbeiro"
+      }
+    },
+    {
+      "tipo": "barbearia",
+      "de": "14",
+      "barbeiro": "rafa",
+      "cliente": "davi",
+      "reacoes": [
+        {
+          "em": "14:cabelo",
+          "boca": "sorriso",
+          "olhar": "frente"
+        },
+        {
+          "em": "14:processo",
+          "boca": "aberta",
+          "sacode": true
+        }
+      ]
+    },
+    {
+      "tipo": "passos",
+      "de": "15",
+      "titulo": "Depois da cadeira",
+      "passos": [
+        {
+          "em": "15:terra",
+          "texto": "Juntou bastante terra"
+        },
+        {
+          "em": "16:lavanderia",
+          "texto": "Primeira lavanderia da cidade"
+        },
+        {
+          "em": "17:barbeiro",
+          "texto": "Barbeiro, dono de terra"
+        }
+      ]
+    },
+    {
+      "tipo": "sala",
+      "de": "18",
+      "personagem": "carlos",
+      "reacoes": [
+        {
+          "em": "18:fiel",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "19",
+      "barbeiro": "rafa",
+      "cliente": "ze",
+      "reacoes": [
+        {
+          "em": "19:marcada",
+          "boca": "aberta",
+          "olhar": "frente"
+        },
+        {
+          "em": "20:esquece",
+          "boca": "torta",
+          "olhar": "celular"
+        }
+      ]
+    },
+    {
+      "tipo": "apresentaFio",
+      "de": "21",
+      "tela": {
+        "nome": "bloqueio",
+        "hora": "18:00",
+        "data": "segunda-feira, 2 de novembro",
+        "avisos": [
+          {
+            "em": "21:agenda",
+            "tipo": "lembretes",
+            "quantidade": 4
+          }
+        ]
+      },
+      "frases": [
+        {
+          "em": "21:agenda",
+          "texto": "Aviso às 18h com a lista"
+        },
+        {
+          "em": "23:pronta",
+          "texto": "Mensagem pronta, você só envia"
+        },
+        {
+          "em": "24:marcado",
+          "texto": "Quem foi avisado fica marcado"
+        }
+      ]
+    },
+    {
+      "tipo": "app",
+      "de": "23",
+      "entrada": "subir",
+      "tela": {
+        "nome": "lembretes",
+        "toques": [
+          {
+            "toque": "23:pronta",
+            "enviar": "23:enviar"
+          }
+        ],
+        "todos": "23:Um"
+      }
+    },
+    {
+      "tipo": "app",
+      "de": "25",
+      "tela": {
+        "nome": "bloqueio",
+        "hora": "09:12",
+        "data": "segunda-feira, 2 de novembro",
+        "avisos": [
+          {
+            "em": "25:cancela",
+            "tipo": "cancelado",
+            "nome": "Matheus Lima",
+            "quando": "ter 03/11 às 11:00"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "sala",
+      "de": "26",
+      "personagem": "rafa",
+      "reacoes": [
+        {
+          "em": "27:monta",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "de": "28"
+    }
+  ],
+  "extras": [
+    {
+      "tipo": "zap",
+      "em": "26:manda",
+      "ate": "27:fim",
+      "de": "Você",
+      "texto": "@agendafio, segue minha lista de clientes e serviços."
+    },
+    {
+      "tipo": "zap",
+      "em": "27:monta",
+      "ate": "27:fim",
+      "de": "@agendafio",
+      "texto": "Recebido! Em até 2 dias sua agenda fica pronta."
+    }
+  ]
+}

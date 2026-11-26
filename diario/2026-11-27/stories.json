@@ -1,0 +1,14 @@
+{
+  "blocos": [
+    {
+      "hora": "9h",
+      "tema": "Caderno",
+      "quadros": [
+        { "tipo": "dor", "titulo": "Cliente marcou às 23h. O caderno não avisa: você só vê amanhã.", "destaque": "só vê amanhã", "personagem": "rafa", "boca": "aberta" },
+        { "tipo": "prova", "titulo": "No Fio, o aviso chega no celular: novo agendamento.", "destaque": "novo agendamento", "tela": { "nome": "aviso", "aviso": { "tipo": "novo", "nome": "Diego Souza", "servico": "Corte masculino", "quando": "ter 03/11 às 11:00" }, "hora": "23:12", "data": "segunda-feira, 2 de novembro" } },
+        { "tipo": "beneficios" },
+        { "tipo": "chamada", "titulo": "Troque o caderno pelo link. A gente monta pra você.", "destaque": "A gente monta pra você" }
+      ]
+    }
+  ]
+}

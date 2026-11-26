@@ -1,0 +1,279 @@
+{
+  "id": "2026-11-27-18h-pente-mais-antigo",
+  "tipo": "atracao-3d",
+  "tema": "pente-mais-antigo",
+  "titulo": "Do galho ao plástico: do que o pente já foi feito",
+  "legenda": "Já fizeram pente de galho, osso e marfim. 💈\n\nNa Suíça, um pente de galhos dobrados, para tirar piolho, é de por volta de 2700 a.C. Na Antiguidade, também se usavam chifre e osso de baleia. Marfim e casco de tartaruga já foram comuns, mas o uso caiu pela preocupação com os animais. Os pentes de madeira são feitos quase sempre de buxo, cerejeira ou outra madeira de fibra fina. Os de plástico só chegaram em meados do século XX.\n\nFontes: verbete \"Comb\" (Wikipédia em inglês).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nE o seu pente, é de madeira ou de plástico? Conta aqui.",
+  "chaves": [
+    "galhos",
+    "piolho",
+    "marfim",
+    "buxo",
+    "plástico",
+    "lembretes",
+    "WhatsApp",
+    "monta"
+  ],
+  "falas": [
+    {
+      "texto": "Já fizeram pente de galho, osso e marfim."
+    },
+    {
+      "texto": "Olha esse pente girando aqui."
+    },
+    {
+      "texto": "Parece simples, né? Mas tem milênios de história."
+    },
+    {
+      "texto": "Bora ver do que ele já foi feito."
+    },
+    {
+      "texto": "Fica de olho, que a lista é grande."
+    },
+    {
+      "texto": "Na Suíça, achamos um pente de galhos dobrados."
+    },
+    {
+      "texto": "Era pra tirar piolho, e é de por volta de dois mil e setecentos antes de Cristo."
+    },
+    {
+      "texto": "Na Antiguidade, também se usava chifre."
+    },
+    {
+      "texto": "E osso de baleia."
+    },
+    {
+      "texto": "Marfim e casco de tartaruga já foram comuns."
+    },
+    {
+      "texto": "Mas esse uso caiu, pela preocupação com os animais."
+    },
+    {
+      "texto": "Ou seja: o pente de bicho foi saindo de uso."
+    },
+    {
+      "texto": "E tem os pentes de madeira."
+    },
+    {
+      "texto": "Quase sempre são de buxo, cerejeira ou outra madeira de fibra fina."
+    },
+    {
+      "texto": "Nome bonito pra um pente, né?"
+    },
+    {
+      "texto": "E o plástico? Esse é o novinho da turma."
+    },
+    {
+      "texto": "Os pentes de plástico só chegaram em meados do século vinte."
+    },
+    {
+      "texto": "Faz pouco tempo, pra um objeto tão antigo."
+    },
+    {
+      "texto": "Galho, chifre, osso, marfim, madeira, plástico."
+    },
+    {
+      "texto": "Cada época fez o pente com o que tinha à mão."
+    },
+    {
+      "texto": "O pente atravessou milênios e continua na bancada."
+    },
+    {
+      "texto": "Já o caderno de horários, esse pode se aposentar."
+    },
+    {
+      "texto": "Pra isso existe o Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena."
+    },
+    {
+      "texto": "O seu dia inteiro fica num lugar só. Sem caderno."
+    },
+    {
+      "texto": "Às seis da tarde, chega o aviso: lembretes de amanhã."
+    },
+    {
+      "texto": "A mensagem já vem pronta. Você aperta enviar no WhatsApp. Um toque por cliente."
+    },
+    {
+      "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você, pronta em até dois dias. Sem custo."
+    },
+    {
+      "texto": "Fio. Menos caderno, menos horário furado.",
+      "pausa": 0.3
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "E o seu pente, é de madeira ou de plástico? Conta aqui."
+    }
+  ],
+  "planos": [
+    {
+      "modo": "vitrine",
+      "de": "1",
+      "objeto": "pente",
+      "etiquetas": [
+        {
+          "em": "2:pente",
+          "texto": "Pente"
+        },
+        {
+          "em": "3:milênios",
+          "texto": "Milênios de história"
+        },
+        {
+          "em": "4:feito",
+          "texto": "Do que já foi feito"
+        }
+      ]
+    },
+    {
+      "modo": "vitrine",
+      "de": "6",
+      "objeto": "pente",
+      "etiquetas": [
+        {
+          "em": "6:Suíça",
+          "texto": "Suíça"
+        },
+        {
+          "em": "6:galhos",
+          "texto": "Galhos dobrados"
+        },
+        {
+          "em": "7:piolho",
+          "texto": "Contra piolho"
+        }
+      ]
+    },
+    {
+      "modo": "vitrine",
+      "de": "8",
+      "objeto": "pente",
+      "etiquetas": [
+        {
+          "em": "8:chifre",
+          "texto": "Chifre"
+        },
+        {
+          "em": "9:osso",
+          "texto": "Osso de baleia"
+        },
+        {
+          "em": "10:marfim",
+          "texto": "Marfim"
+        },
+        {
+          "em": "10:tartaruga",
+          "texto": "Casco de tartaruga"
+        },
+        {
+          "em": "11:caiu",
+          "texto": "Uso caiu"
+        }
+      ]
+    },
+    {
+      "modo": "vitrine",
+      "de": "13",
+      "objeto": "pente",
+      "etiquetas": [
+        {
+          "em": "13:madeira",
+          "texto": "Madeira"
+        },
+        {
+          "em": "14:buxo",
+          "texto": "Buxo"
+        },
+        {
+          "em": "14:cerejeira",
+          "texto": "Cerejeira"
+        },
+        {
+          "em": "14:fina",
+          "texto": "Fibra fina"
+        }
+      ]
+    },
+    {
+      "modo": "vitrine",
+      "de": "16",
+      "objeto": "pente",
+      "etiquetas": [
+        {
+          "em": "16:plástico",
+          "texto": "Plástico"
+        },
+        {
+          "em": "17:meados",
+          "texto": "Meados do século XX"
+        },
+        {
+          "em": "19:Galho",
+          "texto": "Do galho ao plástico"
+        },
+        {
+          "em": "20:época",
+          "texto": "O que tinha à mão"
+        }
+      ]
+    }
+  ],
+  "ponte": "21",
+  "fio": {
+    "de": "23",
+    "telas": [
+      {
+        "em": "23",
+        "tela": {
+          "nome": "agenda"
+        }
+      },
+      {
+        "em": "25",
+        "tela": {
+          "nome": "aviso",
+          "aviso": {
+            "tipo": "lembretes",
+            "quantidade": 5
+          },
+          "hora": "18:00",
+          "data": "segunda-feira, 2 de novembro"
+        }
+      },
+      {
+        "em": "26:mensagem",
+        "tela": {
+          "nome": "whats"
+        }
+      },
+      {
+        "em": "28:agenda",
+        "tela": {
+          "nome": "agenda"
+        }
+      }
+    ],
+    "frases": [
+      {
+        "em": "24:lugar",
+        "texto": "O dia inteiro num lugar só"
+      },
+      {
+        "em": "25:lembretes",
+        "texto": "Lembretes de amanhã, todo dia às 18h"
+      },
+      {
+        "em": "26:enviar",
+        "texto": "Mensagem pronta, você só envia"
+      }
+    ]
+  },
+  "final": {
+    "de": "29"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "id": "2026-11-27-carrossel-cliente-troca-por-dificuldade-de-marcar",
+  "tema": "cliente-troca-por-dificuldade-de-marcar",
+  "rotulo": "Quem troca",
+  "legenda": "Por que o cliente troca de barbeiro? Em primeiro lugar: marcar horário é difícil. ✂️\n\nNuma pesquisa da Square nos Estados Unidos e no Canadá, 57% dos clientes que foram a outro profissional citaram a dificuldade de marcar horário. Também apareceram o preço alto (53%) e o profissional que não ouviu o que o cliente pediu (41%). E cliente que não consegue resposta na hora marca com quem responde primeiro.\n\nSalva o quadro e manda pra outro barbeiro.\n\nFonte: Square, pesquisa nos Estados Unidos e no Canadá.\n\nLink na bio pra testar 7 dias grátis.\n\nQuanto tempo você leva pra responder um cliente que pede horário? Conta aqui.",
+  "slides": [
+    { "tipo": "capa", "titulo": "Por que o cliente troca de barbeiro?", "curiosidade": "57% citaram a dificuldade de marcar.", "ilustracao": { "personagem": "bia" } },
+    { "tipo": "texto", "titulo": "O motivo mais citado foi a dificuldade de marcar", "paragrafos": ["Na pesquisa da Square (EUA e Canadá), 57% dos que foram a outro profissional citaram a dificuldade de marcar.", "O preço alto veio com 53%, e 41% disseram que não foram ouvidos."], "puxada": "E na sua barbearia?", "fonte": "Square, pesquisa nos EUA e Canadá" },
+    { "tipo": "texto", "titulo": "Na sua barbearia, quem responde primeiro leva o cliente", "paragrafos": ["Cliente que não consegue resposta na hora marca com quem responde primeiro.", "E você está com a máquina na mão, sem poder responder."], "puxada": "O que fazer, então?" },
+    { "tipo": "lista", "titulo": "4 jeitos de não perder o cliente na hora de marcar", "itens": [
+      { "termo": "Responda", "texto": "rápido quem pede horário." },
+      { "termo": "Mostre", "texto": "os horários livres à vista." },
+      { "termo": "Ouça", "texto": "o pedido antes de começar." },
+      { "termo": "Repita", "texto": "o que entendeu do corte." }
+    ], "puxada": "Salve pra lembrar." },
+    { "tipo": "texto", "titulo": "Ouvir antes da máquina evita o corte errado", "paragrafos": ["Ouvir o pedido antes de pegar a máquina evita o corte errado e a troca de barbeiro.", "Na pesquisa, 41% trocaram porque o profissional não ouviu o pedido."], "puxada": "E o horário, quem mostra?", "fonte": "Square, pesquisa nos EUA e Canadá" },
+    { "tipo": "tela", "tela": { "nome": "horarios" }, "frase": "No link do Fio, o cliente vê só os horários livres e marca sozinho, até com você cortando." },
+    { "tipo": "fecho", "frase": "Quem marca fácil não precisa trocar. O Fio dá o link, e a gente monta pra você." }
+  ]
+}

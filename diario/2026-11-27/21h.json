@@ -1,0 +1,339 @@
+{
+  "id": "2026-11-27-21h-espuma-de-barbear",
+  "tipo": "curiosidade",
+  "tema": "espuma-de-barbear",
+  "titulo": "Da gordura com cinza à espuma de lata",
+  "legenda": "A primeira espuma de barbear tinha gordura animal. 🪒\n\nPor volta de 3000 a.C., na Suméria, já se passava na barba uma mistura de álcali de madeira com gordura animal. Em 1919, Frank Shields, ex-professor do MIT, criou o primeiro creme de barbear. A primeira espuma em lata, a Rise, chegou em 1949; na década seguinte, a lata já tinha dois terços do mercado americano. E o pincel de barbear moderno vem da França dos anos 1750: ele levanta os pelos antes de a navalha passar.\n\nFontes: verbetes \"Shaving cream\" e \"Shaving brush\" (Wikipédia em inglês).\n\nÉ barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro.\n\nE você, faz a barba com pincel ou com espuma de lata?",
+  "falas": [
+    {
+      "texto": "A primeira espuma de barbear tinha gordura animal."
+    },
+    {
+      "texto": "Isso mesmo: gordura, misturada com álcali de madeira."
+    },
+    {
+      "texto": "Hoje a espuma sai de uma lata."
+    },
+    {
+      "texto": "Bora ver como a gente chegou lá."
+    },
+    {
+      "texto": "Por volta de 3000 antes de Cristo, na Suméria, já se passava uma mistura na barba."
+    },
+    {
+      "texto": "Era álcali de madeira com gordura animal."
+    },
+    {
+      "texto": "Álcali de madeira é, mais ou menos, cinza."
+    },
+    {
+      "texto": "Cinza com gordura na cara. Não parece nada confortável, né?"
+    },
+    {
+      "texto": "Muito tempo depois, um ex-professor do MIT, Frank Shields, criou o primeiro creme de barbear."
+    },
+    {
+      "texto": "Isso foi em 1919."
+    },
+    {
+      "texto": "E em 1949 chegou a primeira espuma de barbear em lata: a Rise."
+    },
+    {
+      "texto": "E ela pegou mesmo."
+    },
+    {
+      "texto": "Na década seguinte, a lata já tinha dois terços do mercado americano."
+    },
+    {
+      "texto": "Dois terços de todo o mercado!"
+    },
+    {
+      "texto": "Agora, o pincel. O pincel de barbear moderno vem da França, nos anos 1750."
+    },
+    {
+      "texto": "Ele levanta os pelos antes de a navalha passar."
+    },
+    {
+      "texto": "Primeiro o pincel levanta os pelos. Depois entra a navalha."
+    },
+    {
+      "texto": "Da gordura com cinza ao creme, da lata ao pincel."
+    },
+    {
+      "texto": "Do pincel à lata, tudo mudou pra barba ficar mais rápida."
+    },
+    {
+      "texto": "Marcar o horário também pode ser rápido: um link, sem troca de mensagem."
+    },
+    {
+      "texto": "Esse link é do Fio, a agenda do barbeiro que trabalha sozinho ou numa barbearia pequena."
+    },
+    {
+      "texto": "O cliente abre, escolhe o serviço, o dia e um horário livre."
+    },
+    {
+      "texto": "Coloca nome e telefone e confirma. Sem baixar aplicativo e sem criar conta."
+    },
+    {
+      "texto": "E o horário cai na sua agenda, sem ninguém te chamar no meio da barba."
+    },
+    {
+      "texto": "Ainda anota tudo no caderno? Manda sua lista pra gente no direct."
+    },
+    {
+      "texto": "A gente monta a sua agenda pra você. Sem custo."
+    },
+    {
+      "texto": "Fio. O horário marcado num link.",
+      "pausa": 0.3
+    },
+    {
+      "texto": "É barbeiro? Link na bio. Não é? Manda esse vídeo pro seu barbeiro."
+    },
+    {
+      "texto": "E você, faz a barba com pincel ou com espuma de lata? Conta aqui."
+    }
+  ],
+  "chaves": [
+    "gordura",
+    "cinza",
+    "Rise",
+    "lata",
+    "pincel",
+    "monta"
+  ],
+  "ponte": "19",
+  "fio": "21",
+  "cenas": [
+    {
+      "tipo": "objeto",
+      "de": "1",
+      "objeto": "pincel",
+      "fundo": "escuro",
+      "etiquetas": [
+        {
+          "em": "1:gordura",
+          "texto": "Gordura animal"
+        },
+        {
+          "em": "2:álcali",
+          "texto": "Álcali de madeira"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "3",
+      "linhas": [
+        "Hoje:",
+        "uma lata."
+      ],
+      "destaque": [
+        "lata."
+      ],
+      "fundo": "acento"
+    },
+    {
+      "tipo": "passos",
+      "de": "5",
+      "titulo": "Na Suméria",
+      "passos": [
+        {
+          "em": "5",
+          "texto": "Mistura na barba"
+        },
+        {
+          "em": "6:álcali",
+          "texto": "Álcali de madeira"
+        },
+        {
+          "em": "6:gordura",
+          "texto": "Gordura animal"
+        }
+      ]
+    },
+    {
+      "tipo": "barbeariaAntiga",
+      "de": "7",
+      "barbeiro": "rafa",
+      "cliente": "ze",
+      "ano": "sempre",
+      "reacoes": [
+        {
+          "em": "8:confortável",
+          "boca": "torta",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "linhaDoTempo",
+      "de": "9",
+      "marcos": [
+        {
+          "em": "9",
+          "ano": "1919",
+          "texto": "Primeiro creme de barbear",
+          "objeto": "pomada"
+        },
+        {
+          "em": "11:Rise",
+          "ano": "1949",
+          "texto": "Primeira espuma em lata",
+          "objeto": "pincel"
+        }
+      ]
+    },
+    {
+      "tipo": "texto",
+      "de": "13",
+      "linhas": [
+        "Dois terços do",
+        "mercado americano."
+      ],
+      "destaque": [
+        "terços"
+      ],
+      "fundo": "claro"
+    },
+    {
+      "tipo": "objeto",
+      "de": "15",
+      "objeto": "pincel",
+      "fundo": "escuro",
+      "etiquetas": [
+        {
+          "em": "15:França",
+          "texto": "França, anos 1750"
+        },
+        {
+          "em": "16:levanta",
+          "texto": "Levanta os pelos"
+        },
+        {
+          "em": "17:navalha",
+          "texto": "Depois, a navalha"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "18",
+      "barbeiro": "rafa",
+      "cliente": "matheus",
+      "reacoes": [
+        {
+          "em": "18:lata",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "barbearia",
+      "de": "19",
+      "barbeiro": "rafa",
+      "olhaCelular": "19:rápida",
+      "mensagens": [
+        {
+          "em": "19:lata",
+          "de": "Diego",
+          "texto": "Tem horário hoje?"
+        },
+        {
+          "em": "20:troca",
+          "de": "Lucas",
+          "texto": "E amanhã?"
+        }
+      ],
+      "reacoes": [
+        {
+          "em": "20:link",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "apresentaFio",
+      "de": "21",
+      "tela": {
+        "nome": "agendamento",
+        "cliente": "Lucas Rocha",
+        "hora": "15:40",
+        "toques": {
+          "servico": "22:serviço",
+          "dia": "22:dia",
+          "horario": "22:livre",
+          "nome": "23:nome",
+          "confirmar": "23:confirma"
+        }
+      },
+      "frases": [
+        {
+          "em": "22:abre",
+          "texto": "Cliente marca sozinho pelo link"
+        },
+        {
+          "em": "22:livre",
+          "texto": "Só os horários livres aparecem"
+        },
+        {
+          "em": "23:aplicativo",
+          "texto": "Sem baixar aplicativo"
+        }
+      ]
+    },
+    {
+      "tipo": "app",
+      "de": "24",
+      "entrada": "subir",
+      "tela": {
+        "nome": "bloqueio",
+        "hora": "15:41",
+        "data": "segunda-feira, 2 de novembro",
+        "avisos": [
+          {
+            "em": "24:horário",
+            "tipo": "novo",
+            "nome": "Lucas Rocha",
+            "servico": "Barba",
+            "quando": "ter 03/11 às 11:00"
+          }
+        ]
+      }
+    },
+    {
+      "tipo": "sala",
+      "de": "25",
+      "personagem": "rafa",
+      "reacoes": [
+        {
+          "em": "26:monta",
+          "boca": "sorriso",
+          "olhar": "frente"
+        }
+      ]
+    },
+    {
+      "tipo": "final",
+      "de": "27"
+    }
+  ],
+  "extras": [
+    {
+      "tipo": "zap",
+      "em": "25:manda",
+      "ate": "26:fim",
+      "de": "Você",
+      "texto": "@agendafio, segue minha lista de clientes e serviços."
+    },
+    {
+      "tipo": "zap",
+      "em": "26:monta",
+      "ate": "26:fim",
+      "de": "@agendafio",
+      "texto": "Recebido! Em até 2 dias sua agenda fica pronta."
+    }
+  ]
+}
