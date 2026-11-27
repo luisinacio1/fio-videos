@@ -1,0 +1,14 @@
+{
+  "blocos": [
+    {
+      "hora": "9h",
+      "tema": "Cliente faltou",
+      "quadros": [
+        { "tipo": "dor", "titulo": "Sábado, 10h. O cliente não veio e a cadeira ficou vazia.", "destaque": "cadeira ficou vazia", "personagem": "rafa", "boca": "torta" },
+        { "tipo": "prova", "titulo": "No Fio, ele cancela ou remarca pelo link e você recebe o aviso.", "destaque": "recebe o aviso", "tela": { "nome": "aviso", "aviso": { "tipo": "cancelado", "nome": "Diego Souza", "quando": "ter 03/11 às 11:00" }, "hora": "09:12", "data": "segunda-feira, 2 de novembro" } },
+        { "tipo": "beneficios" },
+        { "tipo": "chamada", "titulo": "Avisado a tempo, você reorganiza o dia. A gente monta pra você.", "destaque": "A gente monta pra você" }
+      ]
+    }
+  ]
+}

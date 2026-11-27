@@ -1,0 +1,15 @@
+{
+  "id": "2026-11-28-carrossel-sabado-lotado-vs-semana-vazia",
+  "tema": "sabado-lotado-vs-semana-vazia",
+  "rotulo": "Sábado lotado",
+  "legenda": "Sábado lotado e terça vazia: dá pra equilibrar? 📅\n\nO dia cheio não estica: quem não acha horário no sábado vai pra outro lugar ou desiste. Já quem trabalha por conta, aposentado e estudante costumam ter horário livre durante a semana, mas só mudam de dia se souberem que tem vaga. E nos dados de agendamento da Square, a terça passou a ser mais procurada que o sábado, e a segunda também ganhou movimento.\n\nSalva o quadro e manda pra outro barbeiro.\n\nFonte: Square, dados de agendamento.\n\nLink na bio pra testar 7 dias grátis.\n\nQual dia da sua semana é o mais vazio? Conta aqui.",
+  "slides": [
+    { "tipo": "capa", "titulo": "Sábado lotado e terça vazia: dá pra equilibrar?", "curiosidade": "O sábado cheio não estica.", "ilustracao": { "personagem": "juninho" } },
+    { "tipo": "compara", "titulo": "Quando só o sábado enche, o cliente sem vaga some", "a": { "rotulo": "Só no sábado", "linhas": ["Cliente sem vaga vai embora", "Ou desiste de vez"] }, "b": { "rotulo": "Na semana toda", "linhas": ["Sempre tem vaga pra alguém", "Cliente flexível acha horário"] }, "puxada": "E o seu dia, como fica?" },
+    { "tipo": "compara", "titulo": "Na sua barbearia, o sábado vira correria", "a": { "rotulo": "Só no sábado", "linhas": ["Correria e atraso", "Todo mundo quer o mesmo dia"] }, "b": { "rotulo": "Na semana toda", "linhas": ["Tempo pra caprichar", "Cada cliente no seu horário"] }, "puxada": "Quem pode mudar de dia?" },
+    { "tipo": "compara", "titulo": "Quem tem horário livre durante a semana", "a": { "rotulo": "Sábado", "linhas": ["Todo mundo disputa a cadeira", "Fila e espera"] }, "b": { "rotulo": "Na semana", "linhas": ["Conta própria e aposentado", "Estudante também tem folga"] }, "puxada": "Eles só vêm se souberem que tem vaga." },
+    { "tipo": "compara", "titulo": "O movimento já está mudando de dia", "a": { "rotulo": "Só sábado", "linhas": ["O dia cheio não estica", "Quem não acha vaga desiste"] }, "b": { "rotulo": "Espalhar", "linhas": ["Terça passou a ser mais procurada", "A segunda também ganhou movimento"] }, "puxada": "Salve pra lembrar." },
+    { "tipo": "tela", "tela": { "nome": "horarios" }, "frase": "No link do Fio, o cliente vê só os horários livres e escolhe outro dia se o sábado lotou." },
+    { "tipo": "fecho", "frase": "Quem mostra a vaga equilibra a semana. O Fio dá o link, e a gente monta." }
+  ]
+}
